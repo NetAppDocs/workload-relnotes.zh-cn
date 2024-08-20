@@ -1,0 +1,25 @@
+---
+settings:
+  name: Release notes
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  release_notes_autogen:
+    auto_release_notes_enabled: true
+    repositories_features:
+    - workload-fsx-ontap
+    - 
+  langs: zh-cn,us-en,ja-jp,ko-kr,zh-tw,de-de,es-es,fr-fr,it-it
+sidebar:
+  entries:
+  - title: 工作负载出厂发行说明
+    url: "/index.html"
+  - title: 最近更改
+    url: "/whats-new.html"
+  - title: 法律声明
+    url: "/legal-notices.html"
+product-family:
+  name: Workload Factory
+  repo: workload-family
