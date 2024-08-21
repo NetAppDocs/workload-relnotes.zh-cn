@@ -1,12 +1,6 @@
-= 2024年8月4日
+= Terraform支持
 :allow-uri-read: 
 
-
-
-
-== 2024年8月4日
-
-<stdin>中未解析的指令- include：_include/Workload FSX-AFF.adoc[] ONTAP：levelOffset：+1
 
 
 
@@ -24,15 +18,3 @@
 === 存储计算器中的吞吐量和IOPS建议
 
 存储计算器会根据AWS最佳实践为FSx for ONTAP文件系统的吞吐量和IOPS提供建议、从而为您的选择提供最佳指导。
-
-
-
-== 2024年7月7日
-
-<stdin>中未解析的指令- include：_include/Workload FSX-AFF.adoc[] ONTAP：levelOffset：+1
-
-
-
-=== Workload Factory for Amazon FSx for NetApp ONTAP的初始版本
-
-Amazon FSx for NetApp ONTAP现已在Workload Factory中全面上市。
