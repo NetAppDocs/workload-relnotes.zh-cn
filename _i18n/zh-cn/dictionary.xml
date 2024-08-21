@@ -37,7 +37,6 @@
   <block id="11cb17d1b990bbf37a24337d5692efa1" category="list-text"><block ref="11cb17d1b990bbf37a24337d5692efa1" category="inline-link-macro-rx"></block></block>
   <block id="a0d5836b9915a7e404d529a2ee0d2af5" category="section-title">存储计算器中的吞吐量和IOPS建议</block>
   <block id="b48a7422f4f1f71c3ef03d7a8291f43f" category="paragraph">存储计算器会根据AWS最佳实践为FSx for ONTAP文件系统的吞吐量和IOPS提供建议、从而为您的选择提供最佳指导。</block>
-  <block id="a41d6b8d358bc9ae448d19a2d13faa53" category="doc">2024年8月4日</block>
-  <block id="4739ec54be7be4e135209eb24300ab14" category="paragraph">&lt;stdin&gt;中未解析的指令- include：_include/Workload FSX-AFF.adoc[] ONTAP：levelOffset：+1</block>
-  <block id="021ac29d3012fd7caab5a70c75ae987f" category="section-title">2024年7月7日</block>
+  <block id="7ff3a8c05743322eb30cf5ff925b4e8c" category="summary">了解BlueXP  工作负载工厂中工作负载的最新变化。</block>
+  <block id="1684f64d26a47808cac743ad7a9404f2" category="doc">BlueXP  Workload Factory中的近期变更</block>
 </blocks>
