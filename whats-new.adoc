@@ -1,14 +1,38 @@
----
-sidebar: sidebar 
-permalink: whats-new.html 
-keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, setup, administration, amazon fsx for ontap, databases, genai, vmware' 
-summary: 了解BlueXP  工作负载工厂中工作负载的最新变化。 
----
-= BlueXP  Workload Factory中的近期变更
+= 2024年8月4日
 :allow-uri-read: 
-:icons: font
-:imagesdir: ./media/
 
 
-[role="lead"]
-了解BlueXP  工作负载工厂中工作负载的最新变化。
+
+
+== 2024年8月4日
+
+<stdin>中未解析的指令- include：_include/Workload FSX-AFF.adoc[] ONTAP：levelOffset：+1
+
+
+
+=== Terraform支持
+
+现在、您可以使用CodeBox中的Terraform部署和管理文件系统和Storage VM。
+
+* link:create-file-system.html["创建文件系统"]
+* link:create-storage-vm.html["创建Storage VM"]
+* link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["使用CodeBox中的Terraform"^]
+
+
+
+
+=== 存储计算器中的吞吐量和IOPS建议
+
+存储计算器会根据AWS最佳实践为FSx for ONTAP文件系统的吞吐量和IOPS提供建议、从而为您的选择提供最佳指导。
+
+
+
+== 2024年7月7日
+
+<stdin>中未解析的指令- include：_include/Workload FSX-AFF.adoc[] ONTAP：levelOffset：+1
+
+
+
+=== Workload Factory for Amazon FSx for NetApp ONTAP的初始版本
+
+Amazon FSx for NetApp ONTAP在Workload Factory中已全面上市。
