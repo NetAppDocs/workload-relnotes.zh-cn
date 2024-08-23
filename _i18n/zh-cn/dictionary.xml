@@ -34,10 +34,10 @@
   <block id="11cb17d1b990bbf37a24337d5692efa1" category="list-text"><block ref="11cb17d1b990bbf37a24337d5692efa1" category="inline-link-macro-rx"></block></block>
   <block id="a0d5836b9915a7e404d529a2ee0d2af5" category="section-title">存储计算器中的吞吐量和IOPS建议</block>
   <block id="b48a7422f4f1f71c3ef03d7a8291f43f" category="paragraph">存储计算器会根据AWS最佳实践为FSx for ONTAP文件系统的吞吐量和IOPS提供建议、从而为您的选择提供最佳指导。</block>
-  <block id="29ce9ccbd99b7025e6ea173d882fd07a" category="paragraph">Amazon FSx for NetApp ONTAP在Workload Factory中已全面上市。</block>
   <block id="a41d6b8d358bc9ae448d19a2d13faa53" category="doc">2024年8月4日</block>
   <block id="4739ec54be7be4e135209eb24300ab14" category="paragraph">&lt;stdin&gt;中未解析的指令- include：_include/Workload FSX-AFF.adoc[] ONTAP：levelOffset：+1</block>
   <block id="021ac29d3012fd7caab5a70c75ae987f" category="section-title">2024年7月7日</block>
   <block id="03b2cfc949418819e16b1dc5fa3660ae" category="list-text"><block ref="03b2cfc949418819e16b1dc5fa3660ae" category="inline-link-macro-rx"></block></block>
   <block id="3b915cd68add8a6cdac4cd1adeb5f100" category="list-text"><block ref="3b915cd68add8a6cdac4cd1adeb5f100" category="inline-link-macro-rx"></block></block>
+  <block id="bbccc2f370efe6824018b613b1dd5839" category="paragraph">Amazon FSx for NetApp ONTAP现已在Workload Factory中全面上市。</block>
 </blocks>
