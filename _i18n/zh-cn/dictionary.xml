@@ -27,7 +27,6 @@
   <block id="dcf4ee5c8f297d1f5e0da7b22e359023" category="sidebar">最近更改</block>
   <block id="b18d7ec0ad964d10af97254ea8b0612d" category="doc">Workload Factory for Amazon FSx for NetApp ONTAP的初始版本</block>
   <block id="efa42d5c66cb9948f402ee559611e12d" category="doc">Terraform支持</block>
-  <block id="7f67d234b28766a76903424b29245652" category="paragraph">现在、您可以使用CodeBox中的Terraform部署和管理文件系统和Storage VM。</block>
   <block id="75086276ae6b7e370f36c7fc49383216" category="inline-link-macro">创建文件系统</block>
   <block id="8272f5b23e79d0ee33bd5151dcddc454" category="inline-link-macro">创建Storage VM</block>
   <block id="2532cd63354e6e99119077d45134b5ef" category="inline-link-macro">使用CodeBox中的Terraform</block>
@@ -44,4 +43,5 @@
   <block id="40e01e3ae3c6f388cb88b96223a5b962" category="paragraph">BlueXP Workload Factory for AWS是一款功能强大的生命周期管理平台、旨在帮助您使用适用于NetApp ONTAP文件系统的Amazon FSx优化工作负载。可以使用Workload Factory和FSx for ONTAP简化的工作负载包括数据库、VMware迁移到VMware Cloud on AWS、AI聊天机器人等。</block>
   <block id="1571710cf3c95e6290fc41ea04917d42" category="paragraph">Amazon FSx支持Terraform来部署NetApp ONTAP文件系统和创建Storage VM。现在、设置和管理指南提供了有关如何使用CodeBox中的Terraform的说明。</block>
   <block id="19d7c7753798a40c0d5e3308b54e64e6" category="paragraph">&lt;stdin&gt;中未解析的指令- include：_include/load-setup-admin.adoc[]：levelOffset：+1</block>
+  <block id="0fd886acd6700c343d655429665d7e6a" category="paragraph">现在、您可以使用CodeBox中的Terraform部署文件系统和Storage VM。</block>
 </blocks>
