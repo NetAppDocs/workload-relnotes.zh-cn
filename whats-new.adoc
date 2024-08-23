@@ -25,6 +25,16 @@
 
 存储计算器会根据AWS最佳实践为FSx for ONTAP文件系统的吞吐量和IOPS提供建议、从而为您的选择提供最佳指导。
 
+<stdin>中未解析的指令- include：_include/load-setup-admin.adoc[]：levelOffset：+1
+
+
+
+=== Terraform支持
+
+Amazon FSx支持Terraform来部署NetApp ONTAP文件系统和创建Storage VM。现在、设置和管理指南提供了有关如何使用CodeBox中的Terraform的说明。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["使用CodeBox中的Terraform"^]
+
 
 
 == 2024年7月7日
@@ -36,3 +46,11 @@
 === Workload Factory for Amazon FSx for NetApp ONTAP的初始版本
 
 Amazon FSx for NetApp ONTAP现已在Workload Factory中全面上市。
+
+<stdin>中未解析的指令- include：_include/load-setup-admin.adoc[]：levelOffset：+1
+
+
+
+=== Workload Factory的初始版本
+
+BlueXP Workload Factory for AWS是一款功能强大的生命周期管理平台、旨在帮助您使用适用于NetApp ONTAP文件系统的Amazon FSx优化工作负载。可以使用Workload Factory和FSx for ONTAP简化的工作负载包括数据库、VMware迁移到VMware Cloud on AWS、AI聊天机器人等。
