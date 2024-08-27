@@ -33,15 +33,18 @@
   <block id="11cb17d1b990bbf37a24337d5692efa1" category="list-text"><block ref="11cb17d1b990bbf37a24337d5692efa1" category="inline-link-macro-rx"></block></block>
   <block id="a0d5836b9915a7e404d529a2ee0d2af5" category="section-title">存储计算器中的吞吐量和IOPS建议</block>
   <block id="b48a7422f4f1f71c3ef03d7a8291f43f" category="paragraph">存储计算器会根据AWS最佳实践为FSx for ONTAP文件系统的吞吐量和IOPS提供建议、从而为您的选择提供最佳指导。</block>
-  <block id="a41d6b8d358bc9ae448d19a2d13faa53" category="doc">2024年8月4日</block>
-  <block id="4739ec54be7be4e135209eb24300ab14" category="paragraph">&lt;stdin&gt;中未解析的指令- include：_include/Workload FSX-AFF.adoc[] ONTAP：levelOffset：+1</block>
-  <block id="021ac29d3012fd7caab5a70c75ae987f" category="section-title">2024年7月7日</block>
   <block id="03b2cfc949418819e16b1dc5fa3660ae" category="list-text"><block ref="03b2cfc949418819e16b1dc5fa3660ae" category="inline-link-macro-rx"></block></block>
   <block id="3b915cd68add8a6cdac4cd1adeb5f100" category="list-text"><block ref="3b915cd68add8a6cdac4cd1adeb5f100" category="inline-link-macro-rx"></block></block>
   <block id="bbccc2f370efe6824018b613b1dd5839" category="paragraph">Amazon FSx for NetApp ONTAP现已在Workload Factory中全面上市。</block>
   <block id="0cd06f0acd63988f29fda6d11297591b" category="doc">Workload Factory的初始版本</block>
   <block id="40e01e3ae3c6f388cb88b96223a5b962" category="paragraph">BlueXP Workload Factory for AWS是一款功能强大的生命周期管理平台、旨在帮助您使用适用于NetApp ONTAP文件系统的Amazon FSx优化工作负载。可以使用Workload Factory和FSx for ONTAP简化的工作负载包括数据库、VMware迁移到VMware Cloud on AWS、AI聊天机器人等。</block>
   <block id="1571710cf3c95e6290fc41ea04917d42" category="paragraph">Amazon FSx支持Terraform来部署NetApp ONTAP文件系统和创建Storage VM。现在、设置和管理指南提供了有关如何使用CodeBox中的Terraform的说明。</block>
-  <block id="19d7c7753798a40c0d5e3308b54e64e6" category="paragraph">&lt;stdin&gt;中未解析的指令- include：_include/load-setup-admin.adoc[]：levelOffset：+1</block>
   <block id="0fd886acd6700c343d655429665d7e6a" category="paragraph">现在、您可以使用CodeBox中的Terraform部署文件系统和Storage VM。</block>
+  <block id="38bd169945a371832b0b65c9086b1792" category="doc">数据库工作负载</block>
+  <block id="4d82a1ec1af02725042c8c785564ee7a" category="doc">适用于 NetApp ONTAP 的 Amazon FSX</block>
+  <block id="b04deaa23ce22ae0dafa2736e8afebed" category="doc">GenAI工作负载</block>
+  <block id="bb50e2459e4e016aa4b14a56adb2358f" category="doc">设置和管理</block>
+  <block id="a76e64a0fbf98a083080351e4cb67566" category="doc">VMware工作负载</block>
+  <block id="7ff3a8c05743322eb30cf5ff925b4e8c" category="summary">了解BlueXP  工作负载工厂中工作负载的最新变化。</block>
+  <block id="1684f64d26a47808cac743ad7a9404f2" category="doc">BlueXP  Workload Factory中的近期变更</block>
 </blocks>
