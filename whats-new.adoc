@@ -19,6 +19,26 @@ summary: 了解BlueXP  工作负载工厂中工作负载的最新变化。
 
 
 
+=== 适用于 NetApp ONTAP 的 Amazon FSX
+
+
+
+==== 为存储管理提供读取模式支持
+
+在Workload Factory中、可以使用读取模式进行存储管理。读取模式通过添加只读权限来增强基本模式的体验、以便在基础架构即代码模板中填充特定变量。基础架构即代码模板可以直接从AWS帐户执行、而无需向Workload Factory提供任何修改权限。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["了解有关读取模式的更多信息"^]
+
+
+
+==== 支持在删除卷之前备份
+
+现在、您可以在删除卷之前对其进行备份。备份将保留在文件系统中、直到删除为止。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/delete-volume.html["删除卷"^]
+
+
+
 === 数据库工作负载
 
 

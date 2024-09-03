@@ -74,4 +74,12 @@
   <block id="1bd7517fe14fe5f1784a4d71ebf0c2e1" category="inline-image-macro">工作负载出厂控制台主页的屏幕截图。图中显示了一个新的"浏览节省量"按钮的"数据库"图块。单击按钮以打开下拉菜单。下拉菜单有两个选项- Elelic Block Store和FSx for Windows File Server。选择任一选项将转到节省量计算器以了解节省量。</block>
   <block id="ace456f52a384b923a9eedd83d20db48" category="paragraph"><block ref="ace456f52a384b923a9eedd83d20db48" category="inline-image-macro-rx" type="image"></block></block>
   <block id="5a41a3272b612d6600223d90afc4ffba" category="section-title">2024年9月1日</block>
+  <block id="f0881d896f399a09e86122a09c00b74d" category="doc">为存储管理提供读取模式支持</block>
+  <block id="8db376980442524a58ebd917532846d7" category="paragraph">在Workload Factory中、可以使用读取模式进行存储管理。读取模式通过添加只读权限来增强基本模式的体验、以便在基础架构即代码模板中填充特定变量。基础架构即代码模板可以直接从AWS帐户执行、而无需向Workload Factory提供任何修改权限。</block>
+  <block id="06fdd4e2a129920e1eda56425068ba01" category="inline-link-macro">了解有关读取模式的更多信息</block>
+  <block id="2d68ad2bd6b1f5ddb456706e84602c5e" category="paragraph"><block ref="2d68ad2bd6b1f5ddb456706e84602c5e" category="inline-link-macro-rx"></block></block>
+  <block id="fc30083e7a76ed4c8eb6167ea377c198" category="section-title">支持在删除卷之前备份</block>
+  <block id="8b97ffb47ece0280994594aa00a04a55" category="paragraph">现在、您可以在删除卷之前对其进行备份。备份将保留在文件系统中、直到删除为止。</block>
+  <block id="8e9a64bda9d21f945b6489df2e7946e1" category="inline-link-macro">删除卷</block>
+  <block id="8fb924f94cef9a4615d9910253ac7353" category="paragraph"><block ref="8fb924f94cef9a4615d9910253ac7353" category="inline-link-macro-rx"></block></block>
 </blocks>
