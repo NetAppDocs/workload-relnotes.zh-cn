@@ -96,4 +96,14 @@
   <block id="9bab53a02593423437540c8ac9802fde" category="paragraph">初始版本支持使用VMware迁移顾问分析内部vSphere环境中的当前虚拟机配置、并生成一个计划、以便将建议的虚拟机布局部署到VMware Cloud on AWS中、并将适用于NetApp ONTAP文件系统的自定义Amazon FSx用作外部数据存储库。</block>
   <block id="a268e8a21767df1e979dcf4c47b6f464" category="doc">迁移到Amazon EC2</block>
   <block id="a8d4a316d0df9e6b884220ad60451578" category="paragraph">现在、适用于VMware的Workload Factory支持使用VMware迁移顾问迁移到Amazon EC2。</block>
+  <block id="9ba97d99706e208a6fec2439db710d74" category="doc">适用于GenAI的Workload Factory初始版本</block>
+  <block id="3d2b63396c87b28180a4d9d0ba951b0d" category="paragraph">初始版本支持开发一个知识库、该知识库可通过嵌入组织的数据进行自定义。您的用户可以通过聊天机器人应用程序访问知识库。此功能可确保准确、相关地回答组织特定的问题、从而提高所有用户的满意度和工作效率。</block>
+  <block id="ec7827c2237ae7b863c9ba93b519cbc1" category="doc">Amazon CloudWatch Logs集成</block>
+  <block id="64c1dd8cb5f86710c3293cc9807760fb" category="paragraph">生成型AI工作负载现已与Amazon CloudWatch Logs集成、使您能够监控生成型AI工作负载日志文件。</block>
+  <block id="e2c3c3f9d43a7b053dbca2a0234078b7" category="section-title">聊天机器人应用程序示例</block>
+  <block id="75a337f9fd41608c507045c7429174be" category="paragraph">通过NetApp Workload Factory GenAI示例应用程序、您可以在基于Web的聊天机器人应用程序中直接与发布的NetApp Workload Factory知识库进行交互、从而测试身份验证和从该知识库中检索的结果。</block>
+  <block id="8fa53177b9fd9cdb460f43ba4be39618" category="doc">其他分块策略</block>
+  <block id="a0a464c97ca1835adf3bddc803b001cd" category="paragraph">生成型AI工作负载现在支持对数据源执行多句分块和基于重叠的分块。</block>
+  <block id="4cb92325ae7034576f6dff7fe48e3254" category="section-title">为每个知识库提供专用卷</block>
+  <block id="a023a8333417a130bf6fb2c729aaa7f1" category="paragraph">现在、生成性AI工作负载会为每个新知识库创建一个专用的Amazon FSx for NetApp ONTAP卷、从而为每个知识库启用单独的快照策略、并提高对故障和数据中毒的防护能力。</block>
 </blocks>
