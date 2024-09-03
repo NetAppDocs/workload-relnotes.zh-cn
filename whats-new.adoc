@@ -59,6 +59,16 @@ image:screenshot-explore-savings-home-small.png["工作负载出厂控制台主�
 
 
 
+=== VMware工作负载
+
+
+
+==== 迁移到Amazon EC2
+
+现在、适用于VMware的Workload Factory支持使用VMware迁移顾问迁移到Amazon EC2。
+
+
+
 === 设置和管理
 
 
@@ -173,6 +183,16 @@ Amazon FSx for NetApp ONTAP现已在Workload Factory中全面上市。
 初始版本包括以下功能：使用Amazon FSx for NetApp ONTAP作为数据库工作负载的存储环境、检测、管理和部署Microsoft SQL Server、部署和克隆数据库以及在Workload Factory中监控这些作业、从而了解节省的空间。
 
 link:learn-databases.html["了解数据库"](英文)
+
+
+
+=== VMware工作负载
+
+
+
+==== 适用于VMware的Workload Factory初始版本
+
+初始版本支持使用VMware迁移顾问分析内部vSphere环境中的当前虚拟机配置、并生成一个计划、以便将建议的虚拟机布局部署到VMware Cloud on AWS中、并将适用于NetApp ONTAP文件系统的自定义Amazon FSx用作外部数据存储库。
 
 
 
