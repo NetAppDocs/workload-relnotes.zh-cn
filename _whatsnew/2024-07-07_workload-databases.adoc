@@ -1,0 +1,11 @@
+= 适用于数据库的Workload Factory初始版本
+:allow-uri-read: 
+
+
+
+
+=== 适用于数据库的Workload Factory初始版本
+
+初始版本包括以下功能：使用Amazon FSx for NetApp ONTAP作为数据库工作负载的存储环境、检测、管理和部署Microsoft SQL Server、部署和克隆数据库以及在Workload Factory中监控这些作业、从而了解节省的空间。
+
+link:learn-databases.html["了解数据库"](英文)

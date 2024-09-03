@@ -1,0 +1,31 @@
+= 节省计算器增强功能
+:allow-uri-read: 
+
+
+
+
+=== 节省计算器增强功能
+
+* 成本估计说明
++
+现在、您可以在节省计算器中了解成本估计的计算方法。您将能够查看有关使用Amazon Elanic Block Store存储和使用Amazon FSx for ONTAP存储的Microsoft SQL Server实例的所有计算的说明。
+
+* 支持无中断可用性组
++
+现在、数据库可通过使用Amazon Elasic Block Store的Microsoft SQL Server为无中断可用性组部署类型提供成本节省计算。
+
+* 使用FSx for ONTAP优化SQL Server许可
++
+数据库计算器用于确定Amazon Elasic Block Store存储所使用的SQL许可证版本是否针对数据库工作负载进行了优化。您将获得有关使用FSx for ONTAP存储的最佳SQL许可证的建议。
+
+* 多个SQL Server实例
++
+现在、对于使用Amazon Elasic Block Store托管多个Microsoft SQL Server实例的配置、数据库可以提供成本节省计算。
+
+* 自定义计算器设置
++
+现在、您可以自定义Microsoft SQL Server、Amazon EC2和Elelic Block Store的设置、以手动探索节省的空间。节省量计算器将根据成本确定最佳配置。
+
+
+
+link:explore-savings.html["利用FSx for ONTAP为数据库工作负载节省空间。"]
