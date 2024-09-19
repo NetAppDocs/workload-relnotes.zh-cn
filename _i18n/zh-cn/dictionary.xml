@@ -106,4 +106,9 @@
   <block id="a0a464c97ca1835adf3bddc803b001cd" category="paragraph">生成型AI工作负载现在支持对数据源执行多句分块和基于重叠的分块。</block>
   <block id="4cb92325ae7034576f6dff7fe48e3254" category="section-title">为每个知识库提供专用卷</block>
   <block id="a023a8333417a130bf6fb2c729aaa7f1" category="paragraph">现在、生成性AI工作负载会为每个新知识库创建一个专用的Amazon FSx for NetApp ONTAP卷、从而为每个知识库启用单独的快照策略、并提高对故障和数据中毒的防护能力。</block>
+  <block id="2792e29ba30bdded6461ac9b9f0816a4" category="doc">VMware迁移顾问增强功能</block>
+  <block id="bdcdfcdfcb9e0d2084c9c9ff58163d0b" category="paragraph">此版本的Workload Factory for VMware提供了一些功能和稳定性增强功能、并可在使用VMware迁移顾问时导入和导出迁移计划。</block>
+  <block id="d738890a4c9a0f96c08ae0ba66a626a1" category="inline-link">使用迁移顾问为Amazon EC2创建部署计划</block>
+  <block id="2dbb83c0d88f8aa5c12c5445b2b248ee" category="paragraph"><block ref="2dbb83c0d88f8aa5c12c5445b2b248ee" category="inline-link-rx"></block></block>
+  <block id="9f220db04e7195ea3730c9dd5537897c" category="section-title">2024年9月19日</block>
 </blocks>
