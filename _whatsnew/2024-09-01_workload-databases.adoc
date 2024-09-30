@@ -8,7 +8,7 @@
 
 现在、您可以在节省量计算器中使用FSx for Windows File Server和Elelic Block Store存储为Amazon EC2上的Microsoft SQL Server自定义配置设置。根据您的存储要求、您可能会发现FSx for ONTAP存储对于您的数据库工作负载来说最经济高效。
 
-link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["了解使用FSx for ONTAP为数据库工作负载节省的空间^。"]
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["利用FSx for ONTAP为数据库工作负载节省空间"^]
 
 
 

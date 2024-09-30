@@ -8,4 +8,4 @@
 
 现在、您可以在节省量计算器中探索使用FSx for Windows File Server存储在Amazon EC2上检测到的Microsoft SQL Server的节省量。根据您的SQL Server和存储要求、您可能会发现FSx for ONTAP存储是最经济高效的数据库工作负载。
 
-link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["了解使用FSx for ONTAP为数据库工作负载节省的空间^。"]
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["利用FSx for ONTAP为数据库工作负载节省空间"^]
