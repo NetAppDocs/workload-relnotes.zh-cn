@@ -84,8 +84,6 @@
   <block id="9bab53a02593423437540c8ac9802fde" category="paragraph">初始版本支持使用VMware迁移顾问分析内部vSphere环境中的当前虚拟机配置、并生成一个计划、以便将建议的虚拟机布局部署到VMware Cloud on AWS中、并将适用于NetApp ONTAP文件系统的自定义Amazon FSx用作外部数据存储库。</block>
   <block id="a268e8a21767df1e979dcf4c47b6f464" category="doc">迁移到Amazon EC2</block>
   <block id="a8d4a316d0df9e6b884220ad60451578" category="paragraph">现在、适用于VMware的Workload Factory支持使用VMware迁移顾问迁移到Amazon EC2。</block>
-  <block id="9ba97d99706e208a6fec2439db710d74" category="doc">适用于GenAI的Workload Factory初始版本</block>
-  <block id="3d2b63396c87b28180a4d9d0ba951b0d" category="paragraph">初始版本支持开发一个知识库、该知识库可通过嵌入组织的数据进行自定义。您的用户可以通过聊天机器人应用程序访问知识库。此功能可确保准确、相关地回答组织特定的问题、从而提高所有用户的满意度和工作效率。</block>
   <block id="ec7827c2237ae7b863c9ba93b519cbc1" category="doc">Amazon CloudWatch Logs集成</block>
   <block id="64c1dd8cb5f86710c3293cc9807760fb" category="paragraph">生成型AI工作负载现已与Amazon CloudWatch Logs集成、使您能够监控生成型AI工作负载日志文件。</block>
   <block id="e2c3c3f9d43a7b053dbca2a0234078b7" category="section-title">聊天机器人应用程序示例</block>
@@ -114,4 +112,18 @@
   <block id="27f80dd01569e18971f783f257cc7294" category="paragraph"><block ref="27f80dd01569e18971f783f257cc7294" category="inline-link-macro-rx"></block></block>
   <block id="7d6d6d8a97f883d860bff04c0be1019c" category="inline-link-macro">利用FSx for ONTAP为数据库工作负载节省空间</block>
   <block id="293758d509326f8da42abf75db2d37e6" category="paragraph"><block ref="293758d509326f8da42abf75db2d37e6" category="inline-link-macro-rx"></block></block>
+  <block id="430ea429b454fdc4ea2eb6c6b9cdbd77" category="doc">创建知识库卷的快照并还原该卷</block>
+  <block id="1ae13d57da1c55ee537cb9dc63916d03" category="paragraph">现在、您可以通过创建知识库的时间点副本来保护生成性AI工作负载数据。这样、您就可以保护数据、防止意外丢失或测试对知识库设置所做的更改。您可以随时还原知识库卷的先前版本。</block>
+  <block id="4dfbf3ac57687ef65479f0135589593f" category="inline-link">为知识库卷创建快照</block>
+  <block id="f8016d0e0375ce671e71803692cf105c" category="paragraph"><block ref="f8016d0e0375ce671e71803692cf105c" category="inline-link-rx"></block></block>
+  <block id="3d1e45266a0a6784e668353081a13cd0" category="inline-link">还原知识库卷的快照</block>
+  <block id="340b5c4d996cad6cf6d27d13faf94e89" category="paragraph"><block ref="340b5c4d996cad6cf6d27d13faf94e89" category="inline-link-rx"></block></block>
+  <block id="073751c61467c5e36c6cc197d92a75c4" category="section-title">暂停计划的扫描</block>
+  <block id="6c31cb11ffc4d11a5aed0e968bb5f8c9" category="paragraph">现在、您可以暂停计划的数据源扫描。默认情况下、生成性AI工作负载每天都会扫描每个数据源、以便将新数据导入到每个知识库中。如果您不希望(例如在测试或还原快照期间)导入最新更改、您可以随时暂停计划的扫描并恢复它们。</block>
+  <block id="67f0dcee920749eead316e2518099abb" category="inline-link">管理知识库</block>
+  <block id="f951fa0f2608d186cd1f0bd8889ac232" category="paragraph"><block ref="f951fa0f2608d186cd1f0bd8889ac232" category="inline-link-rx"></block></block>
+  <block id="9813be0bded00d4a8f5457f2e27277fa" category="section-title">现在、知识库可支持数据保护卷</block>
+  <block id="f20c02f54f20ee06aed661b133ba0fc3" category="paragraph">现在、在选择知识库卷时、您可以选择属于NetApp SnapMirror复制关系的数据保护卷。这样、您就可以将知识库存储在已受SnapMirror复制保护的卷上。</block>
+  <block id="7d7b61e2696184ef2f1a673b4b505c10" category="inline-link">确定要集成到知识库中的数据源</block>
+  <block id="8afd34c2a29e7b6286f3ed0bf9e20c22" category="paragraph"><block ref="8afd34c2a29e7b6286f3ed0bf9e20c22" category="inline-link-rx"></block></block>
 </blocks>
