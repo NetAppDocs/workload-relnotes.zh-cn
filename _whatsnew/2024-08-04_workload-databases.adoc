@@ -28,4 +28,4 @@
 
 
 
-link:explore-savings.html["利用FSx for ONTAP为数据库工作负载节省空间。"]
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["了解使用FSx for ONTAP为数据库工作负载节省的空间^。"]

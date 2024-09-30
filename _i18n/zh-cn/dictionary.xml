@@ -49,10 +49,6 @@
   <block id="1684f64d26a47808cac743ad7a9404f2" category="doc">BlueXP  Workload Factory中的近期变更</block>
   <block id="a41d6b8d358bc9ae448d19a2d13faa53" category="section-title">2024年8月4日</block>
   <block id="021ac29d3012fd7caab5a70c75ae987f" category="section-title">2024年7月7日</block>
-  <block id="ed54fefae379fac8157c0d466e30a150" category="doc">适用于数据库的Workload Factory初始版本</block>
-  <block id="7737adcb101b7285a3a8567ae4d22021" category="paragraph">初始版本包括以下功能：使用Amazon FSx for NetApp ONTAP作为数据库工作负载的存储环境、检测、管理和部署Microsoft SQL Server、部署和克隆数据库以及在Workload Factory中监控这些作业、从而了解节省的空间。</block>
-  <block id="76d820a16128270adf6a061b253cca06" category="inline-link-macro">了解数据库</block>
-  <block id="c8b559206fbe2064f93b1a567d84e637" category="paragraph"><block ref="eda6f6881c0c5cc5180d85b417e4f376" category="inline-link-macro-rx"></block>(英文)</block>
   <block id="4b93fd033dead8dde7a70076fe4dfb36" category="doc">节省计算器增强功能</block>
   <block id="7aeef6f406aa249df106ff2e48e80f59" category="list-text">成本估计说明</block>
   <block id="797ceaeb99ff17f4fc79415b43e229c3" category="paragraph">现在、您可以在节省计算器中了解成本估计的计算方法。您将能够查看有关使用Amazon Elanic Block Store存储和使用Amazon FSx for ONTAP存储的Microsoft SQL Server实例的所有计算的说明。</block>
@@ -64,15 +60,11 @@
   <block id="c740ba36619fc4bc695bdeaf1e4ec860" category="paragraph">现在、对于使用Amazon Elasic Block Store托管多个Microsoft SQL Server实例的配置、数据库可以提供成本节省计算。</block>
   <block id="6c8658cb4905e48d7d602b288bfcf8be" category="list-text">自定义计算器设置</block>
   <block id="3d97983d64bf9e9b4ee62805c09d1774" category="paragraph">现在、您可以自定义Microsoft SQL Server、Amazon EC2和Elelic Block Store的设置、以手动探索节省的空间。节省量计算器将根据成本确定最佳配置。</block>
-  <block id="85f439a5ead422005f331327c6b4d189" category="inline-link-macro">利用FSx for ONTAP为数据库工作负载节省空间。</block>
-  <block id="ffcdb01d64d534ead82555dabfbdd7da" category="paragraph"><block ref="ffcdb01d64d534ead82555dabfbdd7da" category="inline-link-macro-rx"></block></block>
   <block id="f565eb47bc8c215541fe00205d9b37d3" category="doc">了解通过自定义实现的节省</block>
   <block id="bfbd25ddeba7cedc974f1a5a1d0a295c" category="paragraph">现在、您可以在节省量计算器中使用FSx for Windows File Server和Elelic Block Store存储为Amazon EC2上的Microsoft SQL Server自定义配置设置。根据您的存储要求、您可能会发现FSx for ONTAP存储对于您的数据库工作负载来说最经济高效。</block>
   <block id="f94c119bb7d164adbb1a390a249741e0" category="section-title">从主页导航到节省量计算器</block>
   <block id="8fd935558171bd50056871ef9ee7bd05" category="inline-link-macro">工作负载出厂控制台</block>
   <block id="370242ff4edf6eea7ad9f29f501888cd" category="paragraph">现在、您可以从<block ref="ed002915dbbbf90a20b3d8fdf4cc2390" category="inline-link-macro-rx"></block>主页导航到节省量计算器。从El生 性块存储和FSx for Windows File Server中进行选择以开始使用。</block>
-  <block id="1bd7517fe14fe5f1784a4d71ebf0c2e1" category="inline-image-macro">工作负载出厂控制台主页的屏幕截图。图中显示了一个新的"浏览节省量"按钮的"数据库"图块。单击按钮以打开下拉菜单。下拉菜单有两个选项- Elelic Block Store和FSx for Windows File Server。选择任一选项将转到节省量计算器以了解节省量。</block>
-  <block id="ace456f52a384b923a9eedd83d20db48" category="paragraph"><block ref="ace456f52a384b923a9eedd83d20db48" category="inline-image-macro-rx" type="image"></block></block>
   <block id="5a41a3272b612d6600223d90afc4ffba" category="section-title">2024年9月1日</block>
   <block id="f0881d896f399a09e86122a09c00b74d" category="doc">为存储管理提供读取模式支持</block>
   <block id="8db376980442524a58ebd917532846d7" category="paragraph">在Workload Factory中、可以使用读取模式进行存储管理。读取模式通过添加只读权限来增强基本模式的体验、以便在基础架构即代码模板中填充特定变量。基础架构即代码模板可以直接从AWS帐户执行、而无需向Workload Factory提供任何修改权限。</block>
@@ -111,4 +103,11 @@
   <block id="d738890a4c9a0f96c08ae0ba66a626a1" category="inline-link">使用迁移顾问为Amazon EC2创建部署计划</block>
   <block id="2dbb83c0d88f8aa5c12c5445b2b248ee" category="paragraph"><block ref="2dbb83c0d88f8aa5c12c5445b2b248ee" category="inline-link-rx"></block></block>
   <block id="9f220db04e7195ea3730c9dd5537897c" category="section-title">2024年9月19日</block>
+  <block id="4ac33bc47ec0338e6c23f5e315a2b5ec" category="inline-link-macro">了解使用FSx for ONTAP为数据库工作负载节省的空间^。</block>
+  <block id="f9ca6ec7df5da581020634d84b3e477c" category="paragraph"><block ref="f9ca6ec7df5da581020634d84b3e477c" category="inline-link-macro-rx"></block></block>
+  <block id="b6e7a46e866a97d8ad38a3ce2e41e926" category="inline-image-macro">工作负载出厂控制台主页的屏幕截图。图中显示了一个新的"浏览节省量"按钮的"数据库"图块。单击按钮以打开下拉菜单。下拉菜单有两个选项- Microsoft SQL Server on EBS和Microsoft SQL Server on FSx for Windows File Server。</block>
+  <block id="a7396d19dde0193e37cada3b5524bb0b" category="paragraph"><block ref="a7396d19dde0193e37cada3b5524bb0b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="cf88fa43b4b0e1b1bfb66e894b188442" category="doc">了解FSx for Windows File Server上检测到的Microsoft SQL Server的节省量</block>
+  <block id="0df73578de7c34ef150c1f37953113f5" category="paragraph">现在、您可以在节省量计算器中探索使用FSx for Windows File Server存储在Amazon EC2上检测到的Microsoft SQL Server的节省量。根据您的SQL Server和存储要求、您可能会发现FSx for ONTAP存储是最经济高效的数据库工作负载。</block>
+  <block id="94bc5d9f2e30e5678caa5a3b2feb4216" category="section-title">2024年9月29日</block>
 </blocks>
