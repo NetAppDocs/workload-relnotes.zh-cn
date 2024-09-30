@@ -25,7 +25,6 @@
   <block id="608c98c104593db43938566d31ac7d6e" category="sidebar">Workload Factory中的近期变更</block>
   <block id="7cdd7814bbdae8c80aca5d088683d506" category="sidebar">工作负载出厂发行说明</block>
   <block id="dcf4ee5c8f297d1f5e0da7b22e359023" category="sidebar">最近更改</block>
-  <block id="b18d7ec0ad964d10af97254ea8b0612d" category="doc">Workload Factory for Amazon FSx for NetApp ONTAP的初始版本</block>
   <block id="efa42d5c66cb9948f402ee559611e12d" category="doc">Terraform支持</block>
   <block id="75086276ae6b7e370f36c7fc49383216" category="inline-link-macro">创建文件系统</block>
   <block id="8272f5b23e79d0ee33bd5151dcddc454" category="inline-link-macro">创建Storage VM</block>
@@ -33,9 +32,6 @@
   <block id="11cb17d1b990bbf37a24337d5692efa1" category="list-text"><block ref="11cb17d1b990bbf37a24337d5692efa1" category="inline-link-macro-rx"></block></block>
   <block id="a0d5836b9915a7e404d529a2ee0d2af5" category="section-title">存储计算器中的吞吐量和IOPS建议</block>
   <block id="b48a7422f4f1f71c3ef03d7a8291f43f" category="paragraph">存储计算器会根据AWS最佳实践为FSx for ONTAP文件系统的吞吐量和IOPS提供建议、从而为您的选择提供最佳指导。</block>
-  <block id="03b2cfc949418819e16b1dc5fa3660ae" category="list-text"><block ref="03b2cfc949418819e16b1dc5fa3660ae" category="inline-link-macro-rx"></block></block>
-  <block id="3b915cd68add8a6cdac4cd1adeb5f100" category="list-text"><block ref="3b915cd68add8a6cdac4cd1adeb5f100" category="inline-link-macro-rx"></block></block>
-  <block id="bbccc2f370efe6824018b613b1dd5839" category="paragraph">Amazon FSx for NetApp ONTAP现已在Workload Factory中全面上市。</block>
   <block id="0cd06f0acd63988f29fda6d11297591b" category="doc">Workload Factory的初始版本</block>
   <block id="40e01e3ae3c6f388cb88b96223a5b962" category="paragraph">BlueXP Workload Factory for AWS是一款功能强大的生命周期管理平台、旨在帮助您使用适用于NetApp ONTAP文件系统的Amazon FSx优化工作负载。可以使用Workload Factory和FSx for ONTAP简化的工作负载包括数据库、VMware迁移到VMware Cloud on AWS、AI聊天机器人等。</block>
   <block id="1571710cf3c95e6290fc41ea04917d42" category="paragraph">Amazon FSx支持Terraform来部署NetApp ONTAP文件系统和创建Storage VM。现在、设置和管理指南提供了有关如何使用CodeBox中的Terraform的说明。</block>
@@ -110,4 +106,12 @@
   <block id="cf88fa43b4b0e1b1bfb66e894b188442" category="doc">了解FSx for Windows File Server上检测到的Microsoft SQL Server的节省量</block>
   <block id="0df73578de7c34ef150c1f37953113f5" category="paragraph">现在、您可以在节省量计算器中探索使用FSx for Windows File Server存储在Amazon EC2上检测到的Microsoft SQL Server的节省量。根据您的SQL Server和存储要求、您可能会发现FSx for ONTAP存储是最经济高效的数据库工作负载。</block>
   <block id="94bc5d9f2e30e5678caa5a3b2feb4216" category="section-title">2024年9月29日</block>
+  <block id="a384088a79fca35da6b697720f2ddd66" category="list-text"><block ref="a384088a79fca35da6b697720f2ddd66" category="inline-link-macro-rx"></block></block>
+  <block id="a9803c91b8fa40d3fdc106b005fdb16c" category="list-text"><block ref="a9803c91b8fa40d3fdc106b005fdb16c" category="inline-link-macro-rx"></block></block>
+  <block id="cd1df627bd8e5b96916530ffbf4664f6" category="doc">更新链接创建</block>
+  <block id="15f127e6d8c5111ce85f47eff68232a7" category="list-text">CodeBox查看器：CodeBox现在集成在链接创建过程中。您可以在重定向到AWS以执行此操作之前从Workload Factory中的CodeBox查看和复制CloudFormation模板。</block>
+  <block id="8efc4e00ac03374d3e1dc5d19c40016b" category="list-text">所需权限：现在、您可以在工作负载工厂的创建链接向导中查看和复制在AWS CloudFormation中创建链接所需的权限。</block>
+  <block id="3721bd571f4111dad2c363436de34c51" category="list-text">支持手动创建链接：此功能允许通过手动注册链接ARN在AWS CloudFormation中独立创建。当安全或开发运营团队协助创建链接时、这将非常有用。</block>
+  <block id="8997880c88dd70fe80799ee97bb7ac0c" category="inline-link-macro">创建链接</block>
+  <block id="27f80dd01569e18971f783f257cc7294" category="paragraph"><block ref="27f80dd01569e18971f783f257cc7294" category="inline-link-macro-rx"></block></block>
 </blocks>

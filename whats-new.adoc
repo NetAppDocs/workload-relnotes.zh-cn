@@ -19,6 +19,21 @@ summary: 了解BlueXP  工作负载工厂中工作负载的最新变化。
 
 
 
+=== 适用于 NetApp ONTAP 的 Amazon FSX
+
+
+
+==== 更新链接创建
+
+* CodeBox查看器：CodeBox现在集成在链接创建过程中。您可以在重定向到AWS以执行此操作之前从Workload Factory中的CodeBox查看和复制CloudFormation模板。
+* 所需权限：现在、您可以在工作负载工厂的创建链接向导中查看和复制在AWS CloudFormation中创建链接所需的权限。
+* 支持手动创建链接：此功能允许通过手动注册链接ARN在AWS CloudFormation中独立创建。当安全或开发运营团队协助创建链接时、这将非常有用。
+
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["创建链接"^]
+
+
+
 === 数据库工作负载
 
 
@@ -151,8 +166,8 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["�
 
 现在、您可以使用CodeBox中的Terraform部署文件系统和Storage VM。
 
-* link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-file-system.html["创建文件系统"]
-* link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-storage-vm.html["创建Storage VM"]
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-file-system.html["创建文件系统"^]
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-storage-vm.html["创建Storage VM"^]
 * link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["使用CodeBox中的Terraform"^]
 
 
@@ -225,16 +240,6 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["使用
 
 
 == 2024年7月7日
-
-
-
-=== 适用于 NetApp ONTAP 的 Amazon FSX
-
-
-
-==== Workload Factory for Amazon FSx for NetApp ONTAP的初始版本
-
-Amazon FSx for NetApp ONTAP现已在Workload Factory中全面上市。
 
 
 

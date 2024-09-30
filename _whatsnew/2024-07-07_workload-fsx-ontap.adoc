@@ -1,9 +1,0 @@
-= Workload Factory for Amazon FSx for NetApp ONTAP的初始版本
-:allow-uri-read: 
-
-
-
-
-=== Workload Factory for Amazon FSx for NetApp ONTAP的初始版本
-
-Amazon FSx for NetApp ONTAP现已在Workload Factory中全面上市。
