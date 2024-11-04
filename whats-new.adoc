@@ -55,6 +55,18 @@ link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.ht
 
 
 
+=== VMware工作负载
+
+
+
+==== VMware迁移顾问数据精简率帮助
+
+此版本的Workload Factory for VMware具有一个数据精简率助手。在准备加入AWS云时、数据精简率助手可帮助您确定最适合您的VMware库存和存储资产的比率。
+
+https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["使用迁移顾问为Amazon EC2创建部署计划"]
+
+
+
 == 2024年9月29日
 
 
@@ -257,16 +269,6 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["使用
 
 
 == 2024年7月7日
-
-
-
-=== VMware工作负载
-
-
-
-==== 适用于VMware的Workload Factory初始版本
-
-初始版本支持使用VMware迁移顾问分析内部vSphere环境中的当前虚拟机配置、并生成一个计划、以便将建议的虚拟机布局部署到VMware Cloud on AWS中、并将适用于NetApp ONTAP文件系统的自定义Amazon FSx用作外部数据存储库。
 
 
 
