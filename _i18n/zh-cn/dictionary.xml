@@ -66,10 +66,6 @@
   <block id="1db25aada4bff8233b24c1d7b39230cd" category="paragraph"><block ref="1db25aada4bff8233b24c1d7b39230cd" category="inline-link-macro-rx"></block></block>
   <block id="a268e8a21767df1e979dcf4c47b6f464" category="doc">迁移到Amazon EC2</block>
   <block id="a8d4a316d0df9e6b884220ad60451578" category="paragraph">现在、适用于VMware的Workload Factory支持使用VMware迁移顾问迁移到Amazon EC2。</block>
-  <block id="ec7827c2237ae7b863c9ba93b519cbc1" category="doc">Amazon CloudWatch Logs集成</block>
-  <block id="64c1dd8cb5f86710c3293cc9807760fb" category="paragraph">生成型AI工作负载现已与Amazon CloudWatch Logs集成、使您能够监控生成型AI工作负载日志文件。</block>
-  <block id="e2c3c3f9d43a7b053dbca2a0234078b7" category="section-title">聊天机器人应用程序示例</block>
-  <block id="75a337f9fd41608c507045c7429174be" category="paragraph">通过NetApp Workload Factory GenAI示例应用程序、您可以在基于Web的聊天机器人应用程序中直接与发布的NetApp Workload Factory知识库进行交互、从而测试身份验证和从该知识库中检索的结果。</block>
   <block id="8fa53177b9fd9cdb460f43ba4be39618" category="doc">其他分块策略</block>
   <block id="a0a464c97ca1835adf3bddc803b001cd" category="paragraph">生成型AI工作负载现在支持对数据源执行多句分块和基于重叠的分块。</block>
   <block id="4cb92325ae7034576f6dff7fe48e3254" category="section-title">为每个知识库提供专用卷</block>
@@ -120,4 +116,10 @@
   <block id="d83b54de9b50110195e4bf3c1f3c6a67" category="list-text"><block ref="d83b54de9b50110195e4bf3c1f3c6a67" category="inline-link-macro-rx"></block></block>
   <block id="3197d9ffc65dc1fe1469440d8891e79d" category="doc">VMware迁移顾问数据精简率帮助</block>
   <block id="10ced15d9df199f8cb002561b8728770" category="paragraph">此版本的Workload Factory for VMware具有一个数据精简率助手。在准备加入AWS云时、数据精简率助手可帮助您确定最适合您的VMware库存和存储资产的比率。</block>
+  <block id="17e908b1a02b6ec45f4e125877322d0f" category="doc">使用数据防护屏蔽个人身份信息</block>
+  <block id="0f21cd7bd10e747bca7894a609acc04b" category="paragraph">生成型AI工作负载引入了由BlueXP  分类提供支持的数据防护功能。数据防护功能可识别和屏蔽个人身份信息(Personal可识别信息、Personal可识别信息、Personal可识别信息)、帮助您保持合规性并增强敏感组织数据的安全性。</block>
+  <block id="0da805b7cc0727848a84e995ab36cd76" category="inline-link-macro">创建知识库</block>
+  <block id="8137174f639d391921dfeb8ca6d792d1" category="paragraph"><block ref="8137174f639d391921dfeb8ca6d792d1" category="inline-link-macro-rx"></block></block>
+  <block id="a686d5fa6b6925450f1b7fa2b4245d28" category="inline-link-macro">了解BlueXP分类</block>
+  <block id="384713a8a1d5a2dd365da2851c50ad93" category="paragraph"><block ref="384713a8a1d5a2dd365da2851c50ad93" category="inline-link-macro-rx"></block></block>
 </blocks>

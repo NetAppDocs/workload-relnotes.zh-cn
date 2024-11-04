@@ -67,6 +67,20 @@ https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.h
 
 
 
+=== GenAI工作负载
+
+
+
+==== 使用数据防护屏蔽个人身份信息
+
+生成型AI工作负载引入了由BlueXP  分类提供支持的数据防护功能。数据防护功能可识别和屏蔽个人身份信息(Personal可识别信息、Personal可识别信息、Personal可识别信息)、帮助您保持合规性并增强敏感组织数据的安全性。
+
+link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#create-and-configure-the-knowledge-base["创建知识库"]
+
+link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["了解BlueXP分类"^]
+
+
+
 == 2024年9月29日
 
 
@@ -237,22 +251,6 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["�
 
 
 == 2024年8月4日
-
-
-
-=== GenAI工作负载
-
-
-
-==== Amazon CloudWatch Logs集成
-
-生成型AI工作负载现已与Amazon CloudWatch Logs集成、使您能够监控生成型AI工作负载日志文件。
-
-
-
-==== 聊天机器人应用程序示例
-
-通过NetApp Workload Factory GenAI示例应用程序、您可以在基于Web的聊天机器人应用程序中直接与发布的NetApp Workload Factory知识库进行交互、从而测试身份验证和从该知识库中检索的结果。
 
 
 
