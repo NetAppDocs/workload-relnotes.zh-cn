@@ -33,6 +33,28 @@ summary: 了解BlueXP  工作负载工厂中工作负载的最新变化。
 
 
 
+=== 数据库工作负载
+
+
+
+==== 使用数据库持续优化Microsoft SQL Server工作负载
+
+BlueXP  工作负载工厂引入了持续指导和保障措施、以确保在Amazon FSx for NetApp ONTAP上对Microsoft SQL Server工作负载的存储组件进行持续优化并遵循最佳实践。此功能会持续脱机扫描您的Microsoft SQL Server资产、为您提供一份全面的见解、机会和建议报告、帮助您实现最佳性能、成本效益和合规性。
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["优化SQL Server工作负载"]
+
+
+
+==== Terraform支持
+
+现在、您可以从CodeBox中使用Terraform部署Microsoft SQL Server。
+
+* link:https://docs.netapp.com/us-en/workload-databases/create-database-server.html["创建数据库服务器"^]
+* link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["使用CodeBox中的Terraform"^]
+
+
+
+
 == 2024年9月29日
 
 
@@ -203,38 +225,6 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["�
 
 
 == 2024年8月4日
-
-
-
-=== 数据库工作负载
-
-
-
-==== 节省计算器增强功能
-
-* 成本估计说明
-+
-现在、您可以在节省计算器中了解成本估计的计算方法。您将能够查看有关使用Amazon Elanic Block Store存储和使用Amazon FSx for ONTAP存储的Microsoft SQL Server实例的所有计算的说明。
-
-* 支持无中断可用性组
-+
-现在、数据库可通过使用Amazon Elasic Block Store的Microsoft SQL Server为无中断可用性组部署类型提供成本节省计算。
-
-* 使用FSx for ONTAP优化SQL Server许可
-+
-数据库计算器用于确定Amazon Elasic Block Store存储所使用的SQL许可证版本是否针对数据库工作负载进行了优化。您将获得有关使用FSx for ONTAP存储的最佳SQL许可证的建议。
-
-* 多个SQL Server实例
-+
-现在、对于使用Amazon Elasic Block Store托管多个Microsoft SQL Server实例的配置、数据库可以提供成本节省计算。
-
-* 自定义计算器设置
-+
-现在、您可以自定义Microsoft SQL Server、Amazon EC2和Elelic Block Store的设置、以手动探索节省的空间。节省量计算器将根据成本确定最佳配置。
-
-
-
-link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["利用FSx for ONTAP为数据库工作负载节省空间"^]
 
 
 

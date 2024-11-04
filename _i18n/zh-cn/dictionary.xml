@@ -40,17 +40,6 @@
   <block id="1684f64d26a47808cac743ad7a9404f2" category="doc">BlueXP  Workload Factory中的近期变更</block>
   <block id="a41d6b8d358bc9ae448d19a2d13faa53" category="section-title">2024年8月4日</block>
   <block id="021ac29d3012fd7caab5a70c75ae987f" category="section-title">2024年7月7日</block>
-  <block id="4b93fd033dead8dde7a70076fe4dfb36" category="doc">节省计算器增强功能</block>
-  <block id="7aeef6f406aa249df106ff2e48e80f59" category="list-text">成本估计说明</block>
-  <block id="797ceaeb99ff17f4fc79415b43e229c3" category="paragraph">现在、您可以在节省计算器中了解成本估计的计算方法。您将能够查看有关使用Amazon Elanic Block Store存储和使用Amazon FSx for ONTAP存储的Microsoft SQL Server实例的所有计算的说明。</block>
-  <block id="97e6e4674ea0e2696f6137e7c1d5fce2" category="list-text">支持无中断可用性组</block>
-  <block id="7e13c18d88bdfda9d3e5101fdaebc5e5" category="paragraph">现在、数据库可通过使用Amazon Elasic Block Store的Microsoft SQL Server为无中断可用性组部署类型提供成本节省计算。</block>
-  <block id="d95a98a3c6f52fb50654c75b5740f82a" category="list-text">使用FSx for ONTAP优化SQL Server许可</block>
-  <block id="4f59760365b695f240f546ba35bdcf33" category="paragraph">数据库计算器用于确定Amazon Elasic Block Store存储所使用的SQL许可证版本是否针对数据库工作负载进行了优化。您将获得有关使用FSx for ONTAP存储的最佳SQL许可证的建议。</block>
-  <block id="97c3c8be68d473c11d60e943dcab0fec" category="list-text">多个SQL Server实例</block>
-  <block id="c740ba36619fc4bc695bdeaf1e4ec860" category="paragraph">现在、对于使用Amazon Elasic Block Store托管多个Microsoft SQL Server实例的配置、数据库可以提供成本节省计算。</block>
-  <block id="6c8658cb4905e48d7d602b288bfcf8be" category="list-text">自定义计算器设置</block>
-  <block id="3d97983d64bf9e9b4ee62805c09d1774" category="paragraph">现在、您可以自定义Microsoft SQL Server、Amazon EC2和Elelic Block Store的设置、以手动探索节省的空间。节省量计算器将根据成本确定最佳配置。</block>
   <block id="f565eb47bc8c215541fe00205d9b37d3" category="doc">了解通过自定义实现的节省</block>
   <block id="bfbd25ddeba7cedc974f1a5a1d0a295c" category="paragraph">现在、您可以在节省量计算器中使用FSx for Windows File Server和Elelic Block Store存储为Amazon EC2上的Microsoft SQL Server自定义配置设置。根据您的存储要求、您可能会发现FSx for ONTAP存储对于您的数据库工作负载来说最经济高效。</block>
   <block id="f94c119bb7d164adbb1a390a249741e0" category="section-title">从主页导航到节省量计算器</block>
@@ -124,4 +113,11 @@
   <block id="71083868a2ec5abfee9a2647a74612c0" category="list-text">FSx for ONTAP选项卡：显示您当前拥有的适用于ONTAP文件系统的FSx。</block>
   <block id="1113c9108b3e58789456954d1c2ea9c2" category="list-text">Explore savings选项卡：显示Elabic Block Store、FSx for Windows File Server和Elabic File Systems存储系统。然后、您可以通过将这些系统与FSx for ONTAP进行比较来了解节省的空间。</block>
   <block id="ca385f8a90dc256c71e43f23f9b870f2" category="section-title">2024年11月3日</block>
+  <block id="0928468cb2283b21e6802a78c6a64e3a" category="doc">使用数据库持续优化Microsoft SQL Server工作负载</block>
+  <block id="e73fa899152fb6836032fef4e1c95da4" category="paragraph">BlueXP  工作负载工厂引入了持续指导和保障措施、以确保在Amazon FSx for NetApp ONTAP上对Microsoft SQL Server工作负载的存储组件进行持续优化并遵循最佳实践。此功能会持续脱机扫描您的Microsoft SQL Server资产、为您提供一份全面的见解、机会和建议报告、帮助您实现最佳性能、成本效益和合规性。</block>
+  <block id="5d743e351f2bc0b96d19c12d46be8be2" category="inline-link-macro">优化SQL Server工作负载</block>
+  <block id="72d1af9ffdd277a1cf7789b588da9b4d" category="paragraph"><block ref="72d1af9ffdd277a1cf7789b588da9b4d" category="inline-link-macro-rx"></block></block>
+  <block id="822802a1673e79cb7dbd54947e4dc32c" category="paragraph">现在、您可以从CodeBox中使用Terraform部署Microsoft SQL Server。</block>
+  <block id="83f5267b900a40e93e73e9ace47d4412" category="inline-link-macro">创建数据库服务器</block>
+  <block id="d83b54de9b50110195e4bf3c1f3c6a67" category="list-text"><block ref="d83b54de9b50110195e4bf3c1f3c6a67" category="inline-link-macro-rx"></block></block>
 </blocks>
