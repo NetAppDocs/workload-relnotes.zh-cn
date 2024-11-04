@@ -15,6 +15,24 @@ summary: 了解BlueXP  工作负载工厂中工作负载的最新变化。
 
 
 
+== 2024年11月3日
+
+
+
+=== 适用于 NetApp ONTAP 的 Amazon FSX
+
+
+
+==== 存储清单中的选项卡视图
+
+存储清单已更新为双选项卡视图：
+
+* FSx for ONTAP选项卡：显示您当前拥有的适用于ONTAP文件系统的FSx。
+* Explore savings选项卡：显示Elabic Block Store、FSx for Windows File Server和Elabic File Systems存储系统。然后、您可以通过将这些系统与FSx for ONTAP进行比较来了解节省的空间。
+
+
+
+
 == 2024年9月29日
 
 
@@ -185,27 +203,6 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["�
 
 
 == 2024年8月4日
-
-
-
-=== 适用于 NetApp ONTAP 的 Amazon FSX
-
-
-
-==== Terraform支持
-
-现在、您可以使用CodeBox中的Terraform部署文件系统和Storage VM。
-
-* link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-file-system.html["创建文件系统"^]
-* link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-storage-vm.html["创建Storage VM"^]
-* link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["使用CodeBox中的Terraform"^]
-
-
-
-
-==== 存储计算器中的吞吐量和IOPS建议
-
-存储计算器会根据AWS最佳实践为FSx for ONTAP文件系统的吞吐量和IOPS提供建议、从而为您的选择提供最佳指导。
 
 
 

@@ -1,0 +1,13 @@
+= 存储清单中的选项卡视图
+:allow-uri-read: 
+
+
+
+
+=== 存储清单中的选项卡视图
+
+存储清单已更新为双选项卡视图：
+
+* FSx for ONTAP选项卡：显示您当前拥有的适用于ONTAP文件系统的FSx。
+* Explore savings选项卡：显示Elabic Block Store、FSx for Windows File Server和Elabic File Systems存储系统。然后、您可以通过将这些系统与FSx for ONTAP进行比较来了解节省的空间。
+
