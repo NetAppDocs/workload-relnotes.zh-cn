@@ -1,11 +1,11 @@
 ---
 indexpage:
   title: BlueXP  工作负载出厂发行说明
-  summary: 本发行说明介绍了BlueXP  Workload Factory中的云服务的最新增强功能。
-  keywords: BlueXP Workload Factory, release notes, what's new
-  lead: 本发行说明介绍了BlueXP  Workload Factory中的云服务的最新增强功能。
+  summary: 本发行说明介绍了BlueXP  工作负载工厂中的云服务的最新增强功能。
+  keywords: BlueXP workload factory, release notes, what's new
+  lead: 本发行说明介绍了BlueXP  工作负载工厂中的云服务的最新增强功能。
   tiles:
   - title: 新增功能
     links:
-    - title: Workload Factory中的近期变更
+    - title: BlueXP  工作负载出厂时的最新变更
       url: whats-new.html

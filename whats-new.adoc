@@ -4,7 +4,7 @@ permalink: whats-new.html
 keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, administration, amazon fsx for netapp ontap, databases, genai, vmware' 
 summary: 了解BlueXP  工作负载工厂中工作负载的最新变化。 
 ---
-= BlueXP  Workload Factory中的近期变更
+= BlueXP  工作负载出厂时的最新变更
 :allow-uri-read: 
 :icons: font
 :imagesdir: ./media/
