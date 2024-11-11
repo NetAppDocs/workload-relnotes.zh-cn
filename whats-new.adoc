@@ -15,6 +15,22 @@ summary: 了解BlueXP  工作负载工厂中工作负载的最新变化。
 
 
 
+== 2024年11月11日
+
+
+
+=== 设置和管理
+
+
+
+==== 工作负载在出厂时集成在BlueXP  控制台中
+
+现在，您可以从使用工作负载工厂link:https://console.bluexp.netapp.com["BlueXP控制台"^]。BlueXP  控制台体验可提供与工作负载出厂控制台相同的功能。
+
+link:https://docs.netapp.com/workload-setup-admin/console-experiences.html["了解如何从BlueXP  控制台访问工作负载工厂"]
+
+
+
 == 2024年11月3日
 
 
@@ -234,7 +250,7 @@ VMware的工作负载工厂现在支持使用VMware迁移顾问迁移到Amazon E
 
 ==== RSS订阅
 
-可从获取RSS订阅link:https://console.workloads.netapp.com/["工作负载出厂控制台"^]。使用RSS源是一种简单的使用方法、可以了解BlueXP  Workload Factory中的变化。
+可从获取RSS订阅link:https://console.workloads.netapp.com/["工作负载出厂控制台"^]。使用RSS源是一种简单的使用方法、可以了解BlueXP  工作负载工厂中的变化。
 
 image:screenshot-rss-subscribe-button.png["工作负载出厂控制台帮助下拉菜单的屏幕截图。用于订阅RSS的新按钮将作为选项显示在下拉菜单中。"]
 
@@ -242,11 +258,11 @@ image:screenshot-rss-subscribe-button.png["工作负载出厂控制台帮助下�
 
 ==== 支持每个工作负载使用一个权限策略
 
-在Workload Factory中添加AWS凭据时、您现在可以为每个工作负载和存储管理选择一个权限策略、可以是读取模式、也可以是自动模式。
+现在、在工作负载工厂添加AWS凭据时、您可以为每个工作负载和存储管理选择一个读取或自动模式权限策略。
 
 image:screenshot-single-permission-policy-support.png["凭据页面上的权限配置部分的屏幕截图、您可以在其中选择读取或自动执行存储管理、AI工作负载、数据库工作负载和VMware工作负载的权限策略。"]
 
-link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["将AWS凭据添加到Workload Factory"^]
+link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["将AWS凭据添加到工作负载工厂"^]
 
 
 
@@ -263,17 +279,3 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["�
 Amazon FSx支持Terraform来部署NetApp ONTAP文件系统和创建Storage VM。现在、设置和管理指南提供了有关如何使用CodeBox中的Terraform的说明。
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["使用CodeBox中的Terraform"^]
-
-
-
-== 2024年7月7日
-
-
-
-=== 设置和管理
-
-
-
-==== Workload Factory的初始版本
-
-BlueXP Workload Factory for AWS是一款功能强大的生命周期管理平台、旨在帮助您使用适用于NetApp ONTAP文件系统的Amazon FSx优化工作负载。可以使用Workload Factory和FSx for ONTAP简化的工作负载包括数据库、VMware迁移到VMware Cloud on AWS、AI聊天机器人等。

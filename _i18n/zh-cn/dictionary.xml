@@ -24,8 +24,6 @@
   <block id="efa42d5c66cb9948f402ee559611e12d" category="doc">Terraform支持</block>
   <block id="2532cd63354e6e99119077d45134b5ef" category="inline-link-macro">使用CodeBox中的Terraform</block>
   <block id="11cb17d1b990bbf37a24337d5692efa1" category="list-text"><block ref="11cb17d1b990bbf37a24337d5692efa1" category="inline-link-macro-rx"></block></block>
-  <block id="0cd06f0acd63988f29fda6d11297591b" category="doc">Workload Factory的初始版本</block>
-  <block id="40e01e3ae3c6f388cb88b96223a5b962" category="paragraph">BlueXP Workload Factory for AWS是一款功能强大的生命周期管理平台、旨在帮助您使用适用于NetApp ONTAP文件系统的Amazon FSx优化工作负载。可以使用Workload Factory和FSx for ONTAP简化的工作负载包括数据库、VMware迁移到VMware Cloud on AWS、AI聊天机器人等。</block>
   <block id="1571710cf3c95e6290fc41ea04917d42" category="paragraph">Amazon FSx支持Terraform来部署NetApp ONTAP文件系统和创建Storage VM。现在、设置和管理指南提供了有关如何使用CodeBox中的Terraform的说明。</block>
   <block id="38bd169945a371832b0b65c9086b1792" category="doc">数据库工作负载</block>
   <block id="4d82a1ec1af02725042c8c785564ee7a" category="doc">适用于 NetApp ONTAP 的 Amazon FSX</block>
@@ -33,7 +31,6 @@
   <block id="bb50e2459e4e016aa4b14a56adb2358f" category="doc">设置和管理</block>
   <block id="a76e64a0fbf98a083080351e4cb67566" category="doc">VMware工作负载</block>
   <block id="a41d6b8d358bc9ae448d19a2d13faa53" category="section-title">2024年8月4日</block>
-  <block id="021ac29d3012fd7caab5a70c75ae987f" category="section-title">2024年7月7日</block>
   <block id="f565eb47bc8c215541fe00205d9b37d3" category="doc">了解通过自定义实现的节省</block>
   <block id="bfbd25ddeba7cedc974f1a5a1d0a295c" category="paragraph">现在、您可以在节省量计算器中使用FSx for Windows File Server和Elelic Block Store存储为Amazon EC2上的Microsoft SQL Server自定义配置设置。根据您的存储要求、您可能会发现FSx for ONTAP存储对于您的数据库工作负载来说最经济高效。</block>
   <block id="f94c119bb7d164adbb1a390a249741e0" category="section-title">从主页导航到节省量计算器</block>
@@ -46,15 +43,9 @@
   <block id="8b97ffb47ece0280994594aa00a04a55" category="paragraph">现在、您可以在删除卷之前对其进行备份。备份将保留在文件系统中、直到删除为止。</block>
   <block id="8e9a64bda9d21f945b6489df2e7946e1" category="inline-link-macro">删除卷</block>
   <block id="2fd1745cefcdce50d6467d96e693f6b7" category="doc">RSS订阅</block>
-  <block id="0fa776fabe30e41d70bd8d9c9e64c974" category="paragraph">可从获取RSS订阅<block ref="372504cb6bb48559009ff8f8cdb9a245" category="inline-link-macro-rx"></block>。使用RSS源是一种简单的使用方法、可以了解BlueXP  Workload Factory中的变化。</block>
-  <block id="447fb3de7bec10468f55367375163603" category="inline-image-macro">工作负载出厂控制台帮助下拉菜单的屏幕截图。用于订阅RSS的新按钮将作为选项显示在下拉菜单中。</block>
-  <block id="c508966f04ada556baaaa0b94e781209" category="paragraph"><block ref="c508966f04ada556baaaa0b94e781209" category="inline-image-macro-rx" type="image"></block></block>
   <block id="80f4b5aa553e3a44455088c83954a088" category="section-title">支持每个工作负载使用一个权限策略</block>
-  <block id="c876ca70d1ae73b09cdc0004b328448e" category="paragraph">在Workload Factory中添加AWS凭据时、您现在可以为每个工作负载和存储管理选择一个权限策略、可以是读取模式、也可以是自动模式。</block>
   <block id="41b3a089d4fbacfb53e9a5634cfc6647" category="inline-image-macro">凭据页面上的权限配置部分的屏幕截图、您可以在其中选择读取或自动执行存储管理、AI工作负载、数据库工作负载和VMware工作负载的权限策略。</block>
   <block id="fa5f572610383fbc01cbba40c0f535e2" category="paragraph"><block ref="fa5f572610383fbc01cbba40c0f535e2" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="287ae8bc216279a75c04344894e04b7f" category="inline-link-macro">将AWS凭据添加到Workload Factory</block>
-  <block id="1db25aada4bff8233b24c1d7b39230cd" category="paragraph"><block ref="1db25aada4bff8233b24c1d7b39230cd" category="inline-link-macro-rx"></block></block>
   <block id="a268e8a21767df1e979dcf4c47b6f464" category="doc">迁移到Amazon EC2</block>
   <block id="8fa53177b9fd9cdb460f43ba4be39618" category="doc">其他分块策略</block>
   <block id="a0a464c97ca1835adf3bddc803b001cd" category="paragraph">生成型AI工作负载现在支持对数据源执行多句分块和基于重叠的分块。</block>
@@ -120,4 +111,17 @@
   <block id="5802490bb2e01aff3b4722eee028a516" category="list-text">CodeBox查看器：CodeBox现在集成在链接创建过程中。您可以在重定向到AWS以执行操作之前从工作负载工厂的CodeBox查看和复制CloudFormation模板。</block>
   <block id="0d2cf987b55cf15b8f1dec5a05398183" category="list-text">所需权限：现在、您可以在工作负载工厂的"Create Link"(创建链接)向导中查看和复制在AWS CloudFormation中创建链接所需的权限。</block>
   <block id="3874612023324fe909b90a886072b352" category="paragraph"><block ref="3874612023324fe909b90a886072b352" category="inline-link-macro-rx"></block></block>
+  <block id="e5d3c7248ff4540f88c13fbf9252d0a3" category="inline-link-macro">工作负载出厂控制台</block>
+  <block id="3171014553de64cf509a3b587c8baeb3" category="paragraph">可从获取RSS订阅<block ref="9d5ad87a67c1830e37fdd19a7a179db6" category="inline-link-macro-rx"></block>。使用RSS源是一种简单的使用方法、可以了解BlueXP  工作负载工厂中的变化。</block>
+  <block id="0796995437665af1d920169e03b4542b" category="inline-image-macro">工作负载出厂控制台帮助下拉菜单的屏幕截图。用于订阅RSS的新按钮将作为选项显示在下拉菜单中。</block>
+  <block id="482a329f24c123c31a109c24729cb2cd" category="paragraph"><block ref="482a329f24c123c31a109c24729cb2cd" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="4e47b743d0cc8e0b8906e37286d9b43b" category="paragraph">现在、在工作负载工厂添加AWS凭据时、您可以为每个工作负载和存储管理选择一个读取或自动模式权限策略。</block>
+  <block id="9f46892803d8b6c63d3b7f51fd44a421" category="inline-link-macro">将AWS凭据添加到工作负载工厂</block>
+  <block id="d9dd14fb1d1e7ca9c6da6770d9176783" category="paragraph"><block ref="d9dd14fb1d1e7ca9c6da6770d9176783" category="inline-link-macro-rx"></block></block>
+  <block id="dfc4a97a3fe947a314ae908cf036cbfe" category="doc">工作负载在出厂时集成在BlueXP  控制台中</block>
+  <block id="5975f7e9036c78e6217b16f295f0ca75" category="inline-link-macro">BlueXP控制台</block>
+  <block id="d2feef96259a41a7842dc5e7af577d63" category="paragraph">现在，您可以从使用工作负载工厂<block ref="391de7a3bac2bc77fa53dffb3f53801a" category="inline-link-macro-rx"></block>。BlueXP  控制台体验可提供与工作负载出厂控制台相同的功能。</block>
+  <block id="717f9c6475fbb39a24ab9942c1a903c0" category="inline-link-macro">了解如何从BlueXP  控制台访问工作负载工厂</block>
+  <block id="df2137c00b08ad833b0954cdd4247de3" category="paragraph"><block ref="df2137c00b08ad833b0954cdd4247de3" category="inline-link-macro-rx"></block></block>
+  <block id="f462230f4e4289784e8469f2babda8fd" category="section-title">2024年11月11日</block>
 </blocks>
