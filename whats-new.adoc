@@ -152,7 +152,7 @@ https://docs.netapp.com/us-en/workload-genai/identify-data-sources.html["确定�
 
 ==== VMware迁移顾问增强功能
 
-此版本的Workload Factory for VMware提供了一些功能和稳定性增强功能、并可在使用VMware迁移顾问时导入和导出迁移计划。
+此版本的适用于VMware的工作负载工厂提供了一些功能和稳定性增强功能、并且能够在使用VMware迁移顾问时导入和导出迁移计划。
 
 https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["使用迁移顾问为Amazon EC2创建部署计划"]
 
@@ -208,7 +208,7 @@ image:screenshot-explore-savings-home-small.png["工作负载出厂控制台主�
 
 ==== 迁移到Amazon EC2
 
-现在、适用于VMware的Workload Factory支持使用VMware迁移顾问迁移到Amazon EC2。
+VMware的工作负载工厂现在支持使用VMware迁移顾问迁移到Amazon EC2。
 
 
 
