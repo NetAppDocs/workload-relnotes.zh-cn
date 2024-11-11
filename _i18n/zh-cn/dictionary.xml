@@ -41,13 +41,10 @@
   <block id="370242ff4edf6eea7ad9f29f501888cd" category="paragraph">现在、您可以从<block ref="ed002915dbbbf90a20b3d8fdf4cc2390" category="inline-link-macro-rx"></block>主页导航到节省量计算器。从El生 性块存储和FSx for Windows File Server中进行选择以开始使用。</block>
   <block id="5a41a3272b612d6600223d90afc4ffba" category="section-title">2024年9月1日</block>
   <block id="f0881d896f399a09e86122a09c00b74d" category="doc">为存储管理提供读取模式支持</block>
-  <block id="8db376980442524a58ebd917532846d7" category="paragraph">在Workload Factory中、可以使用读取模式进行存储管理。读取模式通过添加只读权限来增强基本模式的体验、以便在基础架构即代码模板中填充特定变量。基础架构即代码模板可以直接从AWS帐户执行、而无需向Workload Factory提供任何修改权限。</block>
   <block id="06fdd4e2a129920e1eda56425068ba01" category="inline-link-macro">了解有关读取模式的更多信息</block>
-  <block id="2d68ad2bd6b1f5ddb456706e84602c5e" category="paragraph"><block ref="2d68ad2bd6b1f5ddb456706e84602c5e" category="inline-link-macro-rx"></block></block>
   <block id="fc30083e7a76ed4c8eb6167ea377c198" category="section-title">支持在删除卷之前备份</block>
   <block id="8b97ffb47ece0280994594aa00a04a55" category="paragraph">现在、您可以在删除卷之前对其进行备份。备份将保留在文件系统中、直到删除为止。</block>
   <block id="8e9a64bda9d21f945b6489df2e7946e1" category="inline-link-macro">删除卷</block>
-  <block id="8fb924f94cef9a4615d9910253ac7353" category="paragraph"><block ref="8fb924f94cef9a4615d9910253ac7353" category="inline-link-macro-rx"></block></block>
   <block id="2fd1745cefcdce50d6467d96e693f6b7" category="doc">RSS订阅</block>
   <block id="0fa776fabe30e41d70bd8d9c9e64c974" category="paragraph">可从获取RSS订阅<block ref="372504cb6bb48559009ff8f8cdb9a245" category="inline-link-macro-rx"></block>。使用RSS源是一种简单的使用方法、可以了解BlueXP  Workload Factory中的变化。</block>
   <block id="447fb3de7bec10468f55367375163603" category="inline-image-macro">工作负载出厂控制台帮助下拉菜单的屏幕截图。用于订阅RSS的新按钮将作为选项显示在下拉菜单中。</block>
@@ -73,11 +70,8 @@
   <block id="0df73578de7c34ef150c1f37953113f5" category="paragraph">现在、您可以在节省量计算器中探索使用FSx for Windows File Server存储在Amazon EC2上检测到的Microsoft SQL Server的节省量。根据您的SQL Server和存储要求、您可能会发现FSx for ONTAP存储是最经济高效的数据库工作负载。</block>
   <block id="94bc5d9f2e30e5678caa5a3b2feb4216" category="section-title">2024年9月29日</block>
   <block id="cd1df627bd8e5b96916530ffbf4664f6" category="doc">更新链接创建</block>
-  <block id="15f127e6d8c5111ce85f47eff68232a7" category="list-text">CodeBox查看器：CodeBox现在集成在链接创建过程中。您可以在重定向到AWS以执行此操作之前从Workload Factory中的CodeBox查看和复制CloudFormation模板。</block>
-  <block id="8efc4e00ac03374d3e1dc5d19c40016b" category="list-text">所需权限：现在、您可以在工作负载工厂的创建链接向导中查看和复制在AWS CloudFormation中创建链接所需的权限。</block>
   <block id="3721bd571f4111dad2c363436de34c51" category="list-text">支持手动创建链接：此功能允许通过手动注册链接ARN在AWS CloudFormation中独立创建。当安全或开发运营团队协助创建链接时、这将非常有用。</block>
   <block id="8997880c88dd70fe80799ee97bb7ac0c" category="inline-link-macro">创建链接</block>
-  <block id="27f80dd01569e18971f783f257cc7294" category="paragraph"><block ref="27f80dd01569e18971f783f257cc7294" category="inline-link-macro-rx"></block></block>
   <block id="7d6d6d8a97f883d860bff04c0be1019c" category="inline-link-macro">利用FSx for ONTAP为数据库工作负载节省空间</block>
   <block id="293758d509326f8da42abf75db2d37e6" category="paragraph"><block ref="293758d509326f8da42abf75db2d37e6" category="inline-link-macro-rx"></block></block>
   <block id="1ae13d57da1c55ee537cb9dc63916d03" category="paragraph">现在、您可以通过创建知识库的时间点副本来保护生成性AI工作负载数据。这样、您就可以保护数据、防止意外丢失或测试对知识库设置所做的更改。您可以随时还原知识库卷的先前版本。</block>
@@ -120,4 +114,10 @@
   <block id="15d6d0dbf56d72db14e4484abfd8982d" category="sidebar">BlueXP  工作负载出厂发行说明</block>
   <block id="c9b4182f157d4d581536f53df8cd512d" category="paragraph">VMware的工作负载工厂现在支持使用VMware迁移顾问迁移到Amazon EC2。</block>
   <block id="21558f6938275b17b39171353ad95a65" category="paragraph">此版本的适用于VMware的工作负载工厂提供了一些功能和稳定性增强功能、并且能够在使用VMware迁移顾问时导入和导出迁移计划。</block>
+  <block id="4f75f1e69acbf2cd38f0862ac2b212c7" category="paragraph">在工作负载出厂时、可以使用读取模式进行存储管理。读取模式通过添加只读权限来增强基本模式的体验、以便在基础架构即代码模板中填充特定变量。基础架构即代码模板可以直接从AWS帐户执行、而无需向工作负载工厂提供任何修改权限。</block>
+  <block id="f584ba5824f9f0b7bb3a173d45332dd3" category="paragraph"><block ref="f584ba5824f9f0b7bb3a173d45332dd3" category="inline-link-macro-rx"></block></block>
+  <block id="a0fbee91270a9c1ec1d2bc9b56f87ff3" category="paragraph"><block ref="a0fbee91270a9c1ec1d2bc9b56f87ff3" category="inline-link-macro-rx"></block></block>
+  <block id="5802490bb2e01aff3b4722eee028a516" category="list-text">CodeBox查看器：CodeBox现在集成在链接创建过程中。您可以在重定向到AWS以执行操作之前从工作负载工厂的CodeBox查看和复制CloudFormation模板。</block>
+  <block id="0d2cf987b55cf15b8f1dec5a05398183" category="list-text">所需权限：现在、您可以在工作负载工厂的"Create Link"(创建链接)向导中查看和复制在AWS CloudFormation中创建链接所需的权限。</block>
+  <block id="3874612023324fe909b90a886072b352" category="paragraph"><block ref="3874612023324fe909b90a886072b352" category="inline-link-macro-rx"></block></block>
 </blocks>

@@ -91,12 +91,12 @@ link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-complianc
 
 ==== 更新链接创建
 
-* CodeBox查看器：CodeBox现在集成在链接创建过程中。您可以在重定向到AWS以执行此操作之前从Workload Factory中的CodeBox查看和复制CloudFormation模板。
-* 所需权限：现在、您可以在工作负载工厂的创建链接向导中查看和复制在AWS CloudFormation中创建链接所需的权限。
+* CodeBox查看器：CodeBox现在集成在链接创建过程中。您可以在重定向到AWS以执行操作之前从工作负载工厂的CodeBox查看和复制CloudFormation模板。
+* 所需权限：现在、您可以在工作负载工厂的"Create Link"(创建链接)向导中查看和复制在AWS CloudFormation中创建链接所需的权限。
 * 支持手动创建链接：此功能允许通过手动注册链接ARN在AWS CloudFormation中独立创建。当安全或开发运营团队协助创建链接时、这将非常有用。
 
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["创建链接"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["创建链接"]
 
 
 
@@ -168,9 +168,9 @@ https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.h
 
 ==== 为存储管理提供读取模式支持
 
-在Workload Factory中、可以使用读取模式进行存储管理。读取模式通过添加只读权限来增强基本模式的体验、以便在基础架构即代码模板中填充特定变量。基础架构即代码模板可以直接从AWS帐户执行、而无需向Workload Factory提供任何修改权限。
+在工作负载出厂时、可以使用读取模式进行存储管理。读取模式通过添加只读权限来增强基本模式的体验、以便在基础架构即代码模板中填充特定变量。基础架构即代码模板可以直接从AWS帐户执行、而无需向工作负载工厂提供任何修改权限。
 
-link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["了解有关读取模式的更多信息"^]
+link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["了解有关读取模式的更多信息"]
 
 
 
@@ -178,7 +178,7 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/operational-modes.html["
 
 现在、您可以在删除卷之前对其进行备份。备份将保留在文件系统中、直到删除为止。
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/delete-volume.html["删除卷"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/delete-volume.html["删除卷"]
 
 
 
