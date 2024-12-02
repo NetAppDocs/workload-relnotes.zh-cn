@@ -65,6 +65,46 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/explore-savings.html["了�
 
 
 
+=== 数据库工作负载
+
+
+
+==== 持续优化增加了计算修复和评估功能
+
+数据库现在可提供洞察力和建议、帮助您优化Microsoft SQL Server实例的计算资源。我们会测量CPU利用率、并利用AWS计算优化器服务来建议规模合适的最佳实例类型、并通知您可用的操作系统修补程序。优化计算资源有助于您在实例类型方面做出明智的决策、从而节省成本并高效利用资源。
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["优化计算资源配置"]
+
+
+
+==== PostgreSQL支持
+
+现在、您可以在数据库中部署和管理独立的PostgreSQL服务器部署。
+
+link:https://docs.netapp.com/us-en/workload-databases/create-postgresql-server.html["创建PostgreSQL服务器"]
+
+
+
+=== GenAI工作负载
+
+
+
+==== 从快照克隆一个信息库克隆
+
+适用于GenAI的BlueXP  工作负载工厂现在支持从快照克隆知识库。这样可以快速恢复知识库、使用现有数据源创建新的知识库、并有助于数据恢复和开发。
+
+link:https://docs.netapp.com/us-en/workload-genai/manage-knowledgebase.html#clone-a-knowledge-base["克隆知识库"]
+
+
+
+==== 内部ONTAP集群发现和复制
+
+发现内部ONTAP集群数据并将其复制到FSx for ONTAP文件系统、以便用于丰富AI知识库。所有内部发现和复制工作流均可从存储清单中新的*内部ONTAP *选项卡访问。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/use-onprem-data.html["发现内部 ONTAP 集群"]
+
+
+
 == 2024年11月11日
 
 
@@ -228,26 +268,6 @@ https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.h
 
 
 
-=== 数据库工作负载
-
-
-
-==== 了解通过自定义实现的节省
-
-现在、您可以在节省量计算器中使用FSx for Windows File Server和Elelic Block Store存储为Amazon EC2上的Microsoft SQL Server自定义配置设置。根据您的存储要求、您可能会发现FSx for ONTAP存储对于您的数据库工作负载来说最经济高效。
-
-link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["利用FSx for ONTAP为数据库工作负载节省空间"^]
-
-
-
-==== 从主页导航到节省量计算器
-
-现在、您可以从link:https://console.workloads.netapp.com["工作负载出厂控制台"^]主页导航到节省量计算器。从El生 性块存储和FSx for Windows File Server中进行选择以开始使用。
-
-image:screenshot-explore-savings-home-small.png["工作负载出厂控制台主页的屏幕截图。图中显示了一个新的\"浏览节省量\"按钮的\"数据库\"图块。单击按钮以打开下拉菜单。下拉菜单有两个选项- Microsoft SQL Server on EBS和Microsoft SQL Server on FSx for Windows File Server。"]
-
-
-
 === VMware工作负载
 
 
@@ -255,22 +275,6 @@ image:screenshot-explore-savings-home-small.png["工作负载出厂控制台主�
 ==== 迁移到Amazon EC2
 
 VMware的工作负载工厂现在支持使用VMware迁移顾问迁移到Amazon EC2。
-
-
-
-=== GenAI工作负载
-
-
-
-==== 其他分块策略
-
-生成型AI工作负载现在支持对数据源执行多句分块和基于重叠的分块。
-
-
-
-==== 为每个知识库提供专用卷
-
-现在、生成性AI工作负载会为每个新知识库创建一个专用的Amazon FSx for NetApp ONTAP卷、从而为每个知识库启用单独的快照策略、并提高对故障和数据中毒的防护能力。
 
 
 

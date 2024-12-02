@@ -31,19 +31,12 @@
   <block id="bb50e2459e4e016aa4b14a56adb2358f" category="doc">设置和管理</block>
   <block id="a76e64a0fbf98a083080351e4cb67566" category="doc">VMware工作负载</block>
   <block id="a41d6b8d358bc9ae448d19a2d13faa53" category="section-title">2024年8月4日</block>
-  <block id="f565eb47bc8c215541fe00205d9b37d3" category="doc">了解通过自定义实现的节省</block>
-  <block id="bfbd25ddeba7cedc974f1a5a1d0a295c" category="paragraph">现在、您可以在节省量计算器中使用FSx for Windows File Server和Elelic Block Store存储为Amazon EC2上的Microsoft SQL Server自定义配置设置。根据您的存储要求、您可能会发现FSx for ONTAP存储对于您的数据库工作负载来说最经济高效。</block>
-  <block id="f94c119bb7d164adbb1a390a249741e0" category="section-title">从主页导航到节省量计算器</block>
   <block id="5a41a3272b612d6600223d90afc4ffba" category="section-title">2024年9月1日</block>
   <block id="2fd1745cefcdce50d6467d96e693f6b7" category="doc">RSS订阅</block>
   <block id="80f4b5aa553e3a44455088c83954a088" category="section-title">支持每个工作负载使用一个权限策略</block>
   <block id="41b3a089d4fbacfb53e9a5634cfc6647" category="inline-image-macro">凭据页面上的权限配置部分的屏幕截图、您可以在其中选择读取或自动执行存储管理、AI工作负载、数据库工作负载和VMware工作负载的权限策略。</block>
   <block id="fa5f572610383fbc01cbba40c0f535e2" category="paragraph"><block ref="fa5f572610383fbc01cbba40c0f535e2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="a268e8a21767df1e979dcf4c47b6f464" category="doc">迁移到Amazon EC2</block>
-  <block id="8fa53177b9fd9cdb460f43ba4be39618" category="doc">其他分块策略</block>
-  <block id="a0a464c97ca1835adf3bddc803b001cd" category="paragraph">生成型AI工作负载现在支持对数据源执行多句分块和基于重叠的分块。</block>
-  <block id="4cb92325ae7034576f6dff7fe48e3254" category="section-title">为每个知识库提供专用卷</block>
-  <block id="a023a8333417a130bf6fb2c729aaa7f1" category="paragraph">现在、生成性AI工作负载会为每个新知识库创建一个专用的Amazon FSx for NetApp ONTAP卷、从而为每个知识库启用单独的快照策略、并提高对故障和数据中毒的防护能力。</block>
   <block id="2792e29ba30bdded6461ac9b9f0816a4" category="doc">VMware迁移顾问增强功能</block>
   <block id="d738890a4c9a0f96c08ae0ba66a626a1" category="inline-link">使用迁移顾问为Amazon EC2创建部署计划</block>
   <block id="2dbb83c0d88f8aa5c12c5445b2b248ee" category="paragraph"><block ref="2dbb83c0d88f8aa5c12c5445b2b248ee" category="inline-link-rx"></block></block>
@@ -111,9 +104,6 @@
   <block id="d2feef96259a41a7842dc5e7af577d63" category="paragraph">现在，您可以从使用工作负载工厂<block ref="391de7a3bac2bc77fa53dffb3f53801a" category="inline-link-macro-rx"></block>。BlueXP  控制台体验可提供与工作负载出厂控制台相同的功能。</block>
   <block id="717f9c6475fbb39a24ab9942c1a903c0" category="inline-link-macro">了解如何从BlueXP  控制台访问工作负载工厂</block>
   <block id="f462230f4e4289784e8469f2babda8fd" category="section-title">2024年11月11日</block>
-  <block id="e93e8519fa9c34d76ec0735119a46866" category="paragraph">现在、您可以从<block ref="fe6e1b2479e1125e03c713ad62b5343f" category="inline-link-macro-rx"></block>主页导航到节省量计算器。从El生 性块存储和FSx for Windows File Server中进行选择以开始使用。</block>
-  <block id="ab1e050e49bbc49befbca952f74f0443" category="inline-image-macro">工作负载出厂控制台主页的屏幕截图。图中显示了一个新的"浏览节省量"按钮的"数据库"图块。单击按钮以打开下拉菜单。下拉菜单有两个选项- Microsoft SQL Server on EBS和Microsoft SQL Server on FSx for Windows File Server。</block>
-  <block id="923f11c15ceba3bc0e4d37309ab27ed2" category="paragraph"><block ref="923f11c15ceba3bc0e4d37309ab27ed2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1a34f743bd98b1658401ce2f8206ff9a" category="paragraph"><block ref="1a34f743bd98b1658401ce2f8206ff9a" category="inline-link-macro-rx"></block></block>
   <block id="c4f10a04f7aa75535a8a0475261393eb" category="doc">适用于ONTAP文件系统的横向扩展FSx的块存储</block>
   <block id="152983842f852ef5bae46ac675caec95" category="paragraph">现在、如果使用的是最多包含6个HA对的横向扩展文件系统部署、则可以通过FSx for ONTAP配置块存储。</block>
@@ -138,4 +128,16 @@
   <block id="dd0818ef84ecf338be3c795b4a57e5c4" category="inline-link-macro">了解BlueXP  工作负载工厂中FSx for ONTAP的节省情况</block>
   <block id="f98d47c0920e02232d981da56f082627" category="paragraph"><block ref="f98d47c0920e02232d981da56f082627" category="inline-link-macro-rx"></block></block>
   <block id="80d5de3a419a69be5ba960bb0fef9a1d" category="section-title">2024年12月1日</block>
+  <block id="18caf85143cff2e29943f7fa50a9d531" category="doc">持续优化增加了计算修复和评估功能</block>
+  <block id="275b08f4e33388b6598899e256fe46b3" category="paragraph">数据库现在可提供洞察力和建议、帮助您优化Microsoft SQL Server实例的计算资源。我们会测量CPU利用率、并利用AWS计算优化器服务来建议规模合适的最佳实例类型、并通知您可用的操作系统修补程序。优化计算资源有助于您在实例类型方面做出明智的决策、从而节省成本并高效利用资源。</block>
+  <block id="9aa94e25ba754a44d094b78775213e48" category="inline-link-macro">优化计算资源配置</block>
+  <block id="25a5dc6deeba5d476ff665ad9c968a2b" category="paragraph"><block ref="25a5dc6deeba5d476ff665ad9c968a2b" category="inline-link-macro-rx"></block></block>
+  <block id="f3cfd7c95d3ff2b556d90beb191fa77a" category="section-title">PostgreSQL支持</block>
+  <block id="49db1f79602c9ba8e5704a68010c4023" category="paragraph">现在、您可以在数据库中部署和管理独立的PostgreSQL服务器部署。</block>
+  <block id="3627a14d7dc2feba3834d63a37ebb394" category="inline-link-macro">创建PostgreSQL服务器</block>
+  <block id="02b7dd87f2a54e2b540ac84598c20252" category="paragraph"><block ref="02b7dd87f2a54e2b540ac84598c20252" category="inline-link-macro-rx"></block></block>
+  <block id="f8a21101d47aa852f29a4be35904736e" category="doc">从快照克隆一个信息库克隆</block>
+  <block id="c711d2f72cc16ad2c0919ebe70292834" category="paragraph">适用于GenAI的BlueXP  工作负载工厂现在支持从快照克隆知识库。这样可以快速恢复知识库、使用现有数据源创建新的知识库、并有助于数据恢复和开发。</block>
+  <block id="53ea9e78bbaa3e1c3ead030a954216c8" category="inline-link-macro">克隆知识库</block>
+  <block id="23899d33da818933cc59017a222d3f1f" category="paragraph"><block ref="23899d33da818933cc59017a222d3f1f" category="inline-link-macro-rx"></block></block>
 </blocks>

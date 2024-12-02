@@ -1,0 +1,19 @@
+= 从快照克隆一个信息库克隆
+:allow-uri-read: 
+
+
+
+
+=== 从快照克隆一个信息库克隆
+
+适用于GenAI的BlueXP  工作负载工厂现在支持从快照克隆知识库。这样可以快速恢复知识库、使用现有数据源创建新的知识库、并有助于数据恢复和开发。
+
+link:https://docs.netapp.com/us-en/workload-genai/manage-knowledgebase.html#clone-a-knowledge-base["克隆知识库"]
+
+
+
+=== 内部ONTAP集群发现和复制
+
+发现内部ONTAP集群数据并将其复制到FSx for ONTAP文件系统、以便用于丰富AI知识库。所有内部发现和复制工作流均可从存储清单中新的*内部ONTAP *选项卡访问。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/use-onprem-data.html["发现内部 ONTAP 集群"]
