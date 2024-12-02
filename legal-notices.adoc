@@ -46,3 +46,5 @@ link:https://www.netapp.com/company/legal/privacy-policy/["https://www.netapp.co
 == 开放源代码
 
 通知文件提供有关 NetApp 软件中使用的第三方版权和许可证的信息。
+
+https://docs.netapp.com/us-en/workload-family/media/workload-factory-notice.pdf["BlueXP  工作负载工厂"^]
