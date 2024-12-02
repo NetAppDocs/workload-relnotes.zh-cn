@@ -35,11 +35,6 @@
   <block id="bfbd25ddeba7cedc974f1a5a1d0a295c" category="paragraph">现在、您可以在节省量计算器中使用FSx for Windows File Server和Elelic Block Store存储为Amazon EC2上的Microsoft SQL Server自定义配置设置。根据您的存储要求、您可能会发现FSx for ONTAP存储对于您的数据库工作负载来说最经济高效。</block>
   <block id="f94c119bb7d164adbb1a390a249741e0" category="section-title">从主页导航到节省量计算器</block>
   <block id="5a41a3272b612d6600223d90afc4ffba" category="section-title">2024年9月1日</block>
-  <block id="f0881d896f399a09e86122a09c00b74d" category="doc">为存储管理提供读取模式支持</block>
-  <block id="06fdd4e2a129920e1eda56425068ba01" category="inline-link-macro">了解有关读取模式的更多信息</block>
-  <block id="fc30083e7a76ed4c8eb6167ea377c198" category="section-title">支持在删除卷之前备份</block>
-  <block id="8b97ffb47ece0280994594aa00a04a55" category="paragraph">现在、您可以在删除卷之前对其进行备份。备份将保留在文件系统中、直到删除为止。</block>
-  <block id="8e9a64bda9d21f945b6489df2e7946e1" category="inline-link-macro">删除卷</block>
   <block id="2fd1745cefcdce50d6467d96e693f6b7" category="doc">RSS订阅</block>
   <block id="80f4b5aa553e3a44455088c83954a088" category="section-title">支持每个工作负载使用一个权限策略</block>
   <block id="41b3a089d4fbacfb53e9a5634cfc6647" category="inline-image-macro">凭据页面上的权限配置部分的屏幕截图、您可以在其中选择读取或自动执行存储管理、AI工作负载、数据库工作负载和VMware工作负载的权限策略。</block>
@@ -101,9 +96,6 @@
   <block id="15d6d0dbf56d72db14e4484abfd8982d" category="sidebar">BlueXP  工作负载出厂发行说明</block>
   <block id="c9b4182f157d4d581536f53df8cd512d" category="paragraph">VMware的工作负载工厂现在支持使用VMware迁移顾问迁移到Amazon EC2。</block>
   <block id="21558f6938275b17b39171353ad95a65" category="paragraph">此版本的适用于VMware的工作负载工厂提供了一些功能和稳定性增强功能、并且能够在使用VMware迁移顾问时导入和导出迁移计划。</block>
-  <block id="4f75f1e69acbf2cd38f0862ac2b212c7" category="paragraph">在工作负载出厂时、可以使用读取模式进行存储管理。读取模式通过添加只读权限来增强基本模式的体验、以便在基础架构即代码模板中填充特定变量。基础架构即代码模板可以直接从AWS帐户执行、而无需向工作负载工厂提供任何修改权限。</block>
-  <block id="f584ba5824f9f0b7bb3a173d45332dd3" category="paragraph"><block ref="f584ba5824f9f0b7bb3a173d45332dd3" category="inline-link-macro-rx"></block></block>
-  <block id="a0fbee91270a9c1ec1d2bc9b56f87ff3" category="paragraph"><block ref="a0fbee91270a9c1ec1d2bc9b56f87ff3" category="inline-link-macro-rx"></block></block>
   <block id="5802490bb2e01aff3b4722eee028a516" category="list-text">CodeBox查看器：CodeBox现在集成在链接创建过程中。您可以在重定向到AWS以执行操作之前从工作负载工厂的CodeBox查看和复制CloudFormation模板。</block>
   <block id="0d2cf987b55cf15b8f1dec5a05398183" category="list-text">所需权限：现在、您可以在工作负载工厂的"Create Link"(创建链接)向导中查看和复制在AWS CloudFormation中创建链接所需的权限。</block>
   <block id="3874612023324fe909b90a886072b352" category="paragraph"><block ref="3874612023324fe909b90a886072b352" category="inline-link-macro-rx"></block></block>
@@ -123,4 +115,27 @@
   <block id="ab1e050e49bbc49befbca952f74f0443" category="inline-image-macro">工作负载出厂控制台主页的屏幕截图。图中显示了一个新的"浏览节省量"按钮的"数据库"图块。单击按钮以打开下拉菜单。下拉菜单有两个选项- Microsoft SQL Server on EBS和Microsoft SQL Server on FSx for Windows File Server。</block>
   <block id="923f11c15ceba3bc0e4d37309ab27ed2" category="paragraph"><block ref="923f11c15ceba3bc0e4d37309ab27ed2" category="inline-image-macro-rx" type="image"></block></block>
   <block id="1a34f743bd98b1658401ce2f8206ff9a" category="paragraph"><block ref="1a34f743bd98b1658401ce2f8206ff9a" category="inline-link-macro-rx"></block></block>
+  <block id="c4f10a04f7aa75535a8a0475261393eb" category="doc">适用于ONTAP文件系统的横向扩展FSx的块存储</block>
+  <block id="152983842f852ef5bae46ac675caec95" category="paragraph">现在、如果使用的是最多包含6个HA对的横向扩展文件系统部署、则可以通过FSx for ONTAP配置块存储。</block>
+  <block id="88ece72bda0e38c0bdca32d19f42a979" category="inline-link-macro">在BlueXP  工作负载出厂时为ONTAP文件系统创建FSx</block>
+  <block id="8cce6f6c21973d5dff1898076cddb209" category="paragraph"><block ref="8cce6f6c21973d5dff1898076cddb209" category="inline-link-macro-rx"></block></block>
+  <block id="609b2d9256f15ecb9d57d3f545d91174" category="section-title">可使用mount命令</block>
+  <block id="67ba5d91692276a76737790f2df885ec" category="paragraph">现在、可以使用挂载命令通过NFS和CIFS访问卷。您可以通过依次选择*Basic Actions*和*view mount command*来获取FSx for ONTAP文件系统中卷的挂载点。</block>
+  <block id="f12470a0bbf95a722b70847640bd40c9" category="inline-image-macro">屏幕截图、显示了如何查看挂载命令、方法是进入FSx for ONTAP文件系统、选择卷菜单、选择基本操作、然后选择查看挂载命令。此时将显示mount命令对话框、并显示用于CIFS或NFS访问的mount命令。</block>
+  <block id="21817bf964617ea4f875252102707119" category="paragraph"><block ref="21817bf964617ea4f875252102707119" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="0087bca38db021c2b14c65d5893a9339" category="inline-link-macro">卷的view mount命令</block>
+  <block id="41cd808fdcb8411a8a73071649aca98e" category="paragraph"><block ref="41cd808fdcb8411a8a73071649aca98e" category="inline-link-macro-rx"></block></block>
+  <block id="70bf70871888ae321ee591627f1f149f" category="section-title">创建卷后更新存储效率</block>
+  <block id="4b1987aeb3ee9f5859457d872de9697a" category="paragraph">现在、您可以在创建卷后为FlexVol卷启用或禁用存储效率。存储效率包括重复数据删除、数据压缩和数据缩减。启用存储效率有助于在FlexVol volume上实现最佳空间节省。</block>
+  <block id="b8ae90ddbb68f3303ee755cd1d9b5819" category="inline-link-macro">更新卷的存储效率</block>
+  <block id="d26d51c8a86d1db1cfe8dd0317cc6274" category="paragraph"><block ref="d26d51c8a86d1db1cfe8dd0317cc6274" category="inline-link-macro-rx"></block></block>
+  <block id="aadb8a2a44b75c1333f5a52c2ceb1516" category="section-title">内部ONTAP集群发现和复制</block>
+  <block id="490a30e9496a9d55f2cfdb934812658b" category="paragraph">发现内部ONTAP集群数据并将其复制到FSx for ONTAP文件系统、以便用于丰富AI知识库。所有内部发现和复制工作流均可从存储清单中新的*内部ONTAP *选项卡访问。</block>
+  <block id="c6f905e067bdaa7ba33a58a907e59477" category="inline-link-macro">发现内部 ONTAP 集群</block>
+  <block id="b169507cd10826b5a52f573e2f75ad2c" category="paragraph"><block ref="b169507cd10826b5a52f573e2f75ad2c" category="inline-link-macro-rx"></block></block>
+  <block id="67e962050c9494ada1eab84c21826e3c" category="section-title">AWS凭据可改进节省量计算器分析</block>
+  <block id="81e738c909aeee7a4a781716391eae27" category="paragraph">现在、您可以选择从节省量计算器添加AWS凭据。与FSx for ONTAP相比、添加凭据可以提高Amazon El生 性块存储、El生 性文件系统和FSx for Windows文件服务器存储环境的节省量计算器分析的准确性。</block>
+  <block id="dd0818ef84ecf338be3c795b4a57e5c4" category="inline-link-macro">了解BlueXP  工作负载工厂中FSx for ONTAP的节省情况</block>
+  <block id="f98d47c0920e02232d981da56f082627" category="paragraph"><block ref="f98d47c0920e02232d981da56f082627" category="inline-link-macro-rx"></block></block>
+  <block id="80d5de3a419a69be5ba960bb0fef9a1d" category="section-title">2024年12月1日</block>
 </blocks>

@@ -1,0 +1,45 @@
+= 适用于ONTAP文件系统的横向扩展FSx的块存储
+:allow-uri-read: 
+
+
+
+
+=== 适用于ONTAP文件系统的横向扩展FSx的块存储
+
+现在、如果使用的是最多包含6个HA对的横向扩展文件系统部署、则可以通过FSx for ONTAP配置块存储。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-file-system.html["在BlueXP  工作负载出厂时为ONTAP文件系统创建FSx"]
+
+
+
+=== 可使用mount命令
+
+现在、可以使用挂载命令通过NFS和CIFS访问卷。您可以通过依次选择*Basic Actions*和*view mount command*来获取FSx for ONTAP文件系统中卷的挂载点。
+
+image:screenshot-view-mount-command.png["屏幕截图、显示了如何查看挂载命令、方法是进入FSx for ONTAP文件系统、选择卷菜单、选择基本操作、然后选择查看挂载命令。此时将显示mount命令对话框、并显示用于CIFS或NFS访问的mount命令。"]
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/access-data.html["卷的view mount命令"]
+
+
+
+=== 创建卷后更新存储效率
+
+现在、您可以在创建卷后为FlexVol卷启用或禁用存储效率。存储效率包括重复数据删除、数据压缩和数据缩减。启用存储效率有助于在FlexVol volume上实现最佳空间节省。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/update-storage-efficiency.html["更新卷的存储效率"]
+
+
+
+=== 内部ONTAP集群发现和复制
+
+发现内部ONTAP集群数据并将其复制到FSx for ONTAP文件系统、以便用于丰富AI知识库。所有内部发现和复制工作流均可从存储清单中新的*内部ONTAP *选项卡访问。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/use-onprem-data.html["发现内部 ONTAP 集群"]
+
+
+
+=== AWS凭据可改进节省量计算器分析
+
+现在、您可以选择从节省量计算器添加AWS凭据。与FSx for ONTAP相比、添加凭据可以提高Amazon El生 性块存储、El生 性文件系统和FSx for Windows文件服务器存储环境的节省量计算器分析的准确性。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/explore-savings.html["了解BlueXP  工作负载工厂中FSx for ONTAP的节省情况"]
