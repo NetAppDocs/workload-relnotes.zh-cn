@@ -78,6 +78,22 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-cifs-share.html["�
 
 
 
+=== VMware工作负载
+
+
+
+==== Amazon EC2迁移顾问改进
+
+此版本的适用于VMware的BlueXP  工作负载工厂对迁移顾问体验进行了多项改进：
+
+* *保存或下载迁移计划*：现在可以保存或下载迁移计划，并加载迁移计划以填充迁移顾问。保存迁移计划时、该计划将与您的工作负载工厂帐户一起保存。
+* *改进的虚拟机选择*：适用于VMware的BlueXP  工作负载工厂现在支持筛选和搜索要包含在迁移部署中的虚拟机列表。
+
+
+https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["使用迁移顾问为Amazon EC2创建部署计划"]
+
+
+
 === GenAI工作负载
 
 
@@ -103,6 +119,18 @@ link:https://docs.netapp.com/us-en/workload-genai/deploy-infrastructure.html["�
 如果您的AI引擎实例损坏或被以某种方式删除、您可以让工作负载在出厂时重建它。在完成重建后、工作负载工厂会自动将您的知识库重新连接到基础架构、以便可以随时使用。
 
 link:https://docs.netapp.com/us-en/workload-genai/troubleshooting.html["故障排除"]
+
+
+
+=== 设置和管理
+
+
+
+==== 支持BlueXP  工作负载工厂中的服务帐户
+
+现在、BlueXP  工作负载工厂支持服务帐户。您可以创建服务帐户、以充当自动化基础架构操作的计算机用户。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/manage-service-accounts.html["创建和管理服务帐户"]
 
 
 
@@ -295,22 +323,6 @@ link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-complianc
 
 
 
-== 2024年9月19日
-
-
-
-=== VMware工作负载
-
-
-
-==== VMware迁移顾问增强功能
-
-此版本的适用于VMware的工作负载工厂提供了一些功能和稳定性增强功能、并且能够在使用VMware迁移顾问时导入和导出迁移计划。
-
-https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["使用迁移顾问为Amazon EC2创建部署计划"]
-
-
-
 == 2024年9月1日
 
 
@@ -334,19 +346,3 @@ image:screenshot-rss-subscribe-button.png["工作负载出厂控制台帮助下�
 image:screenshot-single-permission-policy-support.png["凭据页面上的权限配置部分的屏幕截图、您可以在其中选择读取或自动执行存储管理、AI工作负载、数据库工作负载和VMware工作负载的权限策略。"]
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/add-credentials.html["将AWS凭据添加到工作负载工厂"^]
-
-
-
-== 2024年8月4日
-
-
-
-=== 设置和管理
-
-
-
-==== Terraform支持
-
-Amazon FSx支持Terraform来部署NetApp ONTAP文件系统和创建Storage VM。现在、设置和管理指南提供了有关如何使用CodeBox中的Terraform的说明。
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["使用CodeBox中的Terraform"^]
