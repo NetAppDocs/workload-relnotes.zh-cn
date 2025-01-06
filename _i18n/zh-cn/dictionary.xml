@@ -40,23 +40,8 @@
   <block id="d738890a4c9a0f96c08ae0ba66a626a1" category="inline-link">使用迁移顾问为Amazon EC2创建部署计划</block>
   <block id="2dbb83c0d88f8aa5c12c5445b2b248ee" category="paragraph"><block ref="2dbb83c0d88f8aa5c12c5445b2b248ee" category="inline-link-rx"></block></block>
   <block id="9f220db04e7195ea3730c9dd5537897c" category="section-title">2024年9月19日</block>
-  <block id="94bc5d9f2e30e5678caa5a3b2feb4216" category="section-title">2024年9月29日</block>
   <block id="7d6d6d8a97f883d860bff04c0be1019c" category="inline-link-macro">利用FSx for ONTAP为数据库工作负载节省空间</block>
   <block id="293758d509326f8da42abf75db2d37e6" category="paragraph"><block ref="293758d509326f8da42abf75db2d37e6" category="inline-link-macro-rx"></block></block>
-  <block id="1ae13d57da1c55ee537cb9dc63916d03" category="paragraph">现在、您可以通过创建知识库的时间点副本来保护生成性AI工作负载数据。这样、您就可以保护数据、防止意外丢失或测试对知识库设置所做的更改。您可以随时还原知识库卷的先前版本。</block>
-  <block id="4dfbf3ac57687ef65479f0135589593f" category="inline-link">为知识库卷创建快照</block>
-  <block id="f8016d0e0375ce671e71803692cf105c" category="paragraph"><block ref="f8016d0e0375ce671e71803692cf105c" category="inline-link-rx"></block></block>
-  <block id="3d1e45266a0a6784e668353081a13cd0" category="inline-link">还原知识库卷的快照</block>
-  <block id="340b5c4d996cad6cf6d27d13faf94e89" category="paragraph"><block ref="340b5c4d996cad6cf6d27d13faf94e89" category="inline-link-rx"></block></block>
-  <block id="073751c61467c5e36c6cc197d92a75c4" category="section-title">暂停计划的扫描</block>
-  <block id="6c31cb11ffc4d11a5aed0e968bb5f8c9" category="paragraph">现在、您可以暂停计划的数据源扫描。默认情况下、生成性AI工作负载每天都会扫描每个数据源、以便将新数据导入到每个知识库中。如果您不希望(例如在测试或还原快照期间)导入最新更改、您可以随时暂停计划的扫描并恢复它们。</block>
-  <block id="67f0dcee920749eead316e2518099abb" category="inline-link">管理知识库</block>
-  <block id="f951fa0f2608d186cd1f0bd8889ac232" category="paragraph"><block ref="f951fa0f2608d186cd1f0bd8889ac232" category="inline-link-rx"></block></block>
-  <block id="9813be0bded00d4a8f5457f2e27277fa" category="section-title">现在、知识库可支持数据保护卷</block>
-  <block id="f20c02f54f20ee06aed661b133ba0fc3" category="paragraph">现在、在选择知识库卷时、您可以选择属于NetApp SnapMirror复制关系的数据保护卷。这样、您就可以将知识库存储在已受SnapMirror复制保护的卷上。</block>
-  <block id="7d7b61e2696184ef2f1a673b4b505c10" category="inline-link">确定要集成到知识库中的数据源</block>
-  <block id="8afd34c2a29e7b6286f3ed0bf9e20c22" category="paragraph"><block ref="8afd34c2a29e7b6286f3ed0bf9e20c22" category="inline-link-rx"></block></block>
-  <block id="4936442e55cb8f837f9616ca6aaf1e92" category="doc">为知识库卷提供快照和还原支持</block>
   <block id="31139fb3d548620b7d82f880e4660606" category="doc">存储清单中的选项卡视图</block>
   <block id="d4aa654cea4681dd5ca03650594006c6" category="paragraph">存储清单已更新为双选项卡视图：</block>
   <block id="71083868a2ec5abfee9a2647a74612c0" category="list-text">FSx for ONTAP选项卡：显示您当前拥有的适用于ONTAP文件系统的FSx。</block>
@@ -162,4 +147,16 @@
   <block id="fd3039d7fbe9d24b3141aca3c62383a2" category="section-title">评估和优化过度配置的Microsoft SQL Server许可证</block>
   <block id="f90a806c02db45741274868bc065ab90" category="paragraph">现在、节省量计算器将评估您的Microsoft SQL Server部署是否需要Enterprise Edition。如果许可证配置过度、计算器建议降级。通过优化应用程序、您将能够自动降级数据库中的许可证。</block>
   <block id="c5e3fb9d31cd8a0b458ca9e3c4a690f6" category="section-title">2025年1月6日</block>
+  <block id="a117d99fd0597e840921767ec50fe791" category="doc">自定义快照名称</block>
+  <block id="34df51ccce053f8aef051fe069f6004a" category="paragraph">现在、您可以为临时快照提供快照名称。</block>
+  <block id="af467f026dd1b56c8564e770bf39737f" category="inline-link-macro">使用快照保护知识库</block>
+  <block id="2cbaa1be80e354895c4d9e497cad82ad" category="paragraph"><block ref="2cbaa1be80e354895c4d9e497cad82ad" category="inline-link-macro-rx"></block></block>
+  <block id="63713d130d6ced83e06b8a2f84ca4236" category="section-title">自定义AI引擎实例名称</block>
+  <block id="5a22f1756638135653917db715aeec43" category="paragraph">现在、您可以在部署期间为AI引擎实例提供一个自定义名称。</block>
+  <block id="e379b913896cf9bdd4e2d6717212215a" category="inline-link-macro">部署GenAI基础架构</block>
+  <block id="c3e29d6f9db8b5f89b548e4659ce60ad" category="paragraph"><block ref="c3e29d6f9db8b5f89b548e4659ce60ad" category="inline-link-macro-rx"></block></block>
+  <block id="cc78f676d3193b6273b428bb17c26dd7" category="section-title">重建损坏或缺失的GenAI基础架构</block>
+  <block id="1691fa3a19bfaa3082dd2f6e01934960" category="paragraph">如果您的AI引擎实例损坏或被以某种方式删除、您可以让工作负载在出厂时重建它。在完成重建后、工作负载工厂会自动将您的知识库重新连接到基础架构、以便可以随时使用。</block>
+  <block id="231cf4c70d866b616c21baddaeed0696" category="inline-link-macro">故障排除</block>
+  <block id="b23e4d787bd591292c1d5f10247e0e53" category="paragraph"><block ref="b23e4d787bd591292c1d5f10247e0e53" category="inline-link-macro-rx"></block></block>
 </blocks>

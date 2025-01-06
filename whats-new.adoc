@@ -78,6 +78,34 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-cifs-share.html["�
 
 
 
+=== GenAI工作负载
+
+
+
+==== 自定义快照名称
+
+现在、您可以为临时快照提供快照名称。
+
+link:https://docs.netapp.com/us-en/workload-genai/manage-knowledgebase.html#protect-a-knowledge-base-with-snapshots["使用快照保护知识库"]
+
+
+
+==== 自定义AI引擎实例名称
+
+现在、您可以在部署期间为AI引擎实例提供一个自定义名称。
+
+link:https://docs.netapp.com/us-en/workload-genai/deploy-infrastructure.html["部署GenAI基础架构"]
+
+
+
+==== 重建损坏或缺失的GenAI基础架构
+
+如果您的AI引擎实例损坏或被以某种方式删除、您可以让工作负载在出厂时重建它。在完成重建后、工作负载工厂会自动将您的知识库重新连接到基础架构、以便可以随时使用。
+
+link:https://docs.netapp.com/us-en/workload-genai/troubleshooting.html["故障排除"]
+
+
+
 == 2024年12月1日
 
 
@@ -264,40 +292,6 @@ https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.h
 link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#create-and-configure-the-knowledge-base["创建知识库"]
 
 link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-compliance.html["了解BlueXP分类"^]
-
-
-
-== 2024年9月29日
-
-
-
-=== GenAI工作负载
-
-
-
-==== 为知识库卷提供快照和还原支持
-
-现在、您可以通过创建知识库的时间点副本来保护生成性AI工作负载数据。这样、您就可以保护数据、防止意外丢失或测试对知识库设置所做的更改。您可以随时还原知识库卷的先前版本。
-
-https://docs.netapp.com/us-en/workload-genai/manage-knowledgebase.html#take-a-snapshot-of-a-knowledge-base-volume["为知识库卷创建快照"]
-
-https://review.docs.netapp.com/us-en/workload-genai_29-sept-24-release/manage-knowledgebase.html#restore-a-snapshot-of-a-knowledge-base-volume["还原知识库卷的快照"]
-
-
-
-==== 暂停计划的扫描
-
-现在、您可以暂停计划的数据源扫描。默认情况下、生成性AI工作负载每天都会扫描每个数据源、以便将新数据导入到每个知识库中。如果您不希望(例如在测试或还原快照期间)导入最新更改、您可以随时暂停计划的扫描并恢复它们。
-
-https://docs.netapp.com/us-en/workload-genai/manage-knowledgebase.html["管理知识库"]
-
-
-
-==== 现在、知识库可支持数据保护卷
-
-现在、在选择知识库卷时、您可以选择属于NetApp SnapMirror复制关系的数据保护卷。这样、您就可以将知识库存储在已受SnapMirror复制保护的卷上。
-
-https://docs.netapp.com/us-en/workload-genai/identify-data-sources.html["确定要集成到知识库中的数据源"]
 
 
 
