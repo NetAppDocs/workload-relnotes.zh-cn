@@ -40,8 +40,6 @@
   <block id="d738890a4c9a0f96c08ae0ba66a626a1" category="inline-link">使用迁移顾问为Amazon EC2创建部署计划</block>
   <block id="2dbb83c0d88f8aa5c12c5445b2b248ee" category="paragraph"><block ref="2dbb83c0d88f8aa5c12c5445b2b248ee" category="inline-link-rx"></block></block>
   <block id="9f220db04e7195ea3730c9dd5537897c" category="section-title">2024年9月19日</block>
-  <block id="cf88fa43b4b0e1b1bfb66e894b188442" category="doc">了解FSx for Windows File Server上检测到的Microsoft SQL Server的节省量</block>
-  <block id="0df73578de7c34ef150c1f37953113f5" category="paragraph">现在、您可以在节省量计算器中探索使用FSx for Windows File Server存储在Amazon EC2上检测到的Microsoft SQL Server的节省量。根据您的SQL Server和存储要求、您可能会发现FSx for ONTAP存储是最经济高效的数据库工作负载。</block>
   <block id="94bc5d9f2e30e5678caa5a3b2feb4216" category="section-title">2024年9月29日</block>
   <block id="7d6d6d8a97f883d860bff04c0be1019c" category="inline-link-macro">利用FSx for ONTAP为数据库工作负载节省空间</block>
   <block id="293758d509326f8da42abf75db2d37e6" category="paragraph"><block ref="293758d509326f8da42abf75db2d37e6" category="inline-link-macro-rx"></block></block>
@@ -148,4 +146,20 @@
   <block id="1122186beaf8563a5f76bdc23dfd22a5" category="inline-link-macro">管理 CIFS 共享</block>
   <block id="f59eead66ce9829f954d28d72a4e99b1" category="paragraph"><block ref="f59eead66ce9829f954d28d72a4e99b1" category="inline-link-macro-rx"></block></block>
   <block id="065531f581a60b79025f539bd1ff1cff" category="section-title">2025年1月5日</block>
+  <block id="f418f614e126c9d215de85f00b5b7a7e" category="doc">数据库信息板增强功能</block>
+  <block id="c18a3eee23770f4e57bfa9ffe245c428" category="paragraph">仪表板的全新设计包括以下图形和增强功能：</block>
+  <block id="47ecffc6ee3a1f9bca5a81d55169b8b6" category="list-text">主机分布图显示了Microsoft SQL Server主机和PostgreSQL主机的数量</block>
+  <block id="ec506ecd03b96cac2e19d3abac7aa16e" category="list-text">实例分发详细信息包括检测到的实例总数以及受管Microsoft SQL Server和PostgreSQL实例的数量</block>
+  <block id="9bb5ee528a11ed94b071f88a078be55e" category="list-text">数据库分发详细信息包括数据库总数以及受管Microsoft SQL Server和PostgreSQL数据库的数量</block>
+  <block id="01fe24ee345a62672acb8a16826117d0" category="list-text">托管实例和联机实例的优化得分和状态</block>
+  <block id="341934677d47967f5c6e737476247396" category="list-text">存储、计算和应用程序类别的优化详细信息</block>
+  <block id="fb2f60a13243e168f321a9de2af52d51" category="list-text">有关Microsoft SQL Server实例配置的优化详细信息、例如存储规模估算、存储布局、ONTAP存储、计算和应用程序</block>
+  <block id="18168aa68b74c030711fe95b2b74afac" category="list-text">与适用于NetApp ONTAP存储的Amazon FSx相比、在适用于Windows文件服务器的Amazon Elasic Block Store和FSx存储环境中运行的数据库工作负载可能会节省空间</block>
+  <block id="1886db6545ee593b7bf9014a318fd354" category="section-title">作业监控中新增了"已完成但存在问题"状态</block>
+  <block id="ddd4a54acb0820f07017dcad26528779" category="paragraph">现在、数据库的作业监控功能可提供新的"已完成但存在问题"状态、以便您可以了解哪些子作业存在问题以及存在哪些问题。</block>
+  <block id="c72aad21ecf48b0a4f27430d70c166da" category="inline-link-macro">监控数据库</block>
+  <block id="5c89f4f6af1a71c2ed6cfac605e94c16" category="paragraph"><block ref="5c89f4f6af1a71c2ed6cfac605e94c16" category="inline-link-macro-rx"></block></block>
+  <block id="fd3039d7fbe9d24b3141aca3c62383a2" category="section-title">评估和优化过度配置的Microsoft SQL Server许可证</block>
+  <block id="f90a806c02db45741274868bc065ab90" category="paragraph">现在、节省量计算器将评估您的Microsoft SQL Server部署是否需要Enterprise Edition。如果许可证配置过度、计算器建议降级。通过优化应用程序、您将能够自动降级数据库中的许可证。</block>
+  <block id="c5e3fb9d31cd8a0b458ca9e3c4a690f6" category="section-title">2025年1月6日</block>
 </blocks>

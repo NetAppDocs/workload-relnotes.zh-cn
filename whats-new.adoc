@@ -15,6 +15,47 @@ summary: 了解BlueXP  工作负载工厂中工作负载的最新变化。
 
 
 
+== 2025年1月6日
+
+
+
+=== 数据库工作负载
+
+
+
+==== 数据库信息板增强功能
+
+仪表板的全新设计包括以下图形和增强功能：
+
+* 主机分布图显示了Microsoft SQL Server主机和PostgreSQL主机的数量
+* 实例分发详细信息包括检测到的实例总数以及受管Microsoft SQL Server和PostgreSQL实例的数量
+* 数据库分发详细信息包括数据库总数以及受管Microsoft SQL Server和PostgreSQL数据库的数量
+* 托管实例和联机实例的优化得分和状态
+* 存储、计算和应用程序类别的优化详细信息
+* 有关Microsoft SQL Server实例配置的优化详细信息、例如存储规模估算、存储布局、ONTAP存储、计算和应用程序
+* 与适用于NetApp ONTAP存储的Amazon FSx相比、在适用于Windows文件服务器的Amazon Elasic Block Store和FSx存储环境中运行的数据库工作负载可能会节省空间
+
+
+
+
+==== 作业监控中新增了"已完成但存在问题"状态
+
+现在、数据库的作业监控功能可提供新的"已完成但存在问题"状态、以便您可以了解哪些子作业存在问题以及存在哪些问题。
+
+link:https://docs.netapp.com/us-en/workload-databases/monitor-databases.html["监控数据库"]
+
+
+
+==== 评估和优化过度配置的Microsoft SQL Server许可证
+
+现在、节省量计算器将评估您的Microsoft SQL Server部署是否需要Enterprise Edition。如果许可证配置过度、计算器建议降级。通过优化应用程序、您将能够自动降级数据库中的许可证。
+
+* link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["利用FSx for ONTAP为数据库工作负载节省空间"^]
+* link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["优化SQL Server工作负载"]
+
+
+
+
 == 2025年1月5日
 
 
@@ -227,18 +268,6 @@ link:https://docs.netapp.com/us-en/bluexp-classification/concept-cloud-complianc
 
 
 == 2024年9月29日
-
-
-
-=== 数据库工作负载
-
-
-
-==== 了解FSx for Windows File Server上检测到的Microsoft SQL Server的节省量
-
-现在、您可以在节省量计算器中探索使用FSx for Windows File Server存储在Amazon EC2上检测到的Microsoft SQL Server的节省量。根据您的SQL Server和存储要求、您可能会发现FSx for ONTAP存储是最经济高效的数据库工作负载。
-
-link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["利用FSx for ONTAP为数据库工作负载节省空间"^]
 
 
 
