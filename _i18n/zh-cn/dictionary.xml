@@ -43,9 +43,6 @@
   <block id="cf88fa43b4b0e1b1bfb66e894b188442" category="doc">了解FSx for Windows File Server上检测到的Microsoft SQL Server的节省量</block>
   <block id="0df73578de7c34ef150c1f37953113f5" category="paragraph">现在、您可以在节省量计算器中探索使用FSx for Windows File Server存储在Amazon EC2上检测到的Microsoft SQL Server的节省量。根据您的SQL Server和存储要求、您可能会发现FSx for ONTAP存储是最经济高效的数据库工作负载。</block>
   <block id="94bc5d9f2e30e5678caa5a3b2feb4216" category="section-title">2024年9月29日</block>
-  <block id="cd1df627bd8e5b96916530ffbf4664f6" category="doc">更新链接创建</block>
-  <block id="3721bd571f4111dad2c363436de34c51" category="list-text">支持手动创建链接：此功能允许通过手动注册链接ARN在AWS CloudFormation中独立创建。当安全或开发运营团队协助创建链接时、这将非常有用。</block>
-  <block id="8997880c88dd70fe80799ee97bb7ac0c" category="inline-link-macro">创建链接</block>
   <block id="7d6d6d8a97f883d860bff04c0be1019c" category="inline-link-macro">利用FSx for ONTAP为数据库工作负载节省空间</block>
   <block id="293758d509326f8da42abf75db2d37e6" category="paragraph"><block ref="293758d509326f8da42abf75db2d37e6" category="inline-link-macro-rx"></block></block>
   <block id="1ae13d57da1c55ee537cb9dc63916d03" category="paragraph">现在、您可以通过创建知识库的时间点副本来保护生成性AI工作负载数据。这样、您就可以保护数据、防止意外丢失或测试对知识库设置所做的更改。您可以随时还原知识库卷的先前版本。</block>
@@ -87,9 +84,6 @@
   <block id="ccbb3c80d40b938a56e8803235ec679c" category="sidebar">本发行说明介绍了BlueXP  工作负载工厂中的云服务的最新增强功能。</block>
   <block id="15d6d0dbf56d72db14e4484abfd8982d" category="sidebar">BlueXP  工作负载出厂发行说明</block>
   <block id="21558f6938275b17b39171353ad95a65" category="paragraph">此版本的适用于VMware的工作负载工厂提供了一些功能和稳定性增强功能、并且能够在使用VMware迁移顾问时导入和导出迁移计划。</block>
-  <block id="5802490bb2e01aff3b4722eee028a516" category="list-text">CodeBox查看器：CodeBox现在集成在链接创建过程中。您可以在重定向到AWS以执行操作之前从工作负载工厂的CodeBox查看和复制CloudFormation模板。</block>
-  <block id="0d2cf987b55cf15b8f1dec5a05398183" category="list-text">所需权限：现在、您可以在工作负载工厂的"Create Link"(创建链接)向导中查看和复制在AWS CloudFormation中创建链接所需的权限。</block>
-  <block id="3874612023324fe909b90a886072b352" category="paragraph"><block ref="3874612023324fe909b90a886072b352" category="inline-link-macro-rx"></block></block>
   <block id="e5d3c7248ff4540f88c13fbf9252d0a3" category="inline-link-macro">工作负载出厂控制台</block>
   <block id="3171014553de64cf509a3b587c8baeb3" category="paragraph">可从获取RSS订阅<block ref="9d5ad87a67c1830e37fdd19a7a179db6" category="inline-link-macro-rx"></block>。使用RSS源是一种简单的使用方法、可以了解BlueXP  工作负载工厂中的变化。</block>
   <block id="0796995437665af1d920169e03b4542b" category="inline-image-macro">工作负载出厂控制台帮助下拉菜单的屏幕截图。用于订阅RSS的新按钮将作为选项显示在下拉菜单中。</block>
@@ -145,4 +139,13 @@
   <block id="3f4f1b85f4effee9c5e9ae9034f0e684" category="list-text">*快速与高级体验*：使用迁移顾问时，您现在可以选择使用RVtools的快速迁移体验或使用迁移顾问数据收集器的高级体验。</block>
   <block id="428b0b39be2352757edeb5f9f12a7bdd" category="inline-link">BlueXP  工作负载工厂</block>
   <block id="7cf449620aa459bc5c449db69b07e507" category="paragraph"><block ref="7cf449620aa459bc5c449db69b07e507" category="inline-link-rx"></block></block>
+  <block id="442b133d7d895a50d67d2f8514b6fc0a" category="doc">卷CIFS共享增强功能</block>
+  <block id="c67048e1717263df3fc8ffc894f40785" category="paragraph">以下增强功能可用于在BlueXP  工作负载工厂中管理Amazon FSx for ONTAP文件系统中卷的CIFS共享：</block>
+  <block id="28ee2134fc1275e4f2052b7bd91a9f8d" category="list-text">支持在一个卷上使用多个CIFS共享</block>
+  <block id="aa8a0747da321d7501a2f34bb5326b65" category="list-text">用于随时更新用户和组的选项</block>
+  <block id="a85d37847efda31b7b7b0ee3ee3cd2ab" category="list-text">用于随时更新用户和组权限的选项</block>
+  <block id="0c05c06c8c5abf5cf4956491502d212a" category="list-text">CIFS共享删除</block>
+  <block id="1122186beaf8563a5f76bdc23dfd22a5" category="inline-link-macro">管理 CIFS 共享</block>
+  <block id="f59eead66ce9829f954d28d72a4e99b1" category="paragraph"><block ref="f59eead66ce9829f954d28d72a4e99b1" category="inline-link-macro-rx"></block></block>
+  <block id="065531f581a60b79025f539bd1ff1cff" category="section-title">2025年1月5日</block>
 </blocks>
