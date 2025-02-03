@@ -29,10 +29,6 @@
   <block id="d738890a4c9a0f96c08ae0ba66a626a1" category="inline-link">使用迁移顾问为Amazon EC2创建部署计划</block>
   <block id="2dbb83c0d88f8aa5c12c5445b2b248ee" category="paragraph"><block ref="2dbb83c0d88f8aa5c12c5445b2b248ee" category="inline-link-rx"></block></block>
   <block id="7d6d6d8a97f883d860bff04c0be1019c" category="inline-link-macro">利用FSx for ONTAP为数据库工作负载节省空间</block>
-  <block id="31139fb3d548620b7d82f880e4660606" category="doc">存储清单中的选项卡视图</block>
-  <block id="d4aa654cea4681dd5ca03650594006c6" category="paragraph">存储清单已更新为双选项卡视图：</block>
-  <block id="71083868a2ec5abfee9a2647a74612c0" category="list-text">FSx for ONTAP选项卡：显示您当前拥有的适用于ONTAP文件系统的FSx。</block>
-  <block id="1113c9108b3e58789456954d1c2ea9c2" category="list-text">Explore savings选项卡：显示Elabic Block Store、FSx for Windows File Server和Elabic File Systems存储系统。然后、您可以通过将这些系统与FSx for ONTAP进行比较来了解节省的空间。</block>
   <block id="ca385f8a90dc256c71e43f23f9b870f2" category="section-title">2024年11月3日</block>
   <block id="5d743e351f2bc0b96d19c12d46be8be2" category="inline-link-macro">优化SQL Server工作负载</block>
   <block id="72d1af9ffdd277a1cf7789b588da9b4d" category="paragraph"><block ref="72d1af9ffdd277a1cf7789b588da9b4d" category="inline-link-macro-rx"></block></block>
@@ -165,4 +161,34 @@
   <block id="0d8e78270e3796caacf42c07616b7e32" category="paragraph">现在，以下权限在_read_模式下可用于数据库：<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block>。</block>
   <block id="6cff628e35cc5d429a57e4a125a0bf6b" category="inline-link-macro">权限引用更改日志</block>
   <block id="86fbb6c90e401f3291e15bdc1398509c" category="paragraph"><block ref="86fbb6c90e401f3291e15bdc1398509c" category="inline-link-macro-rx"></block></block>
+  <block id="ed2a329d6f9bf2181ff23014cff23ba5" category="doc">BlueXP  工作负载出厂控制台中的CloudShell</block>
+  <block id="5eaddd0f57f7eaddd8610d939876ec8d" category="paragraph">CloudShell是一种嵌入式命令行界面功能、可在BlueXP  工作负载工厂中用于存储。您可以使用CloudShell在类似于Shell的环境中的工作负载出厂控制台中从多个会话创建、共享和执行ONTAP或AWS命令行界面命令。</block>
+  <block id="09a780ee2763ed81ce7dcd3480b57fe4" category="inline-link-macro">详细了解BlueXP  工作负载工厂中的CloudShell</block>
+  <block id="feff74472562237513e0ca0c55cd4e38" category="paragraph"><block ref="feff74472562237513e0ca0c55cd4e38" category="inline-link-macro-rx"></block></block>
+  <block id="9be163b55bb1cb61b0ccee4ea40ae6ee" category="section-title">清单数据下载</block>
+  <block id="e61fb273c97526db97c128ce9bfc04a9" category="paragraph">现在、您可以从BlueXP  工作负载工厂的存储将FSx for ONTAP清单数据下载到Microsoft Excel或CSV文件中。</block>
+  <block id="1d242bf1e7b71fd8602570478aa1bdc8" category="inline-image-macro">BlueXP  工作负载工厂中的存储的屏幕截图、其中显示了用于下载FSx for ONTAP文件系统清单数据的新下载按钮。</block>
+  <block id="b8040f0b8b5eff64bb15c9fc0fbc96d6" category="paragraph"><block ref="b8040f0b8b5eff64bb15c9fc0fbc96d6" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="eae91301e6256990d5311778eafea0e5" category="section-title">FSx for ONTAP文件系统其他菜单选项</block>
+  <block id="0ad83f6b2d6e8bf103be3683c0c87ef9" category="paragraph">我们已通过"存储"中的FSx for ONTAP选项卡对FSx for ONTAP文件系统执行以下操作变得更加简单。</block>
+  <block id="8272f5b23e79d0ee33bd5151dcddc454" category="list-text">创建Storage VM</block>
+  <block id="dc88dce8ec264777b2f90ec0af744f43" category="list-text">创建卷</block>
+  <block id="8221d5fcbb1b8ef8a3fa535553679b44" category="list-text">复制卷数据</block>
+  <block id="bb8210b8fea9fd35bf14070e9b9f7cf9" category="inline-image-macro">"存储"中FSx for ONTAP选项卡的屏幕截图、其中显示了创建Storage VM、创建卷和复制卷数据的新菜单选项。</block>
+  <block id="2a10a5b76871c42edb3807a0dec574ae" category="paragraph"><block ref="2a10a5b76871c42edb3807a0dec574ae" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="2f72c2c06d295d3f5420254934ac77b1" category="section-title">Terraform支持创建卷</block>
+  <block id="7f28d622584eb6b05ee5ce1609e2de38" category="paragraph">现在、您可以使用CodeBox中的Terraform创建卷。</block>
+  <block id="d3156376048c94102c97709d5ff05e75" category="paragraph"><block ref="d3156376048c94102c97709d5ff05e75" category="inline-link-macro-rx"></block></block>
+  <block id="eb139dd9cb815e502d04047858e7c930" category="section-title">使用不可配置文件功能锁定文件</block>
+  <block id="849a110e76510a6394e4b27714d0bc20" category="paragraph">现在、在为FSx for ONTAP文件系统创建卷时、您可以使用不可改变的文件功能锁定文件。文件锁定可帮助您和其他人防止在指定期限内意外或故意删除文件。</block>
+  <block id="ea3d4df6f8aff21b2dfe549c5ecf9775" category="section-title">跟踪器可用于监控和跟踪操作</block>
+  <block id="c016252819aa3f6ede2b315b76b5c5b2" category="paragraph">Tracker、存储中提供了一种新的监控功能。您可以使用Tracker监控和跟踪凭据、存储和链接操作的进度和状态、查看操作任务和子任务的详细信息、诊断任何问题或故障、编辑失败操作的参数以及重试失败操作。</block>
+  <block id="7512718e82771ab0f98e51652a2e97c6" category="inline-link-macro">了解如何使用Tracker监控和跟踪操作</block>
+  <block id="30babb51ab17a107228fe65a4e65418b" category="paragraph"><block ref="30babb51ab17a107228fe65a4e65418b" category="inline-link-macro-rx"></block></block>
+  <block id="c1c23b72df9b53434f3c5ef6963cd2c1" category="section-title">支持适用于NetApp ONTAP文件系统的第二代Amazon FSx</block>
+  <block id="327da4942931ea47a06f556d15726878" category="paragraph">现在、您可以在BlueXP  工作负载工厂中对NetApp ONTAP第二代文件系统使用Amazon FSx。FSx for ONTAP第二代单AZ文件系统由多达12个HA对提供支持、可提供高达72 Gbps的吞吐量和240、000次SSD IOPS。FSx for ONTAP第二代Multi-AZ文件系统由一个HA对提供支持、可提供6 Gbps的吞吐量和200、000次SSD IOPS。</block>
+  <block id="a22d0116b85624117006e75d98d659db" category="inline-link-macro">添加高可用性对</block>
+  <block id="8a34eb45ca4cf03ce0d5e71fbfafb73a" category="list-text"><block ref="8a34eb45ca4cf03ce0d5e71fbfafb73a" category="inline-link-macro-rx"></block></block>
+  <block id="eeb5242f698ac9fda34591a326f4c0a3" category="inline-link-macro">Amazon FSx for NetApp ONTAP的配额和限制</block>
+  <block id="94f917accd36ed25f8a73175e8d4cdfb" category="list-text"><block ref="94f917accd36ed25f8a73175e8d4cdfb" category="inline-link-macro-rx"></block></block>
 </blocks>

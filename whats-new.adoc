@@ -48,6 +48,73 @@ link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.ht
 
 
 
+=== 适用于 NetApp ONTAP 的 Amazon FSX
+
+
+
+==== BlueXP  工作负载出厂控制台中的CloudShell
+
+CloudShell是一种嵌入式命令行界面功能、可在BlueXP  工作负载工厂中用于存储。您可以使用CloudShell在类似于Shell的环境中的工作负载出厂控制台中从多个会话创建、共享和执行ONTAP或AWS命令行界面命令。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["详细了解BlueXP  工作负载工厂中的CloudShell"^]
+
+
+
+==== 清单数据下载
+
+现在、您可以从BlueXP  工作负载工厂的存储将FSx for ONTAP清单数据下载到Microsoft Excel或CSV文件中。
+
+image:screenshot-fsx-inventory-download.png["BlueXP  工作负载工厂中的存储的屏幕截图、其中显示了用于下载FSx for ONTAP文件系统清单数据的新下载按钮。"]
+
+
+
+==== FSx for ONTAP文件系统其他菜单选项
+
+我们已通过"存储"中的FSx for ONTAP选项卡对FSx for ONTAP文件系统执行以下操作变得更加简单。
+
+* 创建Storage VM
+* 创建卷
+* 复制卷数据
+
+
+image:screenshot-filesystem-menu-options.png["\"存储\"中FSx for ONTAP选项卡的屏幕截图、其中显示了创建Storage VM、创建卷和复制卷数据的新菜单选项。"]
+
+
+
+==== Terraform支持创建卷
+
+现在、您可以使用CodeBox中的Terraform创建卷。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["创建卷"]
+
+
+
+==== 使用不可配置文件功能锁定文件
+
+现在、在为FSx for ONTAP文件系统创建卷时、您可以使用不可改变的文件功能锁定文件。文件锁定可帮助您和其他人防止在指定期限内意外或故意删除文件。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["创建卷"]
+
+
+
+==== 跟踪器可用于监控和跟踪操作
+
+Tracker、存储中提供了一种新的监控功能。您可以使用Tracker监控和跟踪凭据、存储和链接操作的进度和状态、查看操作任务和子任务的详细信息、诊断任何问题或故障、编辑失败操作的参数以及重试失败操作。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/monitor-operations.html["了解如何使用Tracker监控和跟踪操作"]
+
+
+
+==== 支持适用于NetApp ONTAP文件系统的第二代Amazon FSx
+
+现在、您可以在BlueXP  工作负载工厂中对NetApp ONTAP第二代文件系统使用Amazon FSx。FSx for ONTAP第二代单AZ文件系统由多达12个HA对提供支持、可提供高达72 Gbps的吞吐量和240、000次SSD IOPS。FSx for ONTAP第二代Multi-AZ文件系统由一个HA对提供支持、可提供6 Gbps的吞吐量和200、000次SSD IOPS。
+
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/add-ha-pairs.html["添加高可用性对"]
+* link:https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/limits.html["Amazon FSx for NetApp ONTAP的配额和限制"^]
+
+
+
+
 === GenAI工作负载
 
 
@@ -347,20 +414,6 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/use-onprem-data.html["发�
 
 
 == 2024年11月3日
-
-
-
-=== 适用于 NetApp ONTAP 的 Amazon FSX
-
-
-
-==== 存储清单中的选项卡视图
-
-存储清单已更新为双选项卡视图：
-
-* FSx for ONTAP选项卡：显示您当前拥有的适用于ONTAP文件系统的FSx。
-* Explore savings选项卡：显示Elabic Block Store、FSx for Windows File Server和Elabic File Systems存储系统。然后、您可以通过将这些系统与FSx for ONTAP进行比较来了解节省的空间。
-
 
 
 
