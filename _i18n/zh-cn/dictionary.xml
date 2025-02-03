@@ -38,12 +38,6 @@
   <block id="72d1af9ffdd277a1cf7789b588da9b4d" category="paragraph"><block ref="72d1af9ffdd277a1cf7789b588da9b4d" category="inline-link-macro-rx"></block></block>
   <block id="3197d9ffc65dc1fe1469440d8891e79d" category="doc">VMware迁移顾问数据精简率帮助</block>
   <block id="10ced15d9df199f8cb002561b8728770" category="paragraph">此版本的Workload Factory for VMware具有一个数据精简率助手。在准备加入AWS云时、数据精简率助手可帮助您确定最适合您的VMware库存和存储资产的比率。</block>
-  <block id="17e908b1a02b6ec45f4e125877322d0f" category="doc">使用数据防护屏蔽个人身份信息</block>
-  <block id="0f21cd7bd10e747bca7894a609acc04b" category="paragraph">生成型AI工作负载引入了由BlueXP  分类提供支持的数据防护功能。数据防护功能可识别和屏蔽个人身份信息(Personal可识别信息、Personal可识别信息、Personal可识别信息)、帮助您保持合规性并增强敏感组织数据的安全性。</block>
-  <block id="0da805b7cc0727848a84e995ab36cd76" category="inline-link-macro">创建知识库</block>
-  <block id="8137174f639d391921dfeb8ca6d792d1" category="paragraph"><block ref="8137174f639d391921dfeb8ca6d792d1" category="inline-link-macro-rx"></block></block>
-  <block id="a686d5fa6b6925450f1b7fa2b4245d28" category="inline-link-macro">了解BlueXP分类</block>
-  <block id="384713a8a1d5a2dd365da2851c50ad93" category="paragraph"><block ref="384713a8a1d5a2dd365da2851c50ad93" category="inline-link-macro-rx"></block></block>
   <block id="d2705530e45ff55c7a7db4a1196a8b0d" category="summary">了解BlueXP  工作负载工厂中工作负载的最新变化。</block>
   <block id="482a03f8810c074753dd4da1f075dc70" category="doc">BlueXP  工作负载出厂时的最新变更</block>
   <block id="ccbb3c80d40b938a56e8803235ec679c" category="sidebar">本发行说明介绍了BlueXP  工作负载工厂中的云服务的最新增强功能。</block>
@@ -156,4 +150,17 @@
   <block id="d1e68728a28b7936858b1484445ef50f" category="inline-link-macro">优化配置</block>
   <block id="7c2632b8df180cfa1528450b19070928" category="paragraph"><block ref="7c2632b8df180cfa1528450b19070928" category="inline-link-macro-rx"></block></block>
   <block id="b19ee84dca9cb059a9aa42ed54c05752" category="section-title">2025年2月3日</block>
+  <block id="77fd00559b8279b555e48d21e5e67c34" category="doc">数据源的文件类型筛选</block>
+  <block id="47cf5538cc85b7acf0e24098fc5bbffd" category="paragraph">现在、GenAI支持在添加数据源时选择要包括在数据源扫描中的特定文件类型。</block>
+  <block id="9bd079cbc91b32393983ae28a378c00c" category="inline-link-macro">向知识库添加数据源</block>
+  <block id="e57c1e86c82776cdcb9c50b4e82943f8" category="paragraph"><block ref="e57c1e86c82776cdcb9c50b4e82943f8" category="inline-link-macro-rx"></block></block>
+  <block id="f191d5f0a123d62966b3617a9d8c752c" category="section-title">数据源的文件修改日期筛选</block>
+  <block id="b1be3e2e5ab05373dbf3927507ea84d2" category="paragraph">现在、GenAI支持在添加数据源时按修改日期筛选要包含在数据源扫描中的文件。您可以为包含的文件选择修改日期范围。</block>
+  <block id="7a7ba68ff13813a8c9d7413b67a91e34" category="section-title">支持图像文件和增强的PDF文件支持</block>
+  <block id="02edd7a4065e5f73535b550150fc46f2" category="paragraph">现在、GenAI支持扫描图像文件和PDF文件中的图像(也称为多模式文件支持)。如果选择图像文件、则图像中的文本将扫描到数据源并用作数据。此功能包括PDF文档中的图像；如果包含PDF文件类型、则会扫描每个PDF中的图像以查找文本、并且该文本会包含在数据源的信息中。</block>
+  <block id="b9a5ff8382cbb9f5609b8bff25344245" category="section-title">混合搜索和重新搜索支持</block>
+  <block id="429b63d212adaceb6de8dae934d76ea4" category="paragraph">现在、GenAI可以使用混合搜索并重新排列结果、从而增强搜索结果的相关性。混合搜索将关键字搜索与向量和语法搜索结合在一起。标准关键字搜索结果通过近似匹配和语言细微差别得到增强、从而增强相关性。GenAI会重新排列搜索结果、并仅返回相关性最高的结果。</block>
+  <block id="77c129bd3271a24d7bdf27f4904c52f4" category="inline-link-macro">了解适用于GenAI的BlueXP  工作负载工厂</block>
+  <block id="397adcec169a6ce17f0abfc941258c0f" category="paragraph"><block ref="397adcec169a6ce17f0abfc941258c0f" category="inline-link-macro-rx"></block></block>
+  <block id="1d8ce1cfc87620dad9c49f1de100a4fb" category="section-title">2025年2月2日</block>
 </blocks>
