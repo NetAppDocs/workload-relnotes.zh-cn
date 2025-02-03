@@ -42,12 +42,6 @@
   <block id="482a03f8810c074753dd4da1f075dc70" category="doc">BlueXP  工作负载出厂时的最新变更</block>
   <block id="ccbb3c80d40b938a56e8803235ec679c" category="sidebar">本发行说明介绍了BlueXP  工作负载工厂中的云服务的最新增强功能。</block>
   <block id="15d6d0dbf56d72db14e4484abfd8982d" category="sidebar">BlueXP  工作负载出厂发行说明</block>
-  <block id="dfc4a97a3fe947a314ae908cf036cbfe" category="doc">工作负载在出厂时集成在BlueXP  控制台中</block>
-  <block id="5975f7e9036c78e6217b16f295f0ca75" category="inline-link-macro">BlueXP控制台</block>
-  <block id="d2feef96259a41a7842dc5e7af577d63" category="paragraph">现在，您可以从使用工作负载工厂<block ref="391de7a3bac2bc77fa53dffb3f53801a" category="inline-link-macro-rx"></block>。BlueXP  控制台体验可提供与工作负载出厂控制台相同的功能。</block>
-  <block id="717f9c6475fbb39a24ab9942c1a903c0" category="inline-link-macro">了解如何从BlueXP  控制台访问工作负载工厂</block>
-  <block id="f462230f4e4289784e8469f2babda8fd" category="section-title">2024年11月11日</block>
-  <block id="1a34f743bd98b1658401ce2f8206ff9a" category="paragraph"><block ref="1a34f743bd98b1658401ce2f8206ff9a" category="inline-link-macro-rx"></block></block>
   <block id="c4f10a04f7aa75535a8a0475261393eb" category="doc">适用于ONTAP文件系统的横向扩展FSx的块存储</block>
   <block id="152983842f852ef5bae46ac675caec95" category="paragraph">现在、如果使用的是最多包含6个HA对的横向扩展文件系统部署、则可以通过FSx for ONTAP配置块存储。</block>
   <block id="88ece72bda0e38c0bdca32d19f42a979" category="inline-link-macro">在BlueXP  工作负载出厂时为ONTAP文件系统创建FSx</block>
@@ -163,4 +157,12 @@
   <block id="77c129bd3271a24d7bdf27f4904c52f4" category="inline-link-macro">了解适用于GenAI的BlueXP  工作负载工厂</block>
   <block id="397adcec169a6ce17f0abfc941258c0f" category="paragraph"><block ref="397adcec169a6ce17f0abfc941258c0f" category="inline-link-macro-rx"></block></block>
   <block id="1d8ce1cfc87620dad9c49f1de100a4fb" category="section-title">2025年2月2日</block>
+  <block id="e2cc7d8ef2a865dce7c7e225dd72d92c" category="doc">BlueXP  工作负载出厂控制台中提供了CloudShell</block>
+  <block id="7f1ab9d2ad99562dfd8cff4cb4c70b29" category="paragraph">您可以从BlueXP  工作负载出厂控制台中的任何位置访问CloudShell。通过CloudShell、您可以使用在BlueXP  帐户中提供的AWS和ONTAP凭据、并在类似于Shell的环境中执行AWS命令行界面命令或ONTAP命令行界面命令。</block>
+  <block id="4ab00ae468588a563b956d814954695d" category="inline-link-macro">使用CloudShell</block>
+  <block id="2004b4ad1feb57e1e4505f5888cfbb60" category="paragraph"><block ref="2004b4ad1feb57e1e4505f5888cfbb60" category="inline-link-macro-rx"></block></block>
+  <block id="f3a98886e89c22ab1a8df16ff87d5b3c" category="section-title">更新数据库的权限</block>
+  <block id="0d8e78270e3796caacf42c07616b7e32" category="paragraph">现在，以下权限在_read_模式下可用于数据库：<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block>。</block>
+  <block id="6cff628e35cc5d429a57e4a125a0bf6b" category="inline-link-macro">权限引用更改日志</block>
+  <block id="86fbb6c90e401f3291e15bdc1398509c" category="paragraph"><block ref="86fbb6c90e401f3291e15bdc1398509c" category="inline-link-macro-rx"></block></block>
 </blocks>
