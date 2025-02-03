@@ -21,9 +21,6 @@
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知文件提供有关 NetApp 软件中使用的第三方版权和许可证的信息。</block>
   <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">新增功能</block>
   <block id="dcf4ee5c8f297d1f5e0da7b22e359023" category="sidebar">最近更改</block>
-  <block id="efa42d5c66cb9948f402ee559611e12d" category="doc">Terraform支持</block>
-  <block id="2532cd63354e6e99119077d45134b5ef" category="inline-link-macro">使用CodeBox中的Terraform</block>
-  <block id="11cb17d1b990bbf37a24337d5692efa1" category="list-text"><block ref="11cb17d1b990bbf37a24337d5692efa1" category="inline-link-macro-rx"></block></block>
   <block id="38bd169945a371832b0b65c9086b1792" category="doc">数据库工作负载</block>
   <block id="4d82a1ec1af02725042c8c785564ee7a" category="doc">适用于 NetApp ONTAP 的 Amazon FSX</block>
   <block id="b04deaa23ce22ae0dafa2736e8afebed" category="doc">GenAI工作负载</block>
@@ -37,13 +34,8 @@
   <block id="71083868a2ec5abfee9a2647a74612c0" category="list-text">FSx for ONTAP选项卡：显示您当前拥有的适用于ONTAP文件系统的FSx。</block>
   <block id="1113c9108b3e58789456954d1c2ea9c2" category="list-text">Explore savings选项卡：显示Elabic Block Store、FSx for Windows File Server和Elabic File Systems存储系统。然后、您可以通过将这些系统与FSx for ONTAP进行比较来了解节省的空间。</block>
   <block id="ca385f8a90dc256c71e43f23f9b870f2" category="section-title">2024年11月3日</block>
-  <block id="0928468cb2283b21e6802a78c6a64e3a" category="doc">使用数据库持续优化Microsoft SQL Server工作负载</block>
-  <block id="e73fa899152fb6836032fef4e1c95da4" category="paragraph">BlueXP  工作负载工厂引入了持续指导和保障措施、以确保在Amazon FSx for NetApp ONTAP上对Microsoft SQL Server工作负载的存储组件进行持续优化并遵循最佳实践。此功能会持续脱机扫描您的Microsoft SQL Server资产、为您提供一份全面的见解、机会和建议报告、帮助您实现最佳性能、成本效益和合规性。</block>
   <block id="5d743e351f2bc0b96d19c12d46be8be2" category="inline-link-macro">优化SQL Server工作负载</block>
   <block id="72d1af9ffdd277a1cf7789b588da9b4d" category="paragraph"><block ref="72d1af9ffdd277a1cf7789b588da9b4d" category="inline-link-macro-rx"></block></block>
-  <block id="822802a1673e79cb7dbd54947e4dc32c" category="paragraph">现在、您可以从CodeBox中使用Terraform部署Microsoft SQL Server。</block>
-  <block id="83f5267b900a40e93e73e9ace47d4412" category="inline-link-macro">创建数据库服务器</block>
-  <block id="d83b54de9b50110195e4bf3c1f3c6a67" category="list-text"><block ref="d83b54de9b50110195e4bf3c1f3c6a67" category="inline-link-macro-rx"></block></block>
   <block id="3197d9ffc65dc1fe1469440d8891e79d" category="doc">VMware迁移顾问数据精简率帮助</block>
   <block id="10ced15d9df199f8cb002561b8728770" category="paragraph">此版本的Workload Factory for VMware具有一个数据精简率助手。在准备加入AWS云时、数据精简率助手可帮助您确定最适合您的VMware库存和存储资产的比率。</block>
   <block id="17e908b1a02b6ec45f4e125877322d0f" category="doc">使用数据防护屏蔽个人身份信息</block>
@@ -152,4 +144,16 @@
   <block id="5291909ce92037a20a37f7a0c86dd921" category="paragraph">现在、您可以查看BlueXP  工作负载工厂执行各种操作所使用的权限、这些操作从发现存储环境到为GenAI工作负载部署AWS资源(例如存储中的文件系统或知识库)不等。您可以查看存储、数据库、VMware和GenAI工作负载的IAM策略和权限。</block>
   <block id="f157db6a1ae10e7a29a28440d21f5cb8" category="paragraph"><block ref="f157db6a1ae10e7a29a28440d21f5cb8" category="inline-link-macro-rx"></block></block>
   <block id="43c56433351f336a8ecd0e9efa7ddca4" category="section-title">2025年1月22日</block>
+  <block id="efc2466e55cc45101064c2ade9e1ac96" category="doc">内部数据库环境成本分析和迁移规划</block>
+  <block id="b070dbce75db746d44b4965253ae3c9f" category="paragraph">现在、适用于数据库的BlueXP  工作负载工厂可以检测、分析并帮助您规划将内部数据库迁移到Amazon FSx for NetApp ONTAP的过程。您可以使用节省计算器估算在云中运行内部数据库环境的成本、并查看将内部数据库环境迁移到云的建议。</block>
+  <block id="ae5954c9b41b0bfb09043a4117743d2d" category="inline-link-macro">了解内部数据库环境的节省量</block>
+  <block id="9621b726ce4b31f0b7bc139a85ef6f38" category="paragraph"><block ref="9621b726ce4b31f0b7bc139a85ef6f38" category="inline-link-macro-rx"></block></block>
+  <block id="6003a521aa2fb4eca1577921d2f2d6ec" category="section-title">新的数据库优化评估</block>
+  <block id="a66d8cac65b4a62026dda75c54de5093" category="paragraph">现在、BlueXP  工作负载工厂提供了以下数据库评估。这些评估侧重于检测和防范潜在的安全漏洞、以及检测和缓解性能瓶颈。</block>
+  <block id="41e5288ef108e483da5a07bf4a8c654d" category="list-text">*接收端扩展(RSS)配置*：检查RSS配置是否已启用，队列数量是否设置为建议值。此评估还会提供有关优化RSS配置的建议。</block>
+  <block id="20c22843405fd91269ed56974f603ebf" category="list-text">*最大并行度(MAXDOP)服务器配置*：评估检查MAXDOP是否配置正确，并提供优化性能的建议。</block>
+  <block id="288748eac82542205cccb2a59e324600" category="list-text">*Microsoft SQL Server修补程序*：评估检查SQL Server实例上是否安装了最新的修补程序，并提供安装最新修补程序的建议。</block>
+  <block id="d1e68728a28b7936858b1484445ef50f" category="inline-link-macro">优化配置</block>
+  <block id="7c2632b8df180cfa1528450b19070928" category="paragraph"><block ref="7c2632b8df180cfa1528450b19070928" category="inline-link-macro-rx"></block></block>
+  <block id="b19ee84dca9cb059a9aa42ed54c05752" category="section-title">2025年2月3日</block>
 </blocks>
