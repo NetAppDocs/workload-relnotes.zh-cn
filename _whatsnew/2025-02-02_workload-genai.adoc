@@ -1,6 +1,14 @@
-= 数据源的文件类型筛选
+= 支持Amazon Nova基础模型
 :allow-uri-read: 
 
+
+
+
+=== 支持Amazon Nova基础模型
+
+现在、GenAI支持Amazon Nova基础模型。支持Amazon Nova Micro、Amazon Nova Lite和Amazon Nova Pro。
+
+link:https://docs.netapp.com/us-en/workload-genai/requirements.html["GenAI要求"]
 
 
 
