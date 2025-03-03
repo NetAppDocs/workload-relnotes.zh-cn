@@ -1,0 +1,50 @@
+= 自动容量管理改进
+:allow-uri-read: 
+
+
+
+
+=== 自动容量管理改进
+
+启用自动容量管理后、BlueXP  Workload Factory现在会每30分钟检查一次文件系统是否达到其容量阈值、而不是每2小时检查一次。
+
+工作负载工厂还会扫描卷中的可用Inode、并根据配置的自动容量管理阈值增加其计数。
+
+达到容量阈值时、配置的IOPS设置不再受影响。
+
+
+
+=== 不可变更的快照
+
+现在、您可以锁定快照、使其在特定保留期限内不可改变。锁定可防止未经授权的访问和恶意删除快照。您可以在创建快照策略期间、创建手动快照时以及创建快照之后启用不可变快照。
+
+
+
+=== 更新不可更改的文件
+
+现在、您可以对不可变文件配置进行以下更改：保留策略、保留期限、自动提交期限和卷附加模式。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-immutable-files.html["管理不可配置文件"^]
+
+
+
+=== 数据复制增强功能
+
+* 跨帐户复制：BlueXP  工作负载出厂控制台支持在两个AWS帐户之间进行复制以及复制管理。
+* 数据保护卷复制：现在、当卷从复制的卷进行复制时、数据保护卷支持级联复制。
++
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/cascade-replication.html["复制数据保护卷"]
+
+* 暂停和恢复复制：您可以暂停(暂停)从源卷到目标卷的计划复制更新、然后在准备就绪后恢复复制计划。暂停期间、源卷和目标卷会彼此独立、目标卷会从只读过渡到读写。
++
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/pause-resume-replication.html["暂停和恢复复制关系"]
+
+
+
+
+
+=== Tracker中的CloudShell事件
+
+现在、您可以在Tracker中跟踪CloudShell事件。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/monitor-operations.html["了解如何使用Tracker监控和跟踪操作"]

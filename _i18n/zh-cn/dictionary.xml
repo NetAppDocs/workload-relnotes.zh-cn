@@ -38,28 +38,10 @@
   <block id="482a03f8810c074753dd4da1f075dc70" category="doc">BlueXP  工作负载出厂时的最新变更</block>
   <block id="ccbb3c80d40b938a56e8803235ec679c" category="sidebar">本发行说明介绍了BlueXP  工作负载工厂中的云服务的最新增强功能。</block>
   <block id="15d6d0dbf56d72db14e4484abfd8982d" category="sidebar">BlueXP  工作负载出厂发行说明</block>
-  <block id="c4f10a04f7aa75535a8a0475261393eb" category="doc">适用于ONTAP文件系统的横向扩展FSx的块存储</block>
-  <block id="152983842f852ef5bae46ac675caec95" category="paragraph">现在、如果使用的是最多包含6个HA对的横向扩展文件系统部署、则可以通过FSx for ONTAP配置块存储。</block>
-  <block id="88ece72bda0e38c0bdca32d19f42a979" category="inline-link-macro">在BlueXP  工作负载出厂时为ONTAP文件系统创建FSx</block>
-  <block id="8cce6f6c21973d5dff1898076cddb209" category="paragraph"><block ref="8cce6f6c21973d5dff1898076cddb209" category="inline-link-macro-rx"></block></block>
-  <block id="609b2d9256f15ecb9d57d3f545d91174" category="section-title">可使用mount命令</block>
-  <block id="67ba5d91692276a76737790f2df885ec" category="paragraph">现在、可以使用挂载命令通过NFS和CIFS访问卷。您可以通过依次选择*Basic Actions*和*view mount command*来获取FSx for ONTAP文件系统中卷的挂载点。</block>
-  <block id="f12470a0bbf95a722b70847640bd40c9" category="inline-image-macro">屏幕截图、显示了如何查看挂载命令、方法是进入FSx for ONTAP文件系统、选择卷菜单、选择基本操作、然后选择查看挂载命令。此时将显示mount命令对话框、并显示用于CIFS或NFS访问的mount命令。</block>
-  <block id="21817bf964617ea4f875252102707119" category="paragraph"><block ref="21817bf964617ea4f875252102707119" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="0087bca38db021c2b14c65d5893a9339" category="inline-link-macro">卷的view mount命令</block>
-  <block id="41cd808fdcb8411a8a73071649aca98e" category="paragraph"><block ref="41cd808fdcb8411a8a73071649aca98e" category="inline-link-macro-rx"></block></block>
-  <block id="70bf70871888ae321ee591627f1f149f" category="section-title">创建卷后更新存储效率</block>
-  <block id="4b1987aeb3ee9f5859457d872de9697a" category="paragraph">现在、您可以在创建卷后为FlexVol卷启用或禁用存储效率。存储效率包括重复数据删除、数据压缩和数据缩减。启用存储效率有助于在FlexVol volume上实现最佳空间节省。</block>
-  <block id="b8ae90ddbb68f3303ee755cd1d9b5819" category="inline-link-macro">更新卷的存储效率</block>
-  <block id="d26d51c8a86d1db1cfe8dd0317cc6274" category="paragraph"><block ref="d26d51c8a86d1db1cfe8dd0317cc6274" category="inline-link-macro-rx"></block></block>
   <block id="aadb8a2a44b75c1333f5a52c2ceb1516" category="section-title">内部ONTAP集群发现和复制</block>
   <block id="490a30e9496a9d55f2cfdb934812658b" category="paragraph">发现内部ONTAP集群数据并将其复制到FSx for ONTAP文件系统、以便用于丰富AI知识库。所有内部发现和复制工作流均可从存储清单中新的*内部ONTAP *选项卡访问。</block>
   <block id="c6f905e067bdaa7ba33a58a907e59477" category="inline-link-macro">发现内部 ONTAP 集群</block>
   <block id="b169507cd10826b5a52f573e2f75ad2c" category="paragraph"><block ref="b169507cd10826b5a52f573e2f75ad2c" category="inline-link-macro-rx"></block></block>
-  <block id="67e962050c9494ada1eab84c21826e3c" category="section-title">AWS凭据可改进节省量计算器分析</block>
-  <block id="81e738c909aeee7a4a781716391eae27" category="paragraph">现在、您可以选择从节省量计算器添加AWS凭据。与FSx for ONTAP相比、添加凭据可以提高Amazon El生 性块存储、El生 性文件系统和FSx for Windows文件服务器存储环境的节省量计算器分析的准确性。</block>
-  <block id="dd0818ef84ecf338be3c795b4a57e5c4" category="inline-link-macro">了解BlueXP  工作负载工厂中FSx for ONTAP的节省情况</block>
-  <block id="f98d47c0920e02232d981da56f082627" category="paragraph"><block ref="f98d47c0920e02232d981da56f082627" category="inline-link-macro-rx"></block></block>
   <block id="80d5de3a419a69be5ba960bb0fef9a1d" category="section-title">2024年12月1日</block>
   <block id="18caf85143cff2e29943f7fa50a9d531" category="doc">持续优化增加了计算修复和评估功能</block>
   <block id="275b08f4e33388b6598899e256fe46b3" category="paragraph">数据库现在可提供洞察力和建议、帮助您优化Microsoft SQL Server实例的计算资源。我们会测量CPU利用率、并利用AWS计算优化器服务来建议规模合适的最佳实例类型、并通知您可用的操作系统修补程序。优化计算资源有助于您在实例类型方面做出明智的决策、从而节省成本并高效利用资源。</block>
@@ -195,4 +177,25 @@
   <block id="ba0908c46e81d6dfcc41f1af42be123c" category="paragraph">现在、GenAI支持Amazon Nova基础模型。支持Amazon Nova Micro、Amazon Nova Lite和Amazon Nova Pro。</block>
   <block id="43b842fd441ce1ce92d22fb0ca25a507" category="inline-link-macro">GenAI要求</block>
   <block id="5ddfb412189af7bcce0a056c9fcef326" category="paragraph"><block ref="5ddfb412189af7bcce0a056c9fcef326" category="inline-link-macro-rx"></block></block>
+  <block id="4a922c367b35639ecb9d911b81fdb458" category="doc">自动容量管理改进</block>
+  <block id="5868fd5ebf39f0f3dce9bd4ba23dcb6f" category="paragraph">启用自动容量管理后、BlueXP  Workload Factory现在会每30分钟检查一次文件系统是否达到其容量阈值、而不是每2小时检查一次。</block>
+  <block id="b8f4f574565ae3f9b004976be6075660" category="paragraph">工作负载工厂还会扫描卷中的可用Inode、并根据配置的自动容量管理阈值增加其计数。</block>
+  <block id="410d677b6db33c7f47c30b3d219c4846" category="paragraph">达到容量阈值时、配置的IOPS设置不再受影响。</block>
+  <block id="c21bf517f636f8492b01232a674a8d2e" category="section-title">不可变更的快照</block>
+  <block id="525386f4531b9b4bbd2b84ae92c59c07" category="paragraph">现在、您可以锁定快照、使其在特定保留期限内不可改变。锁定可防止未经授权的访问和恶意删除快照。您可以在创建快照策略期间、创建手动快照时以及创建快照之后启用不可变快照。</block>
+  <block id="b811c826e0c0b54d5803fe35cb209c82" category="section-title">更新不可更改的文件</block>
+  <block id="a321ab5f7c12f7cdaa9d6077d68dc055" category="paragraph">现在、您可以对不可变文件配置进行以下更改：保留策略、保留期限、自动提交期限和卷附加模式。</block>
+  <block id="a864feef5272f034d55e1119c5495be8" category="inline-link-macro">管理不可配置文件</block>
+  <block id="0825291b8f1461ab76888807d639764b" category="paragraph"><block ref="0825291b8f1461ab76888807d639764b" category="inline-link-macro-rx"></block></block>
+  <block id="2915f18b56c3e4e3c1ef137551d9a65d" category="section-title">数据复制增强功能</block>
+  <block id="114e60d7d0f811f597761cf833328a96" category="list-text">跨帐户复制：BlueXP  工作负载出厂控制台支持在两个AWS帐户之间进行复制以及复制管理。</block>
+  <block id="6fa19d46a9961be1aeabe428c8550d2f" category="list-text">数据保护卷复制：现在、当卷从复制的卷进行复制时、数据保护卷支持级联复制。</block>
+  <block id="699cadf384181ae5970ed8c0de60e0ff" category="inline-link-macro">复制数据保护卷</block>
+  <block id="f4ae9aa33f99746ec1459126f50c3db7" category="paragraph"><block ref="f4ae9aa33f99746ec1459126f50c3db7" category="inline-link-macro-rx"></block></block>
+  <block id="0348e63af5ee6958b15125648a1ecae7" category="list-text">暂停和恢复复制：您可以暂停(暂停)从源卷到目标卷的计划复制更新、然后在准备就绪后恢复复制计划。暂停期间、源卷和目标卷会彼此独立、目标卷会从只读过渡到读写。</block>
+  <block id="38485996f06c5e13eed5605901b52530" category="inline-link-macro">暂停和恢复复制关系</block>
+  <block id="fc81b1e4233a48b719520033e56b4194" category="paragraph"><block ref="fc81b1e4233a48b719520033e56b4194" category="inline-link-macro-rx"></block></block>
+  <block id="fd8693cf8f6802fd1c7d50d5742a4c71" category="section-title">Tracker中的CloudShell事件</block>
+  <block id="e7a6197673267c30b5dc86e0d5f6c536" category="paragraph">现在、您可以在Tracker中跟踪CloudShell事件。</block>
+  <block id="ab4a8520fe8e2e09df8b9471a8d923bf" category="section-title">2025年3月2日</block>
 </blocks>

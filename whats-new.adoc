@@ -15,6 +15,61 @@ summary: 了解BlueXP  工作负载工厂中工作负载的最新变化。
 
 
 
+== 2025年3月2日
+
+
+
+=== 适用于 NetApp ONTAP 的 Amazon FSX
+
+
+
+==== 自动容量管理改进
+
+启用自动容量管理后、BlueXP  Workload Factory现在会每30分钟检查一次文件系统是否达到其容量阈值、而不是每2小时检查一次。
+
+工作负载工厂还会扫描卷中的可用Inode、并根据配置的自动容量管理阈值增加其计数。
+
+达到容量阈值时、配置的IOPS设置不再受影响。
+
+
+
+==== 不可变更的快照
+
+现在、您可以锁定快照、使其在特定保留期限内不可改变。锁定可防止未经授权的访问和恶意删除快照。您可以在创建快照策略期间、创建手动快照时以及创建快照之后启用不可变快照。
+
+
+
+==== 更新不可更改的文件
+
+现在、您可以对不可变文件配置进行以下更改：保留策略、保留期限、自动提交期限和卷附加模式。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-immutable-files.html["管理不可配置文件"^]
+
+
+
+==== 数据复制增强功能
+
+* 跨帐户复制：BlueXP  工作负载出厂控制台支持在两个AWS帐户之间进行复制以及复制管理。
+* 数据保护卷复制：现在、当卷从复制的卷进行复制时、数据保护卷支持级联复制。
++
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/cascade-replication.html["复制数据保护卷"]
+
+* 暂停和恢复复制：您可以暂停(暂停)从源卷到目标卷的计划复制更新、然后在准备就绪后恢复复制计划。暂停期间、源卷和目标卷会彼此独立、目标卷会从只读过渡到读写。
++
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/pause-resume-replication.html["暂停和恢复复制关系"]
+
+
+
+
+
+==== Tracker中的CloudShell事件
+
+现在、您可以在Tracker中跟踪CloudShell事件。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/monitor-operations.html["了解如何使用Tracker监控和跟踪操作"]
+
+
+
 == 2025年2月3日
 
 
@@ -315,52 +370,6 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/manage-service-accounts.
 
 
 == 2024年12月1日
-
-
-
-=== 适用于 NetApp ONTAP 的 Amazon FSX
-
-
-
-==== 适用于ONTAP文件系统的横向扩展FSx的块存储
-
-现在、如果使用的是最多包含6个HA对的横向扩展文件系统部署、则可以通过FSx for ONTAP配置块存储。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-file-system.html["在BlueXP  工作负载出厂时为ONTAP文件系统创建FSx"]
-
-
-
-==== 可使用mount命令
-
-现在、可以使用挂载命令通过NFS和CIFS访问卷。您可以通过依次选择*Basic Actions*和*view mount command*来获取FSx for ONTAP文件系统中卷的挂载点。
-
-image:screenshot-view-mount-command.png["屏幕截图、显示了如何查看挂载命令、方法是进入FSx for ONTAP文件系统、选择卷菜单、选择基本操作、然后选择查看挂载命令。此时将显示mount命令对话框、并显示用于CIFS或NFS访问的mount命令。"]
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/access-data.html["卷的view mount命令"]
-
-
-
-==== 创建卷后更新存储效率
-
-现在、您可以在创建卷后为FlexVol卷启用或禁用存储效率。存储效率包括重复数据删除、数据压缩和数据缩减。启用存储效率有助于在FlexVol volume上实现最佳空间节省。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/update-storage-efficiency.html["更新卷的存储效率"]
-
-
-
-==== 内部ONTAP集群发现和复制
-
-发现内部ONTAP集群数据并将其复制到FSx for ONTAP文件系统、以便用于丰富AI知识库。所有内部发现和复制工作流均可从存储清单中新的*内部ONTAP *选项卡访问。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/use-onprem-data.html["发现内部 ONTAP 集群"]
-
-
-
-==== AWS凭据可改进节省量计算器分析
-
-现在、您可以选择从节省量计算器添加AWS凭据。与FSx for ONTAP相比、添加凭据可以提高Amazon El生 性块存储、El生 性文件系统和FSx for Windows文件服务器存储环境的节省量计算器分析的准确性。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/explore-savings.html["了解BlueXP  工作负载工厂中FSx for ONTAP的节省情况"]
 
 
 
