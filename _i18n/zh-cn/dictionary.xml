@@ -29,24 +29,13 @@
   <block id="d738890a4c9a0f96c08ae0ba66a626a1" category="inline-link">使用迁移顾问为Amazon EC2创建部署计划</block>
   <block id="2dbb83c0d88f8aa5c12c5445b2b248ee" category="paragraph"><block ref="2dbb83c0d88f8aa5c12c5445b2b248ee" category="inline-link-rx"></block></block>
   <block id="7d6d6d8a97f883d860bff04c0be1019c" category="inline-link-macro">利用FSx for ONTAP为数据库工作负载节省空间</block>
-  <block id="ca385f8a90dc256c71e43f23f9b870f2" category="section-title">2024年11月3日</block>
   <block id="5d743e351f2bc0b96d19c12d46be8be2" category="inline-link-macro">优化SQL Server工作负载</block>
   <block id="72d1af9ffdd277a1cf7789b588da9b4d" category="paragraph"><block ref="72d1af9ffdd277a1cf7789b588da9b4d" category="inline-link-macro-rx"></block></block>
-  <block id="3197d9ffc65dc1fe1469440d8891e79d" category="doc">VMware迁移顾问数据精简率帮助</block>
-  <block id="10ced15d9df199f8cb002561b8728770" category="paragraph">此版本的Workload Factory for VMware具有一个数据精简率助手。在准备加入AWS云时、数据精简率助手可帮助您确定最适合您的VMware库存和存储资产的比率。</block>
   <block id="d2705530e45ff55c7a7db4a1196a8b0d" category="summary">了解BlueXP  工作负载工厂中工作负载的最新变化。</block>
   <block id="482a03f8810c074753dd4da1f075dc70" category="doc">BlueXP  工作负载出厂时的最新变更</block>
   <block id="ccbb3c80d40b938a56e8803235ec679c" category="sidebar">本发行说明介绍了BlueXP  工作负载工厂中的云服务的最新增强功能。</block>
   <block id="15d6d0dbf56d72db14e4484abfd8982d" category="sidebar">BlueXP  工作负载出厂发行说明</block>
-  <block id="aadb8a2a44b75c1333f5a52c2ceb1516" category="section-title">内部ONTAP集群发现和复制</block>
-  <block id="490a30e9496a9d55f2cfdb934812658b" category="paragraph">发现内部ONTAP集群数据并将其复制到FSx for ONTAP文件系统、以便用于丰富AI知识库。所有内部发现和复制工作流均可从存储清单中新的*内部ONTAP *选项卡访问。</block>
-  <block id="c6f905e067bdaa7ba33a58a907e59477" category="inline-link-macro">发现内部 ONTAP 集群</block>
-  <block id="b169507cd10826b5a52f573e2f75ad2c" category="paragraph"><block ref="b169507cd10826b5a52f573e2f75ad2c" category="inline-link-macro-rx"></block></block>
   <block id="80d5de3a419a69be5ba960bb0fef9a1d" category="section-title">2024年12月1日</block>
-  <block id="f8a21101d47aa852f29a4be35904736e" category="doc">从快照克隆一个信息库克隆</block>
-  <block id="c711d2f72cc16ad2c0919ebe70292834" category="paragraph">适用于GenAI的BlueXP  工作负载工厂现在支持从快照克隆知识库。这样可以快速恢复知识库、使用现有数据源创建新的知识库、并有助于数据恢复和开发。</block>
-  <block id="53ea9e78bbaa3e1c3ead030a954216c8" category="inline-link-macro">克隆知识库</block>
-  <block id="23899d33da818933cc59017a222d3f1f" category="paragraph"><block ref="23899d33da818933cc59017a222d3f1f" category="inline-link-macro-rx"></block></block>
   <block id="1d194f6c398ca78aaffd8c430203e1ec" category="doc">Amazon EC2迁移顾问改进</block>
   <block id="1e5e06dbbf4cb0bb655126bc90757161" category="paragraph">此版本的适用于VMware的BlueXP  工作负载工厂对迁移顾问体验进行了多项改进：</block>
   <block id="80384840ba856b44e35be4918f28a26b" category="list-text">*数据收集*：BlueXP  Workload Factory for VMware支持在使用迁移顾问时收集特定时间段的数据。</block>
@@ -209,4 +198,21 @@
   <block id="4a21bedf189bb26f9f4aeb26c0dc26a2" category="section-title">通过电子邮件发送节省量分析报告</block>
   <block id="5b89ef008454fd9a61723d3572865363" category="paragraph">与FSx for ONTAP相比、在探索Amazon El生 性块存储和FSx for Windows文件服务器存储环境的节省空间时、您现在可以通过电子邮件将建议报告发送给您自己、团队成员和客户。</block>
   <block id="22f6de27f80cdc30dc0dd58f113f7c70" category="section-title">2025年3月3日</block>
+  <block id="ca5a05186a2f243eb84efcf08152a8f2" category="doc">嵌入式聊天机器人增强功能</block>
+  <block id="362c473fe2757bda1e0d68b3c2cdfbc8" category="paragraph">现在、您可以将问题和回答直接复制到剪贴板、调整聊天窗口的大小并更改其标题。此外、聊天响应现在可以包括表、这些表也是可复制的。</block>
+  <block id="d9965afe654edc6d99fd1a5080f10f27" category="inline-link-macro">测试GenAI知识库</block>
+  <block id="b7def3234606fc50e35ddaf4c351fbe6" category="paragraph"><block ref="b7def3234606fc50e35ddaf4c351fbe6" category="inline-link-macro-rx"></block></block>
+  <block id="4842fdf5dae1e7a3fb7ea049a091be73" category="section-title">聊天响应引用支持</block>
+  <block id="c010ca64710d07e36327c27318c0303f" category="paragraph">聊天回复现在包含引用、列出用于生成回复的文件和数据块。</block>
+  <block id="312fbafda6b72e176a3eb6272e48d799" category="section-title">增强了文件类型支持</block>
+  <block id="cb1c6d98111a4dc0f10d1914aabf97ff" category="paragraph">此版本的GenAI提供了增强的文件支持：</block>
+  <block id="20fae993429f53ad24302c4bea3332d1" category="list-text">聊天模式改进了CSV支持。这样、在从CSV文件查询数据时、可以做出更有用的响应。</block>
+  <block id="820ddf0d1fd0a9cf5aaea49d2b400838" category="list-text">现在、GenAI可以从数据源中安装Apache Parquet文件。</block>
+  <block id="ce2ed264c43f0733c7c1ccbd1b06fdab" category="list-text">GenAI现在支持载入包含图像的Microsoft Word DOCX文件。</block>
+  <block id="939bf2b00dbe77d4a65f4d265a755136" category="inline-link-macro">支持的数据源文件格式</block>
+  <block id="9e64c0f3360c80d2707e71b213c5fc58" category="paragraph"><block ref="9e64c0f3360c80d2707e71b213c5fc58" category="inline-link-macro-rx"></block></block>
+  <block id="cec87a8931004e5402a3f18575682723" category="paragraph">此版本的适用于VMware的BlueXP  工作负载工厂对Amazon EC2迁移顾问体验进行了多项改进：</block>
+  <block id="13ba1ae4c82947e19de7e94ee0eaab45" category="list-text">*估计实例类型*：迁移顾问现在可以检查您的环境要求、并为每个VM提供估计的Amazon EC2实例类型。您可以选择在迁移顾问的范围步骤中包括每个VM的估计实例类型。</block>
+  <block id="3006f7737352e976899743eaf6e2b28e" category="list-text">*推荐Amazon EBS卷的能力*：由于特定地区的特定容量或性能需求、迁移顾问现在可以建议将数据卷迁移到Amazon Elelic Block Store (EBS)、而不是Amazon FSx for NetApp ONTAP。</block>
+  <block id="b4a4e72af96c527b186a3d8f12952f22" category="list-text">*增强型文件系统自动分配*：Amazon FSx for NetApp ONTAP文件系统分配已得到改进、可以更好地优化成本并最大限度地降低吞吐量。</block>
 </blocks>

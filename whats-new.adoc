@@ -122,6 +122,56 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/monitor-operations.html["�
 
 
 
+=== VMware工作负载
+
+
+
+==== Amazon EC2迁移顾问改进
+
+此版本的适用于VMware的BlueXP  工作负载工厂对Amazon EC2迁移顾问体验进行了多项改进：
+
+* *估计实例类型*：迁移顾问现在可以检查您的环境要求、并为每个VM提供估计的Amazon EC2实例类型。您可以选择在迁移顾问的范围步骤中包括每个VM的估计实例类型。
+* *推荐Amazon EBS卷的能力*：由于特定地区的特定容量或性能需求、迁移顾问现在可以建议将数据卷迁移到Amazon Elelic Block Store (EBS)、而不是Amazon FSx for NetApp ONTAP。
+* *增强型文件系统自动分配*：Amazon FSx for NetApp ONTAP文件系统分配已得到改进、可以更好地优化成本并最大限度地降低吞吐量。
+
+
+https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["使用迁移顾问为Amazon EC2创建部署计划"]
+
+
+
+=== GenAI工作负载
+
+
+
+==== 嵌入式聊天机器人增强功能
+
+现在、您可以将问题和回答直接复制到剪贴板、调整聊天窗口的大小并更改其标题。此外、聊天响应现在可以包括表、这些表也是可复制的。
+
+link:https://docs.netapp.com/us-en/workload-genai/test-knowledgebase.html["测试GenAI知识库"]
+
+
+
+==== 聊天响应引用支持
+
+聊天回复现在包含引用、列出用于生成回复的文件和数据块。
+
+link:https://docs.netapp.com/us-en/workload-genai/test-knowledgebase.html["测试GenAI知识库"]
+
+
+
+==== 增强了文件类型支持
+
+此版本的GenAI提供了增强的文件支持：
+
+* 聊天模式改进了CSV支持。这样、在从CSV文件查询数据时、可以做出更有用的响应。
+* 现在、GenAI可以从数据源中安装Apache Parquet文件。
+* GenAI现在支持载入包含图像的Microsoft Word DOCX文件。
+
+
+link:https://review.docs.netapp.com/us-en/workload-genai_mar-2-release/identify-data-sources.html#supported-data-source-file-formats["支持的数据源文件格式"]
+
+
+
 == 2025年2月3日
 
 
@@ -437,41 +487,5 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/manage-service-accounts.
 * *虚拟机选择*：适用于VMware的BlueXP  工作负载工厂现在支持选择要包括在迁移部署中的虚拟机。
 * *快速与高级体验*：使用迁移顾问时，您现在可以选择使用RVtools的快速迁移体验或使用迁移顾问数据收集器的高级体验。
 
-
-https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["使用迁移顾问为Amazon EC2创建部署计划"]
-
-
-
-=== GenAI工作负载
-
-
-
-==== 从快照克隆一个信息库克隆
-
-适用于GenAI的BlueXP  工作负载工厂现在支持从快照克隆知识库。这样可以快速恢复知识库、使用现有数据源创建新的知识库、并有助于数据恢复和开发。
-
-link:https://docs.netapp.com/us-en/workload-genai/manage-knowledgebase.html#clone-a-knowledge-base["克隆知识库"]
-
-
-
-==== 内部ONTAP集群发现和复制
-
-发现内部ONTAP集群数据并将其复制到FSx for ONTAP文件系统、以便用于丰富AI知识库。所有内部发现和复制工作流均可从存储清单中新的*内部ONTAP *选项卡访问。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/use-onprem-data.html["发现内部 ONTAP 集群"]
-
-
-
-== 2024年11月3日
-
-
-
-=== VMware工作负载
-
-
-
-==== VMware迁移顾问数据精简率帮助
-
-此版本的Workload Factory for VMware具有一个数据精简率助手。在准备加入AWS云时、数据精简率助手可帮助您确定最适合您的VMware库存和存储资产的比率。
 
 https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["使用迁移顾问为Amazon EC2创建部署计划"]

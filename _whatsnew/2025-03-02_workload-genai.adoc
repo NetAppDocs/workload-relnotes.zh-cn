@@ -1,0 +1,32 @@
+= 嵌入式聊天机器人增强功能
+:allow-uri-read: 
+
+
+
+
+=== 嵌入式聊天机器人增强功能
+
+现在、您可以将问题和回答直接复制到剪贴板、调整聊天窗口的大小并更改其标题。此外、聊天响应现在可以包括表、这些表也是可复制的。
+
+link:https://docs.netapp.com/us-en/workload-genai/test-knowledgebase.html["测试GenAI知识库"]
+
+
+
+=== 聊天响应引用支持
+
+聊天回复现在包含引用、列出用于生成回复的文件和数据块。
+
+link:https://docs.netapp.com/us-en/workload-genai/test-knowledgebase.html["测试GenAI知识库"]
+
+
+
+=== 增强了文件类型支持
+
+此版本的GenAI提供了增强的文件支持：
+
+* 聊天模式改进了CSV支持。这样、在从CSV文件查询数据时、可以做出更有用的响应。
+* 现在、GenAI可以从数据源中安装Apache Parquet文件。
+* GenAI现在支持载入包含图像的Microsoft Word DOCX文件。
+
+
+link:https://review.docs.netapp.com/us-en/workload-genai_mar-2-release/identify-data-sources.html#supported-data-source-file-formats["支持的数据源文件格式"]
