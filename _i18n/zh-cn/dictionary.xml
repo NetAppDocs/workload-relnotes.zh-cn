@@ -43,14 +43,6 @@
   <block id="c6f905e067bdaa7ba33a58a907e59477" category="inline-link-macro">发现内部 ONTAP 集群</block>
   <block id="b169507cd10826b5a52f573e2f75ad2c" category="paragraph"><block ref="b169507cd10826b5a52f573e2f75ad2c" category="inline-link-macro-rx"></block></block>
   <block id="80d5de3a419a69be5ba960bb0fef9a1d" category="section-title">2024年12月1日</block>
-  <block id="18caf85143cff2e29943f7fa50a9d531" category="doc">持续优化增加了计算修复和评估功能</block>
-  <block id="275b08f4e33388b6598899e256fe46b3" category="paragraph">数据库现在可提供洞察力和建议、帮助您优化Microsoft SQL Server实例的计算资源。我们会测量CPU利用率、并利用AWS计算优化器服务来建议规模合适的最佳实例类型、并通知您可用的操作系统修补程序。优化计算资源有助于您在实例类型方面做出明智的决策、从而节省成本并高效利用资源。</block>
-  <block id="9aa94e25ba754a44d094b78775213e48" category="inline-link-macro">优化计算资源配置</block>
-  <block id="25a5dc6deeba5d476ff665ad9c968a2b" category="paragraph"><block ref="25a5dc6deeba5d476ff665ad9c968a2b" category="inline-link-macro-rx"></block></block>
-  <block id="f3cfd7c95d3ff2b556d90beb191fa77a" category="section-title">PostgreSQL支持</block>
-  <block id="49db1f79602c9ba8e5704a68010c4023" category="paragraph">现在、您可以在数据库中部署和管理独立的PostgreSQL服务器部署。</block>
-  <block id="3627a14d7dc2feba3834d63a37ebb394" category="inline-link-macro">创建PostgreSQL服务器</block>
-  <block id="02b7dd87f2a54e2b540ac84598c20252" category="paragraph"><block ref="02b7dd87f2a54e2b540ac84598c20252" category="inline-link-macro-rx"></block></block>
   <block id="f8a21101d47aa852f29a4be35904736e" category="doc">从快照克隆一个信息库克隆</block>
   <block id="c711d2f72cc16ad2c0919ebe70292834" category="paragraph">适用于GenAI的BlueXP  工作负载工厂现在支持从快照克隆知识库。这样可以快速恢复知识库、使用现有数据源创建新的知识库、并有助于数据恢复和开发。</block>
   <block id="53ea9e78bbaa3e1c3ead030a954216c8" category="inline-link-macro">克隆知识库</block>
@@ -198,4 +190,23 @@
   <block id="fd8693cf8f6802fd1c7d50d5742a4c71" category="section-title">Tracker中的CloudShell事件</block>
   <block id="e7a6197673267c30b5dc86e0d5f6c536" category="paragraph">现在、您可以在Tracker中跟踪CloudShell事件。</block>
   <block id="ab4a8520fe8e2e09df8b9471a8d923bf" category="section-title">2025年3月2日</block>
+  <block id="e1e5f5c3c58578921409fc2e6d5eedd8" category="doc">PostgreSQL高可用性配置和快速创建</block>
+  <block id="ed9e60a4e06d1c99d8eb3562ecbf8b63" category="paragraph">BlueXP  工作负载工厂支持数据库的两个新功能区域：</block>
+  <block id="c657a4dd8aa01cb30f32e751a8482131" category="list-text">PostgreSQL高可用性(HA)配置：现在可以为PostgreSQL服务器部署HA配置。</block>
+  <block id="d86f1a99d557ac15f85400fdfbdb8b14" category="list-text">快速创建：您可以使用此快速部署选项创建具有HA配置和嵌入式最佳实践的PostgreSQL服务器。</block>
+  <block id="f57c49a06b4a8a20d9a723cd677b9655" category="inline-link-macro">创建PostgreSQL服务器</block>
+  <block id="d3420539383bb38c88221d86000226d1" category="paragraph"><block ref="d3420539383bb38c88221d86000226d1" category="inline-link-macro-rx"></block></block>
+  <block id="1414de2121340ce91492c56f7800fcc7" category="section-title">为PostgreSQL服务器创建提供Terraform支持</block>
+  <block id="9156ac6cc60e32ed114af1a49af0ffed" category="paragraph">现在、您可以使用CodeBox中的Terraform部署PostgreSQL。</block>
+  <block id="7a5745faeabd31c33609adf25373d8a1" category="inline-link-macro">创建PostgreSQL数据库服务器</block>
+  <block id="61b5b69de9c821f5e486ec9c30a821a4" category="list-text"><block ref="61b5b69de9c821f5e486ec9c30a821a4" category="inline-link-macro-rx"></block></block>
+  <block id="2532cd63354e6e99119077d45134b5ef" category="inline-link-macro">使用CodeBox中的Terraform</block>
+  <block id="11cb17d1b990bbf37a24337d5692efa1" category="list-text"><block ref="11cb17d1b990bbf37a24337d5692efa1" category="inline-link-macro-rx"></block></block>
+  <block id="6a7893eb24462b3da7dd0a66586c5738" category="section-title">本地快照计划的故障恢复能力评估</block>
+  <block id="677bceea5ebbea10cf85a91ebf42050e" category="paragraph">为数据库工作负载提供了新的故障恢复能力评估。我们将评估Microsoft SQL Server实例中的卷是否具有有效的计划快照策略。快照是数据的时间点副本、可帮助您的数据库环境在数据丢失时保持弹性。</block>
+  <block id="90814442b7f0694d712f43efffe9c178" category="section-title">数据库工作负载的MAXDOP修复</block>
+  <block id="3231190e9014bf678d835272ec7c9234" category="paragraph">现在、适用于数据库的BlueXP  工作负载工厂支持针对最大并行度(MAXDOP)服务器配置进行修复。如果MAXDOP配置不是最佳配置、则可以让BlueXP  工作负载在出厂时为您优化配置。</block>
+  <block id="4a21bedf189bb26f9f4aeb26c0dc26a2" category="section-title">通过电子邮件发送节省量分析报告</block>
+  <block id="5b89ef008454fd9a61723d3572865363" category="paragraph">与FSx for ONTAP相比、在探索Amazon El生 性块存储和FSx for Windows文件服务器存储环境的节省空间时、您现在可以通过电子邮件将建议报告发送给您自己、团队成员和客户。</block>
+  <block id="22f6de27f80cdc30dc0dd58f113f7c70" category="section-title">2025年3月3日</block>
 </blocks>
