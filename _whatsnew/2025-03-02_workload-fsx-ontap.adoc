@@ -24,7 +24,7 @@
 
 现在、您可以对不可变文件配置进行以下更改：保留策略、保留期限、自动提交期限和卷附加模式。
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-immutable-files.html["管理不可配置文件"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-immutable-files.html["管理不可配置文件"]
 
 
 

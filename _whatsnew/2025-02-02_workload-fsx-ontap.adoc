@@ -8,7 +8,7 @@
 
 CloudShell是一种嵌入式命令行界面功能、可在BlueXP  工作负载工厂中用于存储。您可以使用CloudShell在类似于Shell的环境中的工作负载出厂控制台中从多个会话创建、共享和执行ONTAP或AWS命令行界面命令。
 
-link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["详细了解BlueXP  工作负载工厂中的CloudShell"^]
+link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["详细了解BlueXP  工作负载工厂中的CloudShell"]
 
 
 
