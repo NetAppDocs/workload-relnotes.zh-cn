@@ -39,8 +39,8 @@ link:https://review.docs.netapp.com/us-en/workload-databases_explore-savings-upd
 
 现在、您可以使用CodeBox中的Terraform部署PostgreSQL。
 
-* link:https://docs.netapp.com/us-en/workload-databases/create-postgresql-server.html["创建PostgreSQL数据库服务器"^]
-* link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["使用CodeBox中的Terraform"^]
+* link:https://docs.netapp.com/us-en/workload-databases/create-postgresql-server.html["创建PostgreSQL数据库服务器"]
+* link:https://docs.netapp.com/us-en/workload-setup-admin/use-codebox.html["使用CodeBox中的Terraform"]
 
 
 

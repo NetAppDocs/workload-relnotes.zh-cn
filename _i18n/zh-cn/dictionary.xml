@@ -188,9 +188,7 @@
   <block id="1414de2121340ce91492c56f7800fcc7" category="section-title">为PostgreSQL服务器创建提供Terraform支持</block>
   <block id="9156ac6cc60e32ed114af1a49af0ffed" category="paragraph">现在、您可以使用CodeBox中的Terraform部署PostgreSQL。</block>
   <block id="7a5745faeabd31c33609adf25373d8a1" category="inline-link-macro">创建PostgreSQL数据库服务器</block>
-  <block id="61b5b69de9c821f5e486ec9c30a821a4" category="list-text"><block ref="61b5b69de9c821f5e486ec9c30a821a4" category="inline-link-macro-rx"></block></block>
   <block id="2532cd63354e6e99119077d45134b5ef" category="inline-link-macro">使用CodeBox中的Terraform</block>
-  <block id="11cb17d1b990bbf37a24337d5692efa1" category="list-text"><block ref="11cb17d1b990bbf37a24337d5692efa1" category="inline-link-macro-rx"></block></block>
   <block id="6a7893eb24462b3da7dd0a66586c5738" category="section-title">本地快照计划的故障恢复能力评估</block>
   <block id="677bceea5ebbea10cf85a91ebf42050e" category="paragraph">为数据库工作负载提供了新的故障恢复能力评估。我们将评估Microsoft SQL Server实例中的卷是否具有有效的计划快照策略。快照是数据的时间点副本、可帮助您的数据库环境在数据丢失时保持弹性。</block>
   <block id="90814442b7f0694d712f43efffe9c178" category="section-title">数据库工作负载的MAXDOP修复</block>
@@ -215,4 +213,6 @@
   <block id="13ba1ae4c82947e19de7e94ee0eaab45" category="list-text">*估计实例类型*：迁移顾问现在可以检查您的环境要求、并为每个VM提供估计的Amazon EC2实例类型。您可以选择在迁移顾问的范围步骤中包括每个VM的估计实例类型。</block>
   <block id="3006f7737352e976899743eaf6e2b28e" category="list-text">*推荐Amazon EBS卷的能力*：由于特定地区的特定容量或性能需求、迁移顾问现在可以建议将数据卷迁移到Amazon Elelic Block Store (EBS)、而不是Amazon FSx for NetApp ONTAP。</block>
   <block id="b4a4e72af96c527b186a3d8f12952f22" category="list-text">*增强型文件系统自动分配*：Amazon FSx for NetApp ONTAP文件系统分配已得到改进、可以更好地优化成本并最大限度地降低吞吐量。</block>
+  <block id="4666cc74583e6d5c1f202a52bee57a9b" category="list-text"><block ref="4666cc74583e6d5c1f202a52bee57a9b" category="inline-link-macro-rx"></block></block>
+  <block id="7115d78353263dbb2dbe063624f9f601" category="list-text"><block ref="7115d78353263dbb2dbe063624f9f601" category="inline-link-macro-rx"></block></block>
 </blocks>
