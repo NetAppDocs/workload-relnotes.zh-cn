@@ -159,7 +159,6 @@
   <block id="5ddfb412189af7bcce0a056c9fcef326" category="paragraph"><block ref="5ddfb412189af7bcce0a056c9fcef326" category="inline-link-macro-rx"></block></block>
   <block id="4a922c367b35639ecb9d911b81fdb458" category="doc">自动容量管理改进</block>
   <block id="5868fd5ebf39f0f3dce9bd4ba23dcb6f" category="paragraph">启用自动容量管理后、BlueXP  Workload Factory现在会每30分钟检查一次文件系统是否达到其容量阈值、而不是每2小时检查一次。</block>
-  <block id="b8f4f574565ae3f9b004976be6075660" category="paragraph">工作负载工厂还会扫描卷中的可用Inode、并根据配置的自动容量管理阈值增加其计数。</block>
   <block id="410d677b6db33c7f47c30b3d219c4846" category="paragraph">达到容量阈值时、配置的IOPS设置不再受影响。</block>
   <block id="c21bf517f636f8492b01232a674a8d2e" category="section-title">不可变更的快照</block>
   <block id="525386f4531b9b4bbd2b84ae92c59c07" category="paragraph">现在、您可以锁定快照、使其在特定保留期限内不可改变。锁定可防止未经授权的访问和恶意删除快照。您可以在创建快照策略期间、创建手动快照时以及创建快照之后启用不可变快照。</block>
@@ -168,19 +167,12 @@
   <block id="a864feef5272f034d55e1119c5495be8" category="inline-link-macro">管理不可配置文件</block>
   <block id="2915f18b56c3e4e3c1ef137551d9a65d" category="section-title">数据复制增强功能</block>
   <block id="114e60d7d0f811f597761cf833328a96" category="list-text">跨帐户复制：BlueXP  工作负载出厂控制台支持在两个AWS帐户之间进行复制以及复制管理。</block>
-  <block id="6fa19d46a9961be1aeabe428c8550d2f" category="list-text">数据保护卷复制：现在、当卷从复制的卷进行复制时、数据保护卷支持级联复制。</block>
-  <block id="699cadf384181ae5970ed8c0de60e0ff" category="inline-link-macro">复制数据保护卷</block>
-  <block id="f4ae9aa33f99746ec1459126f50c3db7" category="paragraph"><block ref="f4ae9aa33f99746ec1459126f50c3db7" category="inline-link-macro-rx"></block></block>
   <block id="0348e63af5ee6958b15125648a1ecae7" category="list-text">暂停和恢复复制：您可以暂停(暂停)从源卷到目标卷的计划复制更新、然后在准备就绪后恢复复制计划。暂停期间、源卷和目标卷会彼此独立、目标卷会从只读过渡到读写。</block>
   <block id="38485996f06c5e13eed5605901b52530" category="inline-link-macro">暂停和恢复复制关系</block>
   <block id="fc81b1e4233a48b719520033e56b4194" category="paragraph"><block ref="fc81b1e4233a48b719520033e56b4194" category="inline-link-macro-rx"></block></block>
   <block id="fd8693cf8f6802fd1c7d50d5742a4c71" category="section-title">Tracker中的CloudShell事件</block>
   <block id="e7a6197673267c30b5dc86e0d5f6c536" category="paragraph">现在、您可以在Tracker中跟踪CloudShell事件。</block>
   <block id="ab4a8520fe8e2e09df8b9471a8d923bf" category="section-title">2025年3月2日</block>
-  <block id="e1e5f5c3c58578921409fc2e6d5eedd8" category="doc">PostgreSQL高可用性配置和快速创建</block>
-  <block id="ed9e60a4e06d1c99d8eb3562ecbf8b63" category="paragraph">BlueXP  工作负载工厂支持数据库的两个新功能区域：</block>
-  <block id="c657a4dd8aa01cb30f32e751a8482131" category="list-text">PostgreSQL高可用性(HA)配置：现在可以为PostgreSQL服务器部署HA配置。</block>
-  <block id="d86f1a99d557ac15f85400fdfbdb8b14" category="list-text">快速创建：您可以使用此快速部署选项创建具有HA配置和嵌入式最佳实践的PostgreSQL服务器。</block>
   <block id="f57c49a06b4a8a20d9a723cd677b9655" category="inline-link-macro">创建PostgreSQL服务器</block>
   <block id="d3420539383bb38c88221d86000226d1" category="paragraph"><block ref="d3420539383bb38c88221d86000226d1" category="inline-link-macro-rx"></block></block>
   <block id="1414de2121340ce91492c56f7800fcc7" category="section-title">为PostgreSQL服务器创建提供Terraform支持</block>
@@ -215,4 +207,6 @@
   <block id="7115d78353263dbb2dbe063624f9f601" category="list-text"><block ref="7115d78353263dbb2dbe063624f9f601" category="inline-link-macro-rx"></block></block>
   <block id="95712b1074d83e6727c42aa16be5af5a" category="paragraph"><block ref="95712b1074d83e6727c42aa16be5af5a" category="inline-link-macro-rx"></block></block>
   <block id="815e02f013485997d1d56438f0bf1505" category="paragraph"><block ref="815e02f013485997d1d56438f0bf1505" category="inline-link-macro-rx"></block></block>
+  <block id="292e876f4d1d5af73b815913bd3d9b26" category="doc">PostgreSQL高可用性配置</block>
+  <block id="047e8f86b83bb2e8d4c34b1dc560257b" category="paragraph">现在、您可以为PostgreSQL服务器部署高可用性(HA)配置。</block>
 </blocks>

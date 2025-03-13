@@ -23,13 +23,9 @@ summary: 了解BlueXP  工作负载工厂中工作负载的最新变化。
 
 
 
-==== PostgreSQL高可用性配置和快速创建
+==== PostgreSQL高可用性配置
 
-BlueXP  工作负载工厂支持数据库的两个新功能区域：
-
-* PostgreSQL高可用性(HA)配置：现在可以为PostgreSQL服务器部署HA配置。
-* 快速创建：您可以使用此快速部署选项创建具有HA配置和嵌入式最佳实践的PostgreSQL服务器。
-
+现在、您可以为PostgreSQL服务器部署高可用性(HA)配置。
 
 link:https://review.docs.netapp.com/us-en/workload-databases_explore-savings-updates/create-postgresql-server.html["创建PostgreSQL服务器"]
 
