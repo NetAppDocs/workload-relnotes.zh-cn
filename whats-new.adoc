@@ -106,6 +106,8 @@ link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html["创
 
 现在、您可以使用工作负载出厂API从通用NFSv3、NFSv4或SMB共享添加数据源。从NFS或SMB共享添加数据源时、知识库卷仍保留在Amazon FSx for NetApp ONTAP卷上。工作负载出厂Web UI将在未来版本中支持此功能。
 
+link:https://console.workloads.netapp.com/api-doc["使用工作负载出厂API"^]
+
 
 
 ==== VPC对等支持
