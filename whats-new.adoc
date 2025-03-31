@@ -58,6 +58,64 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["�
 
 
 
+=== VMware工作负载
+
+
+
+==== Amazon EC2迁移顾问改进
+
+此版本的适用于VMware的BlueXP  工作负载工厂对Amazon EC2迁移顾问体验进行了多项改进：
+
+* *增强的卷分配指导*：EC2迁移顾问的"分类"和"打包"步骤中的卷分配信息增强了可读性和可用性。系统会显示有关每个卷的更多有用信息、使您能够更好地识别卷并确定如何分配卷。
+* *提高了数据收集器脚本的效率*：在为小型VM部署收集数据时、EC2迁移顾问数据收集器脚本可优化CPU利用率。
+
+
+https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["使用迁移顾问为Amazon EC2创建部署计划"]
+
+
+
+=== GenAI工作负载
+
+
+
+==== 增强了文件类型支持
+
+此版本的GenAI引入了在从数据源中精妙设计文件时对JSON和JSONP文件格式的支持 `.json`。支持包含嵌套对象的JSON文件、但对嵌套阵列的支持有限。
+
+link:https://review.docs.netapp.com/us-en/workload-genai_mar-2-release/identify-data-sources.html#supported-data-source-file-formats["支持的数据源文件格式"]
+
+
+
+==== 为外部聊天机器人示例应用程序提供国际化支持
+
+现在、您可以轻松地将GenAI示例外部聊天机器人应用程序的用户界面更改为其他语言或区域设置。
+
+link:https://github.com/NetApp/FSx-ONTAP-samples-scripts/tree/main/AI/GenAI-ChatBot-application-sample#netapp-workload-factory-genai-sample-application["GenAI外部示例聊天机器人应用程序"]
+
+
+
+==== 支持Anthropic Claude Sonnet 3.7聊天模式
+
+GenAI现在支持Anthropic Claude 3.7 Sonnet聊天模式。CLODE 3.7 Sonnet的测试版功能允许每个请求最多128K输出令牌、并支持新的计算机使用操作。将来的GenAI版本将支持CLAUDE 3.7 Sonnet扩展思维模式。
+
+link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html["创建GenAI知识库"]
+
+
+
+==== 支持从通用NFS/SMB共享添加数据源
+
+现在、您可以使用工作负载出厂API从通用NFSv3、NFSv4或SMB共享添加数据源。从NFS或SMB共享添加数据源时、知识库卷仍保留在Amazon FSx for NetApp ONTAP卷上。工作负载出厂Web UI将在未来版本中支持此功能。
+
+
+
+==== VPC对等支持
+
+现在、您可以在同一区域部署GenAI基础架构link:https://docs.aws.amazon.com/vpc/latest/peering/what-is-vpc-peering.html["对等虚拟私有云(VPC)"^]、并使用相同的AWS帐户。您可以在VPC中部署AI引擎、然后在对等VPC中创建知识库、并选择位于对等VPC中的Amazon FSx for NetApp ONTAP文件系统。
+
+link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html["创建GenAI知识库"]
+
+
+
 === 设置和管理
 
 
@@ -460,55 +518,6 @@ link:https://docs.netapp.com/us-en/workload-databases/monitor-databases.html["�
 
 * *保存或下载迁移计划*：现在可以保存或下载迁移计划，并加载迁移计划以填充迁移顾问。保存迁移计划时、该计划将与您的工作负载工厂帐户一起保存。
 * *改进的虚拟机选择*：适用于VMware的BlueXP  工作负载工厂现在支持筛选和搜索要包含在迁移部署中的虚拟机列表。
-
-
-https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["使用迁移顾问为Amazon EC2创建部署计划"]
-
-
-
-=== GenAI工作负载
-
-
-
-==== 自定义快照名称
-
-现在、您可以为临时快照提供快照名称。
-
-link:https://docs.netapp.com/us-en/workload-genai/manage-knowledgebase.html#protect-a-knowledge-base-with-snapshots["使用快照保护知识库"]
-
-
-
-==== 自定义AI引擎实例名称
-
-现在、您可以在部署期间为AI引擎实例提供一个自定义名称。
-
-link:https://docs.netapp.com/us-en/workload-genai/deploy-infrastructure.html["部署GenAI基础架构"]
-
-
-
-==== 重建损坏或缺失的GenAI基础架构
-
-如果您的AI引擎实例损坏或被以某种方式删除、您可以让工作负载在出厂时重建它。在完成重建后、工作负载工厂会自动将您的知识库重新连接到基础架构、以便可以随时使用。
-
-link:https://docs.netapp.com/us-en/workload-genai/troubleshooting.html["故障排除"]
-
-
-
-== 2024年12月1日
-
-
-
-=== VMware工作负载
-
-
-
-==== Amazon EC2迁移顾问改进
-
-此版本的适用于VMware的BlueXP  工作负载工厂对迁移顾问体验进行了多项改进：
-
-* *数据收集*：BlueXP  Workload Factory for VMware支持在使用迁移顾问时收集特定时间段的数据。
-* *虚拟机选择*：适用于VMware的BlueXP  工作负载工厂现在支持选择要包括在迁移部署中的虚拟机。
-* *快速与高级体验*：使用迁移顾问时，您现在可以选择使用RVtools的快速迁移体验或使用迁移顾问数据收集器的高级体验。
 
 
 https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["使用迁移顾问为Amazon EC2创建部署计划"]

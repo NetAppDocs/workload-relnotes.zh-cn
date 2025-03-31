@@ -35,12 +35,8 @@
   <block id="482a03f8810c074753dd4da1f075dc70" category="doc">BlueXP  工作负载出厂时的最新变更</block>
   <block id="ccbb3c80d40b938a56e8803235ec679c" category="sidebar">本发行说明介绍了BlueXP  工作负载工厂中的云服务的最新增强功能。</block>
   <block id="15d6d0dbf56d72db14e4484abfd8982d" category="sidebar">BlueXP  工作负载出厂发行说明</block>
-  <block id="80d5de3a419a69be5ba960bb0fef9a1d" category="section-title">2024年12月1日</block>
   <block id="1d194f6c398ca78aaffd8c430203e1ec" category="doc">Amazon EC2迁移顾问改进</block>
   <block id="1e5e06dbbf4cb0bb655126bc90757161" category="paragraph">此版本的适用于VMware的BlueXP  工作负载工厂对迁移顾问体验进行了多项改进：</block>
-  <block id="80384840ba856b44e35be4918f28a26b" category="list-text">*数据收集*：BlueXP  Workload Factory for VMware支持在使用迁移顾问时收集特定时间段的数据。</block>
-  <block id="2e47bf0e10f6acdee08b3889dc872c4c" category="list-text">*虚拟机选择*：适用于VMware的BlueXP  工作负载工厂现在支持选择要包括在迁移部署中的虚拟机。</block>
-  <block id="3f4f1b85f4effee9c5e9ae9034f0e684" category="list-text">*快速与高级体验*：使用迁移顾问时，您现在可以选择使用RVtools的快速迁移体验或使用迁移顾问数据收集器的高级体验。</block>
   <block id="428b0b39be2352757edeb5f9f12a7bdd" category="inline-link">BlueXP  工作负载工厂</block>
   <block id="7cf449620aa459bc5c449db69b07e507" category="paragraph"><block ref="7cf449620aa459bc5c449db69b07e507" category="inline-link-rx"></block></block>
   <block id="065531f581a60b79025f539bd1ff1cff" category="section-title">2025年1月5日</block>
@@ -60,18 +56,6 @@
   <block id="fd3039d7fbe9d24b3141aca3c62383a2" category="section-title">评估和优化过度配置的Microsoft SQL Server许可证</block>
   <block id="f90a806c02db45741274868bc065ab90" category="paragraph">现在、节省量计算器将评估您的Microsoft SQL Server部署是否需要Enterprise Edition。如果许可证配置过度、计算器建议降级。通过优化应用程序、您将能够自动降级数据库中的许可证。</block>
   <block id="c5e3fb9d31cd8a0b458ca9e3c4a690f6" category="section-title">2025年1月6日</block>
-  <block id="a117d99fd0597e840921767ec50fe791" category="doc">自定义快照名称</block>
-  <block id="34df51ccce053f8aef051fe069f6004a" category="paragraph">现在、您可以为临时快照提供快照名称。</block>
-  <block id="af467f026dd1b56c8564e770bf39737f" category="inline-link-macro">使用快照保护知识库</block>
-  <block id="2cbaa1be80e354895c4d9e497cad82ad" category="paragraph"><block ref="2cbaa1be80e354895c4d9e497cad82ad" category="inline-link-macro-rx"></block></block>
-  <block id="63713d130d6ced83e06b8a2f84ca4236" category="section-title">自定义AI引擎实例名称</block>
-  <block id="5a22f1756638135653917db715aeec43" category="paragraph">现在、您可以在部署期间为AI引擎实例提供一个自定义名称。</block>
-  <block id="e379b913896cf9bdd4e2d6717212215a" category="inline-link-macro">部署GenAI基础架构</block>
-  <block id="c3e29d6f9db8b5f89b548e4659ce60ad" category="paragraph"><block ref="c3e29d6f9db8b5f89b548e4659ce60ad" category="inline-link-macro-rx"></block></block>
-  <block id="cc78f676d3193b6273b428bb17c26dd7" category="section-title">重建损坏或缺失的GenAI基础架构</block>
-  <block id="1691fa3a19bfaa3082dd2f6e01934960" category="paragraph">如果您的AI引擎实例损坏或被以某种方式删除、您可以让工作负载在出厂时重建它。在完成重建后、工作负载工厂会自动将您的知识库重新连接到基础架构、以便可以随时使用。</block>
-  <block id="231cf4c70d866b616c21baddaeed0696" category="inline-link-macro">故障排除</block>
-  <block id="b23e4d787bd591292c1d5f10247e0e53" category="paragraph"><block ref="b23e4d787bd591292c1d5f10247e0e53" category="inline-link-macro-rx"></block></block>
   <block id="cde718e2f0bf0ef80eb31becc18c4787" category="list-text">*保存或下载迁移计划*：现在可以保存或下载迁移计划，并加载迁移计划以填充迁移顾问。保存迁移计划时、该计划将与您的工作负载工厂帐户一起保存。</block>
   <block id="42ec77b942403dfbfa1bb7908218848c" category="list-text">*改进的虚拟机选择*：适用于VMware的BlueXP  工作负载工厂现在支持筛选和搜索要包含在迁移部署中的虚拟机列表。</block>
   <block id="f2398fe4ddb880ba6c52b376ef9b960c" category="list-text"><block ref="f2398fe4ddb880ba6c52b376ef9b960c" category="inline-link-macro-rx"></block></block>
@@ -219,4 +203,20 @@
   <block id="1680d9abb7a22a23c44b7a4b6381f160" category="list-text">_平衡(自动)_</block>
   <block id="ba8ad03a370d66806f12b2e607ea29c7" category="list-text">成本优化(全部)_</block>
   <block id="c9c6a4f8a60589f93e4860841bc03333" category="list-text">_性能优化(仅限Snapshot)_</block>
+  <block id="f3a4976ab2464242211263cea7e247f9" category="paragraph">此版本的GenAI引入了在从数据源中精妙设计文件时对JSON和JSONP文件格式的支持<block ref="cc8f0c0e5a5cef9b33f236a0a9c19ca0" prefix=" " category="inline-code"></block>。支持包含嵌套对象的JSON文件、但对嵌套阵列的支持有限。</block>
+  <block id="0a8f6f086d5f30a416a61fd3606f1025" category="section-title">为外部聊天机器人示例应用程序提供国际化支持</block>
+  <block id="a2f4023c744ab1521036ee54ec2e15ba" category="paragraph">现在、您可以轻松地将GenAI示例外部聊天机器人应用程序的用户界面更改为其他语言或区域设置。</block>
+  <block id="5b8a8facbec8623a03d7cae8b62bfeb7" category="inline-link-macro">GenAI外部示例聊天机器人应用程序</block>
+  <block id="4d79fade08f1e8c2d92bbdf0e3237924" category="paragraph"><block ref="4d79fade08f1e8c2d92bbdf0e3237924" category="inline-link-macro-rx"></block></block>
+  <block id="26ea891fa4f63d071728537d886e0f6c" category="section-title">支持Anthropic Claude Sonnet 3.7聊天模式</block>
+  <block id="4c58515c1bd9657f223b7731d306475c" category="paragraph">GenAI现在支持Anthropic Claude 3.7 Sonnet聊天模式。CLODE 3.7 Sonnet的测试版功能允许每个请求最多128K输出令牌、并支持新的计算机使用操作。将来的GenAI版本将支持CLAUDE 3.7 Sonnet扩展思维模式。</block>
+  <block id="16cb0b733a26e9afa11f388e6d83aec1" category="inline-link-macro">创建GenAI知识库</block>
+  <block id="fe72cb2aff5f7bf6138e806921c5d3d6" category="paragraph"><block ref="fe72cb2aff5f7bf6138e806921c5d3d6" category="inline-link-macro-rx"></block></block>
+  <block id="40bd8fe426c37e97f38be2c5a2728752" category="section-title">支持从通用NFS/SMB共享添加数据源</block>
+  <block id="1813c42a79840f7d495281cf050a30dc" category="paragraph">现在、您可以使用工作负载出厂API从通用NFSv3、NFSv4或SMB共享添加数据源。从NFS或SMB共享添加数据源时、知识库卷仍保留在Amazon FSx for NetApp ONTAP卷上。工作负载出厂Web UI将在未来版本中支持此功能。</block>
+  <block id="fbc7eedf5c13a549330a0c3f52777db8" category="section-title">VPC对等支持</block>
+  <block id="52bc46202bc9013e258f32f66b8bf88a" category="inline-link-macro">对等虚拟私有云(VPC)</block>
+  <block id="93dbde0ee04c36dce05b96f3551f8606" category="paragraph">现在、您可以在同一区域部署GenAI基础架构<block ref="f008838004ac43a2c4a5b39672df7daf" category="inline-link-macro-rx"></block>、并使用相同的AWS帐户。您可以在VPC中部署AI引擎、然后在对等VPC中创建知识库、并选择位于对等VPC中的Amazon FSx for NetApp ONTAP文件系统。</block>
+  <block id="6e62567f7c9b240a118b25fc64f2991f" category="list-text">*增强的卷分配指导*：EC2迁移顾问的"分类"和"打包"步骤中的卷分配信息增强了可读性和可用性。系统会显示有关每个卷的更多有用信息、使您能够更好地识别卷并确定如何分配卷。</block>
+  <block id="5fc07f589f318bbf4f9475dbf3754c9f" category="list-text">*提高了数据收集器脚本的效率*：在为小型VM部署收集数据时、EC2迁移顾问数据收集器脚本可优化CPU利用率。</block>
 </blocks>
