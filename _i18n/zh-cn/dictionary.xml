@@ -181,7 +181,6 @@
   <block id="815e02f013485997d1d56438f0bf1505" category="paragraph"><block ref="815e02f013485997d1d56438f0bf1505" category="inline-link-macro-rx"></block></block>
   <block id="292e876f4d1d5af73b815913bd3d9b26" category="doc">PostgreSQL高可用性配置</block>
   <block id="047e8f86b83bb2e8d4c34b1dc560257b" category="paragraph">现在、您可以为PostgreSQL服务器部署高可用性(HA)配置。</block>
-  <block id="42bc8432872c22cf4fdbb156ae58a17e" category="doc">CloudShell会报告ONTAP命令行界面命令的AI生成错误</block>
   <block id="3450754e7ec63bd0a961376c9928752a" category="paragraph">使用CloudShell时、每次发出ONTAP命令行界面命令并出现错误时、您都可以获得AI生成的错误响应、其中包括故障说明、故障原因和详细解决方案。</block>
   <block id="4ef50e373522b91f7df59d5cba69a8b7" category="section-title">IAM：SimulatePermission Policy权限更新</block>
   <block id="906699741ebd9905a07af900abcfd438" category="paragraph">现在、当您添加其他AWS帐户凭据或添加新工作负载功能(例如GenAI工作负载)时、您可以从工作负载出厂控制台管理此<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block>权限。</block>
@@ -221,4 +220,5 @@
   <block id="5fc07f589f318bbf4f9475dbf3754c9f" category="list-text">*提高了数据收集器脚本的效率*：在为小型VM部署收集数据时、EC2迁移顾问数据收集器脚本可优化CPU利用率。</block>
   <block id="0fcf305133bffed241e3ea17efbba5fc" category="inline-link-macro">使用工作负载出厂API</block>
   <block id="a6efc6ca3aa5af2c7a8cad1239df17c0" category="paragraph"><block ref="a6efc6ca3aa5af2c7a8cad1239df17c0" category="inline-link-macro-rx"></block></block>
+  <block id="ef74d01649997b60252254da8a1573fd" category="doc">CloudShell会报告ONTAP命令行界面命令的AI生成的错误响应</block>
 </blocks>
