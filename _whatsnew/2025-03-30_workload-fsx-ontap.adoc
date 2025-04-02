@@ -36,3 +36,11 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["�
 * 成本优化(全部)_
 * _性能优化(仅限Snapshot)_
 
+
+
+
+=== 用于创建文件系统的安全组详细信息
+
+在FSx for ONTAP文件系统创建过程中会创建一个安全组。现在、您可以查看安全组详细信息、包括协议、端口和角色。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-file-system.html["创建文件系统"]

@@ -221,4 +221,8 @@
   <block id="0fcf305133bffed241e3ea17efbba5fc" category="inline-link-macro">使用工作负载出厂API</block>
   <block id="a6efc6ca3aa5af2c7a8cad1239df17c0" category="paragraph"><block ref="a6efc6ca3aa5af2c7a8cad1239df17c0" category="inline-link-macro-rx"></block></block>
   <block id="ef74d01649997b60252254da8a1573fd" category="doc">CloudShell会报告ONTAP命令行界面命令的AI生成的错误响应</block>
+  <block id="4992f7a0d7d6ee4776bb87ff9118642c" category="section-title">用于创建文件系统的安全组详细信息</block>
+  <block id="b7cc50bb665bb63168fb8d2e9eebaedc" category="paragraph">在FSx for ONTAP文件系统创建过程中会创建一个安全组。现在、您可以查看安全组详细信息、包括协议、端口和角色。</block>
+  <block id="75086276ae6b7e370f36c7fc49383216" category="inline-link-macro">创建文件系统</block>
+  <block id="03b2cfc949418819e16b1dc5fa3660ae" category="paragraph"><block ref="03b2cfc949418819e16b1dc5fa3660ae" category="inline-link-macro-rx"></block></block>
 </blocks>
