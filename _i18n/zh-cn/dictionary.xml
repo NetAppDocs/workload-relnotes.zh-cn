@@ -82,9 +82,7 @@
   <block id="f191d5f0a123d62966b3617a9d8c752c" category="section-title">数据源的文件修改日期筛选</block>
   <block id="b1be3e2e5ab05373dbf3927507ea84d2" category="paragraph">现在、GenAI支持在添加数据源时按修改日期筛选要包含在数据源扫描中的文件。您可以为包含的文件选择修改日期范围。</block>
   <block id="7a7ba68ff13813a8c9d7413b67a91e34" category="section-title">支持图像文件和增强的PDF文件支持</block>
-  <block id="02edd7a4065e5f73535b550150fc46f2" category="paragraph">现在、GenAI支持扫描图像文件和PDF文件中的图像(也称为多模式文件支持)。如果选择图像文件、则图像中的文本将扫描到数据源并用作数据。此功能包括PDF文档中的图像；如果包含PDF文件类型、则会扫描每个PDF中的图像以查找文本、并且该文本会包含在数据源的信息中。</block>
   <block id="b9a5ff8382cbb9f5609b8bff25344245" category="section-title">混合搜索和重新搜索支持</block>
-  <block id="429b63d212adaceb6de8dae934d76ea4" category="paragraph">现在、GenAI可以使用混合搜索并重新排列结果、从而增强搜索结果的相关性。混合搜索将关键字搜索与向量和语法搜索结合在一起。标准关键字搜索结果通过近似匹配和语言细微差别得到增强、从而增强相关性。GenAI会重新排列搜索结果、并仅返回相关性最高的结果。</block>
   <block id="77c129bd3271a24d7bdf27f4904c52f4" category="inline-link-macro">了解适用于GenAI的BlueXP  工作负载工厂</block>
   <block id="397adcec169a6ce17f0abfc941258c0f" category="paragraph"><block ref="397adcec169a6ce17f0abfc941258c0f" category="inline-link-macro-rx"></block></block>
   <block id="1d8ce1cfc87620dad9c49f1de100a4fb" category="section-title">2025年2月2日</block>
@@ -168,7 +166,6 @@
   <block id="cb1c6d98111a4dc0f10d1914aabf97ff" category="paragraph">此版本的GenAI提供了增强的文件支持：</block>
   <block id="20fae993429f53ad24302c4bea3332d1" category="list-text">聊天模式改进了CSV支持。这样、在从CSV文件查询数据时、可以做出更有用的响应。</block>
   <block id="820ddf0d1fd0a9cf5aaea49d2b400838" category="list-text">现在、GenAI可以从数据源中安装Apache Parquet文件。</block>
-  <block id="ce2ed264c43f0733c7c1ccbd1b06fdab" category="list-text">GenAI现在支持载入包含图像的Microsoft Word DOCX文件。</block>
   <block id="939bf2b00dbe77d4a65f4d265a755136" category="inline-link-macro">支持的数据源文件格式</block>
   <block id="9e64c0f3360c80d2707e71b213c5fc58" category="paragraph"><block ref="9e64c0f3360c80d2707e71b213c5fc58" category="inline-link-macro-rx"></block></block>
   <block id="cec87a8931004e5402a3f18575682723" category="paragraph">此版本的适用于VMware的BlueXP  工作负载工厂对Amazon EC2迁移顾问体验进行了多项改进：</block>
@@ -225,4 +222,7 @@
   <block id="b7cc50bb665bb63168fb8d2e9eebaedc" category="paragraph">在FSx for ONTAP文件系统创建过程中会创建一个安全组。现在、您可以查看安全组详细信息、包括协议、端口和角色。</block>
   <block id="75086276ae6b7e370f36c7fc49383216" category="inline-link-macro">创建文件系统</block>
   <block id="03b2cfc949418819e16b1dc5fa3660ae" category="paragraph"><block ref="03b2cfc949418819e16b1dc5fa3660ae" category="inline-link-macro-rx"></block></block>
+  <block id="fdd252a657eafa925fe82da2c74ab41c" category="paragraph">现在、GenAI支持通过从图像和图形说明以及文档文本中获得洞察力来增强对知识库查询的响应、从而获得更丰富、质量更高的答案。现在、GenAI可以扫描PDF文件中的图像文件和图像(也称为多模式文件支持)。如果您选择扫描图像或PDF文件、则图像中的文本(包括PDF文档中嵌入的图像)将扫描到数据源中、扫描中的见解将包括在知识库查询的响应中。</block>
+  <block id="603e61783fa33cd04788f143e949760c" category="paragraph">现在、GenAI可以使用混合搜索并重新排列结果、从而显著提高搜索结果的相关性和准确性。混合搜索将基于关键字的传统搜索的优势与基于密集矢量的高级语法搜索技术相结合。标准关键字搜索结果通过近似匹配和语言细微差别得到增强、从而增强相关性。然后、GenAI使用Cohere Rerank和Amazon Rerank等高级重新排名模型进一步细化这些结果、并返回最相关的结果。此功能可用于新创建的知识库。</block>
+  <block id="7c6f7e444c5d96b670cdcd189e2ee43a" category="list-text">GenAI现在支持载入包含图像的Microsoft Word DOCX文件。对DOCX文档中嵌入的图像进行扫描、对知识库查询的响应中包含嵌入图像中的文本洞察信息。</block>
 </blocks>
