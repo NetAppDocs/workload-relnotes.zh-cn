@@ -15,6 +15,66 @@ summary: 了解BlueXP  工作负载工厂中工作负载的最新变化。
 
 
 
+== 2025年4月4日
+
+
+
+=== 数据库工作负载
+
+
+
+==== 优化增强功能
+
+在优化数据库环境时、可以使用新的优化评估、更新和显示多个资源。
+
+
+
+===== 故障恢复能力评估
+
+这些增强功能包括新的故障恢复能力评估、用于检查是否为数据库环境配置了数据冗余和灾难恢复功能。
+
+* FSx for ONTAP备份：分析为SQL Server实例的卷提供服务的ONTAP文件系统FSx是否为ONTAP备份配置了计划FSx。
+* 跨区域复制：评估为Microsoft SQL Server实例提供服务的ONTAP文件系统FSx是否配置了跨区域复制。
+
+
+
+
+===== 计算修复
+
+接收端扩展(RSS)修复功能可配置RSS、以便在多个处理器之间分布网络处理、并确保高效分布负载。
+
+
+
+===== 本地快照修复
+
+本地快照修复可为Microsoft SQL Server实例的卷设置快照策略、以便在数据丢失时保持数据库环境的弹性。
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["优化配置"]
+
+
+
+===== 支持多资源选择
+
+在优化数据库配置时、您现在可以选择特定资源、而不是所有资源。
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["优化配置"]
+
+
+
+==== 改进了清单视图
+
+工作负载出厂控制台中的"清单"选项卡已经过简化、因此它仅包含在Amazon FSx for NetApp ONTAP上运行的SQL Server。现在、您可以在"浏览节省量"选项卡中找到在内部部署且在Amazon Elabic Block Store和Amazon FSx for Windows File Server上运行的SQL Server。
+
+
+
+==== 快速创建可用于PostgreSQL服务器部署
+
+您可以使用此快速部署选项创建具有HA配置和嵌入式最佳实践的PostgreSQL服务器。
+
+link:https://docs.netapp.com/us-en/workload-databases/create-postgresql-server.html["在BlueXP  工作负载工厂中创建PostgreSQL服务器"]
+
+
+
 == 2025年3月30日
 
 
@@ -470,47 +530,6 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.ht
 现在、您可以查看BlueXP  工作负载工厂执行各种操作所使用的权限、这些操作从发现存储环境到为GenAI工作负载部署AWS资源(例如存储中的文件系统或知识库)不等。您可以查看存储、数据库、VMware和GenAI工作负载的IAM策略和权限。
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["BlueXP  工作负载出厂权限"]
-
-
-
-== 2025年1月6日
-
-
-
-=== 数据库工作负载
-
-
-
-==== 数据库信息板增强功能
-
-仪表板的全新设计包括以下图形和增强功能：
-
-* 主机分布图显示了Microsoft SQL Server主机和PostgreSQL主机的数量
-* 实例分发详细信息包括检测到的实例总数以及受管Microsoft SQL Server和PostgreSQL实例的数量
-* 数据库分发详细信息包括数据库总数以及受管Microsoft SQL Server和PostgreSQL数据库的数量
-* 托管实例和联机实例的优化得分和状态
-* 存储、计算和应用程序类别的优化详细信息
-* 有关Microsoft SQL Server实例配置的优化详细信息、例如存储规模估算、存储布局、ONTAP存储、计算和应用程序
-* 与适用于NetApp ONTAP存储的Amazon FSx相比、在适用于Windows文件服务器的Amazon Elasic Block Store和FSx存储环境中运行的数据库工作负载可能会节省空间
-
-
-
-
-==== 作业监控中新增了"已完成但存在问题"状态
-
-现在、数据库的作业监控功能可提供新的"已完成但存在问题"状态、以便您可以了解哪些子作业存在问题以及存在哪些问题。
-
-link:https://docs.netapp.com/us-en/workload-databases/monitor-databases.html["监控数据库"]
-
-
-
-==== 评估和优化过度配置的Microsoft SQL Server许可证
-
-现在、节省量计算器将评估您的Microsoft SQL Server部署是否需要Enterprise Edition。如果许可证配置过度、计算器建议降级。通过优化应用程序、您将能够自动降级数据库中的许可证。
-
-* link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["利用FSx for ONTAP为数据库工作负载节省空间"]
-* link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["优化SQL Server工作负载"]
-
 
 
 

@@ -28,9 +28,6 @@
   <block id="a76e64a0fbf98a083080351e4cb67566" category="doc">VMware工作负载</block>
   <block id="d738890a4c9a0f96c08ae0ba66a626a1" category="inline-link">使用迁移顾问为Amazon EC2创建部署计划</block>
   <block id="2dbb83c0d88f8aa5c12c5445b2b248ee" category="paragraph"><block ref="2dbb83c0d88f8aa5c12c5445b2b248ee" category="inline-link-rx"></block></block>
-  <block id="7d6d6d8a97f883d860bff04c0be1019c" category="inline-link-macro">利用FSx for ONTAP为数据库工作负载节省空间</block>
-  <block id="5d743e351f2bc0b96d19c12d46be8be2" category="inline-link-macro">优化SQL Server工作负载</block>
-  <block id="72d1af9ffdd277a1cf7789b588da9b4d" category="paragraph"><block ref="72d1af9ffdd277a1cf7789b588da9b4d" category="inline-link-macro-rx"></block></block>
   <block id="d2705530e45ff55c7a7db4a1196a8b0d" category="summary">了解BlueXP  工作负载工厂中工作负载的最新变化。</block>
   <block id="482a03f8810c074753dd4da1f075dc70" category="doc">BlueXP  工作负载出厂时的最新变更</block>
   <block id="ccbb3c80d40b938a56e8803235ec679c" category="sidebar">本发行说明介绍了BlueXP  工作负载工厂中的云服务的最新增强功能。</block>
@@ -40,25 +37,8 @@
   <block id="428b0b39be2352757edeb5f9f12a7bdd" category="inline-link">BlueXP  工作负载工厂</block>
   <block id="7cf449620aa459bc5c449db69b07e507" category="paragraph"><block ref="7cf449620aa459bc5c449db69b07e507" category="inline-link-rx"></block></block>
   <block id="065531f581a60b79025f539bd1ff1cff" category="section-title">2025年1月5日</block>
-  <block id="f418f614e126c9d215de85f00b5b7a7e" category="doc">数据库信息板增强功能</block>
-  <block id="c18a3eee23770f4e57bfa9ffe245c428" category="paragraph">仪表板的全新设计包括以下图形和增强功能：</block>
-  <block id="47ecffc6ee3a1f9bca5a81d55169b8b6" category="list-text">主机分布图显示了Microsoft SQL Server主机和PostgreSQL主机的数量</block>
-  <block id="ec506ecd03b96cac2e19d3abac7aa16e" category="list-text">实例分发详细信息包括检测到的实例总数以及受管Microsoft SQL Server和PostgreSQL实例的数量</block>
-  <block id="9bb5ee528a11ed94b071f88a078be55e" category="list-text">数据库分发详细信息包括数据库总数以及受管Microsoft SQL Server和PostgreSQL数据库的数量</block>
-  <block id="01fe24ee345a62672acb8a16826117d0" category="list-text">托管实例和联机实例的优化得分和状态</block>
-  <block id="341934677d47967f5c6e737476247396" category="list-text">存储、计算和应用程序类别的优化详细信息</block>
-  <block id="fb2f60a13243e168f321a9de2af52d51" category="list-text">有关Microsoft SQL Server实例配置的优化详细信息、例如存储规模估算、存储布局、ONTAP存储、计算和应用程序</block>
-  <block id="18168aa68b74c030711fe95b2b74afac" category="list-text">与适用于NetApp ONTAP存储的Amazon FSx相比、在适用于Windows文件服务器的Amazon Elasic Block Store和FSx存储环境中运行的数据库工作负载可能会节省空间</block>
-  <block id="1886db6545ee593b7bf9014a318fd354" category="section-title">作业监控中新增了"已完成但存在问题"状态</block>
-  <block id="ddd4a54acb0820f07017dcad26528779" category="paragraph">现在、数据库的作业监控功能可提供新的"已完成但存在问题"状态、以便您可以了解哪些子作业存在问题以及存在哪些问题。</block>
-  <block id="c72aad21ecf48b0a4f27430d70c166da" category="inline-link-macro">监控数据库</block>
-  <block id="5c89f4f6af1a71c2ed6cfac605e94c16" category="paragraph"><block ref="5c89f4f6af1a71c2ed6cfac605e94c16" category="inline-link-macro-rx"></block></block>
-  <block id="fd3039d7fbe9d24b3141aca3c62383a2" category="section-title">评估和优化过度配置的Microsoft SQL Server许可证</block>
-  <block id="f90a806c02db45741274868bc065ab90" category="paragraph">现在、节省量计算器将评估您的Microsoft SQL Server部署是否需要Enterprise Edition。如果许可证配置过度、计算器建议降级。通过优化应用程序、您将能够自动降级数据库中的许可证。</block>
-  <block id="c5e3fb9d31cd8a0b458ca9e3c4a690f6" category="section-title">2025年1月6日</block>
   <block id="cde718e2f0bf0ef80eb31becc18c4787" category="list-text">*保存或下载迁移计划*：现在可以保存或下载迁移计划，并加载迁移计划以填充迁移顾问。保存迁移计划时、该计划将与您的工作负载工厂帐户一起保存。</block>
   <block id="42ec77b942403dfbfa1bb7908218848c" category="list-text">*改进的虚拟机选择*：适用于VMware的BlueXP  工作负载工厂现在支持筛选和搜索要包含在迁移部署中的虚拟机列表。</block>
-  <block id="f2398fe4ddb880ba6c52b376ef9b960c" category="list-text"><block ref="f2398fe4ddb880ba6c52b376ef9b960c" category="inline-link-macro-rx"></block></block>
   <block id="ca475a2b63c70fedcf8f6650024d480b" category="doc">BlueXP  工作负载出厂权限</block>
   <block id="5291909ce92037a20a37f7a0c86dd921" category="paragraph">现在、您可以查看BlueXP  工作负载工厂执行各种操作所使用的权限、这些操作从发现存储环境到为GenAI工作负载部署AWS资源(例如存储中的文件系统或知识库)不等。您可以查看存储、数据库、VMware和GenAI工作负载的IAM策略和权限。</block>
   <block id="f157db6a1ae10e7a29a28440d21f5cb8" category="paragraph"><block ref="f157db6a1ae10e7a29a28440d21f5cb8" category="inline-link-macro-rx"></block></block>
@@ -225,4 +205,23 @@
   <block id="fdd252a657eafa925fe82da2c74ab41c" category="paragraph">现在、GenAI支持通过从图像和图形说明以及文档文本中获得洞察力来增强对知识库查询的响应、从而获得更丰富、质量更高的答案。现在、GenAI可以扫描PDF文件中的图像文件和图像(也称为多模式文件支持)。如果您选择扫描图像或PDF文件、则图像中的文本(包括PDF文档中嵌入的图像)将扫描到数据源中、扫描中的见解将包括在知识库查询的响应中。</block>
   <block id="603e61783fa33cd04788f143e949760c" category="paragraph">现在、GenAI可以使用混合搜索并重新排列结果、从而显著提高搜索结果的相关性和准确性。混合搜索将基于关键字的传统搜索的优势与基于密集矢量的高级语法搜索技术相结合。标准关键字搜索结果通过近似匹配和语言细微差别得到增强、从而增强相关性。然后、GenAI使用Cohere Rerank和Amazon Rerank等高级重新排名模型进一步细化这些结果、并返回最相关的结果。此功能可用于新创建的知识库。</block>
   <block id="7c6f7e444c5d96b670cdcd189e2ee43a" category="list-text">GenAI现在支持载入包含图像的Microsoft Word DOCX文件。对DOCX文档中嵌入的图像进行扫描、对知识库查询的响应中包含嵌入图像中的文本洞察信息。</block>
+  <block id="8bb788607f31f673e25d0ba34b09a14d" category="doc">优化增强功能</block>
+  <block id="7e9a755c644cbdbaab2927671606cf89" category="paragraph">在优化数据库环境时、可以使用新的优化评估、更新和显示多个资源。</block>
+  <block id="3cde2cfbcdbdd79a3c1d3d6b547ab80d" category="section-title">故障恢复能力评估</block>
+  <block id="218733e992141498b68631094f232446" category="paragraph">这些增强功能包括新的故障恢复能力评估、用于检查是否为数据库环境配置了数据冗余和灾难恢复功能。</block>
+  <block id="a8b36cbcd13facdcd526df9ca0c4aba5" category="list-text">FSx for ONTAP备份：分析为SQL Server实例的卷提供服务的ONTAP文件系统FSx是否为ONTAP备份配置了计划FSx。</block>
+  <block id="3ddd695d01877806196cb9bc8be009da" category="list-text">跨区域复制：评估为Microsoft SQL Server实例提供服务的ONTAP文件系统FSx是否配置了跨区域复制。</block>
+  <block id="233f3c54635152d78b375495cd0b5580" category="section-title">计算修复</block>
+  <block id="c4b982d56748631e5cf80fe05312f901" category="paragraph">接收端扩展(RSS)修复功能可配置RSS、以便在多个处理器之间分布网络处理、并确保高效分布负载。</block>
+  <block id="9ed609dc6760dae060dbad52b3aa2d42" category="section-title">本地快照修复</block>
+  <block id="229b55b063b8208ec58911841f6bad18" category="paragraph">本地快照修复可为Microsoft SQL Server实例的卷设置快照策略、以便在数据丢失时保持数据库环境的弹性。</block>
+  <block id="14684cd0a52a7f7301e2400ff9ce8c16" category="section-title">支持多资源选择</block>
+  <block id="909e5b19987da9dd66e288802ac9729e" category="paragraph">在优化数据库配置时、您现在可以选择特定资源、而不是所有资源。</block>
+  <block id="d36362545a72cd1eef4186ca8a99dca1" category="section-title">改进了清单视图</block>
+  <block id="9f3b67d6f0d3de869a895be1df755a3b" category="paragraph">工作负载出厂控制台中的"清单"选项卡已经过简化、因此它仅包含在Amazon FSx for NetApp ONTAP上运行的SQL Server。现在、您可以在"浏览节省量"选项卡中找到在内部部署且在Amazon Elabic Block Store和Amazon FSx for Windows File Server上运行的SQL Server。</block>
+  <block id="b66e93ffc0672f74db831d8f9d81fdba" category="section-title">快速创建可用于PostgreSQL服务器部署</block>
+  <block id="f7d019f8da84eee0771921896cbb0cd5" category="paragraph">您可以使用此快速部署选项创建具有HA配置和嵌入式最佳实践的PostgreSQL服务器。</block>
+  <block id="c4f70f11159098cce8873623bffb07aa" category="inline-link-macro">在BlueXP  工作负载工厂中创建PostgreSQL服务器</block>
+  <block id="5963667f9fe01282fae9030cccbd24a3" category="paragraph"><block ref="5963667f9fe01282fae9030cccbd24a3" category="inline-link-macro-rx"></block></block>
+  <block id="813bb11b4f90c862c2b7c2d35cc082ff" category="section-title">2025年4月4日</block>
 </blocks>
