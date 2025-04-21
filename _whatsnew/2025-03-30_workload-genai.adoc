@@ -8,7 +8,7 @@
 
 此版本的GenAI引入了在从数据源中精妙设计文件时对JSON和JSONP文件格式的支持 `.json`。支持包含嵌套对象的JSON文件、但对嵌套阵列的支持有限。
 
-link:https://review.docs.netapp.com/us-en/workload-genai_mar-2-release/identify-data-sources.html#supported-data-source-file-formats["支持的数据源文件格式"]
+link:https://docs.netapp.com/us-en/workload-genai/identify-data-sources.html#supported-data-source-file-formats["支持的数据源文件格式"]
 
 
 

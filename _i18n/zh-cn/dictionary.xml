@@ -147,7 +147,6 @@
   <block id="20fae993429f53ad24302c4bea3332d1" category="list-text">聊天模式改进了CSV支持。这样、在从CSV文件查询数据时、可以做出更有用的响应。</block>
   <block id="820ddf0d1fd0a9cf5aaea49d2b400838" category="list-text">现在、GenAI可以从数据源中安装Apache Parquet文件。</block>
   <block id="939bf2b00dbe77d4a65f4d265a755136" category="inline-link-macro">支持的数据源文件格式</block>
-  <block id="9e64c0f3360c80d2707e71b213c5fc58" category="paragraph"><block ref="9e64c0f3360c80d2707e71b213c5fc58" category="inline-link-macro-rx"></block></block>
   <block id="cec87a8931004e5402a3f18575682723" category="paragraph">此版本的适用于VMware的BlueXP  工作负载工厂对Amazon EC2迁移顾问体验进行了多项改进：</block>
   <block id="13ba1ae4c82947e19de7e94ee0eaab45" category="list-text">*估计实例类型*：迁移顾问现在可以检查您的环境要求、并为每个VM提供估计的Amazon EC2实例类型。您可以选择在迁移顾问的范围步骤中包括每个VM的估计实例类型。</block>
   <block id="3006f7737352e976899743eaf6e2b28e" category="list-text">*推荐Amazon EBS卷的能力*：由于特定地区的特定容量或性能需求、迁移顾问现在可以建议将数据卷迁移到Amazon Elelic Block Store (EBS)、而不是Amazon FSx for NetApp ONTAP。</block>
@@ -224,4 +223,5 @@
   <block id="c4f70f11159098cce8873623bffb07aa" category="inline-link-macro">在BlueXP  工作负载工厂中创建PostgreSQL服务器</block>
   <block id="5963667f9fe01282fae9030cccbd24a3" category="paragraph"><block ref="5963667f9fe01282fae9030cccbd24a3" category="inline-link-macro-rx"></block></block>
   <block id="813bb11b4f90c862c2b7c2d35cc082ff" category="section-title">2025年4月4日</block>
+  <block id="b70e34d229298faea8d481f1cfdd32a9" category="paragraph"><block ref="b70e34d229298faea8d481f1cfdd32a9" category="inline-link-macro-rx"></block></block>
 </blocks>
