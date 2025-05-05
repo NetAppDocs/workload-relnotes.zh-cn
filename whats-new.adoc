@@ -15,6 +15,262 @@ summary: 了解BlueXP  工作负载工厂中工作负载的最新变化。
 
 
 
+== 2025年5月4日
+
+
+
+=== 适用于 NetApp ONTAP 的 Amazon FSX
+
+
+
+==== 针对ONTAP文件系统FSx的自动防软件保护
+
+利用自动勒索软件保护(ARP)保护数据、此功能可在NAS (NFS/SMB)环境中使用工作负载分析来检测可能是勒索软件攻击的异常活动并发出警告。当怀疑发生攻击时、ARP还会创建新的、不可变更的快照、您可以从中还原数据。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/ransomware-protection.html["利用自动防兰森保护功能保护您的数据"]
+
+
+
+==== FlexGroup卷重新平衡增强功能
+
+BlueXP  工作负载出厂时引入了FlexGroup卷重新平衡向导、其中包含多个用于重新平衡FlexGroup卷中数据的布局选项。重新平衡会将数据均匀地重新分布到FlexGroup成员卷。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/rebalance-volume.html["重新平衡FlexGroup卷中的容量"]
+
+
+
+==== 为FSx for ONTAP文件系统实施最佳实践
+
+BlueXP  工作负载工厂提供了一个信息板、您可以在其中查看文件系统配置的架构良好状态。您可以利用此分析为FSx for ONTAP文件系统实施最佳实践。文件系统配置分析包括以下配置：SSD容量阈值、计划的本地快照、计划的ONTAP备份FSx、数据分层和远程数据复制。
+
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/configuration-analysis.html["了解对文件系统配置进行精心设计的分析"]
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["为文件系统实施最佳实践"]
+
+
+
+
+==== 双协议卷安全模式选项
+
+您可以选择NTFS或UNIX作为卷的安全模式、以确定用户和权限访问卷的方法。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["创建卷"]
+
+
+
+==== 复制增强功能
+
+
+
+===== 支持从FSx for ONTAP反向复制到内部
+
+现在、可以从FSx for ONTAP文件系统从工作负载出厂控制台向内部ONTAP集群进行反向复制。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/reverse-replication.html["反向复制"]
+
+
+
+===== 数据保护卷复制
+
+现在、您可以复制数据保护卷。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/cascade-replication.html["复制数据保护卷"]
+
+
+
+===== 选择多个卷
+
+您可以选择多个卷、以便准确选择要复制的卷。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["创建复制关系"]
+
+
+
+===== 长期保留策略标签
+
+如果为复制关系启用长期保留、则源卷和目标卷标签必须完全匹配。现在、BlueXP  工作负载工厂可以自动为您创建缺少的源卷标签。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["创建复制关系"]
+
+
+
+==== FSx for ONTAP文件名可在创建卷时显示
+
+我们提高了FSx for ONTAP文件系统在卷创建期间的可见性。创建卷时、您将看到FSx for ONTAP文件系统、因此您可以确切地知道卷的创建位置。
+
+
+
+==== 可在存储工作负载中查看AWS帐户
+
+我们提高了客户对整个存储工作负载的可见性。导航到*卷*、*存储VM*和*复制*选项卡时、您将看到AWS帐户。
+
+
+
+==== 链接关联增强功能
+
+* 您可以在清单选项卡中快速关联FSx for ONTAP文件系统中的链接。
+* BlueXP  工作负载工厂现在支持使用备用ONTAP用户凭据进行链接关联。
+
+
+
+
+==== 支持对AWS专有信息管理器进行链接身份验证
+
+现在、您可以选择使用AWS机密管理器中的密钥对链接进行身份验证、这样就不必使用BlueXP  工作负载工厂中存储的凭据。
+
+
+
+==== 跟踪器响应支持
+
+Tracker现在提供API响应、以便您可以查看与任务相关的REST API输出。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/monitor-operations.html["使用Tracker监控操作"]
+
+
+
+==== 从备份还原卷时进行容量验证
+
+从备份还原卷时、BlueXP  工作负载出厂时会确定您是否有足够的容量进行还原、如果没有、则可以自动添加SSD存储层容量。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/restore-from-backup.html["从备份还原卷"]
+
+
+
+==== 支持备用ONTAP用户凭据
+
+工作负载工厂现在支持使用备用ONTAP凭据集来创建文件系统、从而最大限度地降低安全风险。您可以选择一组不同的ONTAP凭据、也可以选择不为fsxadmin和vsaadmin用户提供密码、而不是仅使用fsxadmin用户。
+
+
+
+==== 更新了权限术语
+
+现在、工作负载出厂用户界面和文档使用"只读"来表示读取权限、使用"读写"来表示自动执行权限。
+
+
+
+=== 数据库工作负载
+
+
+
+==== 信息板增强功能
+
+* 在BlueXP  工作负载出厂控制台中的选项卡之间导航时、可以使用跨帐户和跨区域视图。新视图可改进资源管理、监控和优化。
+* 在信息板的*潜在节省*图块中、您将能够从Amazon El生 磁块存储切换到FSx for ONTAP或Amazon FSx for Windows File Server、从而快速查看可能节省的空间。
+
+
+
+
+==== 可对数据库配置进行临时扫描
+
+适用于数据库的BlueXP  工作负载工厂会自动扫描使用FSx for ONTAP存储的托管Microsoft SQL Server实例、以确定是否存在潜在的配置问题。现在、除了每日扫描之外、您还可以随时进行扫描。
+
+
+
+==== 删除内部评估记录
+
+在探讨了Microsoft SQL Server内部主机的节省之后、您可以选择从BlueXP  工作负载出厂时删除内部主机记录。
+
+
+
+==== 优化增强功能
+
+
+
+===== 克隆清理
+
+克隆清理评估和修复可识别和管理成本高昂的旧克隆。可以从BlueXP  工作负载出厂控制台中刷新或删除60天以上的克隆。
+
+
+
+===== 延迟和取消配置分析
+
+某些配置可能不适用于您的数据库环境。现在、您可以选择将特定配置分析推迟30天或取消分析。
+
+
+
+==== 删除内部评估记录
+
+在探讨了Microsoft SQL Server内部主机的节省之后、您可以选择从BlueXP  工作负载出厂时删除内部主机记录。
+
+
+
+==== 更新了权限术语
+
+现在、工作负载出厂用户界面和文档使用"只读"来表示读取权限、使用"读写"来表示自动执行权限。
+
+
+
+=== VMware工作负载
+
+
+
+==== Amazon EC2迁移顾问改进
+
+此版本的适用于VMware的BlueXP  工作负载工厂对Amazon EC2迁移顾问体验进行了以下改进：
+
+*将NetApp数据基础架构洞察作为数据源*：现在、工作负载工厂可直接与NetApp数据基础架构洞察连接、以便在使用EC2迁移顾问数据收集器时收集VMware部署信息。
+
+https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["使用迁移顾问为Amazon EC2创建部署计划"]
+
+
+
+==== 更新了权限术语
+
+现在、工作负载出厂用户界面和文档使用"只读"来表示读取权限、使用"读写"来表示自动执行权限。
+
+
+
+=== GenAI工作负载
+
+
+
+==== 支持NetApp ONTAP Connector for Amazon Q
+
+此版本的GenAI支持适用于Amazon Q的NetApp ONTAP连接器、使您能够为Amazon Q Business创建连接器。快速轻松地利用Amazon Q Business AI助理、与构建Amazon Brock的GenAI知识库相比、初始配置更少。
+
+link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html["为Amazon Q Business创建一个GenAI连接器"]
+
+
+
+==== 增强了聊天模式支持
+
+现在、GenAI还支持在知识库中使用以下聊天模式：
+
+* link:https://docs.mistral.ai/getting-started/models/models_overview/["Mistral AI型号"^]
+* link:https://docs.aws.amazon.com/bedrock/latest/userguide/titan-text-models.html["Amazon T人 文本模型"^]
+* link:https://www.llama.com/docs/model-cards-and-prompt-formats/["Meta Llama模型"^]
+* link:https://docs.ai21.com/["JAMBA 1.5型号"^]
+* link:https://docs.cohere.com/docs/the-cohere-platform["Cohere命令模型"^]
+* link:https://aws.amazon.com/bedrock/deepseek/["DeepSeek型号"^]
+
+
+GenAI支持Amazon Brock支持的每个提供商的型号：link:https://docs.aws.amazon.com/bedrock/latest/userguide/models-supported.html["Amazon Brock中支持的基础模型"^]
+
+link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html["创建GenAI知识库"]
+
+
+
+==== 更新了权限术语
+
+现在、工作负载出厂用户界面和文档使用"只读"来表示读取权限、使用"读写"来表示自动执行权限。
+
+
+
+=== 设置和管理
+
+
+
+==== CloudShell自动完成支持
+
+使用BlueXP  Workload Factory CloudShell时、您可以开始键入命令、然后按Tab键查看可用选项。如果存在多种可能、命令行界面将显示建议列表。此功能可最大限度地减少错误并加快命令执行速度、从而提高工作效率。
+
+
+
+==== 更新了权限术语
+
+现在、工作负载出厂用户界面和文档使用"只读"来表示读取权限、使用"读写"来表示自动执行权限。
+
+
+
 == 2025年4月4日
 
 
@@ -150,7 +406,7 @@ https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.h
 
 此版本的GenAI引入了在从数据源中精妙设计文件时对JSON和JSONP文件格式的支持 `.json`。支持包含嵌套对象的JSON文件、但对嵌套阵列的支持有限。
 
-link:https://docs.netapp.com/us-en/workload-genai/identify-data-sources.html#supported-data-source-file-formats["支持的数据源文件格式"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/identify-data-sources-knowledge-base.html#supported-data-source-file-formats["支持的数据源文件格式"]
 
 
 
@@ -166,7 +422,7 @@ link:https://github.com/NetApp/FSx-ONTAP-samples-scripts/tree/main/AI/GenAI-Chat
 
 GenAI现在支持Anthropic Claude 3.7 Sonnet聊天模式。CLODE 3.7 Sonnet的测试版功能允许每个请求最多128K输出令牌、并支持新的计算机使用操作。将来的GenAI版本将支持CLAUDE 3.7 Sonnet扩展思维模式。
 
-link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html["创建GenAI知识库"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["创建GenAI知识库"]
 
 
 
@@ -182,7 +438,7 @@ link:https://console.workloads.netapp.com/api-doc["使用工作负载出厂API"^
 
 现在、您可以在同一区域部署GenAI基础架构link:https://docs.aws.amazon.com/vpc/latest/peering/what-is-vpc-peering.html["对等虚拟私有云(VPC)"^]、并使用相同的AWS帐户。您可以在VPC中部署AI引擎、然后在对等VPC中创建知识库、并选择位于对等VPC中的Amazon FSx for NetApp ONTAP文件系统。
 
-link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html["创建GenAI知识库"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["创建GenAI知识库"]
 
 
 
@@ -328,7 +584,7 @@ https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.h
 
 现在、您可以将问题和回答直接复制到剪贴板、调整聊天窗口的大小并更改其标题。此外、聊天响应现在可以包括表、这些表也是可复制的。
 
-link:https://docs.netapp.com/us-en/workload-genai/test-knowledgebase.html["测试GenAI知识库"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/test-knowledgebase.html["测试GenAI知识库"]
 
 
 
@@ -336,7 +592,7 @@ link:https://docs.netapp.com/us-en/workload-genai/test-knowledgebase.html["测�
 
 聊天回复现在包含引用、列出用于生成回复的文件和数据块。
 
-link:https://docs.netapp.com/us-en/workload-genai/test-knowledgebase.html["测试GenAI知识库"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/test-knowledgebase.html["测试GenAI知识库"]
 
 
 
@@ -349,151 +605,11 @@ link:https://docs.netapp.com/us-en/workload-genai/test-knowledgebase.html["测�
 * GenAI现在支持载入包含图像的Microsoft Word DOCX文件。对DOCX文档中嵌入的图像进行扫描、对知识库查询的响应中包含嵌入图像中的文本洞察信息。
 
 
-link:https://docs.netapp.com/us-en/workload-genai/identify-data-sources.html#supported-data-source-file-formats["支持的数据源文件格式"]
-
-
-
-== 2025年2月3日
-
-
-
-=== 数据库工作负载
-
-
-
-==== 内部数据库环境成本分析和迁移规划
-
-现在、适用于数据库的BlueXP  工作负载工厂可以检测、分析并帮助您规划将内部数据库迁移到Amazon FSx for NetApp ONTAP的过程。您可以使用节省计算器估算在云中运行内部数据库环境的成本、并查看将内部数据库环境迁移到云的建议。
-
-link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["了解内部数据库环境的节省量"]
-
-
-
-==== 新的数据库优化评估
-
-现在、BlueXP  工作负载工厂提供了以下数据库评估。这些评估侧重于检测和防范潜在的安全漏洞、以及检测和缓解性能瓶颈。
-
-* *接收端扩展(RSS)配置*：检查RSS配置是否已启用，队列数量是否设置为建议值。此评估还会提供有关优化RSS配置的建议。
-* *最大并行度(MAXDOP)服务器配置*：评估检查MAXDOP是否配置正确，并提供优化性能的建议。
-* *Microsoft SQL Server修补程序*：评估检查SQL Server实例上是否安装了最新的修补程序，并提供安装最新修补程序的建议。
-
-
-link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["优化配置"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/identify-data-sources-knowledge-base.html#supported-data-source-file-formats["支持的数据源文件格式"]
 
 
 
 == 2025年2月2日
-
-
-
-=== 适用于 NetApp ONTAP 的 Amazon FSX
-
-
-
-==== BlueXP  工作负载出厂控制台中的CloudShell
-
-CloudShell是一种嵌入式命令行界面功能、可在BlueXP  工作负载工厂中用于存储。您可以使用CloudShell在类似于Shell的环境中的工作负载出厂控制台中从多个会话创建、共享和执行ONTAP或AWS命令行界面命令。
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["详细了解BlueXP  工作负载工厂中的CloudShell"]
-
-
-
-==== 清单数据下载
-
-现在、您可以从BlueXP  工作负载工厂的存储将FSx for ONTAP清单数据下载到Microsoft Excel或CSV文件中。
-
-image:screenshot-fsx-inventory-download.png["BlueXP  工作负载工厂中的存储的屏幕截图、其中显示了用于下载FSx for ONTAP文件系统清单数据的新下载按钮。"]
-
-
-
-==== FSx for ONTAP文件系统其他菜单选项
-
-我们已通过"存储"中的FSx for ONTAP选项卡对FSx for ONTAP文件系统执行以下操作变得更加简单。
-
-* 创建Storage VM
-* 创建卷
-* 复制卷数据
-
-
-image:screenshot-filesystem-menu-options.png["\"存储\"中FSx for ONTAP选项卡的屏幕截图、其中显示了创建Storage VM、创建卷和复制卷数据的新菜单选项。"]
-
-
-
-==== Terraform支持创建卷
-
-现在、您可以使用CodeBox中的Terraform创建卷。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["创建卷"]
-
-
-
-==== 使用不可配置文件功能锁定文件
-
-现在、在为FSx for ONTAP文件系统创建卷时、您可以使用不可改变的文件功能锁定文件。文件锁定可帮助您和其他人防止在指定期限内意外或故意删除文件。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["创建卷"]
-
-
-
-==== 跟踪器可用于监控和跟踪操作
-
-Tracker、存储中提供了一种新的监控功能。您可以使用Tracker监控和跟踪凭据、存储和链接操作的进度和状态、查看操作任务和子任务的详细信息、诊断任何问题或故障、编辑失败操作的参数以及重试失败操作。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/monitor-operations.html["了解如何使用Tracker监控和跟踪操作"]
-
-
-
-==== 支持适用于NetApp ONTAP文件系统的第二代Amazon FSx
-
-现在、您可以在BlueXP  工作负载工厂中对NetApp ONTAP第二代文件系统使用Amazon FSx。FSx for ONTAP第二代单AZ文件系统由多达12个HA对提供支持、可提供高达72 Gbps的吞吐量和240、000次SSD IOPS。FSx for ONTAP第二代Multi-AZ文件系统由一个HA对提供支持、可提供6 Gbps的吞吐量和200、000次SSD IOPS。
-
-* link:https://docs.netapp.com/us-en/workload-fsx-ontap/add-ha-pairs.html["添加高可用性对"]
-* link:https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/limits.html["Amazon FSx for NetApp ONTAP的配额和限制"^]
-
-
-
-
-=== GenAI工作负载
-
-
-
-==== 支持Amazon Nova基础模型
-
-现在、GenAI支持Amazon Nova基础模型。支持Amazon Nova Micro、Amazon Nova Lite和Amazon Nova Pro。
-
-link:https://docs.netapp.com/us-en/workload-genai/requirements.html["GenAI要求"]
-
-
-
-==== 数据源的文件类型筛选
-
-现在、GenAI支持在添加数据源时选择要包括在数据源扫描中的特定文件类型。
-
-link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#add-data-sources-to-the-knowledge-base["向知识库添加数据源"]
-
-
-
-==== 数据源的文件修改日期筛选
-
-现在、GenAI支持在添加数据源时按修改日期筛选要包含在数据源扫描中的文件。您可以为包含的文件选择修改日期范围。
-
-link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#add-data-sources-to-the-knowledge-base["向知识库添加数据源"]
-
-
-
-==== 支持图像文件和增强的PDF文件支持
-
-现在、GenAI支持通过从图像和图形说明以及文档文本中获得洞察力来增强对知识库查询的响应、从而获得更丰富、质量更高的答案。现在、GenAI可以扫描PDF文件中的图像文件和图像(也称为多模式文件支持)。如果您选择扫描图像或PDF文件、则图像中的文本(包括PDF文档中嵌入的图像)将扫描到数据源中、扫描中的见解将包括在知识库查询的响应中。
-
-link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html#add-data-sources-to-the-knowledge-base["向知识库添加数据源"]
-
-
-
-==== 混合搜索和重新搜索支持
-
-现在、GenAI可以使用混合搜索并重新排列结果、从而显著提高搜索结果的相关性和准确性。混合搜索将基于关键字的传统搜索的优势与基于密集矢量的高级语法搜索技术相结合。标准关键字搜索结果通过近似匹配和语言细微差别得到增强、从而增强相关性。然后、GenAI使用Cohere Rerank和Amazon Rerank等高级重新排名模型进一步细化这些结果、并返回最相关的结果。此功能可用于新创建的知识库。
-
-link:https://docs.netapp.com/us-en/workload-genai/ai-workloads-overview.html#benefits-of-using-genai-to-create-generative-ai-applications["了解适用于GenAI的BlueXP  工作负载工厂"]
 
 
 
@@ -514,39 +630,3 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["使
 现在，以下权限在_read_模式下可用于数据库： `iam:SimulatePrincipalPolicy`。
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#change-log["权限引用更改日志"]
-
-
-
-== 2025年1月22日
-
-
-
-=== 设置和管理
-
-
-
-==== BlueXP  工作负载出厂权限
-
-现在、您可以查看BlueXP  工作负载工厂执行各种操作所使用的权限、这些操作从发现存储环境到为GenAI工作负载部署AWS资源(例如存储中的文件系统或知识库)不等。您可以查看存储、数据库、VMware和GenAI工作负载的IAM策略和权限。
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["BlueXP  工作负载出厂权限"]
-
-
-
-== 2025年1月5日
-
-
-
-=== VMware工作负载
-
-
-
-==== Amazon EC2迁移顾问改进
-
-此版本的适用于VMware的BlueXP  工作负载工厂对迁移顾问体验进行了多项改进：
-
-* *保存或下载迁移计划*：现在可以保存或下载迁移计划，并加载迁移计划以填充迁移顾问。保存迁移计划时、该计划将与您的工作负载工厂帐户一起保存。
-* *改进的虚拟机选择*：适用于VMware的BlueXP  工作负载工厂现在支持筛选和搜索要包含在迁移部署中的虚拟机列表。
-
-
-https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["使用迁移顾问为Amazon EC2创建部署计划"]

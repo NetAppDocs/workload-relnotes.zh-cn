@@ -8,7 +8,7 @@
 
 此版本的GenAI引入了在从数据源中精妙设计文件时对JSON和JSONP文件格式的支持 `.json`。支持包含嵌套对象的JSON文件、但对嵌套阵列的支持有限。
 
-link:https://docs.netapp.com/us-en/workload-genai/identify-data-sources.html#supported-data-source-file-formats["支持的数据源文件格式"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/identify-data-sources-knowledge-base.html#supported-data-source-file-formats["支持的数据源文件格式"]
 
 
 
@@ -24,7 +24,7 @@ link:https://github.com/NetApp/FSx-ONTAP-samples-scripts/tree/main/AI/GenAI-Chat
 
 GenAI现在支持Anthropic Claude 3.7 Sonnet聊天模式。CLODE 3.7 Sonnet的测试版功能允许每个请求最多128K输出令牌、并支持新的计算机使用操作。将来的GenAI版本将支持CLAUDE 3.7 Sonnet扩展思维模式。
 
-link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html["创建GenAI知识库"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["创建GenAI知识库"]
 
 
 
@@ -40,4 +40,4 @@ link:https://console.workloads.netapp.com/api-doc["使用工作负载出厂API"^
 
 现在、您可以在同一区域部署GenAI基础架构link:https://docs.aws.amazon.com/vpc/latest/peering/what-is-vpc-peering.html["对等虚拟私有云(VPC)"^]、并使用相同的AWS帐户。您可以在VPC中部署AI引擎、然后在对等VPC中创建知识库、并选择位于对等VPC中的Amazon FSx for NetApp ONTAP文件系统。
 
-link:https://docs.netapp.com/us-en/workload-genai/create-knowledgebase.html["创建GenAI知识库"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["创建GenAI知识库"]

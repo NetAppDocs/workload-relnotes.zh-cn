@@ -33,38 +33,10 @@
   <block id="ccbb3c80d40b938a56e8803235ec679c" category="sidebar">本发行说明介绍了BlueXP  工作负载工厂中的云服务的最新增强功能。</block>
   <block id="15d6d0dbf56d72db14e4484abfd8982d" category="sidebar">BlueXP  工作负载出厂发行说明</block>
   <block id="1d194f6c398ca78aaffd8c430203e1ec" category="doc">Amazon EC2迁移顾问改进</block>
-  <block id="1e5e06dbbf4cb0bb655126bc90757161" category="paragraph">此版本的适用于VMware的BlueXP  工作负载工厂对迁移顾问体验进行了多项改进：</block>
   <block id="428b0b39be2352757edeb5f9f12a7bdd" category="inline-link">BlueXP  工作负载工厂</block>
   <block id="7cf449620aa459bc5c449db69b07e507" category="paragraph"><block ref="7cf449620aa459bc5c449db69b07e507" category="inline-link-rx"></block></block>
-  <block id="065531f581a60b79025f539bd1ff1cff" category="section-title">2025年1月5日</block>
-  <block id="cde718e2f0bf0ef80eb31becc18c4787" category="list-text">*保存或下载迁移计划*：现在可以保存或下载迁移计划，并加载迁移计划以填充迁移顾问。保存迁移计划时、该计划将与您的工作负载工厂帐户一起保存。</block>
-  <block id="42ec77b942403dfbfa1bb7908218848c" category="list-text">*改进的虚拟机选择*：适用于VMware的BlueXP  工作负载工厂现在支持筛选和搜索要包含在迁移部署中的虚拟机列表。</block>
-  <block id="ca475a2b63c70fedcf8f6650024d480b" category="doc">BlueXP  工作负载出厂权限</block>
-  <block id="5291909ce92037a20a37f7a0c86dd921" category="paragraph">现在、您可以查看BlueXP  工作负载工厂执行各种操作所使用的权限、这些操作从发现存储环境到为GenAI工作负载部署AWS资源(例如存储中的文件系统或知识库)不等。您可以查看存储、数据库、VMware和GenAI工作负载的IAM策略和权限。</block>
-  <block id="f157db6a1ae10e7a29a28440d21f5cb8" category="paragraph"><block ref="f157db6a1ae10e7a29a28440d21f5cb8" category="inline-link-macro-rx"></block></block>
-  <block id="43c56433351f336a8ecd0e9efa7ddca4" category="section-title">2025年1月22日</block>
-  <block id="efc2466e55cc45101064c2ade9e1ac96" category="doc">内部数据库环境成本分析和迁移规划</block>
-  <block id="b070dbce75db746d44b4965253ae3c9f" category="paragraph">现在、适用于数据库的BlueXP  工作负载工厂可以检测、分析并帮助您规划将内部数据库迁移到Amazon FSx for NetApp ONTAP的过程。您可以使用节省计算器估算在云中运行内部数据库环境的成本、并查看将内部数据库环境迁移到云的建议。</block>
-  <block id="ae5954c9b41b0bfb09043a4117743d2d" category="inline-link-macro">了解内部数据库环境的节省量</block>
-  <block id="9621b726ce4b31f0b7bc139a85ef6f38" category="paragraph"><block ref="9621b726ce4b31f0b7bc139a85ef6f38" category="inline-link-macro-rx"></block></block>
-  <block id="6003a521aa2fb4eca1577921d2f2d6ec" category="section-title">新的数据库优化评估</block>
-  <block id="a66d8cac65b4a62026dda75c54de5093" category="paragraph">现在、BlueXP  工作负载工厂提供了以下数据库评估。这些评估侧重于检测和防范潜在的安全漏洞、以及检测和缓解性能瓶颈。</block>
-  <block id="41e5288ef108e483da5a07bf4a8c654d" category="list-text">*接收端扩展(RSS)配置*：检查RSS配置是否已启用，队列数量是否设置为建议值。此评估还会提供有关优化RSS配置的建议。</block>
-  <block id="20c22843405fd91269ed56974f603ebf" category="list-text">*最大并行度(MAXDOP)服务器配置*：评估检查MAXDOP是否配置正确，并提供优化性能的建议。</block>
-  <block id="288748eac82542205cccb2a59e324600" category="list-text">*Microsoft SQL Server修补程序*：评估检查SQL Server实例上是否安装了最新的修补程序，并提供安装最新修补程序的建议。</block>
   <block id="d1e68728a28b7936858b1484445ef50f" category="inline-link-macro">优化配置</block>
   <block id="7c2632b8df180cfa1528450b19070928" category="paragraph"><block ref="7c2632b8df180cfa1528450b19070928" category="inline-link-macro-rx"></block></block>
-  <block id="b19ee84dca9cb059a9aa42ed54c05752" category="section-title">2025年2月3日</block>
-  <block id="77fd00559b8279b555e48d21e5e67c34" category="doc">数据源的文件类型筛选</block>
-  <block id="47cf5538cc85b7acf0e24098fc5bbffd" category="paragraph">现在、GenAI支持在添加数据源时选择要包括在数据源扫描中的特定文件类型。</block>
-  <block id="9bd079cbc91b32393983ae28a378c00c" category="inline-link-macro">向知识库添加数据源</block>
-  <block id="e57c1e86c82776cdcb9c50b4e82943f8" category="paragraph"><block ref="e57c1e86c82776cdcb9c50b4e82943f8" category="inline-link-macro-rx"></block></block>
-  <block id="f191d5f0a123d62966b3617a9d8c752c" category="section-title">数据源的文件修改日期筛选</block>
-  <block id="b1be3e2e5ab05373dbf3927507ea84d2" category="paragraph">现在、GenAI支持在添加数据源时按修改日期筛选要包含在数据源扫描中的文件。您可以为包含的文件选择修改日期范围。</block>
-  <block id="7a7ba68ff13813a8c9d7413b67a91e34" category="section-title">支持图像文件和增强的PDF文件支持</block>
-  <block id="b9a5ff8382cbb9f5609b8bff25344245" category="section-title">混合搜索和重新搜索支持</block>
-  <block id="77c129bd3271a24d7bdf27f4904c52f4" category="inline-link-macro">了解适用于GenAI的BlueXP  工作负载工厂</block>
-  <block id="397adcec169a6ce17f0abfc941258c0f" category="paragraph"><block ref="397adcec169a6ce17f0abfc941258c0f" category="inline-link-macro-rx"></block></block>
   <block id="1d8ce1cfc87620dad9c49f1de100a4fb" category="section-title">2025年2月2日</block>
   <block id="e2cc7d8ef2a865dce7c7e225dd72d92c" category="doc">BlueXP  工作负载出厂控制台中提供了CloudShell</block>
   <block id="7f1ab9d2ad99562dfd8cff4cb4c70b29" category="paragraph">您可以从BlueXP  工作负载出厂控制台中的任何位置访问CloudShell。通过CloudShell、您可以使用在BlueXP  帐户中提供的AWS和ONTAP凭据、并在类似于Shell的环境中执行AWS命令行界面命令或ONTAP命令行界面命令。</block>
@@ -74,39 +46,10 @@
   <block id="0d8e78270e3796caacf42c07616b7e32" category="paragraph">现在，以下权限在_read_模式下可用于数据库：<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block>。</block>
   <block id="6cff628e35cc5d429a57e4a125a0bf6b" category="inline-link-macro">权限引用更改日志</block>
   <block id="86fbb6c90e401f3291e15bdc1398509c" category="paragraph"><block ref="86fbb6c90e401f3291e15bdc1398509c" category="inline-link-macro-rx"></block></block>
-  <block id="ed2a329d6f9bf2181ff23014cff23ba5" category="doc">BlueXP  工作负载出厂控制台中的CloudShell</block>
-  <block id="5eaddd0f57f7eaddd8610d939876ec8d" category="paragraph">CloudShell是一种嵌入式命令行界面功能、可在BlueXP  工作负载工厂中用于存储。您可以使用CloudShell在类似于Shell的环境中的工作负载出厂控制台中从多个会话创建、共享和执行ONTAP或AWS命令行界面命令。</block>
-  <block id="09a780ee2763ed81ce7dcd3480b57fe4" category="inline-link-macro">详细了解BlueXP  工作负载工厂中的CloudShell</block>
-  <block id="9be163b55bb1cb61b0ccee4ea40ae6ee" category="section-title">清单数据下载</block>
-  <block id="e61fb273c97526db97c128ce9bfc04a9" category="paragraph">现在、您可以从BlueXP  工作负载工厂的存储将FSx for ONTAP清单数据下载到Microsoft Excel或CSV文件中。</block>
-  <block id="1d242bf1e7b71fd8602570478aa1bdc8" category="inline-image-macro">BlueXP  工作负载工厂中的存储的屏幕截图、其中显示了用于下载FSx for ONTAP文件系统清单数据的新下载按钮。</block>
-  <block id="b8040f0b8b5eff64bb15c9fc0fbc96d6" category="paragraph"><block ref="b8040f0b8b5eff64bb15c9fc0fbc96d6" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="eae91301e6256990d5311778eafea0e5" category="section-title">FSx for ONTAP文件系统其他菜单选项</block>
-  <block id="0ad83f6b2d6e8bf103be3683c0c87ef9" category="paragraph">我们已通过"存储"中的FSx for ONTAP选项卡对FSx for ONTAP文件系统执行以下操作变得更加简单。</block>
-  <block id="8272f5b23e79d0ee33bd5151dcddc454" category="list-text">创建Storage VM</block>
   <block id="dc88dce8ec264777b2f90ec0af744f43" category="list-text">创建卷</block>
-  <block id="8221d5fcbb1b8ef8a3fa535553679b44" category="list-text">复制卷数据</block>
-  <block id="bb8210b8fea9fd35bf14070e9b9f7cf9" category="inline-image-macro">"存储"中FSx for ONTAP选项卡的屏幕截图、其中显示了创建Storage VM、创建卷和复制卷数据的新菜单选项。</block>
-  <block id="2a10a5b76871c42edb3807a0dec574ae" category="paragraph"><block ref="2a10a5b76871c42edb3807a0dec574ae" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="2f72c2c06d295d3f5420254934ac77b1" category="section-title">Terraform支持创建卷</block>
-  <block id="7f28d622584eb6b05ee5ce1609e2de38" category="paragraph">现在、您可以使用CodeBox中的Terraform创建卷。</block>
   <block id="d3156376048c94102c97709d5ff05e75" category="paragraph"><block ref="d3156376048c94102c97709d5ff05e75" category="inline-link-macro-rx"></block></block>
-  <block id="eb139dd9cb815e502d04047858e7c930" category="section-title">使用不可配置文件功能锁定文件</block>
-  <block id="849a110e76510a6394e4b27714d0bc20" category="paragraph">现在、在为FSx for ONTAP文件系统创建卷时、您可以使用不可改变的文件功能锁定文件。文件锁定可帮助您和其他人防止在指定期限内意外或故意删除文件。</block>
-  <block id="ea3d4df6f8aff21b2dfe549c5ecf9775" category="section-title">跟踪器可用于监控和跟踪操作</block>
-  <block id="c016252819aa3f6ede2b315b76b5c5b2" category="paragraph">Tracker、存储中提供了一种新的监控功能。您可以使用Tracker监控和跟踪凭据、存储和链接操作的进度和状态、查看操作任务和子任务的详细信息、诊断任何问题或故障、编辑失败操作的参数以及重试失败操作。</block>
   <block id="7512718e82771ab0f98e51652a2e97c6" category="inline-link-macro">了解如何使用Tracker监控和跟踪操作</block>
   <block id="30babb51ab17a107228fe65a4e65418b" category="paragraph"><block ref="30babb51ab17a107228fe65a4e65418b" category="inline-link-macro-rx"></block></block>
-  <block id="c1c23b72df9b53434f3c5ef6963cd2c1" category="section-title">支持适用于NetApp ONTAP文件系统的第二代Amazon FSx</block>
-  <block id="327da4942931ea47a06f556d15726878" category="paragraph">现在、您可以在BlueXP  工作负载工厂中对NetApp ONTAP第二代文件系统使用Amazon FSx。FSx for ONTAP第二代单AZ文件系统由多达12个HA对提供支持、可提供高达72 Gbps的吞吐量和240、000次SSD IOPS。FSx for ONTAP第二代Multi-AZ文件系统由一个HA对提供支持、可提供6 Gbps的吞吐量和200、000次SSD IOPS。</block>
-  <block id="a22d0116b85624117006e75d98d659db" category="inline-link-macro">添加高可用性对</block>
-  <block id="8a34eb45ca4cf03ce0d5e71fbfafb73a" category="list-text"><block ref="8a34eb45ca4cf03ce0d5e71fbfafb73a" category="inline-link-macro-rx"></block></block>
-  <block id="eeb5242f698ac9fda34591a326f4c0a3" category="inline-link-macro">Amazon FSx for NetApp ONTAP的配额和限制</block>
-  <block id="94f917accd36ed25f8a73175e8d4cdfb" category="list-text"><block ref="94f917accd36ed25f8a73175e8d4cdfb" category="inline-link-macro-rx"></block></block>
-  <block id="9a7d43c72f0d1a35c2a2cdfb58c6cc0d" category="doc">支持Amazon Nova基础模型</block>
-  <block id="ba0908c46e81d6dfcc41f1af42be123c" category="paragraph">现在、GenAI支持Amazon Nova基础模型。支持Amazon Nova Micro、Amazon Nova Lite和Amazon Nova Pro。</block>
-  <block id="43b842fd441ce1ce92d22fb0ca25a507" category="inline-link-macro">GenAI要求</block>
-  <block id="5ddfb412189af7bcce0a056c9fcef326" category="paragraph"><block ref="5ddfb412189af7bcce0a056c9fcef326" category="inline-link-macro-rx"></block></block>
   <block id="4a922c367b35639ecb9d911b81fdb458" category="doc">自动容量管理改进</block>
   <block id="5868fd5ebf39f0f3dce9bd4ba23dcb6f" category="paragraph">启用自动容量管理后、BlueXP  Workload Factory现在会每30分钟检查一次文件系统是否达到其容量阈值、而不是每2小时检查一次。</block>
   <block id="410d677b6db33c7f47c30b3d219c4846" category="paragraph">达到容量阈值时、配置的IOPS设置不再受影响。</block>
@@ -139,7 +82,6 @@
   <block id="ca5a05186a2f243eb84efcf08152a8f2" category="doc">嵌入式聊天机器人增强功能</block>
   <block id="362c473fe2757bda1e0d68b3c2cdfbc8" category="paragraph">现在、您可以将问题和回答直接复制到剪贴板、调整聊天窗口的大小并更改其标题。此外、聊天响应现在可以包括表、这些表也是可复制的。</block>
   <block id="d9965afe654edc6d99fd1a5080f10f27" category="inline-link-macro">测试GenAI知识库</block>
-  <block id="b7def3234606fc50e35ddaf4c351fbe6" category="paragraph"><block ref="b7def3234606fc50e35ddaf4c351fbe6" category="inline-link-macro-rx"></block></block>
   <block id="4842fdf5dae1e7a3fb7ea049a091be73" category="section-title">聊天响应引用支持</block>
   <block id="c010ca64710d07e36327c27318c0303f" category="paragraph">聊天回复现在包含引用、列出用于生成回复的文件和数据块。</block>
   <block id="312fbafda6b72e176a3eb6272e48d799" category="section-title">增强了文件类型支持</block>
@@ -153,7 +95,6 @@
   <block id="b4a4e72af96c527b186a3d8f12952f22" category="list-text">*增强型文件系统自动分配*：Amazon FSx for NetApp ONTAP文件系统分配已得到改进、可以更好地优化成本并最大限度地降低吞吐量。</block>
   <block id="4666cc74583e6d5c1f202a52bee57a9b" category="list-text"><block ref="4666cc74583e6d5c1f202a52bee57a9b" category="inline-link-macro-rx"></block></block>
   <block id="7115d78353263dbb2dbe063624f9f601" category="list-text"><block ref="7115d78353263dbb2dbe063624f9f601" category="inline-link-macro-rx"></block></block>
-  <block id="95712b1074d83e6727c42aa16be5af5a" category="paragraph"><block ref="95712b1074d83e6727c42aa16be5af5a" category="inline-link-macro-rx"></block></block>
   <block id="815e02f013485997d1d56438f0bf1505" category="paragraph"><block ref="815e02f013485997d1d56438f0bf1505" category="inline-link-macro-rx"></block></block>
   <block id="292e876f4d1d5af73b815913bd3d9b26" category="doc">PostgreSQL高可用性配置</block>
   <block id="047e8f86b83bb2e8d4c34b1dc560257b" category="paragraph">现在、您可以为PostgreSQL服务器部署高可用性(HA)配置。</block>
@@ -201,8 +142,6 @@
   <block id="b7cc50bb665bb63168fb8d2e9eebaedc" category="paragraph">在FSx for ONTAP文件系统创建过程中会创建一个安全组。现在、您可以查看安全组详细信息、包括协议、端口和角色。</block>
   <block id="75086276ae6b7e370f36c7fc49383216" category="inline-link-macro">创建文件系统</block>
   <block id="03b2cfc949418819e16b1dc5fa3660ae" category="paragraph"><block ref="03b2cfc949418819e16b1dc5fa3660ae" category="inline-link-macro-rx"></block></block>
-  <block id="fdd252a657eafa925fe82da2c74ab41c" category="paragraph">现在、GenAI支持通过从图像和图形说明以及文档文本中获得洞察力来增强对知识库查询的响应、从而获得更丰富、质量更高的答案。现在、GenAI可以扫描PDF文件中的图像文件和图像(也称为多模式文件支持)。如果您选择扫描图像或PDF文件、则图像中的文本(包括PDF文档中嵌入的图像)将扫描到数据源中、扫描中的见解将包括在知识库查询的响应中。</block>
-  <block id="603e61783fa33cd04788f143e949760c" category="paragraph">现在、GenAI可以使用混合搜索并重新排列结果、从而显著提高搜索结果的相关性和准确性。混合搜索将基于关键字的传统搜索的优势与基于密集矢量的高级语法搜索技术相结合。标准关键字搜索结果通过近似匹配和语言细微差别得到增强、从而增强相关性。然后、GenAI使用Cohere Rerank和Amazon Rerank等高级重新排名模型进一步细化这些结果、并返回最相关的结果。此功能可用于新创建的知识库。</block>
   <block id="7c6f7e444c5d96b670cdcd189e2ee43a" category="list-text">GenAI现在支持载入包含图像的Microsoft Word DOCX文件。对DOCX文档中嵌入的图像进行扫描、对知识库查询的响应中包含嵌入图像中的文本洞察信息。</block>
   <block id="8bb788607f31f673e25d0ba34b09a14d" category="doc">优化增强功能</block>
   <block id="7e9a755c644cbdbaab2927671606cf89" category="paragraph">在优化数据库环境时、可以使用新的优化评估、更新和显示多个资源。</block>
@@ -223,5 +162,95 @@
   <block id="c4f70f11159098cce8873623bffb07aa" category="inline-link-macro">在BlueXP  工作负载工厂中创建PostgreSQL服务器</block>
   <block id="5963667f9fe01282fae9030cccbd24a3" category="paragraph"><block ref="5963667f9fe01282fae9030cccbd24a3" category="inline-link-macro-rx"></block></block>
   <block id="813bb11b4f90c862c2b7c2d35cc082ff" category="section-title">2025年4月4日</block>
-  <block id="b70e34d229298faea8d481f1cfdd32a9" category="paragraph"><block ref="b70e34d229298faea8d481f1cfdd32a9" category="inline-link-macro-rx"></block></block>
+  <block id="77a89cd0e5a14d8b8709467f579b8edc" category="paragraph"><block ref="77a89cd0e5a14d8b8709467f579b8edc" category="inline-link-macro-rx"></block></block>
+  <block id="c9cbd1d1d65e3b0d2ec2922daec8bddf" category="paragraph"><block ref="c9cbd1d1d65e3b0d2ec2922daec8bddf" category="inline-link-macro-rx"></block></block>
+  <block id="71a6e13d9246eebc4c665bd6856ef62e" category="paragraph"><block ref="71a6e13d9246eebc4c665bd6856ef62e" category="inline-link-macro-rx"></block></block>
+  <block id="25696569671071b8bd3db9a4c5f6613e" category="doc">信息板增强功能</block>
+  <block id="04f9acced28b52e064ba8ccb957a615c" category="list-text">在BlueXP  工作负载出厂控制台中的选项卡之间导航时、可以使用跨帐户和跨区域视图。新视图可改进资源管理、监控和优化。</block>
+  <block id="6e21267988cadc818dd398393c695465" category="list-text">在信息板的*潜在节省*图块中、您将能够从Amazon El生 磁块存储切换到FSx for ONTAP或Amazon FSx for Windows File Server、从而快速查看可能节省的空间。</block>
+  <block id="255a96bb0a74416846fbad7e40f8ddf4" category="section-title">可对数据库配置进行临时扫描</block>
+  <block id="2b1a16b6cd72c9555872ec61d3334af5" category="paragraph">适用于数据库的BlueXP  工作负载工厂会自动扫描使用FSx for ONTAP存储的托管Microsoft SQL Server实例、以确定是否存在潜在的配置问题。现在、除了每日扫描之外、您还可以随时进行扫描。</block>
+  <block id="365d8fe4130e8c12f4a3defc920178dd" category="section-title">删除内部评估记录</block>
+  <block id="c4fd25bd6650f0eaedfd01e29fbecddd" category="paragraph">在探讨了Microsoft SQL Server内部主机的节省之后、您可以选择从BlueXP  工作负载出厂时删除内部主机记录。</block>
+  <block id="ae548505379d0043460d8c15540cb546" category="section-title">克隆清理</block>
+  <block id="0d003b1e16a8cf8a4b6c0774ee3a0f41" category="paragraph">克隆清理评估和修复可识别和管理成本高昂的旧克隆。可以从BlueXP  工作负载出厂控制台中刷新或删除60天以上的克隆。</block>
+  <block id="6da89f0beda0fbec41b06125b0b7ad32" category="section-title">延迟和取消配置分析</block>
+  <block id="4a9a50cea48d9e2ded3becc284af4e41" category="paragraph">某些配置可能不适用于您的数据库环境。现在、您可以选择将特定配置分析推迟30天或取消分析。</block>
+  <block id="514f1fc0ac0ff6e4200d3637146367f1" category="section-title">更新了权限术语</block>
+  <block id="a7b97ab7d88b015e92ed51ef4bee9c25" category="paragraph">现在、工作负载出厂用户界面和文档使用"只读"来表示读取权限、使用"读写"来表示自动执行权限。</block>
+  <block id="36099969c15a5d064d7174336be7e668" category="doc">针对ONTAP文件系统FSx的自动防软件保护</block>
+  <block id="08c5452d94d72a6c740ead774c83f8a0" category="paragraph">利用自动勒索软件保护(ARP)保护数据、此功能可在NAS (NFS/SMB)环境中使用工作负载分析来检测可能是勒索软件攻击的异常活动并发出警告。当怀疑发生攻击时、ARP还会创建新的、不可变更的快照、您可以从中还原数据。</block>
+  <block id="19fcea201a57b2af997865e1bebd5eb8" category="inline-link-macro">利用自动防兰森保护功能保护您的数据</block>
+  <block id="8deff747fe441bd05b94960711ba6dc7" category="paragraph"><block ref="8deff747fe441bd05b94960711ba6dc7" category="inline-link-macro-rx"></block></block>
+  <block id="a915f8d1a90241b0905e5e0102866336" category="section-title">FlexGroup卷重新平衡增强功能</block>
+  <block id="b4e8b949e8b2a108d117e8d00573baa5" category="paragraph">BlueXP  工作负载出厂时引入了FlexGroup卷重新平衡向导、其中包含多个用于重新平衡FlexGroup卷中数据的布局选项。重新平衡会将数据均匀地重新分布到FlexGroup成员卷。</block>
+  <block id="a3fa0d8d3f4c7edc445cef1c52eb31b4" category="inline-link-macro">重新平衡FlexGroup卷中的容量</block>
+  <block id="ba5f40b0cbda6629d8835a8ddec32ba7" category="paragraph"><block ref="ba5f40b0cbda6629d8835a8ddec32ba7" category="inline-link-macro-rx"></block></block>
+  <block id="b4650b4ce326d6a3b7fad5e98b1b29d3" category="section-title">为FSx for ONTAP文件系统实施最佳实践</block>
+  <block id="23298c67bec69aa678274ba1b4e76d09" category="paragraph">BlueXP  工作负载工厂提供了一个信息板、您可以在其中查看文件系统配置的架构良好状态。您可以利用此分析为FSx for ONTAP文件系统实施最佳实践。文件系统配置分析包括以下配置：SSD容量阈值、计划的本地快照、计划的ONTAP备份FSx、数据分层和远程数据复制。</block>
+  <block id="20c1cdeb819f1a107044754c5b7cd16d" category="inline-link-macro">了解对文件系统配置进行精心设计的分析</block>
+  <block id="f85ae2c7c8690dad4aad4469edd0d4d1" category="list-text"><block ref="f85ae2c7c8690dad4aad4469edd0d4d1" category="inline-link-macro-rx"></block></block>
+  <block id="ee8bd13e9852f521384a9366f9fddac8" category="inline-link-macro">为文件系统实施最佳实践</block>
+  <block id="809288260d1cdd9ac42626b2cf175ba5" category="list-text"><block ref="809288260d1cdd9ac42626b2cf175ba5" category="inline-link-macro-rx"></block></block>
+  <block id="b9b3a3dd5e7f3f2002c13a1dde978328" category="section-title">双协议卷安全模式选项</block>
+  <block id="8138182381112922a4c0de3123a20759" category="paragraph">您可以选择NTFS或UNIX作为卷的安全模式、以确定用户和权限访问卷的方法。</block>
+  <block id="01723ef9eeaed61dd2633adc90d31f85" category="section-title">复制增强功能</block>
+  <block id="b2e52f2d95b8128fa0aa997184d2e917" category="section-title">支持从FSx for ONTAP反向复制到内部</block>
+  <block id="987500c5a62dc35588c50c1cdc64759a" category="paragraph">现在、可以从FSx for ONTAP文件系统从工作负载出厂控制台向内部ONTAP集群进行反向复制。</block>
+  <block id="7ffd90bebe955a3d38da9e78eaaaf49b" category="inline-link-macro">反向复制</block>
+  <block id="ad52c9d51cc60d89ce36c30b38feb597" category="paragraph"><block ref="ad52c9d51cc60d89ce36c30b38feb597" category="inline-link-macro-rx"></block></block>
+  <block id="e949ed7c07a946c5c5337cf0219fbc8a" category="section-title">数据保护卷复制</block>
+  <block id="b160179bf174efa559aefeb2a6a265ff" category="paragraph">现在、您可以复制数据保护卷。</block>
+  <block id="699cadf384181ae5970ed8c0de60e0ff" category="inline-link-macro">复制数据保护卷</block>
+  <block id="f4ae9aa33f99746ec1459126f50c3db7" category="paragraph"><block ref="f4ae9aa33f99746ec1459126f50c3db7" category="inline-link-macro-rx"></block></block>
+  <block id="f45e31e9eb62670abb227bd17e863909" category="section-title">选择多个卷</block>
+  <block id="11b72bb293d845376d594d8db15c5c42" category="paragraph">您可以选择多个卷、以便准确选择要复制的卷。</block>
+  <block id="ca0c3dd7dca9f636af3209d526098e1e" category="inline-link-macro">创建复制关系</block>
+  <block id="4027269222ebe19f8c7ce0489bd4a099" category="paragraph"><block ref="4027269222ebe19f8c7ce0489bd4a099" category="inline-link-macro-rx"></block></block>
+  <block id="a07aceed52eedb73437d4be9dffb7512" category="section-title">长期保留策略标签</block>
+  <block id="4f41e87d14e054d42c2670ea8c528589" category="paragraph">如果为复制关系启用长期保留、则源卷和目标卷标签必须完全匹配。现在、BlueXP  工作负载工厂可以自动为您创建缺少的源卷标签。</block>
+  <block id="cfe8fde03c6d1a12606f20570c95dd3a" category="section-title">FSx for ONTAP文件名可在创建卷时显示</block>
+  <block id="15ed156f4715eb4b7e7feb040d7c9c90" category="paragraph">我们提高了FSx for ONTAP文件系统在卷创建期间的可见性。创建卷时、您将看到FSx for ONTAP文件系统、因此您可以确切地知道卷的创建位置。</block>
+  <block id="92698312f3f978b9a3975381093aea27" category="section-title">可在存储工作负载中查看AWS帐户</block>
+  <block id="d4ba91ca8b32dac38d8a02560db45f99" category="paragraph">我们提高了客户对整个存储工作负载的可见性。导航到*卷*、*存储VM*和*复制*选项卡时、您将看到AWS帐户。</block>
+  <block id="44918ad8d6b4fa49e31aa71e8c3e972b" category="section-title">链接关联增强功能</block>
+  <block id="730fff71d8c1a3c83285cf73a189adc1" category="list-text">您可以在清单选项卡中快速关联FSx for ONTAP文件系统中的链接。</block>
+  <block id="794643699de592957f5ae7ac7b70d1be" category="list-text">BlueXP  工作负载工厂现在支持使用备用ONTAP用户凭据进行链接关联。</block>
+  <block id="7dc7c15512069d38e071e0b7f2eb0075" category="section-title">支持对AWS专有信息管理器进行链接身份验证</block>
+  <block id="9eee39cc8777da8f7dbd19a76d917105" category="paragraph">现在、您可以选择使用AWS机密管理器中的密钥对链接进行身份验证、这样就不必使用BlueXP  工作负载工厂中存储的凭据。</block>
+  <block id="e740d5331c1318c8aeedd3bc928fee0f" category="section-title">跟踪器响应支持</block>
+  <block id="afa647328e65fc54651ec9202e08f684" category="paragraph">Tracker现在提供API响应、以便您可以查看与任务相关的REST API输出。</block>
+  <block id="2e0c4c64c2671f5575eb184e577dcdae" category="inline-link-macro">使用Tracker监控操作</block>
+  <block id="51901acdd0b1d27e153698e9d896b4ab" category="paragraph"><block ref="51901acdd0b1d27e153698e9d896b4ab" category="inline-link-macro-rx"></block></block>
+  <block id="3d84fc344c6f90d01ec1ed67bf66b2cf" category="section-title">从备份还原卷时进行容量验证</block>
+  <block id="02fb27a360f5d3b300cee7fd194ec4ab" category="paragraph">从备份还原卷时、BlueXP  工作负载出厂时会确定您是否有足够的容量进行还原、如果没有、则可以自动添加SSD存储层容量。</block>
+  <block id="669e24f4895025d47b6321e03f0890e4" category="inline-link-macro">从备份还原卷</block>
+  <block id="6a04144fb90318983f201c0a346bc6b3" category="paragraph"><block ref="6a04144fb90318983f201c0a346bc6b3" category="inline-link-macro-rx"></block></block>
+  <block id="2bbce7d3d059871083eb12013b7bc70d" category="section-title">支持备用ONTAP用户凭据</block>
+  <block id="21fe54f48c52f1924f6b2b74751f1611" category="paragraph">工作负载工厂现在支持使用备用ONTAP凭据集来创建文件系统、从而最大限度地降低安全风险。您可以选择一组不同的ONTAP凭据、也可以选择不为fsxadmin和vsaadmin用户提供密码、而不是仅使用fsxadmin用户。</block>
+  <block id="fa499afb5b0e71cede67d6430b479aad" category="doc">支持NetApp ONTAP Connector for Amazon Q</block>
+  <block id="c77dd74f22a4c7346ab562d5eff0bc5a" category="paragraph">此版本的GenAI支持适用于Amazon Q的NetApp ONTAP连接器、使您能够为Amazon Q Business创建连接器。快速轻松地利用Amazon Q Business AI助理、与构建Amazon Brock的GenAI知识库相比、初始配置更少。</block>
+  <block id="cf79fa4b0d1663f0ab76e8bc4b4e5ff3" category="inline-link-macro">为Amazon Q Business创建一个GenAI连接器</block>
+  <block id="9e4085aea7ddf49d777bc0d6415232d0" category="paragraph"><block ref="9e4085aea7ddf49d777bc0d6415232d0" category="inline-link-macro-rx"></block></block>
+  <block id="535baaac5969b3bd7fd10592a2cb8e22" category="section-title">增强了聊天模式支持</block>
+  <block id="48ced6c80c0d41a7f68e3e9caece65d9" category="paragraph">现在、GenAI还支持在知识库中使用以下聊天模式：</block>
+  <block id="ba7ee7dc8867588bd50d38f7762f4e93" category="inline-link-macro">Mistral AI型号</block>
+  <block id="fffe8738239ad19b2e24fda4b92d99f8" category="list-text"><block ref="fffe8738239ad19b2e24fda4b92d99f8" category="inline-link-macro-rx"></block></block>
+  <block id="ac4754b088e15ec23e2e33942607b0db" category="inline-link-macro">Amazon T人 文本模型</block>
+  <block id="91b642108b49f539aef5f1e7e8429b9a" category="list-text"><block ref="91b642108b49f539aef5f1e7e8429b9a" category="inline-link-macro-rx"></block></block>
+  <block id="3e431ea8f1bf6f1b755d11be49ab7215" category="inline-link-macro">Meta Llama模型</block>
+  <block id="957aa19111afb49cbdb72a75c11a7824" category="list-text"><block ref="957aa19111afb49cbdb72a75c11a7824" category="inline-link-macro-rx"></block></block>
+  <block id="025fda77b8ffb8c9e7812b66f625dcdb" category="inline-link-macro">JAMBA 1.5型号</block>
+  <block id="00be89811246b5f1554783fae811628a" category="list-text"><block ref="00be89811246b5f1554783fae811628a" category="inline-link-macro-rx"></block></block>
+  <block id="d5bedd5eb6b3c4a63a27527880abc5ae" category="inline-link-macro">Cohere命令模型</block>
+  <block id="01f2d137c910887f5780defdf71aa720" category="list-text"><block ref="01f2d137c910887f5780defdf71aa720" category="inline-link-macro-rx"></block></block>
+  <block id="7af238b1ae959fcc9ca0417cb2d5f9a7" category="inline-link-macro">DeepSeek型号</block>
+  <block id="96734ae1eb62df22f906e39314369633" category="list-text"><block ref="96734ae1eb62df22f906e39314369633" category="inline-link-macro-rx"></block></block>
+  <block id="dbc68fe7976455ff2b6f2e5143dfd308" category="inline-link-macro">Amazon Brock中支持的基础模型</block>
+  <block id="b198f4cca9409499187762bec5420672" category="paragraph">GenAI支持Amazon Brock支持的每个提供商的型号：<block ref="9f10081366e85554159ed4dc640b95c7" category="inline-link-macro-rx"></block></block>
+  <block id="74d516ef8dfa098bb4cd92313c403475" category="doc">CloudShell自动完成支持</block>
+  <block id="df96b6f4ceabb5c4dbc915475fd821fe" category="paragraph">使用BlueXP  Workload Factory CloudShell时、您可以开始键入命令、然后按Tab键查看可用选项。如果存在多种可能、命令行界面将显示建议列表。此功能可最大限度地减少错误并加快命令执行速度、从而提高工作效率。</block>
+  <block id="795a0e870c9420e8289ae895de63c851" category="paragraph">此版本的适用于VMware的BlueXP  工作负载工厂对Amazon EC2迁移顾问体验进行了以下改进：</block>
+  <block id="81e3939f348a9727ff017a61306371bd" category="paragraph">*将NetApp数据基础架构洞察作为数据源*：现在、工作负载工厂可直接与NetApp数据基础架构洞察连接、以便在使用EC2迁移顾问数据收集器时收集VMware部署信息。</block>
+  <block id="4a8ef01af1fafc8c714496654fc2facc" category="section-title">2025年5月4日</block>
 </blocks>

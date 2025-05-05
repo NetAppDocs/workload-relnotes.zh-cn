@@ -8,7 +8,7 @@
 
 现在、您可以将问题和回答直接复制到剪贴板、调整聊天窗口的大小并更改其标题。此外、聊天响应现在可以包括表、这些表也是可复制的。
 
-link:https://docs.netapp.com/us-en/workload-genai/test-knowledgebase.html["测试GenAI知识库"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/test-knowledgebase.html["测试GenAI知识库"]
 
 
 
@@ -16,7 +16,7 @@ link:https://docs.netapp.com/us-en/workload-genai/test-knowledgebase.html["测�
 
 聊天回复现在包含引用、列出用于生成回复的文件和数据块。
 
-link:https://docs.netapp.com/us-en/workload-genai/test-knowledgebase.html["测试GenAI知识库"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/test-knowledgebase.html["测试GenAI知识库"]
 
 
 
@@ -29,4 +29,4 @@ link:https://docs.netapp.com/us-en/workload-genai/test-knowledgebase.html["测�
 * GenAI现在支持载入包含图像的Microsoft Word DOCX文件。对DOCX文档中嵌入的图像进行扫描、对知识库查询的响应中包含嵌入图像中的文本洞察信息。
 
 
-link:https://docs.netapp.com/us-en/workload-genai/identify-data-sources.html#supported-data-source-file-formats["支持的数据源文件格式"]
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/identify-data-sources-knowledge-base.html#supported-data-source-file-formats["支持的数据源文件格式"]
