@@ -66,38 +66,13 @@
   <block id="fd8693cf8f6802fd1c7d50d5742a4c71" category="section-title">Tracker中的CloudShell事件</block>
   <block id="e7a6197673267c30b5dc86e0d5f6c536" category="paragraph">现在、您可以在Tracker中跟踪CloudShell事件。</block>
   <block id="ab4a8520fe8e2e09df8b9471a8d923bf" category="section-title">2025年3月2日</block>
-  <block id="f57c49a06b4a8a20d9a723cd677b9655" category="inline-link-macro">创建PostgreSQL服务器</block>
-  <block id="d3420539383bb38c88221d86000226d1" category="paragraph"><block ref="d3420539383bb38c88221d86000226d1" category="inline-link-macro-rx"></block></block>
-  <block id="1414de2121340ce91492c56f7800fcc7" category="section-title">为PostgreSQL服务器创建提供Terraform支持</block>
-  <block id="9156ac6cc60e32ed114af1a49af0ffed" category="paragraph">现在、您可以使用CodeBox中的Terraform部署PostgreSQL。</block>
-  <block id="7a5745faeabd31c33609adf25373d8a1" category="inline-link-macro">创建PostgreSQL数据库服务器</block>
-  <block id="2532cd63354e6e99119077d45134b5ef" category="inline-link-macro">使用CodeBox中的Terraform</block>
-  <block id="6a7893eb24462b3da7dd0a66586c5738" category="section-title">本地快照计划的故障恢复能力评估</block>
-  <block id="677bceea5ebbea10cf85a91ebf42050e" category="paragraph">为数据库工作负载提供了新的故障恢复能力评估。我们将评估Microsoft SQL Server实例中的卷是否具有有效的计划快照策略。快照是数据的时间点副本、可帮助您的数据库环境在数据丢失时保持弹性。</block>
-  <block id="90814442b7f0694d712f43efffe9c178" category="section-title">数据库工作负载的MAXDOP修复</block>
-  <block id="3231190e9014bf678d835272ec7c9234" category="paragraph">现在、适用于数据库的BlueXP  工作负载工厂支持针对最大并行度(MAXDOP)服务器配置进行修复。如果MAXDOP配置不是最佳配置、则可以让BlueXP  工作负载在出厂时为您优化配置。</block>
-  <block id="4a21bedf189bb26f9f4aeb26c0dc26a2" category="section-title">通过电子邮件发送节省量分析报告</block>
-  <block id="5b89ef008454fd9a61723d3572865363" category="paragraph">与FSx for ONTAP相比、在探索Amazon El生 性块存储和FSx for Windows文件服务器存储环境的节省空间时、您现在可以通过电子邮件将建议报告发送给您自己、团队成员和客户。</block>
-  <block id="22f6de27f80cdc30dc0dd58f113f7c70" category="section-title">2025年3月3日</block>
-  <block id="ca5a05186a2f243eb84efcf08152a8f2" category="doc">嵌入式聊天机器人增强功能</block>
-  <block id="362c473fe2757bda1e0d68b3c2cdfbc8" category="paragraph">现在、您可以将问题和回答直接复制到剪贴板、调整聊天窗口的大小并更改其标题。此外、聊天响应现在可以包括表、这些表也是可复制的。</block>
-  <block id="d9965afe654edc6d99fd1a5080f10f27" category="inline-link-macro">测试GenAI知识库</block>
-  <block id="4842fdf5dae1e7a3fb7ea049a091be73" category="section-title">聊天响应引用支持</block>
-  <block id="c010ca64710d07e36327c27318c0303f" category="paragraph">聊天回复现在包含引用、列出用于生成回复的文件和数据块。</block>
   <block id="312fbafda6b72e176a3eb6272e48d799" category="section-title">增强了文件类型支持</block>
-  <block id="cb1c6d98111a4dc0f10d1914aabf97ff" category="paragraph">此版本的GenAI提供了增强的文件支持：</block>
-  <block id="20fae993429f53ad24302c4bea3332d1" category="list-text">聊天模式改进了CSV支持。这样、在从CSV文件查询数据时、可以做出更有用的响应。</block>
-  <block id="820ddf0d1fd0a9cf5aaea49d2b400838" category="list-text">现在、GenAI可以从数据源中安装Apache Parquet文件。</block>
   <block id="939bf2b00dbe77d4a65f4d265a755136" category="inline-link-macro">支持的数据源文件格式</block>
   <block id="cec87a8931004e5402a3f18575682723" category="paragraph">此版本的适用于VMware的BlueXP  工作负载工厂对Amazon EC2迁移顾问体验进行了多项改进：</block>
   <block id="13ba1ae4c82947e19de7e94ee0eaab45" category="list-text">*估计实例类型*：迁移顾问现在可以检查您的环境要求、并为每个VM提供估计的Amazon EC2实例类型。您可以选择在迁移顾问的范围步骤中包括每个VM的估计实例类型。</block>
   <block id="3006f7737352e976899743eaf6e2b28e" category="list-text">*推荐Amazon EBS卷的能力*：由于特定地区的特定容量或性能需求、迁移顾问现在可以建议将数据卷迁移到Amazon Elelic Block Store (EBS)、而不是Amazon FSx for NetApp ONTAP。</block>
   <block id="b4a4e72af96c527b186a3d8f12952f22" category="list-text">*增强型文件系统自动分配*：Amazon FSx for NetApp ONTAP文件系统分配已得到改进、可以更好地优化成本并最大限度地降低吞吐量。</block>
-  <block id="4666cc74583e6d5c1f202a52bee57a9b" category="list-text"><block ref="4666cc74583e6d5c1f202a52bee57a9b" category="inline-link-macro-rx"></block></block>
-  <block id="7115d78353263dbb2dbe063624f9f601" category="list-text"><block ref="7115d78353263dbb2dbe063624f9f601" category="inline-link-macro-rx"></block></block>
   <block id="815e02f013485997d1d56438f0bf1505" category="paragraph"><block ref="815e02f013485997d1d56438f0bf1505" category="inline-link-macro-rx"></block></block>
-  <block id="292e876f4d1d5af73b815913bd3d9b26" category="doc">PostgreSQL高可用性配置</block>
-  <block id="047e8f86b83bb2e8d4c34b1dc560257b" category="paragraph">现在、您可以为PostgreSQL服务器部署高可用性(HA)配置。</block>
   <block id="3450754e7ec63bd0a961376c9928752a" category="paragraph">使用CloudShell时、每次发出ONTAP命令行界面命令并出现错误时、您都可以获得AI生成的错误响应、其中包括故障说明、故障原因和详细解决方案。</block>
   <block id="4ef50e373522b91f7df59d5cba69a8b7" category="section-title">IAM：SimulatePermission Policy权限更新</block>
   <block id="906699741ebd9905a07af900abcfd438" category="paragraph">现在、当您添加其他AWS帐户凭据或添加新工作负载功能(例如GenAI工作负载)时、您可以从工作负载出厂控制台管理此<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block>权限。</block>
@@ -142,7 +117,6 @@
   <block id="b7cc50bb665bb63168fb8d2e9eebaedc" category="paragraph">在FSx for ONTAP文件系统创建过程中会创建一个安全组。现在、您可以查看安全组详细信息、包括协议、端口和角色。</block>
   <block id="75086276ae6b7e370f36c7fc49383216" category="inline-link-macro">创建文件系统</block>
   <block id="03b2cfc949418819e16b1dc5fa3660ae" category="paragraph"><block ref="03b2cfc949418819e16b1dc5fa3660ae" category="inline-link-macro-rx"></block></block>
-  <block id="7c6f7e444c5d96b670cdcd189e2ee43a" category="list-text">GenAI现在支持载入包含图像的Microsoft Word DOCX文件。对DOCX文档中嵌入的图像进行扫描、对知识库查询的响应中包含嵌入图像中的文本洞察信息。</block>
   <block id="8bb788607f31f673e25d0ba34b09a14d" category="doc">优化增强功能</block>
   <block id="7e9a755c644cbdbaab2927671606cf89" category="paragraph">在优化数据库环境时、可以使用新的优化评估、更新和显示多个资源。</block>
   <block id="3cde2cfbcdbdd79a3c1d3d6b547ab80d" category="section-title">故障恢复能力评估</block>
@@ -162,7 +136,6 @@
   <block id="c4f70f11159098cce8873623bffb07aa" category="inline-link-macro">在BlueXP  工作负载工厂中创建PostgreSQL服务器</block>
   <block id="5963667f9fe01282fae9030cccbd24a3" category="paragraph"><block ref="5963667f9fe01282fae9030cccbd24a3" category="inline-link-macro-rx"></block></block>
   <block id="813bb11b4f90c862c2b7c2d35cc082ff" category="section-title">2025年4月4日</block>
-  <block id="77a89cd0e5a14d8b8709467f579b8edc" category="paragraph"><block ref="77a89cd0e5a14d8b8709467f579b8edc" category="inline-link-macro-rx"></block></block>
   <block id="c9cbd1d1d65e3b0d2ec2922daec8bddf" category="paragraph"><block ref="c9cbd1d1d65e3b0d2ec2922daec8bddf" category="inline-link-macro-rx"></block></block>
   <block id="71a6e13d9246eebc4c665bd6856ef62e" category="paragraph"><block ref="71a6e13d9246eebc4c665bd6856ef62e" category="inline-link-macro-rx"></block></block>
   <block id="25696569671071b8bd3db9a4c5f6613e" category="doc">信息板增强功能</block>
@@ -253,4 +226,21 @@
   <block id="795a0e870c9420e8289ae895de63c851" category="paragraph">此版本的适用于VMware的BlueXP  工作负载工厂对Amazon EC2迁移顾问体验进行了以下改进：</block>
   <block id="81e3939f348a9727ff017a61306371bd" category="paragraph">*将NetApp数据基础架构洞察作为数据源*：现在、工作负载工厂可直接与NetApp数据基础架构洞察连接、以便在使用EC2迁移顾问数据收集器时收集VMware部署信息。</block>
   <block id="4a8ef01af1fafc8c714496654fc2facc" category="section-title">2025年5月4日</block>
+  <block id="938691193541892254da342a65418ef3" category="doc">PostgreSQL 和 Oracle 检测</block>
+  <block id="a35833d039b2504ef8c787b30e723967" category="paragraph">现在，您可以在工作负载工厂控制台中发现 AWS 账户中运行 PostgreSQL 服务器数据库和 Oracle 数据库部署的实例。已发现的实例将显示在数据库清单中。</block>
+  <block id="fd1fe4efcf471a552598d4396db84a26" category="section-title">更新了“优化”术语</block>
+  <block id="a832a618559e9b6325bfe90eb3e86587" category="paragraph">工作负载工厂以前称为“优化”，现在使用“良好架构的问题”和“良好架构的状态”来描述数据库配置的分析，并使用“修复”来描述改善数据库配置以满足最佳实践建议的机会的补救措施。</block>
+  <block id="c551233916d554410ddca9f767142b1a" category="inline-link-macro">工作负载工厂中的数据库环境配置分析</block>
+  <block id="2cfa2ba77f1346dd5f1a96ad6f3af2b2" category="paragraph"><block ref="2cfa2ba77f1346dd5f1a96ad6f3af2b2" category="inline-link-macro-rx"></block></block>
+  <block id="f0b8560f05681c5a0a0de7a2cb0d761e" category="section-title">改进了主机实例的入职培训</block>
+  <block id="2acb806aac138a6758718c6f833095ab" category="paragraph">工作负载工厂现在使用“注册”来表示主机实例的注册，而不是像以前那样使用“未检测到”、“未托管”或“托管”等术语。新的注册流程包括对主机实例进行身份验证和准备，以便您可以在工作负载工厂控制台中创建、监控、分析和修复数据库配置中的资源。注册流程中的准备步骤指示您的主机实例是否已准备好进行管理。</block>
+  <block id="4f91bce4a20615964f35d2fd97ddb2e1" category="inline-link-macro">实例管理</block>
+  <block id="68d9261728b0a851ce7bc78b7cfd2a69" category="paragraph"><block ref="68d9261728b0a851ce7bc78b7cfd2a69" category="inline-link-macro-rx"></block></block>
+  <block id="ea3d4df6f8aff21b2dfe549c5ecf9775" category="doc">跟踪器可用于监控和跟踪操作</block>
+  <block id="8daed4c7913162875cceb19ef5e0bf4c" category="paragraph">GenAI 现已提供 Tracker 监控功能。您可以使用 Tracker 监控和跟踪待处理、正在进行和已完成操作的进度和状态，查看操作任务和子任务的详细信息，诊断任何问题或故障，编辑失败操作的参数，以及重试失败的操作。</block>
+  <block id="27e9b8493c313885af8902ac1ae67e24" category="inline-link-macro">使用 BlueXP 工作负载工厂中的 Tracker 监控工作负载操作</block>
+  <block id="6cfb11211ef97bba3b2359a766b22994" category="paragraph"><block ref="6cfb11211ef97bba3b2359a766b22994" category="inline-link-macro-rx"></block></block>
+  <block id="a3a574ae48c14d14b1a16908815471f6" category="section-title">为知识库选择重排序模型</block>
+  <block id="9e0cf47f3974a0b121f9381245ed8931" category="paragraph">现在，您可以通过选择与知识库配合使用的特定重排序模型来提高重排序查询结果的相关性。GenAI支持 Cohere Rerank 和 Amazon Rerank 模型。</block>
+  <block id="8443221e1b90a24e56685750c704746a" category="section-title">2025年6月3日</block>
 </blocks>
