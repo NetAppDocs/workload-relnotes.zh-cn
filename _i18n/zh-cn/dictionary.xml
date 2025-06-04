@@ -84,7 +84,6 @@
   <block id="26ea891fa4f63d071728537d886e0f6c" category="section-title">支持Anthropic Claude Sonnet 3.7聊天模式</block>
   <block id="4c58515c1bd9657f223b7731d306475c" category="paragraph">GenAI现在支持Anthropic Claude 3.7 Sonnet聊天模式。CLODE 3.7 Sonnet的测试版功能允许每个请求最多128K输出令牌、并支持新的计算机使用操作。将来的GenAI版本将支持CLAUDE 3.7 Sonnet扩展思维模式。</block>
   <block id="16cb0b733a26e9afa11f388e6d83aec1" category="inline-link-macro">创建GenAI知识库</block>
-  <block id="fe72cb2aff5f7bf6138e806921c5d3d6" category="paragraph"><block ref="fe72cb2aff5f7bf6138e806921c5d3d6" category="inline-link-macro-rx"></block></block>
   <block id="40bd8fe426c37e97f38be2c5a2728752" category="section-title">支持从通用NFS/SMB共享添加数据源</block>
   <block id="1813c42a79840f7d495281cf050a30dc" category="paragraph">现在、您可以使用工作负载出厂API从通用NFSv3、NFSv4或SMB共享添加数据源。从NFS或SMB共享添加数据源时、知识库卷仍保留在Amazon FSx for NetApp ONTAP卷上。工作负载出厂Web UI将在未来版本中支持此功能。</block>
   <block id="fbc7eedf5c13a549330a0c3f52777db8" category="section-title">VPC对等支持</block>
@@ -183,10 +182,6 @@
   <block id="6a04144fb90318983f201c0a346bc6b3" category="paragraph"><block ref="6a04144fb90318983f201c0a346bc6b3" category="inline-link-macro-rx"></block></block>
   <block id="2bbce7d3d059871083eb12013b7bc70d" category="section-title">支持备用ONTAP用户凭据</block>
   <block id="21fe54f48c52f1924f6b2b74751f1611" category="paragraph">工作负载工厂现在支持使用备用ONTAP凭据集来创建文件系统、从而最大限度地降低安全风险。您可以选择一组不同的ONTAP凭据、也可以选择不为fsxadmin和vsaadmin用户提供密码、而不是仅使用fsxadmin用户。</block>
-  <block id="fa499afb5b0e71cede67d6430b479aad" category="doc">支持NetApp ONTAP Connector for Amazon Q</block>
-  <block id="c77dd74f22a4c7346ab562d5eff0bc5a" category="paragraph">此版本的GenAI支持适用于Amazon Q的NetApp ONTAP连接器、使您能够为Amazon Q Business创建连接器。快速轻松地利用Amazon Q Business AI助理、与构建Amazon Brock的GenAI知识库相比、初始配置更少。</block>
-  <block id="cf79fa4b0d1663f0ab76e8bc4b4e5ff3" category="inline-link-macro">为Amazon Q Business创建一个GenAI连接器</block>
-  <block id="9e4085aea7ddf49d777bc0d6415232d0" category="paragraph"><block ref="9e4085aea7ddf49d777bc0d6415232d0" category="inline-link-macro-rx"></block></block>
   <block id="535baaac5969b3bd7fd10592a2cb8e22" category="section-title">增强了聊天模式支持</block>
   <block id="48ced6c80c0d41a7f68e3e9caece65d9" category="paragraph">现在、GenAI还支持在知识库中使用以下聊天模式：</block>
   <block id="ba7ee7dc8867588bd50d38f7762f4e93" category="inline-link-macro">Mistral AI型号</block>
@@ -243,4 +238,8 @@
   <block id="af1e7fa29b343a7d9bd55952a334e8c9" category="paragraph">创建新卷时，默认启用存储效率，包括数据压缩、压缩和重复数据删除。</block>
   <block id="55321b0c9d5d13d71a60766806796f90" category="inline-link-macro">在工作负载工厂中创建新卷</block>
   <block id="9257e0b60b0f1cd3867c62713d3370aa" category="paragraph"><block ref="9257e0b60b0f1cd3867c62713d3370aa" category="inline-link-macro-rx"></block></block>
+  <block id="93f953f50f24ae6dbf0400fde1bcc67d" category="doc">支持 NetApp Connector for Amazon Q Business</block>
+  <block id="f6f6ab51c21f03ba653ceea7301964e4" category="paragraph">此版本的 GenAI 引入了对 NetApp Connector for Amazon Q Business 的支持，使您能够为 Amazon Q Business 创建连接器。快速轻松地利用Amazon Q Business AI助理、与构建Amazon Brock的GenAI知识库相比、初始配置更少。</block>
+  <block id="3381eec0e48920855b86597d56709196" category="inline-link-macro">为 Amazon Q Business 创建 NetApp 连接器</block>
+  <block id="8320a18edf6c2a7804ecd7a111b33314" category="paragraph"><block ref="8320a18edf6c2a7804ecd7a111b33314" category="inline-link-macro-rx"></block></block>
 </blocks>
