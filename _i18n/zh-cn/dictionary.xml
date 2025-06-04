@@ -48,23 +48,6 @@
   <block id="86fbb6c90e401f3291e15bdc1398509c" category="paragraph"><block ref="86fbb6c90e401f3291e15bdc1398509c" category="inline-link-macro-rx"></block></block>
   <block id="dc88dce8ec264777b2f90ec0af744f43" category="list-text">创建卷</block>
   <block id="d3156376048c94102c97709d5ff05e75" category="paragraph"><block ref="d3156376048c94102c97709d5ff05e75" category="inline-link-macro-rx"></block></block>
-  <block id="7512718e82771ab0f98e51652a2e97c6" category="inline-link-macro">了解如何使用Tracker监控和跟踪操作</block>
-  <block id="30babb51ab17a107228fe65a4e65418b" category="paragraph"><block ref="30babb51ab17a107228fe65a4e65418b" category="inline-link-macro-rx"></block></block>
-  <block id="4a922c367b35639ecb9d911b81fdb458" category="doc">自动容量管理改进</block>
-  <block id="5868fd5ebf39f0f3dce9bd4ba23dcb6f" category="paragraph">启用自动容量管理后、BlueXP  Workload Factory现在会每30分钟检查一次文件系统是否达到其容量阈值、而不是每2小时检查一次。</block>
-  <block id="410d677b6db33c7f47c30b3d219c4846" category="paragraph">达到容量阈值时、配置的IOPS设置不再受影响。</block>
-  <block id="c21bf517f636f8492b01232a674a8d2e" category="section-title">不可变更的快照</block>
-  <block id="525386f4531b9b4bbd2b84ae92c59c07" category="paragraph">现在、您可以锁定快照、使其在特定保留期限内不可改变。锁定可防止未经授权的访问和恶意删除快照。您可以在创建快照策略期间、创建手动快照时以及创建快照之后启用不可变快照。</block>
-  <block id="b811c826e0c0b54d5803fe35cb209c82" category="section-title">更新不可更改的文件</block>
-  <block id="a321ab5f7c12f7cdaa9d6077d68dc055" category="paragraph">现在、您可以对不可变文件配置进行以下更改：保留策略、保留期限、自动提交期限和卷附加模式。</block>
-  <block id="a864feef5272f034d55e1119c5495be8" category="inline-link-macro">管理不可配置文件</block>
-  <block id="2915f18b56c3e4e3c1ef137551d9a65d" category="section-title">数据复制增强功能</block>
-  <block id="114e60d7d0f811f597761cf833328a96" category="list-text">跨帐户复制：BlueXP  工作负载出厂控制台支持在两个AWS帐户之间进行复制以及复制管理。</block>
-  <block id="0348e63af5ee6958b15125648a1ecae7" category="list-text">暂停和恢复复制：您可以暂停(暂停)从源卷到目标卷的计划复制更新、然后在准备就绪后恢复复制计划。暂停期间、源卷和目标卷会彼此独立、目标卷会从只读过渡到读写。</block>
-  <block id="38485996f06c5e13eed5605901b52530" category="inline-link-macro">暂停和恢复复制关系</block>
-  <block id="fc81b1e4233a48b719520033e56b4194" category="paragraph"><block ref="fc81b1e4233a48b719520033e56b4194" category="inline-link-macro-rx"></block></block>
-  <block id="fd8693cf8f6802fd1c7d50d5742a4c71" category="section-title">Tracker中的CloudShell事件</block>
-  <block id="e7a6197673267c30b5dc86e0d5f6c536" category="paragraph">现在、您可以在Tracker中跟踪CloudShell事件。</block>
   <block id="ab4a8520fe8e2e09df8b9471a8d923bf" category="section-title">2025年3月2日</block>
   <block id="312fbafda6b72e176a3eb6272e48d799" category="section-title">增强了文件类型支持</block>
   <block id="939bf2b00dbe77d4a65f4d265a755136" category="inline-link-macro">支持的数据源文件格式</block>
@@ -72,7 +55,6 @@
   <block id="13ba1ae4c82947e19de7e94ee0eaab45" category="list-text">*估计实例类型*：迁移顾问现在可以检查您的环境要求、并为每个VM提供估计的Amazon EC2实例类型。您可以选择在迁移顾问的范围步骤中包括每个VM的估计实例类型。</block>
   <block id="3006f7737352e976899743eaf6e2b28e" category="list-text">*推荐Amazon EBS卷的能力*：由于特定地区的特定容量或性能需求、迁移顾问现在可以建议将数据卷迁移到Amazon Elelic Block Store (EBS)、而不是Amazon FSx for NetApp ONTAP。</block>
   <block id="b4a4e72af96c527b186a3d8f12952f22" category="list-text">*增强型文件系统自动分配*：Amazon FSx for NetApp ONTAP文件系统分配已得到改进、可以更好地优化成本并最大限度地降低吞吐量。</block>
-  <block id="815e02f013485997d1d56438f0bf1505" category="paragraph"><block ref="815e02f013485997d1d56438f0bf1505" category="inline-link-macro-rx"></block></block>
   <block id="3450754e7ec63bd0a961376c9928752a" category="paragraph">使用CloudShell时、每次发出ONTAP命令行界面命令并出现错误时、您都可以获得AI生成的错误响应、其中包括故障说明、故障原因和详细解决方案。</block>
   <block id="4ef50e373522b91f7df59d5cba69a8b7" category="section-title">IAM：SimulatePermission Policy权限更新</block>
   <block id="906699741ebd9905a07af900abcfd438" category="paragraph">现在、当您添加其他AWS帐户凭据或添加新工作负载功能(例如GenAI工作负载)时、您可以从工作负载出厂控制台管理此<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block>权限。</block>
@@ -243,4 +225,22 @@
   <block id="a3a574ae48c14d14b1a16908815471f6" category="section-title">为知识库选择重排序模型</block>
   <block id="9e0cf47f3974a0b121f9381245ed8931" category="paragraph">现在，您可以通过选择与知识库配合使用的特定重排序模型来提高重排序查询结果的相关性。GenAI支持 Cohere Rerank 和 Amazon Rerank 模型。</block>
   <block id="8443221e1b90a24e56685750c704746a" category="section-title">2025年6月3日</block>
+  <block id="7583f12b4559f6687c67d8588da1e2f7" category="doc">卷自动增长增强</block>
+  <block id="b57fe4f5ee65a0e01f61993297811ebf" category="paragraph">现在，您可以设置卷的自动增长大小，以便卷大小可以超出业务需求和应用程序要求的预配置大小。</block>
+  <block id="9f1effd9ace68ca00fe9e9e3c024b362" category="inline-link-macro">启用卷自动增长</block>
+  <block id="0177289fb77b50bdfc34ab44aa432a21" category="paragraph"><block ref="0177289fb77b50bdfc34ab44aa432a21" category="inline-link-macro-rx"></block></block>
+  <block id="159687e1c95e32f1dcb6c9c1624ba327" category="section-title">架构完善的分析更新</block>
+  <block id="8500b95246538dfef049532751c1e9f5" category="paragraph">工作负载工厂现在会分析您的 FSx for ONTAP 文件系统，以检查是否正在利用存储效率，包括数据压缩、压缩和重复数据删除。存储效率衡量文件系统利用可用空间的效率。</block>
+  <block id="26e5625f54c5c47a57293d23260101c7" category="inline-link-macro">查看存储效率的良好架构状态</block>
+  <block id="80378f8a6a0c86610258fa79cd78497b" category="paragraph"><block ref="80378f8a6a0c86610258fa79cd78497b" category="inline-link-macro-rx"></block></block>
+  <block id="e4b0d36f0e7c4f3745520d8f27ed510b" category="section-title">存储仪表板增强功能</block>
+  <block id="47586d678be72b51ea7ac193f83c19b2" category="paragraph">从今天开始，当您从工作负载工厂控制台打开存储工作负载时，您将看到“仪表板”。全新设计的仪表板提供 FSx for ONTAP 系统的整体视图，包括文件系统数量、SSD 总容量、架构完善的状态概览、数据保护概览以及复制关系的运行状况。</block>
+  <block id="74d3ed8321cbdac2928290eee4795cef" category="section-title">卷选项卡增强功能</block>
+  <block id="0d25e8e0a888c31329b48ed4a33f98f6" category="paragraph">存储工作负载对工作负载工厂控制台中 FSx for ONTAP 文件系统内的“卷”选项卡进行了增强。增强功能包括：</block>
+  <block id="90a8a55f34e9e967f8619ecc5b0ba92a" category="list-text">*新卡*：SSD 容量、容量池和自主勒索软件防护 (ARP)</block>
+  <block id="f80c9595c105a10d312aac80217ebb84" category="list-text">*新列*：容量分布、已用 SSD 容量、已用容量池和 SSD 效率</block>
+  <block id="92eacda944854c6bfa8676c60aaa4c96" category="section-title">卷创建的存储效率更新</block>
+  <block id="af1e7fa29b343a7d9bd55952a334e8c9" category="paragraph">创建新卷时，默认启用存储效率，包括数据压缩、压缩和重复数据删除。</block>
+  <block id="55321b0c9d5d13d71a60766806796f90" category="inline-link-macro">在工作负载工厂中创建新卷</block>
+  <block id="9257e0b60b0f1cd3867c62713d3370aa" category="paragraph"><block ref="9257e0b60b0f1cd3867c62713d3370aa" category="inline-link-macro-rx"></block></block>
 </blocks>
