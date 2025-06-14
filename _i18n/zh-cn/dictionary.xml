@@ -234,4 +234,9 @@
   <block id="6745decee5065276cebd3695be1fb7bd" category="inline-link-macro">修复配置问题</block>
   <block id="347dbce3139b58110904a187913fc7e1" category="paragraph"><block ref="347dbce3139b58110904a187913fc7e1" category="inline-link-macro-rx"></block></block>
   <block id="b818e29403f1ec2f62ad7db43da773e1" category="section-title">2025年6月8日</block>
+  <block id="4cd460e2c71c2ffba346f4471ea0fa00" category="doc">构建者工作负载初始版本</block>
+  <block id="01885fa7b72aa9d947d8efa49fb4b8cd" category="paragraph">适用于构建者的BlueXP  工作负载工厂可简化软件版本的使用和访问、无需自定义工具或脚本。它使您能够将软件版本作为即时克隆使用、并与Perforce Helix Core集成、作为开发流程的便利工作空间、从而节省时间和资源。</block>
+  <block id="5f9f7bdd8b86c6cc583afabbd903007c" category="paragraph">初始版本包括管理项目和工作空间以及使用CodeBox自动执行操作的功能。您还可以将"构建者"与Perforce Helix Core集成、以便管理每个项目的不同版本并在它们之间快速切换。</block>
+  <block id="e562428972beeca78a1b44b300444717" category="paragraph">&lt;stdin&gt; 中未解析的指令 - include::_include/workload-builders.adoc[] :leveloffset: +1</block>
+  <block id="80d5de3a419a69be5ba960bb0fef9a1d" category="section-title">2024年12月1日</block>
 </blocks>

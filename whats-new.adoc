@@ -390,6 +390,14 @@ link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledg
 
 工作负载工厂用户界面和文档现在使用“只读”来指代读取权限，使用“读/写”来指代自动化权限。
 
+<stdin> 中未解析的指令 - include::_include/workload-builders.adoc[] :leveloffset: +1
+
+
+
+=== 更新了权限术语
+
+工作负载工厂用户界面和文档现在使用“只读”来指代读取权限，使用“读/写”来指代自动化权限。
+
 
 
 == 2025年4月4日
@@ -578,3 +586,17 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["使
 现在，以下权限在_read_模式下可用于数据库： `iam:SimulatePrincipalPolicy`。
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#change-log["权限引用更改日志"]
+
+
+
+== 2024年12月1日
+
+<stdin> 中未解析的指令 - include::_include/workload-builders.adoc[] :leveloffset: +1
+
+
+
+=== 构建者工作负载初始版本
+
+适用于构建者的BlueXP  工作负载工厂可简化软件版本的使用和访问、无需自定义工具或脚本。它使您能够将软件版本作为即时克隆使用、并与Perforce Helix Core集成、作为开发流程的便利工作空间、从而节省时间和资源。
+
+初始版本包括管理项目和工作空间以及使用CodeBox自动执行操作的功能。您还可以将"构建者"与Perforce Helix Core集成、以便管理每个项目的不同版本并在它们之间快速切换。
