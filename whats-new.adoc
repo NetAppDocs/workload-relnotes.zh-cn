@@ -150,6 +150,18 @@ link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledg
 
 
 
+=== 设置和管理
+
+
+
+==== BlueXP 工作负载工厂通知服务支持
+
+BlueXP 工作负载工厂通知服务支持工作负载工厂向 BlueXP 警报服务或 Amazon SNS 主题发送通知。发送到 BlueXP 警报的通知会显示在 BlueXP 警报面板中。当工作负载工厂向 Amazon SNS 主题发布通知时，该主题的订阅者（例如人员或其他应用程序）会在为该主题配置的终端节点上收到通知（例如电子邮件或短信）。
+
+https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["配置 BlueXP 工作负载工厂通知"]
+
+
+
 == 2025年5月4日
 
 
@@ -576,30 +588,6 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.ht
 
 
 https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["使用迁移顾问为Amazon EC2创建部署计划"]
-
-
-
-== 2025年2月2日
-
-
-
-=== 设置和管理
-
-
-
-==== BlueXP  工作负载出厂控制台中提供了CloudShell
-
-您可以从BlueXP  工作负载出厂控制台中的任何位置访问CloudShell。通过CloudShell、您可以使用在BlueXP  帐户中提供的AWS和ONTAP凭据、并在类似于Shell的环境中执行AWS命令行界面命令或ONTAP命令行界面命令。
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["使用CloudShell"]
-
-
-
-==== 更新数据库的权限
-
-现在，以下权限在_read_模式下可用于数据库： `iam:SimulatePrincipalPolicy`。
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#change-log["权限引用更改日志"]
 
 
 
