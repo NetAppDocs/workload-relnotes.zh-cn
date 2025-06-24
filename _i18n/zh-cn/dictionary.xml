@@ -232,7 +232,6 @@
   <block id="4cd460e2c71c2ffba346f4471ea0fa00" category="doc">构建者工作负载初始版本</block>
   <block id="01885fa7b72aa9d947d8efa49fb4b8cd" category="paragraph">适用于构建者的BlueXP  工作负载工厂可简化软件版本的使用和访问、无需自定义工具或脚本。它使您能够将软件版本作为即时克隆使用、并与Perforce Helix Core集成、作为开发流程的便利工作空间、从而节省时间和资源。</block>
   <block id="5f9f7bdd8b86c6cc583afabbd903007c" category="paragraph">初始版本包括管理项目和工作空间以及使用CodeBox自动执行操作的功能。您还可以将"构建者"与Perforce Helix Core集成、以便管理每个项目的不同版本并在它们之间快速切换。</block>
-  <block id="e562428972beeca78a1b44b300444717" category="paragraph">&lt;stdin&gt; 中未解析的指令 - include::_include/workload-builders.adoc[] :leveloffset: +1</block>
   <block id="80d5de3a419a69be5ba960bb0fef9a1d" category="section-title">2024年12月1日</block>
   <block id="fc031ba945e09cb6053f39527ae4937f" category="doc">克隆支持</block>
   <block id="e0fa1f53117aa72ea1061c2daaead5bc" category="paragraph">您现在可以在 BlueXP 工作负载工厂中为 Builders 克隆项目。克隆项目时，Builders 会根据快照创建一个新项目，其配置与原始项目相同。克隆功能对于快速创建类似项目或进行测试非常有用。您可以按照 Builders 中的说明安装新的项目克隆。</block>
@@ -244,4 +243,5 @@
   <block id="f3a98886e89c22ab1a8df16ff87d5b3c" category="section-title">更新数据库的权限</block>
   <block id="0d8e78270e3796caacf42c07616b7e32" category="paragraph">现在，以下权限在_read_模式下可用于数据库：<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block>。</block>
   <block id="1d8ce1cfc87620dad9c49f1de100a4fb" category="section-title">2025年2月2日</block>
+  <block id="959d33fa69dccfa15152c69ba90f9d41" category="doc">构建者的工作量</block>
 </blocks>
