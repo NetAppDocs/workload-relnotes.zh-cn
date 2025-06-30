@@ -43,34 +43,14 @@
   <block id="86fbb6c90e401f3291e15bdc1398509c" category="paragraph"><block ref="86fbb6c90e401f3291e15bdc1398509c" category="inline-link-macro-rx"></block></block>
   <block id="dc88dce8ec264777b2f90ec0af744f43" category="list-text">创建卷</block>
   <block id="d3156376048c94102c97709d5ff05e75" category="paragraph"><block ref="d3156376048c94102c97709d5ff05e75" category="inline-link-macro-rx"></block></block>
-  <block id="ab4a8520fe8e2e09df8b9471a8d923bf" category="section-title">2025年3月2日</block>
-  <block id="312fbafda6b72e176a3eb6272e48d799" category="section-title">增强了文件类型支持</block>
-  <block id="939bf2b00dbe77d4a65f4d265a755136" category="inline-link-macro">支持的数据源文件格式</block>
   <block id="cec87a8931004e5402a3f18575682723" category="paragraph">此版本的适用于VMware的BlueXP  工作负载工厂对Amazon EC2迁移顾问体验进行了多项改进：</block>
-  <block id="13ba1ae4c82947e19de7e94ee0eaab45" category="list-text">*估计实例类型*：迁移顾问现在可以检查您的环境要求、并为每个VM提供估计的Amazon EC2实例类型。您可以选择在迁移顾问的范围步骤中包括每个VM的估计实例类型。</block>
-  <block id="3006f7737352e976899743eaf6e2b28e" category="list-text">*推荐Amazon EBS卷的能力*：由于特定地区的特定容量或性能需求、迁移顾问现在可以建议将数据卷迁移到Amazon Elelic Block Store (EBS)、而不是Amazon FSx for NetApp ONTAP。</block>
-  <block id="b4a4e72af96c527b186a3d8f12952f22" category="list-text">*增强型文件系统自动分配*：Amazon FSx for NetApp ONTAP文件系统分配已得到改进、可以更好地优化成本并最大限度地降低吞吐量。</block>
   <block id="3450754e7ec63bd0a961376c9928752a" category="paragraph">使用CloudShell时、每次发出ONTAP命令行界面命令并出现错误时、您都可以获得AI生成的错误响应、其中包括故障说明、故障原因和详细解决方案。</block>
   <block id="4ef50e373522b91f7df59d5cba69a8b7" category="section-title">IAM：SimulatePermission Policy权限更新</block>
   <block id="906699741ebd9905a07af900abcfd438" category="paragraph">现在、当您添加其他AWS帐户凭据或添加新工作负载功能(例如GenAI工作负载)时、您可以从工作负载出厂控制台管理此<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block>权限。</block>
   <block id="186057b8c375bff9b600d22bf8686fc5" category="section-title">2025年3月30日</block>
-  <block id="f3a4976ab2464242211263cea7e247f9" category="paragraph">此版本的GenAI引入了在从数据源中精妙设计文件时对JSON和JSONP文件格式的支持<block ref="cc8f0c0e5a5cef9b33f236a0a9c19ca0" prefix=" " category="inline-code"></block>。支持包含嵌套对象的JSON文件、但对嵌套阵列的支持有限。</block>
-  <block id="0a8f6f086d5f30a416a61fd3606f1025" category="section-title">为外部聊天机器人示例应用程序提供国际化支持</block>
-  <block id="a2f4023c744ab1521036ee54ec2e15ba" category="paragraph">现在、您可以轻松地将GenAI示例外部聊天机器人应用程序的用户界面更改为其他语言或区域设置。</block>
-  <block id="5b8a8facbec8623a03d7cae8b62bfeb7" category="inline-link-macro">GenAI外部示例聊天机器人应用程序</block>
-  <block id="4d79fade08f1e8c2d92bbdf0e3237924" category="paragraph"><block ref="4d79fade08f1e8c2d92bbdf0e3237924" category="inline-link-macro-rx"></block></block>
-  <block id="26ea891fa4f63d071728537d886e0f6c" category="section-title">支持Anthropic Claude Sonnet 3.7聊天模式</block>
-  <block id="4c58515c1bd9657f223b7731d306475c" category="paragraph">GenAI现在支持Anthropic Claude 3.7 Sonnet聊天模式。CLODE 3.7 Sonnet的测试版功能允许每个请求最多128K输出令牌、并支持新的计算机使用操作。将来的GenAI版本将支持CLAUDE 3.7 Sonnet扩展思维模式。</block>
   <block id="16cb0b733a26e9afa11f388e6d83aec1" category="inline-link-macro">创建GenAI知识库</block>
-  <block id="40bd8fe426c37e97f38be2c5a2728752" category="section-title">支持从通用NFS/SMB共享添加数据源</block>
-  <block id="1813c42a79840f7d495281cf050a30dc" category="paragraph">现在、您可以使用工作负载出厂API从通用NFSv3、NFSv4或SMB共享添加数据源。从NFS或SMB共享添加数据源时、知识库卷仍保留在Amazon FSx for NetApp ONTAP卷上。工作负载出厂Web UI将在未来版本中支持此功能。</block>
-  <block id="fbc7eedf5c13a549330a0c3f52777db8" category="section-title">VPC对等支持</block>
-  <block id="52bc46202bc9013e258f32f66b8bf88a" category="inline-link-macro">对等虚拟私有云(VPC)</block>
-  <block id="93dbde0ee04c36dce05b96f3551f8606" category="paragraph">现在、您可以在同一区域部署GenAI基础架构<block ref="f008838004ac43a2c4a5b39672df7daf" category="inline-link-macro-rx"></block>、并使用相同的AWS帐户。您可以在VPC中部署AI引擎、然后在对等VPC中创建知识库、并选择位于对等VPC中的Amazon FSx for NetApp ONTAP文件系统。</block>
   <block id="6e62567f7c9b240a118b25fc64f2991f" category="list-text">*增强的卷分配指导*：EC2迁移顾问的"分类"和"打包"步骤中的卷分配信息增强了可读性和可用性。系统会显示有关每个卷的更多有用信息、使您能够更好地识别卷并确定如何分配卷。</block>
   <block id="5fc07f589f318bbf4f9475dbf3754c9f" category="list-text">*提高了数据收集器脚本的效率*：在为小型VM部署收集数据时、EC2迁移顾问数据收集器脚本可优化CPU利用率。</block>
-  <block id="0fcf305133bffed241e3ea17efbba5fc" category="inline-link-macro">使用工作负载出厂API</block>
-  <block id="a6efc6ca3aa5af2c7a8cad1239df17c0" category="paragraph"><block ref="a6efc6ca3aa5af2c7a8cad1239df17c0" category="inline-link-macro-rx"></block></block>
   <block id="ef74d01649997b60252254da8a1573fd" category="doc">CloudShell会报告ONTAP命令行界面命令的AI生成的错误响应</block>
   <block id="8bb788607f31f673e25d0ba34b09a14d" category="doc">优化增强功能</block>
   <block id="7e9a755c644cbdbaab2927671606cf89" category="paragraph">在优化数据库环境时、可以使用新的优化评估、更新和显示多个资源。</block>
@@ -91,7 +71,6 @@
   <block id="c4f70f11159098cce8873623bffb07aa" category="inline-link-macro">在BlueXP  工作负载工厂中创建PostgreSQL服务器</block>
   <block id="5963667f9fe01282fae9030cccbd24a3" category="paragraph"><block ref="5963667f9fe01282fae9030cccbd24a3" category="inline-link-macro-rx"></block></block>
   <block id="813bb11b4f90c862c2b7c2d35cc082ff" category="section-title">2025年4月4日</block>
-  <block id="c9cbd1d1d65e3b0d2ec2922daec8bddf" category="paragraph"><block ref="c9cbd1d1d65e3b0d2ec2922daec8bddf" category="inline-link-macro-rx"></block></block>
   <block id="71a6e13d9246eebc4c665bd6856ef62e" category="paragraph"><block ref="71a6e13d9246eebc4c665bd6856ef62e" category="inline-link-macro-rx"></block></block>
   <block id="25696569671071b8bd3db9a4c5f6613e" category="doc">信息板增强功能</block>
   <block id="04f9acced28b52e064ba8ccb957a615c" category="list-text">在BlueXP  工作负载出厂控制台中的选项卡之间导航时、可以使用跨帐户和跨区域视图。新视图可改进资源管理、监控和优化。</block>
@@ -244,4 +223,15 @@
   <block id="0d8e78270e3796caacf42c07616b7e32" category="paragraph">现在，以下权限在_read_模式下可用于数据库：<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block>。</block>
   <block id="1d8ce1cfc87620dad9c49f1de100a4fb" category="section-title">2025年2月2日</block>
   <block id="959d33fa69dccfa15152c69ba90f9d41" category="doc">构建者的工作量</block>
+  <block id="944ee388209d33a3bf1b309c6acdf693" category="doc">支持托管在通用 NFS/SMB 文件系统上的数据源</block>
+  <block id="9a7d241f00b55d0e00761313cced5dd8" category="paragraph">您现在可以从通用 SMB 或 NFS 共享添加数据源。这使您能够包含存储在 Amazon FSx for NetApp ONTAP 以外的文件系统托管的卷上的文件。</block>
+  <block id="5cba57d460e5683815517b44a7811760" category="inline-link">向知识库添加数据源</block>
+  <block id="b37629096d44c6fda917848365c84ebe" category="paragraph"><block ref="b37629096d44c6fda917848365c84ebe" category="inline-link-rx"></block></block>
+  <block id="6320af7d92cd5d357460c5cbc5f642a9" category="inline-link">向连接器添加数据源</block>
+  <block id="5cd676bef1867c904c092c33ad4a8f2d" category="paragraph"><block ref="5cd676bef1867c904c092c33ad4a8f2d" category="inline-link-rx"></block></block>
+  <block id="1832a7f4d2abf297aa0cee87f4c043e3" category="doc">引入对 Amazon Elastic VMWare Service 的迁移顾问支持</block>
+  <block id="0a2319b536912bd5824ac0880375783c" category="paragraph">BlueXP VMware 工作负载工厂现已支持 Amazon Elastic VMware Service。您可以使用迁移顾问快速将本地 VMware 工作负载迁移到 Amazon Elastic VMware Service，从而优化成本并更好地控制您的 VMware 环境，而无需重构或重新构建应用程序平台。</block>
+  <block id="e64998710319712d47612cc187a1dc35" category="inline-link">使用迁移顾问为 Amazon EVS 创建部署计划</block>
+  <block id="e38866fbf1fd8067b38b878041582246" category="paragraph"><block ref="e38866fbf1fd8067b38b878041582246" category="inline-link-rx"></block></block>
+  <block id="32d7d361955b5f8cb1cd26f6803b7d7d" category="section-title">2025年6月29日</block>
 </blocks>

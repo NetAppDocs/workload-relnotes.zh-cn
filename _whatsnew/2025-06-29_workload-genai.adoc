@@ -1,0 +1,13 @@
+= 支持托管在通用 NFS/SMB 文件系统上的数据源
+:allow-uri-read: 
+
+
+
+
+=== 支持托管在通用 NFS/SMB 文件系统上的数据源
+
+您现在可以从通用 SMB 或 NFS 共享添加数据源。这使您能够包含存储在 Amazon FSx for NetApp ONTAP 以外的文件系统托管的卷上的文件。
+
+https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html#add-data-sources-to-the-knowledge-base["向知识库添加数据源"]
+
+https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html#add-data-sources-to-the-connector["向连接器添加数据源"]
