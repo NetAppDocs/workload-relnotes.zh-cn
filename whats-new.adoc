@@ -15,7 +15,146 @@ summary: 了解BlueXP  工作负载工厂中工作负载的最新变化。
 
 
 
+== 2025年6月30日
+
+
+
+=== 数据库工作负载
+
+
+
+==== BlueXP 工作负载工厂通知服务支持
+
+BlueXP 工作负载工厂通知服务支持工作负载工厂向 BlueXP 警报服务或 Amazon SNS 主题发送通知。发送到 BlueXP 警报的通知会显示在 BlueXP 警报面板中。当工作负载工厂向 Amazon SNS 主题发布通知时，该主题的订阅者（例如人员或其他应用程序）会在为该主题配置的终端节点上收到通知（例如电子邮件或短信）。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["配置 BlueXP 工作负载工厂通知"^]
+
+工作负载工厂为数据库提供以下通知：
+
+* 结构完善的报告
+* 主机部署
+* 保护
+
+
+
+
+==== 用于注册实例的入门增强功能
+
+数据库工作负载工厂改进了在 Amazon FSx for NetApp ONTAP 存储上运行的实例的注册流程。现在，您可以批量选择实例进行注册。实例注册完成后，您可以在工作负载工厂控制台中创建和管理数据库主机资源。
+
+link:https://docs.netapp.com/us-en/workload-databases/manage-instance.html["实例管理"]
+
+
+
+==== Microsoft Multipath I/O 超时设置的分析与修复
+
+数据库主机实例的架构完善状态现在包含对 Microsoft 多路径 I/O (MPIO) 超时设置的分析和修复。将 MPIO 超时设置为 60 秒可确保 FSx for ONTAP 存储故障转移期间的连接性和稳定性。如果 MPIO 设置未正确设置，工作负载工厂将提供修复程序，将 MPIO 超时值设置为 60 秒。
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["在工作负载工厂中实现架构良好的数据库配置"]
+
+
+
+==== 主机库存中的图形增强功能
+
+在主机清单屏幕中，各种资源利用率图表（例如吞吐量和 IOPS）现在显示 7 天的数据，以便您可以更高效地从工作负载工厂控制台监控 SQL 节点的性能。从 SQL 节点收集的性能指标将保存在 Amazon CloudWatch 中，可用于 Logs Insights 或与您环境中的其他分析服务集成。
+
+从主机清单中的实例和数据库选项卡中，我们增强了主机保护的描述和可视化。
+
+
+
+==== 工作负载工厂中对 Windows 身份验证的支持
+
+现在，工作负载工厂支持使用 Windows 身份验证用户的 SQL Server 身份验证来注册主机实例并受益于主机管理功能。
+
+link:https://docs.netapp.com/us-en/workload-databases/register-instance.html["在数据库的工作负载工厂中注册主机实例"]
+
+
+
 == 2025年6月29日
+
+
+
+=== 适用于 NetApp ONTAP 的 Amazon FSX
+
+
+
+==== BlueXP 工作负载工厂通知服务支持
+
+BlueXP 工作负载工厂通知服务支持工作负载工厂向 BlueXP 警报服务或 Amazon SNS 主题发送通知。发送到 BlueXP 警报的通知会显示在 BlueXP 警报面板中。当工作负载工厂向 Amazon SNS 主题发布通知时，该主题的订阅者（例如人员或其他应用程序）会在为该主题配置的终端节点上收到通知（例如电子邮件或短信）。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["配置 BlueXP 工作负载工厂通知"^]
+
+
+
+==== 存储仪表板增强功能
+
+工作负载工厂控制台中的存储控制面板新增了节省机会卡片。控制面板顶部的卡片显示在 Amazon Elastic Block Store (EBS)、Amazon FSx for Windows File Server 和 Amazon Elastic File Systems (EFS) 上运行的存储环境的节省机会数量。控制面板底部新增了三张卡片，按 Amazon 存储服务（EBS、FSx for Windows File Server 和 EFS）显示节省机会。您可以从所有卡片中更详细地了解节省机会。
+
+通过 FSx for ONTAP 保护覆盖率卡和复制关系健康卡，您可以调查 FSx for ONTAP 文件系统中是否存在任何部分受保护的卷，以及调查复制关系的问题。在这两种情况下，您都可以采取措施来解决问题。
+
+
+
+==== 音量选项卡增强功能
+
+工作负载工厂控制台中的“卷”选项卡已得到增强，可提供更全面的 FSx for ONTAP 文件系统视图。增强功能包括新增 SSD 容量、容量池以及 NetApp 自主勒索软件防护 AI (ARP/AI) 卡。这些卡汇总了文件系统中所有卷的容量利用率和 ARP/AI 防护功能。
+
+
+
+==== 支持适用于NetApp ONTAP文件系统的第二代Amazon FSx
+
+工作负载工厂现已支持第二代 Amazon FSx for NetApp ONTAP 文件系统。您可以在工作负载工厂控制台中创建、管理和监控第二代文件系统。所有新的商业区域均受支持。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-file-system.html["在工作负载工厂中创建第二代文件系统"]
+
+
+
+==== FlexVol 卷支持重新平衡卷容量
+
+FlexVol 卷可在工作负载工厂控制台中发现。您可以检查 FlexVol 卷的平衡情况，并在新文件的添加和文件增长导致不平衡时重新平衡 FlexVol 卷以重新分配容量。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/rebalance-volume.html["重新平衡 FlexVol 卷的容量"]
+
+
+
+==== 术语更新
+
+在工作负载工厂控制台中，“自主勒索软件防护”(ARP) 一词已更新为“带 AI 的 NetApp 自主勒索软件防护”(ARP/AI)。
+
+
+
+==== 新卷默认启用 ARP/AI
+
+在工作负载工厂控制台中创建新卷时，如果文件系统具有 ARP/AI 策略，则 NetApp 自主勒索软件防护 AI (ARP/AI) 将默认启用。这意味着该卷将使用 AI 驱动的检测和响应功能自动防御勒索软件攻击。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["在工作负载工厂中创建卷"]
+
+
+
+==== 对不可变文件的复制支持
+
+工作负载工厂支持将不可变卷从一个 FSx for ONTAP 系统复制到另一个 FSx for ONTAP 文件系统，以保护关键数据免遭意外删除或勒索软件等恶意攻击。目标卷及其主机文件系统将处于不可变状态（即锁定状态），并且在保留期结束之前，目标文件系统中的任何数据都无法修改或删除。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["了解如何创建复制关系"]
+
+
+
+==== 链接创建增强功能
+
+工作负载工厂控制台中的链接创建过程进行了以下增强。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["使用Lamba链接连接到FSx for ONTAP文件系统"]
+
+
+
+===== 在链接创建期间管理 IAM 执行角色和权限
+
+现在，您可以在工作负载工厂控制台中创建链接，从而管理 IAM 执行角色及其附加的权限策略。链接会在您的工作负载工厂账户与一个或多个 FSx for ONTAP 文件系统之间建立连接。您可以通过两种方式分配 IAM 执行角色和链接权限：自动分配或用户分配。在工作负载工厂中管理执行角色及其附加的权限策略意味着您无需再使用第三方代码。
+
+
+
+===== Terraform 支持链接创建
+
+您现在可以使用 Codebox 中的 Terraform 创建与 FSx for ONTAP 文件系统关联的链接。此功能适用于手动创建链接的用户。
 
 
 
@@ -174,9 +313,9 @@ link:https://docs.netapp.com/us-en/workload-databases/optimize-overview.html["�
 
 
 
-==== 改进了主机实例的入职培训
+==== 改进实例的入门
 
-工作负载工厂现在使用“注册”来表示主机实例的注册，而不是像以前那样使用“未检测到”、“未托管”或“托管”等术语。新的注册流程包括对主机实例进行身份验证和准备，以便您可以在工作负载工厂控制台中创建、监控、分析和修复数据库配置中的资源。注册流程中的准备步骤指示您的主机实例是否已准备好进行管理。
+工作负载工厂现在使用“注册”来表示实例管理，而不是使用“未检测到”、“未托管”或“托管”等术语。新的注册流程包括对实例进行身份验证和准备，以便您可以在工作负载工厂控制台中创建、监控、分析和修复数据库配置中的资源。注册流程中的准备步骤指示您的实例是否已准备好进行管理。
 
 link:https://docs.netapp.com/us-en/workload-databases/manage-instance.html["实例管理"]
 
@@ -203,134 +342,6 @@ link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledg
 
 
 == 2025年5月4日
-
-
-
-=== 适用于 NetApp ONTAP 的 Amazon FSX
-
-
-
-==== 针对ONTAP文件系统FSx的自动防软件保护
-
-利用自动勒索软件保护(ARP)保护数据、此功能可在NAS (NFS/SMB)环境中使用工作负载分析来检测可能是勒索软件攻击的异常活动并发出警告。当怀疑发生攻击时、ARP还会创建新的、不可变更的快照、您可以从中还原数据。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/ransomware-protection.html["利用自动防兰森保护功能保护您的数据"]
-
-
-
-==== FlexGroup卷重新平衡增强功能
-
-BlueXP  工作负载出厂时引入了FlexGroup卷重新平衡向导、其中包含多个用于重新平衡FlexGroup卷中数据的布局选项。重新平衡会将数据均匀地重新分布到FlexGroup成员卷。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/rebalance-volume.html["重新平衡FlexGroup卷中的容量"]
-
-
-
-==== 为FSx for ONTAP文件系统实施最佳实践
-
-BlueXP  工作负载工厂提供了一个信息板、您可以在其中查看文件系统配置的架构良好状态。您可以利用此分析为FSx for ONTAP文件系统实施最佳实践。文件系统配置分析包括以下配置：SSD容量阈值、计划的本地快照、计划的ONTAP备份FSx、数据分层和远程数据复制。
-
-* link:https://docs.netapp.com/us-en/workload-fsx-ontap/configuration-analysis.html["了解对文件系统配置进行精心设计的分析"]
-* link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["为文件系统实施最佳实践"]
-
-
-
-
-==== 双协议卷安全模式选项
-
-您可以选择NTFS或UNIX作为卷的安全模式、以确定用户和权限访问卷的方法。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["创建卷"]
-
-
-
-==== 复制增强功能
-
-
-
-===== 支持从FSx for ONTAP反向复制到内部
-
-现在、可以从FSx for ONTAP文件系统从工作负载出厂控制台向内部ONTAP集群进行反向复制。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/reverse-replication.html["反向复制"]
-
-
-
-===== 数据保护卷复制
-
-现在、您可以复制数据保护卷。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/cascade-replication.html["复制数据保护卷"]
-
-
-
-===== 选择多个卷
-
-您可以选择多个卷、以便准确选择要复制的卷。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["创建复制关系"]
-
-
-
-===== 长期保留策略标签
-
-如果为复制关系启用长期保留、则源卷和目标卷标签必须完全匹配。现在、BlueXP  工作负载工厂可以自动为您创建缺少的源卷标签。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["创建复制关系"]
-
-
-
-==== FSx for ONTAP文件名可在创建卷时显示
-
-我们提高了FSx for ONTAP文件系统在卷创建期间的可见性。创建卷时、您将看到FSx for ONTAP文件系统、因此您可以确切地知道卷的创建位置。
-
-
-
-==== 可在存储工作负载中查看AWS帐户
-
-我们提高了客户对整个存储工作负载的可见性。导航到*卷*、*存储VM*和*复制*选项卡时、您将看到AWS帐户。
-
-
-
-==== 链接关联增强功能
-
-* 您可以在清单选项卡中快速关联FSx for ONTAP文件系统中的链接。
-* BlueXP  工作负载工厂现在支持使用备用ONTAP用户凭据进行链接关联。
-
-
-
-
-==== 支持对AWS专有信息管理器进行链接身份验证
-
-现在、您可以选择使用AWS机密管理器中的密钥对链接进行身份验证、这样就不必使用BlueXP  工作负载工厂中存储的凭据。
-
-
-
-==== 跟踪器响应支持
-
-Tracker现在提供API响应、以便您可以查看与任务相关的REST API输出。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/monitor-operations.html["使用Tracker监控操作"]
-
-
-
-==== 从备份还原卷时进行容量验证
-
-从备份还原卷时、BlueXP  工作负载出厂时会确定您是否有足够的容量进行还原、如果没有、则可以自动添加SSD存储层容量。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/restore-from-backup.html["从备份还原卷"]
-
-
-
-==== 支持备用ONTAP用户凭据
-
-工作负载工厂现在支持使用备用ONTAP凭据集来创建文件系统、从而最大限度地降低安全风险。您可以选择一组不同的ONTAP凭据、也可以选择不为fsxadmin和vsaadmin用户提供密码、而不是仅使用fsxadmin用户。
-
-
-
-==== 更新了权限术语
-
-工作负载工厂用户界面和文档现在使用“只读”来指代读取权限，使用“读/写”来指代自动化权限。
 
 
 
@@ -465,66 +476,6 @@ link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledg
 ==== 更新了权限术语
 
 工作负载工厂用户界面和文档现在使用“只读”来指代读取权限，使用“读/写”来指代自动化权限。
-
-
-
-== 2025年4月4日
-
-
-
-=== 数据库工作负载
-
-
-
-==== 优化增强功能
-
-在优化数据库环境时、可以使用新的优化评估、更新和显示多个资源。
-
-
-
-===== 故障恢复能力评估
-
-这些增强功能包括新的故障恢复能力评估、用于检查是否为数据库环境配置了数据冗余和灾难恢复功能。
-
-* FSx for ONTAP备份：分析为SQL Server实例的卷提供服务的ONTAP文件系统FSx是否为ONTAP备份配置了计划FSx。
-* 跨区域复制：评估为Microsoft SQL Server实例提供服务的ONTAP文件系统FSx是否配置了跨区域复制。
-
-
-
-
-===== 计算修复
-
-接收端扩展(RSS)修复功能可配置RSS、以便在多个处理器之间分布网络处理、并确保高效分布负载。
-
-
-
-===== 本地快照修复
-
-本地快照修复可为Microsoft SQL Server实例的卷设置快照策略、以便在数据丢失时保持数据库环境的弹性。
-
-link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["优化配置"]
-
-
-
-===== 支持多资源选择
-
-在优化数据库配置时、您现在可以选择特定资源、而不是所有资源。
-
-link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["优化配置"]
-
-
-
-==== 改进了清单视图
-
-工作负载出厂控制台中的"清单"选项卡已经过简化、因此它仅包含在Amazon FSx for NetApp ONTAP上运行的SQL Server。现在、您可以在"浏览节省量"选项卡中找到在内部部署且在Amazon Elabic Block Store和Amazon FSx for Windows File Server上运行的SQL Server。
-
-
-
-==== 快速创建可用于PostgreSQL服务器部署
-
-您可以使用此快速部署选项创建具有HA配置和嵌入式最佳实践的PostgreSQL服务器。
-
-link:https://docs.netapp.com/us-en/workload-databases/create-postgresql-server.html["在BlueXP  工作负载工厂中创建PostgreSQL服务器"]
 
 
 
