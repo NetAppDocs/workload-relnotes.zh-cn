@@ -14,14 +14,13 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.
 
 * 结构完善的报告
 * 主机部署
-* 保护
 
 
 
 
 === 用于注册实例的入门增强功能
 
-数据库工作负载工厂改进了在 Amazon FSx for NetApp ONTAP 存储上运行的实例的注册流程。现在，您可以批量选择实例进行注册。实例注册完成后，您可以在工作负载工厂控制台中创建和管理数据库主机资源。
+数据库工作负载工厂改进了在 Amazon FSx for NetApp ONTAP 存储上运行的实例的注册流程。现在，您可以批量选择实例进行注册。一旦实例注册，您就可以在工作负载工厂控制台内创建和管理数据库资源。
 
 link:https://docs.netapp.com/us-en/workload-databases/manage-instance.html["实例管理"]
 
@@ -29,22 +28,22 @@ link:https://docs.netapp.com/us-en/workload-databases/manage-instance.html["实�
 
 === Microsoft Multipath I/O 超时设置的分析与修复
 
-数据库主机实例的架构完善状态现在包含对 Microsoft 多路径 I/O (MPIO) 超时设置的分析和修复。将 MPIO 超时设置为 60 秒可确保 FSx for ONTAP 存储故障转移期间的连接性和稳定性。如果 MPIO 设置未正确设置，工作负载工厂将提供修复程序，将 MPIO 超时值设置为 60 秒。
+数据库实例的良好架构状态现在包括对 Microsoft 多路径 I/O (MPIO) 超时设置的分析和修复。将 MPIO 超时设置为 60 秒可确保 FSx for ONTAP 存储故障转移期间的连接性和稳定性。如果 MPIO 设置未正确设置，工作负载工厂将提供修复程序，将 MPIO 超时值设置为 60 秒。
 
 link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["在工作负载工厂中实现架构良好的数据库配置"]
 
 
 
-=== 主机库存中的图形增强功能
+=== 实例清单中的图形增强功能
 
-在主机清单屏幕中，各种资源利用率图表（例如吞吐量和 IOPS）现在显示 7 天的数据，以便您可以更高效地从工作负载工厂控制台监控 SQL 节点的性能。从 SQL 节点收集的性能指标将保存在 Amazon CloudWatch 中，可用于 Logs Insights 或与您环境中的其他分析服务集成。
+从实例库存屏幕，各种资源利用率图表（如吞吐量和 IOPS）现在显示 7 天的数据，以便您可以更有效地从工作负载工厂控制台监控 SQL 节点的性能。从 SQL 节点收集的性能指标将保存在 Amazon CloudWatch 中，可用于 Logs Insights 或与您环境中的其他分析服务集成。
 
-从主机清单中的实例和数据库选项卡中，我们增强了主机保护的描述和可视化。
+从库存中的实例和数据库选项卡中，我们增强了保护的描述和可视化。
 
 
 
 === 工作负载工厂中对 Windows 身份验证的支持
 
-现在，工作负载工厂支持使用 Windows 身份验证用户的 SQL Server 身份验证来注册主机实例并受益于主机管理功能。
+现在，工作负载工厂支持使用 Windows 身份验证的用户来注册实例并从管理功能中受益的 SQL Server 身份验证。
 
-link:https://docs.netapp.com/us-en/workload-databases/register-instance.html["在数据库的工作负载工厂中注册主机实例"]
+link:https://docs.netapp.com/us-en/workload-databases/register-instance.html["在数据库工作负载工厂中注册实例"]
