@@ -15,6 +15,38 @@ summary: 了解BlueXP  工作负载工厂中工作负载的最新变化。
 
 
 
+== 2025年8月4日
+
+
+
+=== 数据库工作负载
+
+
+
+==== 架构良好的分析包括高可用性集群验证
+
+精心设计的分析现在包括对高可用性集群的验证。此验证从服务器端检查所有与集群相关的配置，包括两个节点上的磁盘可用性和配置、Windows 集群配置和故障转移准备情况。这可确保 Windows 集群正确设置并可在需要时成功进行故障转移。
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["在工作负载工厂中实现架构良好的数据库配置"]
+
+
+
+==== 实例可用的多级菜单
+
+工作负载工厂控制台现在包括实例的多级菜单。此更改为管理实例提供了更有条理、更直观的导航结构。实例管理的菜单选项包括查看实例仪表板、查看数据库、创建数据库和创建沙盒克隆。
+
+image:manage-instance-table-menu.png["具有多级菜单结构的实例表菜单的屏幕截图。选择实例表菜单，然后管理实例以查看数据库、创建数据库和创建沙盒克隆。"]
+
+
+
+==== 新的身份验证选项可探索节省
+
+当 `NT Authority\SYSTEM`用户在 Microsoft SQL Server 上没有足够的权限，您可以使用 SQL Server 凭据进行身份验证，或将缺少的 SQL Server 权限添加到 `NT Authority\SYSTEM`。
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["探索使用Amazon FSx for NetApp ONTAP为您的数据库环境节省的潜在成本"]
+
+
+
 == 2025年8月3日
 
 
@@ -390,58 +422,6 @@ link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledg
 
 
 == 2025年5月4日
-
-
-
-=== 数据库工作负载
-
-
-
-==== 信息板增强功能
-
-* 在BlueXP  工作负载出厂控制台中的选项卡之间导航时、可以使用跨帐户和跨区域视图。新视图可改进资源管理、监控和优化。
-* 在信息板的*潜在节省*图块中、您将能够从Amazon El生 磁块存储切换到FSx for ONTAP或Amazon FSx for Windows File Server、从而快速查看可能节省的空间。
-
-
-
-
-==== 可对数据库配置进行临时扫描
-
-适用于数据库的BlueXP  工作负载工厂会自动扫描使用FSx for ONTAP存储的托管Microsoft SQL Server实例、以确定是否存在潜在的配置问题。现在、除了每日扫描之外、您还可以随时进行扫描。
-
-
-
-==== 删除内部评估记录
-
-在探讨了Microsoft SQL Server内部主机的节省之后、您可以选择从BlueXP  工作负载出厂时删除内部主机记录。
-
-
-
-==== 优化增强功能
-
-
-
-===== 克隆清理
-
-克隆清理评估和修复可识别和管理成本高昂的旧克隆。可以从BlueXP  工作负载出厂控制台中刷新或删除60天以上的克隆。
-
-
-
-===== 延迟和取消配置分析
-
-某些配置可能不适用于您的数据库环境。现在、您可以选择将特定配置分析推迟30天或取消分析。
-
-
-
-==== 删除内部评估记录
-
-在探讨了Microsoft SQL Server内部主机的节省之后、您可以选择从BlueXP  工作负载出厂时删除内部主机记录。
-
-
-
-==== 更新了权限术语
-
-工作负载工厂用户界面和文档现在使用“只读”来指代读取权限，使用“读/写”来指代自动化权限。
 
 
 
