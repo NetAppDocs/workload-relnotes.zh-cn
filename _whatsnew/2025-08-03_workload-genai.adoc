@@ -1,0 +1,19 @@
+= 结构化数据结果的安全存储
+:allow-uri-read: 
+
+
+
+
+=== 结构化数据结果的安全存储
+
+如果聊天机器人查询结果包含结构化数据，GenAI 可以将结果存储在 Amazon S3 存储桶中。当这些结果存储在 S3 存储桶中时，您可以使用聊天会话中的下载链接下载它们。
+
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["创建GenAI知识库"]
+
+
+
+=== MCP 服务器可用性
+
+NetApp现在为 GenAI 提供带有BlueXP workload factory的模型上下文协议 (MCP) 服务器。您可以在本地安装服务器，以允许外部 MCP 客户端从 GenAI 知识库中发现和检索查询结果。
+
+link:https://github.com/NetApp/mcp/tree/main/NetApp-KnowledgeBase-MCP-server["NetApp工作负载工厂 GenAI MCP 服务器"^]

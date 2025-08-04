@@ -152,6 +152,26 @@ https://docs.netapp.com/us-en/workload-vmware/calculate-evs-savings.html["探索
 
 
 
+=== GenAI工作负载
+
+
+
+==== 结构化数据结果的安全存储
+
+如果聊天机器人查询结果包含结构化数据，GenAI 可以将结果存储在 Amazon S3 存储桶中。当这些结果存储在 S3 存储桶中时，您可以使用聊天会话中的下载链接下载它们。
+
+link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["创建GenAI知识库"]
+
+
+
+==== MCP 服务器可用性
+
+NetApp现在为 GenAI 提供带有BlueXP workload factory的模型上下文协议 (MCP) 服务器。您可以在本地安装服务器，以允许外部 MCP 客户端从 GenAI 知识库中发现和检索查询结果。
+
+link:https://github.com/NetApp/mcp/tree/main/NetApp-KnowledgeBase-MCP-server["NetApp工作负载工厂 GenAI MCP 服务器"^]
+
+
+
 == 2025年6月30日
 
 
@@ -436,42 +456,6 @@ link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledg
 *将NetApp数据基础架构洞察作为数据源*：现在、工作负载工厂可直接与NetApp数据基础架构洞察连接、以便在使用EC2迁移顾问数据收集器时收集VMware部署信息。
 
 https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["使用迁移顾问为Amazon EC2创建部署计划"]
-
-
-
-==== 更新了权限术语
-
-工作负载工厂用户界面和文档现在使用“只读”来指代读取权限，使用“读/写”来指代自动化权限。
-
-
-
-=== GenAI工作负载
-
-
-
-==== 支持 NetApp Connector for Amazon Q Business
-
-此版本的 GenAI 引入了对 NetApp Connector for Amazon Q Business 的支持，使您能够为 Amazon Q Business 创建连接器。快速轻松地利用Amazon Q Business AI助理、与构建Amazon Brock的GenAI知识库相比、初始配置更少。
-
-link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html["为 Amazon Q Business 创建 NetApp 连接器"]
-
-
-
-==== 增强了聊天模式支持
-
-现在、GenAI还支持在知识库中使用以下聊天模式：
-
-* link:https://docs.mistral.ai/getting-started/models/models_overview/["Mistral AI型号"^]
-* link:https://docs.aws.amazon.com/bedrock/latest/userguide/titan-text-models.html["Amazon T人 文本模型"^]
-* link:https://www.llama.com/docs/model-cards-and-prompt-formats/["Meta Llama模型"^]
-* link:https://docs.ai21.com/["JAMBA 1.5型号"^]
-* link:https://docs.cohere.com/docs/the-cohere-platform["Cohere命令模型"^]
-* link:https://aws.amazon.com/bedrock/deepseek/["DeepSeek型号"^]
-
-
-GenAI支持Amazon Brock支持的每个提供商的型号：link:https://docs.aws.amazon.com/bedrock/latest/userguide/models-supported.html["Amazon Brock中支持的基础模型"^]
-
-link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["创建GenAI知识库"]
 
 
 
