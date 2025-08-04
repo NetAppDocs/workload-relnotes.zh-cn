@@ -98,24 +98,7 @@
   <block id="a3a574ae48c14d14b1a16908815471f6" category="section-title">为知识库选择重排序模型</block>
   <block id="9e0cf47f3974a0b121f9381245ed8931" category="paragraph">现在，您可以通过选择与知识库配合使用的特定重排序模型来提高重排序查询结果的相关性。GenAI支持 Cohere Rerank 和 Amazon Rerank 模型。</block>
   <block id="8443221e1b90a24e56685750c704746a" category="section-title">2025年6月3日</block>
-  <block id="7583f12b4559f6687c67d8588da1e2f7" category="doc">卷自动增长增强</block>
-  <block id="b57fe4f5ee65a0e01f61993297811ebf" category="paragraph">现在，您可以设置卷的自动增长大小，以便卷大小可以超出业务需求和应用程序要求的预配置大小。</block>
-  <block id="9f1effd9ace68ca00fe9e9e3c024b362" category="inline-link-macro">启用卷自动增长</block>
-  <block id="0177289fb77b50bdfc34ab44aa432a21" category="paragraph"><block ref="0177289fb77b50bdfc34ab44aa432a21" category="inline-link-macro-rx"></block></block>
-  <block id="159687e1c95e32f1dcb6c9c1624ba327" category="section-title">架构完善的分析更新</block>
-  <block id="8500b95246538dfef049532751c1e9f5" category="paragraph">工作负载工厂现在会分析您的 FSx for ONTAP 文件系统，以检查是否正在利用存储效率，包括数据压缩、压缩和重复数据删除。存储效率衡量文件系统利用可用空间的效率。</block>
-  <block id="26e5625f54c5c47a57293d23260101c7" category="inline-link-macro">查看存储效率的良好架构状态</block>
-  <block id="80378f8a6a0c86610258fa79cd78497b" category="paragraph"><block ref="80378f8a6a0c86610258fa79cd78497b" category="inline-link-macro-rx"></block></block>
   <block id="e4b0d36f0e7c4f3745520d8f27ed510b" category="section-title">存储仪表板增强功能</block>
-  <block id="47586d678be72b51ea7ac193f83c19b2" category="paragraph">从今天开始，当您从工作负载工厂控制台打开存储工作负载时，您将看到“仪表板”。全新设计的仪表板提供 FSx for ONTAP 系统的整体视图，包括文件系统数量、SSD 总容量、架构完善的状态概览、数据保护概览以及复制关系的运行状况。</block>
-  <block id="74d3ed8321cbdac2928290eee4795cef" category="section-title">卷选项卡增强功能</block>
-  <block id="0d25e8e0a888c31329b48ed4a33f98f6" category="paragraph">存储工作负载对工作负载工厂控制台中 FSx for ONTAP 文件系统内的“卷”选项卡进行了增强。增强功能包括：</block>
-  <block id="90a8a55f34e9e967f8619ecc5b0ba92a" category="list-text">*新卡*：SSD 容量、容量池和自主勒索软件防护 (ARP)</block>
-  <block id="f80c9595c105a10d312aac80217ebb84" category="list-text">*新列*：容量分布、已用 SSD 容量、已用容量池和 SSD 效率</block>
-  <block id="92eacda944854c6bfa8676c60aaa4c96" category="section-title">卷创建的存储效率更新</block>
-  <block id="af1e7fa29b343a7d9bd55952a334e8c9" category="paragraph">创建新卷时，默认启用存储效率，包括数据压缩、压缩和重复数据删除。</block>
-  <block id="55321b0c9d5d13d71a60766806796f90" category="inline-link-macro">在工作负载工厂中创建新卷</block>
-  <block id="9257e0b60b0f1cd3867c62713d3370aa" category="paragraph"><block ref="9257e0b60b0f1cd3867c62713d3370aa" category="inline-link-macro-rx"></block></block>
   <block id="93f953f50f24ae6dbf0400fde1bcc67d" category="doc">支持 NetApp Connector for Amazon Q Business</block>
   <block id="f6f6ab51c21f03ba653ceea7301964e4" category="paragraph">此版本的 GenAI 引入了对 NetApp Connector for Amazon Q Business 的支持，使您能够为 Amazon Q Business 创建连接器。快速轻松地利用Amazon Q Business AI助理、与构建Amazon Brock的GenAI知识库相比、初始配置更少。</block>
   <block id="3381eec0e48920855b86597d56709196" category="inline-link-macro">为 Amazon Q Business 创建 NetApp 连接器</block>
@@ -208,4 +191,41 @@
   <block id="e6884d3b77d68ac903da5836a6c33345" category="paragraph">现在，工作负载工厂支持使用 Windows 身份验证的用户来注册实例并从管理功能中受益的 SQL Server 身份验证。</block>
   <block id="8373481dd509f9b495f59748db1aa76d" category="inline-link-macro">在数据库工作负载工厂中注册实例</block>
   <block id="b8419cf58039d1a67d2046abd157e28b" category="paragraph"><block ref="b8419cf58039d1a67d2046abd157e28b" category="inline-link-macro-rx"></block></block>
+  <block id="6a6ae8005c209a1567f9003ea9e5cebe" category="doc">复制关系选项卡的增强功能</block>
+  <block id="c6a6fda1561189188099a8444886e4b7" category="paragraph">我们在复制关系表中添加了几个新列，以便在“复制关系”选项卡中为您提供有关复制关系的更多信息。该表现在包含以下列：</block>
+  <block id="932acf34d9bec3ecdd131ec5df85300a" category="list-text">SnapMirror 策略</block>
+  <block id="7d93b9eb1786d863bc7d27df5febb919" category="list-text">源文件系统</block>
+  <block id="144b2facd92022aa813f8fba914dfa05" category="list-text">目标文件系统</block>
+  <block id="e56f83171e12921713ed939e1572ddaf" category="list-text">关系状态</block>
+  <block id="f1b110a50dd5467d821019e318f363a2" category="list-text">上次转乘时间</block>
+  <block id="8fc34772d0100e115cdb03c17176f5bc" category="section-title">NetApp自主勒索软件防护 AI (ARP/AI) 增强功能</block>
+  <block id="5cd47e76c4117ef90e78977edb2349c2" category="paragraph">此版本引入了更新的术语“带有 AI 的NetApp自主勒索软件防护 (ARP/AI)”，以更好地反映人工智能在我们的勒索软件防护功能中的集成。</block>
+  <block id="d0ab441d90a6563b6caf3b18a96b121c" category="paragraph">此外，ARP/AI 还进行了以下增强：</block>
+  <block id="19f6fcd2887386ba088303687102d4fd" category="list-text">卷级 ARP/AI：您现在可以在卷级启用 ARP/AI，从而保护 FSx for ONTAP文件系统中的特定卷。</block>
+  <block id="ef292cf56fa95b6bcb87c8b89a0273e1" category="list-text">自动快照创建：您可以设置 ARP/AI 策略来自动拍摄快照，并定义启用 ARP/AI 的卷的拍摄快照频率，从而增强您的数据保护策略。</block>
+  <block id="7ebe1fb355350f028323680fa93854c0" category="list-text">不可变快照：ARP/AI 现在支持不可变快照，这些快照无法被删除或修改，从而为抵御勒索软件攻击提供了额外的安全保障。</block>
+  <block id="dc86b2499972aa0a3c70449e20618ca2" category="list-text">检测：包括各种检测方法，例如卷级高熵数据率、文件创建率、文件重命名率、文件删除率和行为分析，以及从未见过的文件扩展名，有助于检测异常和潜在的勒索软件攻击。</block>
+  <block id="0b3b06fcd7ae5de19a9937c92e9669fe" category="inline-link-macro">使用NetApp自主勒索软件防护 AI (ARP/AI) 保护您的数据</block>
+  <block id="b4b81f7655965069dc9b6d72c40d3191" category="paragraph"><block ref="b4b81f7655965069dc9b6d72c40d3191" category="inline-link-macro-rx"></block></block>
+  <block id="4a854a1349dc1900974f3bf6a9552245" category="section-title">精心设计的分析更新</block>
+  <block id="3c7a76fc8745c5306663d7f95b167472" category="paragraph">工作负载工厂现在分析您的 FSx for ONTAP文件系统的以下配置：</block>
+  <block id="e30059be004aa836033b5a45f85d0fe0" category="list-text">长期保留数据可靠性：检查分配给源卷的快照策略的标签是否与分配给长期保留策略的标签相同。当标签相同时，源卷和目标卷之间的数据复制是可靠的。</block>
+  <block id="d991a7b8584b3d26f44a90d9e27f7f7d" category="list-text">NetApp自主勒索软件防护与 AI (ARP/AI)：检查您的文件系统上是否启用了 ARP/AI。此功能可帮助您检测勒索软件攻击并从中恢复。</block>
+  <block id="bfebf248126ee0c8c192d7442b03e1a1" category="inline-link-macro">查看 FSx for ONTAP文件系统的良好架构状态</block>
+  <block id="2a708c78876e2ad54c0b8577c3b2bbd5" category="paragraph"><block ref="2a708c78876e2ad54c0b8577c3b2bbd5" category="inline-link-macro-rx"></block></block>
+  <block id="e3d4a0c1fd9bad5ddfe8b2fc326f6d42" category="section-title">从结构良好的分析中排除配置</block>
+  <block id="0b27c1a80fbacb5253a337c3d45236f9" category="paragraph">您现在可以从精心设计的分析中消除一个或多个配置。这使您可以忽略目前不想解决的特定配置。</block>
+  <block id="c4a9d2577a7099266e1214d55f11cf0b" category="paragraph"><block ref="c4a9d2577a7099266e1214d55f11cf0b" category="inline-link-macro-rx"></block></block>
+  <block id="f83708b425052a7f19c02dfd5c3d0688" category="section-title">Terraform 支持链接创建</block>
+  <block id="19c03fb90a9425b9fecd16c7b0e03e4e" category="paragraph">您现在可以使用 Codebox 中的 Terraform 创建与 FSx for ONTAP文件系统关联的链接。此功能适用于手动创建链接的用户。</block>
+  <block id="b1dfc57db13615cb83125300396102cb" category="section-title">探索存储节省的新区域支持</block>
+  <block id="dc2d48a6756b8920e1a0b103864fa0c3" category="paragraph">现支持以下新区域来探索 Amazon Elastic Block Store (EBS)、FSx for Windows File Server 和 Elastic File Systems (EFS) 的节省：</block>
+  <block id="8dbb07a18d46f63d8b3c8994d5ccc351" category="list-text">墨西哥</block>
+  <block id="103357e3e40a9c0e4e9d36110f7bbc7a" category="list-text">泰国</block>
+  <block id="743828d5c9c11b38d3dbbf76d787f497" category="section-title">增强 SMB/CIFS 共享创建和管理</block>
+  <block id="421075462886e558113f14b52fe22487" category="paragraph">您现在可以创建指向卷内的目录的 SMB/CIFS 共享。在卷内，您将能够看到存在哪些共享、共享指向哪里以及授予特定用户和组的权限。</block>
+  <block id="4662a232249c09ca958781da08211b0c" category="paragraph">对于数据保护卷，创建 SMB/CIFS 共享的流程现在包括创建到卷的连接路径以用于安装目的。</block>
+  <block id="0162ca60ba3c63c1058d5815f318b75b" category="inline-link-macro">为卷创建 CIFS 共享</block>
+  <block id="5f08db4267e771ad7b348d338d92e0e6" category="paragraph"><block ref="5f08db4267e771ad7b348d338d92e0e6" category="inline-link-macro-rx"></block></block>
+  <block id="2aaab0bce595a1e20244bc8b6b14559c" category="section-title">2025年8月3日</block>
 </blocks>

@@ -15,6 +15,91 @@ summary: 了解BlueXP  工作负载工厂中工作负载的最新变化。
 
 
 
+== 2025年8月3日
+
+
+
+=== 适用于 NetApp ONTAP 的 Amazon FSX
+
+
+
+==== 复制关系选项卡的增强功能
+
+我们在复制关系表中添加了几个新列，以便在“复制关系”选项卡中为您提供有关复制关系的更多信息。该表现在包含以下列：
+
+* SnapMirror 策略
+* 源文件系统
+* 目标文件系统
+* 关系状态
+* 上次转乘时间
+
+
+
+
+==== NetApp自主勒索软件防护 AI (ARP/AI) 增强功能
+
+此版本引入了更新的术语“带有 AI 的NetApp自主勒索软件防护 (ARP/AI)”，以更好地反映人工智能在我们的勒索软件防护功能中的集成。
+
+此外，ARP/AI 还进行了以下增强：
+
+* 卷级 ARP/AI：您现在可以在卷级启用 ARP/AI，从而保护 FSx for ONTAP文件系统中的特定卷。
+* 自动快照创建：您可以设置 ARP/AI 策略来自动拍摄快照，并定义启用 ARP/AI 的卷的拍摄快照频率，从而增强您的数据保护策略。
+* 不可变快照：ARP/AI 现在支持不可变快照，这些快照无法被删除或修改，从而为抵御勒索软件攻击提供了额外的安全保障。
+* 检测：包括各种检测方法，例如卷级高熵数据率、文件创建率、文件重命名率、文件删除率和行为分析，以及从未见过的文件扩展名，有助于检测异常和潜在的勒索软件攻击。
+
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/ransomware-protection.html["使用NetApp自主勒索软件防护 AI (ARP/AI) 保护您的数据"]
+
+
+
+==== 精心设计的分析更新
+
+工作负载工厂现在分析您的 FSx for ONTAP文件系统的以下配置：
+
+* 长期保留数据可靠性：检查分配给源卷的快照策略的标签是否与分配给长期保留策略的标签相同。当标签相同时，源卷和目标卷之间的数据复制是可靠的。
+* NetApp自主勒索软件防护与 AI (ARP/AI)：检查您的文件系统上是否启用了 ARP/AI。此功能可帮助您检测勒索软件攻击并从中恢复。
+
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["查看 FSx for ONTAP文件系统的良好架构状态"]
+
+
+
+==== 从结构良好的分析中排除配置
+
+您现在可以从精心设计的分析中消除一个或多个配置。这使您可以忽略目前不想解决的特定配置。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["从结构良好的分析中排除配置"]
+
+
+
+==== Terraform 支持链接创建
+
+您现在可以使用 Codebox 中的 Terraform 创建与 FSx for ONTAP文件系统关联的链接。此功能适用于手动创建链接的用户。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["使用Lamba链接连接到FSx for ONTAP文件系统"]
+
+
+
+==== 探索存储节省的新区域支持
+
+现支持以下新区域来探索 Amazon Elastic Block Store (EBS)、FSx for Windows File Server 和 Elastic File Systems (EFS) 的节省：
+
+* 墨西哥
+* 泰国
+
+
+
+
+==== 增强 SMB/CIFS 共享创建和管理
+
+您现在可以创建指向卷内的目录的 SMB/CIFS 共享。在卷内，您将能够看到存在哪些共享、共享指向哪里以及授予特定用户和组的权限。
+
+对于数据保护卷，创建 SMB/CIFS 共享的流程现在包括创建到卷的连接路径以用于安装目的。
+
+link:https://review.docs.netapp.com/us-en/workload-fsx-ontap_grogu-5684-wa-dismiss/manage-cifs-share.html#create-a-cifs-share-for-a-volume["为卷创建 CIFS 共享"]
+
+
+
 == 2025年6月30日
 
 
@@ -235,50 +320,6 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.htm
 
 
 == 2025年6月3日
-
-
-
-=== 适用于 NetApp ONTAP 的 Amazon FSX
-
-
-
-==== 卷自动增长增强
-
-现在，您可以设置卷的自动增长大小，以便卷大小可以超出业务需求和应用程序要求的预配置大小。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/edit-volume-autogrow.html["启用卷自动增长"]
-
-
-
-==== 架构完善的分析更新
-
-工作负载工厂现在会分析您的 FSx for ONTAP 文件系统，以检查是否正在利用存储效率，包括数据压缩、压缩和重复数据删除。存储效率衡量文件系统利用可用空间的效率。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["查看存储效率的良好架构状态"]
-
-
-
-==== 存储仪表板增强功能
-
-从今天开始，当您从工作负载工厂控制台打开存储工作负载时，您将看到“仪表板”。全新设计的仪表板提供 FSx for ONTAP 系统的整体视图，包括文件系统数量、SSD 总容量、架构完善的状态概览、数据保护概览以及复制关系的运行状况。
-
-
-
-==== 卷选项卡增强功能
-
-存储工作负载对工作负载工厂控制台中 FSx for ONTAP 文件系统内的“卷”选项卡进行了增强。增强功能包括：
-
-* *新卡*：SSD 容量、容量池和自主勒索软件防护 (ARP)
-* *新列*：容量分布、已用 SSD 容量、已用容量池和 SSD 效率
-
-
-
-
-==== 卷创建的存储效率更新
-
-创建新卷时，默认启用存储效率，包括数据压缩、压缩和重复数据删除。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["在工作负载工厂中创建新卷"]
 
 
 
