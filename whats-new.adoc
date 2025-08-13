@@ -15,6 +15,24 @@ summary: 了解BlueXP  工作负载工厂中工作负载的最新变化。
 
 
 
+== 2025年8月12日
+
+
+
+=== 数据库工作负载
+
+
+
+==== BlueXP backup and recovery现在支持 Microsoft SQL Server 工作负载
+
+BlueXP backup and recovery使您能够备份、恢复、验证和克隆 Microsoft SQL Server 数据库和可用性组。从工作负载工厂控制台，您可以访问和使用BlueXP backup and recovery来保护 Microsoft SQL Server 工作负载。
+
+link:protect-sql-server.html["了解如何通过工作负载工厂控制台保护 Microsoft SQL Server 工作负载"^] 。
+
+有关BlueXP backup and recovery的详细信息，请参阅link:https://docs.netapp.com/us-en/bluexp-backup-recovery/br-use-mssql-protect-overview.html["使用BlueXP backup and recovery保护 Microsoft SQL 工作负载概述"^]。
+
+
+
 == 2025年8月4日
 
 
@@ -392,32 +410,6 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.htm
 
 
 == 2025年6月3日
-
-
-
-=== 数据库工作负载
-
-
-
-==== PostgreSQL 和 Oracle 检测
-
-现在，您可以在工作负载工厂控制台中发现 AWS 账户中运行 PostgreSQL 服务器数据库和 Oracle 数据库部署的实例。已发现的实例将显示在数据库清单中。
-
-
-
-==== 更新了“优化”术语
-
-工作负载工厂以前称为“优化”，现在使用“良好架构的问题”和“良好架构的状态”来描述数据库配置的分析，并使用“修复”来描述改善数据库配置以满足最佳实践建议的机会的补救措施。
-
-link:https://docs.netapp.com/us-en/workload-databases/optimize-overview.html["工作负载工厂中的数据库环境配置分析"]
-
-
-
-==== 改进实例的入门
-
-工作负载工厂现在使用“注册”来表示实例管理，而不是使用“未检测到”、“未托管”或“托管”等术语。新的注册流程包括对实例进行身份验证和准备，以便您可以在工作负载工厂控制台中创建、监控、分析和修复数据库配置中的资源。注册流程中的准备步骤指示您的实例是否已准备好进行管理。
-
-link:https://docs.netapp.com/us-en/workload-databases/manage-instance.html["实例管理"]
 
 
 

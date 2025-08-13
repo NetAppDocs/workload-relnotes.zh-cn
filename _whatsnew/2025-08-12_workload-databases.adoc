@@ -1,0 +1,13 @@
+= BlueXP backup and recovery现在支持 Microsoft SQL Server 工作负载
+:allow-uri-read: 
+
+
+
+
+=== BlueXP backup and recovery现在支持 Microsoft SQL Server 工作负载
+
+BlueXP backup and recovery使您能够备份、恢复、验证和克隆 Microsoft SQL Server 数据库和可用性组。从工作负载工厂控制台，您可以访问和使用BlueXP backup and recovery来保护 Microsoft SQL Server 工作负载。
+
+link:protect-sql-server.html["了解如何通过工作负载工厂控制台保护 Microsoft SQL Server 工作负载"^] 。
+
+有关BlueXP backup and recovery的详细信息，请参阅link:https://docs.netapp.com/us-en/bluexp-backup-recovery/br-use-mssql-protect-overview.html["使用BlueXP backup and recovery保护 Microsoft SQL 工作负载概述"^]。

@@ -52,12 +52,6 @@
   <block id="795a0e870c9420e8289ae895de63c851" category="paragraph">此版本的适用于VMware的BlueXP  工作负载工厂对Amazon EC2迁移顾问体验进行了以下改进：</block>
   <block id="81e3939f348a9727ff017a61306371bd" category="paragraph">*将NetApp数据基础架构洞察作为数据源*：现在、工作负载工厂可直接与NetApp数据基础架构洞察连接、以便在使用EC2迁移顾问数据收集器时收集VMware部署信息。</block>
   <block id="4a8ef01af1fafc8c714496654fc2facc" category="section-title">2025年5月4日</block>
-  <block id="938691193541892254da342a65418ef3" category="doc">PostgreSQL 和 Oracle 检测</block>
-  <block id="a35833d039b2504ef8c787b30e723967" category="paragraph">现在，您可以在工作负载工厂控制台中发现 AWS 账户中运行 PostgreSQL 服务器数据库和 Oracle 数据库部署的实例。已发现的实例将显示在数据库清单中。</block>
-  <block id="fd1fe4efcf471a552598d4396db84a26" category="section-title">更新了“优化”术语</block>
-  <block id="a832a618559e9b6325bfe90eb3e86587" category="paragraph">工作负载工厂以前称为“优化”，现在使用“良好架构的问题”和“良好架构的状态”来描述数据库配置的分析，并使用“修复”来描述改善数据库配置以满足最佳实践建议的机会的补救措施。</block>
-  <block id="c551233916d554410ddca9f767142b1a" category="inline-link-macro">工作负载工厂中的数据库环境配置分析</block>
-  <block id="2cfa2ba77f1346dd5f1a96ad6f3af2b2" category="paragraph"><block ref="2cfa2ba77f1346dd5f1a96ad6f3af2b2" category="inline-link-macro-rx"></block></block>
   <block id="4f91bce4a20615964f35d2fd97ddb2e1" category="inline-link-macro">实例管理</block>
   <block id="68d9261728b0a851ce7bc78b7cfd2a69" category="paragraph"><block ref="68d9261728b0a851ce7bc78b7cfd2a69" category="inline-link-macro-rx"></block></block>
   <block id="ea3d4df6f8aff21b2dfe549c5ecf9775" category="doc">跟踪器可用于监控和跟踪操作</block>
@@ -110,8 +104,6 @@
   <block id="f3a98886e89c22ab1a8df16ff87d5b3c" category="doc">更新数据库的权限</block>
   <block id="cb30bdb55bb8a7a0530a31a5e6cdd0bb" category="paragraph">现在，数据库在只读模式下具有以下权限： <block ref="f63e0d20057299c9c16bd0c2c9e92a5c" prefix=" " category="inline-code"></block> 。</block>
   <block id="e429c7230e4b94caf26e6020e5ea6f7a" category="paragraph"><block ref="e429c7230e4b94caf26e6020e5ea6f7a" category="inline-link-rx"></block></block>
-  <block id="a43e14359a13ff9144351ad74db7b351" category="section-title">改进实例的入门</block>
-  <block id="af2ef84a7c6d5792c23eddfef4cc4ed9" category="paragraph">工作负载工厂现在使用“注册”来表示实例管理，而不是使用“未检测到”、“未托管”或“托管”等术语。新的注册流程包括对实例进行身份验证和准备，以便您可以在工作负载工厂控制台中创建、监控、分析和修复数据库配置中的资源。注册流程中的准备步骤指示您的实例是否已准备好进行管理。</block>
   <block id="a10c281531128badfefa7086b353ead0" category="paragraph"><block ref="a10c281531128badfefa7086b353ead0" category="inline-link-macro-rx"></block></block>
   <block id="16608889ffd4210e3527b28d2cabeee1" category="paragraph">工作负载工厂控制台中的存储控制面板新增了节省机会卡片。控制面板顶部的卡片显示在 Amazon Elastic Block Store (EBS)、Amazon FSx for Windows File Server 和 Amazon Elastic File Systems (EFS) 上运行的存储环境的节省机会数量。控制面板底部新增了三张卡片，按 Amazon 存储服务（EBS、FSx for Windows File Server 和 EFS）显示节省机会。您可以从所有卡片中更详细地了解节省机会。</block>
   <block id="e2fc557edefb4b2854999f60dbd0d379" category="paragraph">通过 FSx for ONTAP 保护覆盖率卡和复制关系健康卡，您可以调查 FSx for ONTAP 文件系统中是否存在任何部分受保护的卷，以及调查复制关系的问题。在这两种情况下，您都可以采取措施来解决问题。</block>
@@ -216,4 +208,11 @@
   <block id="7577ac9e07061812bfe5cec74bafd782" category="paragraph">NetApp现在为 GenAI 提供带有BlueXP workload factory的模型上下文协议 (MCP) 服务器。您可以在本地安装服务器，以允许外部 MCP 客户端从 GenAI 知识库中发现和检索查询结果。</block>
   <block id="6ce9fdd00e9870d205a0b965e8d376fd" category="inline-link-macro">NetApp工作负载工厂 GenAI MCP 服务器</block>
   <block id="499a63951a1faf063a1d481e63ba0fd9" category="paragraph"><block ref="499a63951a1faf063a1d481e63ba0fd9" category="inline-link-macro-rx"></block></block>
+  <block id="22218c6d37412d25750364bd0d4047b5" category="doc">BlueXP backup and recovery现在支持 Microsoft SQL Server 工作负载</block>
+  <block id="412038dfc7c530b95fd4f54ca173992c" category="paragraph">BlueXP backup and recovery使您能够备份、恢复、验证和克隆 Microsoft SQL Server 数据库和可用性组。从工作负载工厂控制台，您可以访问和使用BlueXP backup and recovery来保护 Microsoft SQL Server 工作负载。</block>
+  <block id="0eabf86e93873fc39b5a49903ec1c780" category="inline-link-macro">了解如何通过工作负载工厂控制台保护 Microsoft SQL Server 工作负载</block>
+  <block id="479793fb579bc2de418f794ebb8ef29a" category="paragraph"><block ref="9a9685babd9ed5904e91ddba265de923" category="inline-link-macro-rx"></block> 。</block>
+  <block id="7b26957c70db2d24aefeef252ab7b883" category="inline-link-macro">使用BlueXP backup and recovery保护 Microsoft SQL 工作负载概述</block>
+  <block id="6f452244df857c1e0fc35a2a40650322" category="paragraph">有关BlueXP backup and recovery的详细信息，请参阅<block ref="b3db6ed8425306b30d05a9028a6a4afe" category="inline-link-macro-rx"></block>。</block>
+  <block id="39454dfcfa6a1a0351437e0b1d0da294" category="section-title">2025年8月12日</block>
 </blocks>
