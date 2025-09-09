@@ -15,6 +15,52 @@ summary: 了解BlueXP  工作负载工厂中工作负载的最新变化。
 
 
 
+== 2025年9月1日
+
+
+
+=== 数据库工作负载
+
+
+
+==== Agentic AI 驱动的错误日志分析器
+
+Agentic AI 驱动的错误日志分析器是一项新功能，它利用先进的机器学习算法自动检测和分析日志文件中的错误。该工具旨在通过根据日志中识别的模式向开发人员提供可操作的见解和建议来简化故障排除过程。
+
+link:https://docs.netapp.com/us-en/workload-databases/analyze-error-logs.html["了解有关 Agentic AI 驱动的错误日志分析器的更多信息"]
+
+
+
+==== Oracle 支持
+
+工作负载工厂包括对 Oracle 数据库的支持。在工作负载工厂控制台中，您可以从库存中查看 Oracle 数据库，注册数据库以使用工作负载工厂中的高级功能，并使用架构良好的功能分析 Oracle 数据库以符合最佳实践。良好的架构分析决定了 Oracle 数据库的存储配置是否得到优化。您可以使用此信息对数据库部署做出明智的决策并确保它们高效运行。
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["在工作负载工厂中实现架构良好的数据库配置"]
+
+
+
+==== 支持在第二代 FSx for ONTAP文件系统上部署 Microsoft SQL Server
+
+工作负载工厂支持在第二代 FSx for ONTAP文件系统上部署 Microsoft SQL Server。此增强功能使您能够在管理 SQL Server 工作负载的同时利用第二代文件系统中的最新功能和性能改进。
+
+
+
+==== 用于 SQL Server 保护的 Windows 身份验证
+
+使用 Windows 凭据对 Microsoft SQL Server 实例进行身份验证已嵌入到工作流程中，以准备使用BlueXP backup and recovery来保护 Microsoft SQL Server 主机。这曾经是需要手动完成的先决步骤。相反，如果您尚未使用 Windows 凭据在工作负载工厂中注册主机，系统将提示您与管理员访问权限共享 Windows 凭据。
+
+link:https://docs.netapp.com/us-en/workload-databases/protect-sql-server.html["了解如何通过工作负载工厂控制台保护 Microsoft SQL Server 工作负载"] 。
+
+
+
+==== 架构良好的分析包括 SQL Server 的 MTU 对齐
+
+精心设计的分析评估并修复了 FSx for ONTAP存储上 Microsoft SQL Server 跨端点的最大传输单元 (MTU) 错位。调整 MTU 设置有助于优化网络性能并减少 SQL Server 工作负载的延迟。
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["在工作负载工厂中实现架构良好的数据库配置"]
+
+
+
 == 2025年8月12日
 
 
@@ -187,60 +233,6 @@ link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledg
 NetApp现在为 GenAI 提供带有BlueXP workload factory的模型上下文协议 (MCP) 服务器。您可以在本地安装服务器，以允许外部 MCP 客户端从 GenAI 知识库中发现和检索查询结果。
 
 link:https://github.com/NetApp/mcp/tree/main/NetApp-KnowledgeBase-MCP-server["NetApp工作负载工厂 GenAI MCP 服务器"^]
-
-
-
-== 2025年6月30日
-
-
-
-=== 数据库工作负载
-
-
-
-==== BlueXP 工作负载工厂通知服务支持
-
-BlueXP 工作负载工厂通知服务支持工作负载工厂向 BlueXP 警报服务或 Amazon SNS 主题发送通知。发送到 BlueXP 警报的通知会显示在 BlueXP 警报面板中。当工作负载工厂向 Amazon SNS 主题发布通知时，该主题的订阅者（例如人员或其他应用程序）会在为该主题配置的终端节点上收到通知（例如电子邮件或短信）。
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["配置 BlueXP 工作负载工厂通知"^]
-
-工作负载工厂为数据库提供以下通知：
-
-* 结构完善的报告
-* 主机部署
-
-
-
-
-==== 用于注册实例的入门增强功能
-
-数据库工作负载工厂改进了在 Amazon FSx for NetApp ONTAP 存储上运行的实例的注册流程。现在，您可以批量选择实例进行注册。一旦实例注册，您就可以在工作负载工厂控制台内创建和管理数据库资源。
-
-link:https://docs.netapp.com/us-en/workload-databases/manage-instance.html["实例管理"]
-
-
-
-==== Microsoft Multipath I/O 超时设置的分析与修复
-
-数据库实例的良好架构状态现在包括对 Microsoft 多路径 I/O (MPIO) 超时设置的分析和修复。将 MPIO 超时设置为 60 秒可确保 FSx for ONTAP 存储故障转移期间的连接性和稳定性。如果 MPIO 设置未正确设置，工作负载工厂将提供修复程序，将 MPIO 超时值设置为 60 秒。
-
-link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["在工作负载工厂中实现架构良好的数据库配置"]
-
-
-
-==== 实例清单中的图形增强功能
-
-从实例库存屏幕，各种资源利用率图表（如吞吐量和 IOPS）现在显示 7 天的数据，以便您可以更有效地从工作负载工厂控制台监控 SQL 节点的性能。从 SQL 节点收集的性能指标将保存在 Amazon CloudWatch 中，可用于 Logs Insights 或与您环境中的其他分析服务集成。
-
-从库存中的实例和数据库选项卡中，我们增强了保护的描述和可视化。
-
-
-
-==== 工作负载工厂中对 Windows 身份验证的支持
-
-现在，工作负载工厂支持使用 Windows 身份验证的用户来注册实例并从管理功能中受益的 SQL Server 身份验证。
-
-link:https://docs.netapp.com/us-en/workload-databases/register-instance.html["在数据库工作负载工厂中注册实例"]
 
 
 

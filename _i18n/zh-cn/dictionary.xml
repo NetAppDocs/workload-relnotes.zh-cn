@@ -52,8 +52,6 @@
   <block id="795a0e870c9420e8289ae895de63c851" category="paragraph">此版本的适用于VMware的BlueXP  工作负载工厂对Amazon EC2迁移顾问体验进行了以下改进：</block>
   <block id="81e3939f348a9727ff017a61306371bd" category="paragraph">*将NetApp数据基础架构洞察作为数据源*：现在、工作负载工厂可直接与NetApp数据基础架构洞察连接、以便在使用EC2迁移顾问数据收集器时收集VMware部署信息。</block>
   <block id="4a8ef01af1fafc8c714496654fc2facc" category="section-title">2025年5月4日</block>
-  <block id="4f91bce4a20615964f35d2fd97ddb2e1" category="inline-link-macro">实例管理</block>
-  <block id="68d9261728b0a851ce7bc78b7cfd2a69" category="paragraph"><block ref="68d9261728b0a851ce7bc78b7cfd2a69" category="inline-link-macro-rx"></block></block>
   <block id="ea3d4df6f8aff21b2dfe549c5ecf9775" category="doc">跟踪器可用于监控和跟踪操作</block>
   <block id="8daed4c7913162875cceb19ef5e0bf4c" category="paragraph">GenAI 现已提供 Tracker 监控功能。您可以使用 Tracker 监控和跟踪待处理、正在进行和已完成操作的进度和状态，查看操作任务和子任务的详细信息，诊断任何问题或故障，编辑失败操作的参数，以及重试失败的操作。</block>
   <block id="27e9b8493c313885af8902ac1ae67e24" category="inline-link-macro">使用 BlueXP 工作负载工厂中的 Tracker 监控工作负载操作</block>
@@ -131,23 +129,8 @@
   <block id="bdd7f454c54673987f53c40f8e5b8072" category="paragraph"><block ref="bdd7f454c54673987f53c40f8e5b8072" category="inline-link-macro-rx"></block></block>
   <block id="5c44c7d986372ccb1d679985b5416b64" category="section-title">在链接创建期间管理 IAM 执行角色和权限</block>
   <block id="43f8bec3c8d83ff27c8f5d629cd49d4d" category="paragraph">现在，您可以在工作负载工厂控制台中创建链接，从而管理 IAM 执行角色及其附加的权限策略。链接会在您的工作负载工厂账户与一个或多个 FSx for ONTAP 文件系统之间建立连接。您可以通过两种方式分配 IAM 执行角色和链接权限：自动分配或用户分配。在工作负载工厂中管理执行角色及其附加的权限策略意味着您无需再使用第三方代码。</block>
-  <block id="c836d737c77c0dbce2c99a2b01c719fd" category="paragraph">工作负载工厂为数据库提供以下通知：</block>
-  <block id="33e3371223dba19c723617802e06af8d" category="list-text">结构完善的报告</block>
-  <block id="d415d128365eca1587931ed756de7819" category="list-text">主机部署</block>
-  <block id="8306ce5f84163ec6839ec7518f30183a" category="section-title">用于注册实例的入门增强功能</block>
-  <block id="2e91c32877a8bf4a56c1853f92a414ba" category="section-title">Microsoft Multipath I/O 超时设置的分析与修复</block>
   <block id="c4363ade7c2d208d79dee9b60bc51922" category="inline-link-macro">在工作负载工厂中实现架构良好的数据库配置</block>
   <block id="a05724b342c36062e480732f660ae9d4" category="paragraph"><block ref="a05724b342c36062e480732f660ae9d4" category="inline-link-macro-rx"></block></block>
-  <block id="4698c78219bd6bc2a4fb47e8f4149213" category="section-title">工作负载工厂中对 Windows 身份验证的支持</block>
-  <block id="0a9f9a33b436eb81633ee8f4b2cb121d" category="section-title">2025年6月30日</block>
-  <block id="d2240cc857b28c2cc0c761811ebb0e4d" category="paragraph">数据库工作负载工厂改进了在 Amazon FSx for NetApp ONTAP 存储上运行的实例的注册流程。现在，您可以批量选择实例进行注册。一旦实例注册，您就可以在工作负载工厂控制台内创建和管理数据库资源。</block>
-  <block id="55dedf6eed5a2ce8c260a3944723e099" category="paragraph">数据库实例的良好架构状态现在包括对 Microsoft 多路径 I/O (MPIO) 超时设置的分析和修复。将 MPIO 超时设置为 60 秒可确保 FSx for ONTAP 存储故障转移期间的连接性和稳定性。如果 MPIO 设置未正确设置，工作负载工厂将提供修复程序，将 MPIO 超时值设置为 60 秒。</block>
-  <block id="0f6f8a7d2c62793903fd07b4a68f2192" category="section-title">实例清单中的图形增强功能</block>
-  <block id="6bb06f6a313d1245a77bdcc02f151dcd" category="paragraph">从实例库存屏幕，各种资源利用率图表（如吞吐量和 IOPS）现在显示 7 天的数据，以便您可以更有效地从工作负载工厂控制台监控 SQL 节点的性能。从 SQL 节点收集的性能指标将保存在 Amazon CloudWatch 中，可用于 Logs Insights 或与您环境中的其他分析服务集成。</block>
-  <block id="8984f42ceef01f063ea7a1078e620318" category="paragraph">从库存中的实例和数据库选项卡中，我们增强了保护的描述和可视化。</block>
-  <block id="e6884d3b77d68ac903da5836a6c33345" category="paragraph">现在，工作负载工厂支持使用 Windows 身份验证的用户来注册实例并从管理功能中受益的 SQL Server 身份验证。</block>
-  <block id="8373481dd509f9b495f59748db1aa76d" category="inline-link-macro">在数据库工作负载工厂中注册实例</block>
-  <block id="b8419cf58039d1a67d2046abd157e28b" category="paragraph"><block ref="b8419cf58039d1a67d2046abd157e28b" category="inline-link-macro-rx"></block></block>
   <block id="6a6ae8005c209a1567f9003ea9e5cebe" category="doc">复制关系选项卡的增强功能</block>
   <block id="c6a6fda1561189188099a8444886e4b7" category="paragraph">我们在复制关系表中添加了几个新列，以便在“复制关系”选项卡中为您提供有关复制关系的更多信息。该表现在包含以下列：</block>
   <block id="932acf34d9bec3ecdd131ec5df85300a" category="list-text">SnapMirror 策略</block>
@@ -208,11 +191,24 @@
   <block id="7577ac9e07061812bfe5cec74bafd782" category="paragraph">NetApp现在为 GenAI 提供带有BlueXP workload factory的模型上下文协议 (MCP) 服务器。您可以在本地安装服务器，以允许外部 MCP 客户端从 GenAI 知识库中发现和检索查询结果。</block>
   <block id="6ce9fdd00e9870d205a0b965e8d376fd" category="inline-link-macro">NetApp工作负载工厂 GenAI MCP 服务器</block>
   <block id="499a63951a1faf063a1d481e63ba0fd9" category="paragraph"><block ref="499a63951a1faf063a1d481e63ba0fd9" category="inline-link-macro-rx"></block></block>
-  <block id="22218c6d37412d25750364bd0d4047b5" category="doc">BlueXP backup and recovery现在支持 Microsoft SQL Server 工作负载</block>
   <block id="412038dfc7c530b95fd4f54ca173992c" category="paragraph">BlueXP backup and recovery使您能够备份、恢复、验证和克隆 Microsoft SQL Server 数据库和可用性组。从工作负载工厂控制台，您可以访问和使用BlueXP backup and recovery来保护 Microsoft SQL Server 工作负载。</block>
   <block id="0eabf86e93873fc39b5a49903ec1c780" category="inline-link-macro">了解如何通过工作负载工厂控制台保护 Microsoft SQL Server 工作负载</block>
   <block id="7b26957c70db2d24aefeef252ab7b883" category="inline-link-macro">使用BlueXP backup and recovery保护 Microsoft SQL 工作负载概述</block>
   <block id="6f452244df857c1e0fc35a2a40650322" category="paragraph">有关BlueXP backup and recovery的详细信息，请参阅<block ref="b3db6ed8425306b30d05a9028a6a4afe" category="inline-link-macro-rx"></block>。</block>
   <block id="39454dfcfa6a1a0351437e0b1d0da294" category="section-title">2025年8月12日</block>
   <block id="82776afd94423c79dbb6478467a55ee1" category="paragraph"><block ref="01ada1ee9ae7e42f0ced5cd933931e08" category="inline-link-macro-rx"></block> 。</block>
+  <block id="1d7888e9a7739b1a3282310704484ae5" category="doc">BlueXP backup and recovery现在支持 Microsoft SQL Server 工作负载</block>
+  <block id="c66ae4617a5e7b903fa49494f6025fe3" category="doc">Agentic AI 驱动的错误日志分析器</block>
+  <block id="9d9b1a38d2c7c04daeaa22b4ab5a3d5d" category="paragraph">Agentic AI 驱动的错误日志分析器是一项新功能，它利用先进的机器学习算法自动检测和分析日志文件中的错误。该工具旨在通过根据日志中识别的模式向开发人员提供可操作的见解和建议来简化故障排除过程。</block>
+  <block id="b8b677d9dba6a14dd05b3a0eb592a9c5" category="inline-link-macro">了解有关 Agentic AI 驱动的错误日志分析器的更多信息</block>
+  <block id="eea441a7c94cd96996c9c96d7827e71f" category="paragraph"><block ref="eea441a7c94cd96996c9c96d7827e71f" category="inline-link-macro-rx"></block></block>
+  <block id="87b85aff45217080ba500a992ada602c" category="section-title">Oracle 支持</block>
+  <block id="74ddb3b25ce5cc41642c58d46e3e527b" category="paragraph">工作负载工厂包括对 Oracle 数据库的支持。在工作负载工厂控制台中，您可以从库存中查看 Oracle 数据库，注册数据库以使用工作负载工厂中的高级功能，并使用架构良好的功能分析 Oracle 数据库以符合最佳实践。良好的架构分析决定了 Oracle 数据库的存储配置是否得到优化。您可以使用此信息对数据库部署做出明智的决策并确保它们高效运行。</block>
+  <block id="0c32ff88af8d87b6ac8198432d56bd75" category="section-title">支持在第二代 FSx for ONTAP文件系统上部署 Microsoft SQL Server</block>
+  <block id="6f4eab6394c8d6b2b9c2f5990b195f88" category="paragraph">工作负载工厂支持在第二代 FSx for ONTAP文件系统上部署 Microsoft SQL Server。此增强功能使您能够在管理 SQL Server 工作负载的同时利用第二代文件系统中的最新功能和性能改进。</block>
+  <block id="4b0e4c53f590f96c7ae9dbd2af881643" category="section-title">用于 SQL Server 保护的 Windows 身份验证</block>
+  <block id="66eac601a6b6ad939034aba1005b0d1f" category="paragraph">使用 Windows 凭据对 Microsoft SQL Server 实例进行身份验证已嵌入到工作流程中，以准备使用BlueXP backup and recovery来保护 Microsoft SQL Server 主机。这曾经是需要手动完成的先决步骤。相反，如果您尚未使用 Windows 凭据在工作负载工厂中注册主机，系统将提示您与管理员访问权限共享 Windows 凭据。</block>
+  <block id="21e7945dde284bd0e0fc5e2026a591e0" category="section-title">架构良好的分析包括 SQL Server 的 MTU 对齐</block>
+  <block id="ecc57bed47e69e41f27979277ae13c78" category="paragraph">精心设计的分析评估并修复了 FSx for ONTAP存储上 Microsoft SQL Server 跨端点的最大传输单元 (MTU) 错位。调整 MTU 设置有助于优化网络性能并减少 SQL Server 工作负载的延迟。</block>
+  <block id="38a5777d2aaca4d9102a019c09e0009c" category="section-title">2025年9月1日</block>
 </blocks>

@@ -1,0 +1,41 @@
+= Agentic AI 驱动的错误日志分析器
+:allow-uri-read: 
+
+
+
+
+=== Agentic AI 驱动的错误日志分析器
+
+Agentic AI 驱动的错误日志分析器是一项新功能，它利用先进的机器学习算法自动检测和分析日志文件中的错误。该工具旨在通过根据日志中识别的模式向开发人员提供可操作的见解和建议来简化故障排除过程。
+
+link:https://docs.netapp.com/us-en/workload-databases/analyze-error-logs.html["了解有关 Agentic AI 驱动的错误日志分析器的更多信息"]
+
+
+
+=== Oracle 支持
+
+工作负载工厂包括对 Oracle 数据库的支持。在工作负载工厂控制台中，您可以从库存中查看 Oracle 数据库，注册数据库以使用工作负载工厂中的高级功能，并使用架构良好的功能分析 Oracle 数据库以符合最佳实践。良好的架构分析决定了 Oracle 数据库的存储配置是否得到优化。您可以使用此信息对数据库部署做出明智的决策并确保它们高效运行。
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["在工作负载工厂中实现架构良好的数据库配置"]
+
+
+
+=== 支持在第二代 FSx for ONTAP文件系统上部署 Microsoft SQL Server
+
+工作负载工厂支持在第二代 FSx for ONTAP文件系统上部署 Microsoft SQL Server。此增强功能使您能够在管理 SQL Server 工作负载的同时利用第二代文件系统中的最新功能和性能改进。
+
+
+
+=== 用于 SQL Server 保护的 Windows 身份验证
+
+使用 Windows 凭据对 Microsoft SQL Server 实例进行身份验证已嵌入到工作流程中，以准备使用BlueXP backup and recovery来保护 Microsoft SQL Server 主机。这曾经是需要手动完成的先决步骤。相反，如果您尚未使用 Windows 凭据在工作负载工厂中注册主机，系统将提示您与管理员访问权限共享 Windows 凭据。
+
+link:https://docs.netapp.com/us-en/workload-databases/protect-sql-server.html["了解如何通过工作负载工厂控制台保护 Microsoft SQL Server 工作负载"] 。
+
+
+
+=== 架构良好的分析包括 SQL Server 的 MTU 对齐
+
+精心设计的分析评估并修复了 FSx for ONTAP存储上 Microsoft SQL Server 跨端点的最大传输单元 (MTU) 错位。调整 MTU 设置有助于优化网络性能并减少 SQL Server 工作负载的延迟。
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["在工作负载工厂中实现架构良好的数据库配置"]
