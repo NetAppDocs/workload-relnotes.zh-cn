@@ -61,19 +61,6 @@
   <block id="8443221e1b90a24e56685750c704746a" category="section-title">2025年6月3日</block>
   <block id="e4b0d36f0e7c4f3745520d8f27ed510b" category="section-title">存储仪表板增强功能</block>
   <block id="4ead5e435cb4f2c7cf627b1d1e84c333" category="paragraph">工作负载工厂用户界面和文档现在使用“只读”来指代读取权限，使用“读/写”来指代自动化权限。</block>
-  <block id="2423cc9c7b9124d70e9fba7ab98b53df" category="doc">全新精心设计的分析和问题修复支持</block>
-  <block id="b03b65ae167fa7999b9020739117ae19" category="paragraph">FSx for ONTAP 文件系统的自动容量管理现在作为配置分析包含在精心设计的状态仪表板中。</block>
-  <block id="5a5b21f778da0dbaf4794873b0deb067" category="paragraph">此外，工作负载工厂现在支持修复以下配置问题：</block>
-  <block id="9d0e9f5c0aa1e38cfaa8e64e155bc5a8" category="list-text">SSD容量阈值</block>
-  <block id="396928510e06818ef017921022cce2af" category="list-text">数据分层</block>
-  <block id="aff279b636a9024db3b44375d88e80eb" category="list-text">计划的本地快照</block>
-  <block id="667bda9d5b08fe1666f3fe061ce424aa" category="list-text">FSx for ONTAP 备份</block>
-  <block id="887673b402c7bbc141e56321e277605f" category="list-text">远程数据复制</block>
-  <block id="af20abc7154e9ee224c54b48b6ec7d63" category="list-text">存储效率</block>
-  <block id="f2be69b635c39988351f6636a52c66bd" category="list-text">自动容量管理</block>
-  <block id="6745decee5065276cebd3695be1fb7bd" category="inline-link-macro">修复配置问题</block>
-  <block id="347dbce3139b58110904a187913fc7e1" category="paragraph"><block ref="347dbce3139b58110904a187913fc7e1" category="inline-link-macro-rx"></block></block>
-  <block id="b818e29403f1ec2f62ad7db43da773e1" category="section-title">2025年6月8日</block>
   <block id="4cd460e2c71c2ffba346f4471ea0fa00" category="doc">构建者工作负载初始版本</block>
   <block id="01885fa7b72aa9d947d8efa49fb4b8cd" category="paragraph">适用于构建者的BlueXP  工作负载工厂可简化软件版本的使用和访问、无需自定义工具或脚本。它使您能够将软件版本作为即时克隆使用、并与Perforce Helix Core集成、作为开发流程的便利工作空间、从而节省时间和资源。</block>
   <block id="5f9f7bdd8b86c6cc583afabbd903007c" category="paragraph">初始版本包括管理项目和工作空间以及使用CodeBox自动执行操作的功能。您还可以将"构建者"与Perforce Helix Core集成、以便管理每个项目的不同版本并在它们之间快速切换。</block>
@@ -211,4 +198,29 @@
   <block id="21e7945dde284bd0e0fc5e2026a591e0" category="section-title">架构良好的分析包括 SQL Server 的 MTU 对齐</block>
   <block id="ecc57bed47e69e41f27979277ae13c78" category="paragraph">精心设计的分析评估并修复了 FSx for ONTAP存储上 Microsoft SQL Server 跨端点的最大传输单元 (MTU) 错位。调整 MTU 设置有助于优化网络性能并减少 SQL Server 工作负载的延迟。</block>
   <block id="38a5777d2aaca4d9102a019c09e0009c" category="section-title">2025年9月1日</block>
+  <block id="d1e5e17e5a4cb355117a41318746c4a4" category="doc">存储库存报告增强功能</block>
+  <block id="b749705b43261f48fe8b1309cb366d90" category="paragraph">工作负载工厂增强了针对 FSx for ONTAP文件系统报告的数据。FSx for ONTAP库存页面的可下载报告包括以下新列：</block>
+  <block id="c61468edc77ab93ea17568f678793bdd" category="list-text">SSD已用：显示已使用的SSD容量值</block>
+  <block id="a1a4ea0fabd62225adb4786dd703d1a7" category="list-text">SSD 利用率：显示 SSD 容量的使用百分比</block>
+  <block id="c016cb9916988a0ea698d070fd6b702a" category="list-text">吞吐量利用率：显示过去 30 天的平均和峰值利用率</block>
+  <block id="197af635c10bcbf35ba56184f54cb088" category="list-text">IO 利用率：显示过去 30 天的平均和峰值 IO 利用率</block>
+  <block id="92bce71ffaebc031ec78d565e6ad7032" category="list-text">CPU 利用率：显示过去 30 天的平均和峰值 CPU 利用率</block>
+  <block id="95851c89a4d869fdb94916625564bb6c" category="section-title">快照管理增强功能</block>
+  <block id="fbb3322fb25c1109310e7be3bcc20fd5" category="paragraph">工作负载工厂对查看卷快照详细信息和管理卷快照做出了多项增强。这些增强功能使您更容易了解快照的状态并保护您的数据。</block>
+  <block id="3ecb130f0ffe2d8e485cb11c629b90b5" category="inline-image-macro">屏幕截图显示了 FSx for ONTAP卷菜单的基本操作，然后查看卷详细信息。</block>
+  <block id="d26eb7e0d00b2e5069d790d2b9be49ba" category="paragraph"><block ref="d26eb7e0d00b2e5069d790d2b9be49ba" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="cb34ab44253ae9c736786f23dc173879" category="paragraph">“保护”选项卡下的“卷详细信息”中显示其他项目：</block>
+  <block id="6d4b26be686dd37e202e23010a22bf04" category="list-text">快照策略名称</block>
+  <block id="a81cec6ec43470b1419a033e0457112d" category="list-text">快照空间预留</block>
+  <block id="c04d4554f0391d80036dceaa0e930ee2" category="list-text">快照空间预留容量</block>
+  <block id="06fd2134099fd30808caa961b2bc9b21" category="inline-image-macro">屏幕截图显示了 FSx for ONTAP卷的详细信息，其中“保护”选项卡处于打开状态。</block>
+  <block id="b52491919b24cba6fd1efad7447c7798" category="paragraph"><block ref="b52491919b24cba6fd1efad7447c7798" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="e987130d3b26cda391ff2f1e5149f444" category="paragraph">可以从卷访问新的快照管理屏幕；它提供有关卷的快照策略的信息，并包含包含所有卷快照的表。该表显示以下快照详细信息：创建时间、大小、到期时间、不可变快照保护和标签。从管理屏幕，您可以更改卷的快照策略，手动创建快照以及编辑、访问、恢复和删除快照。</block>
+  <block id="ad8f55b88a50703984e58a23e36e9026" category="inline-image-macro">显示管理快照屏幕的屏幕截图。</block>
+  <block id="404a59509c6a806310ecbd1d601e0ee6" category="paragraph"><block ref="404a59509c6a806310ecbd1d601e0ee6" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="52574bdc9ce79e7e568096fa39264d72" category="section-title">SSD 存储容量可减少</block>
+  <block id="0cc6e64eaa35165d8791def1903c483a" category="paragraph">工作负载工厂支持减少第一代和第二代文件系统的固态硬盘 (SSD) 容量。利用弹性文件系统容量，您可以动态调整文件系统的容量以满足工作负载的需求。</block>
+  <block id="298ae1d1e13ebe1f0f22936b7ea9ce33" category="inline-link-macro">调整文件系统容量</block>
+  <block id="6b4be3b501bf6ae8984293c02d4d610b" category="paragraph"><block ref="6b4be3b501bf6ae8984293c02d4d610b" category="inline-link-macro-rx"></block></block>
+  <block id="a68e5a2143abf532b515a7b3b1734351" category="section-title">2025年9月9日</block>
 </blocks>

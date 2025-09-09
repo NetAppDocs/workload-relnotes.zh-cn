@@ -15,6 +15,56 @@ summary: 了解BlueXP  工作负载工厂中工作负载的最新变化。
 
 
 
+== 2025年9月9日
+
+
+
+=== 适用于 NetApp ONTAP 的 Amazon FSX
+
+
+
+==== 存储库存报告增强功能
+
+工作负载工厂增强了针对 FSx for ONTAP文件系统报告的数据。FSx for ONTAP库存页面的可下载报告包括以下新列：
+
+* SSD已用：显示已使用的SSD容量值
+* SSD 利用率：显示 SSD 容量的使用百分比
+* 吞吐量利用率：显示过去 30 天的平均和峰值利用率
+* IO 利用率：显示过去 30 天的平均和峰值 IO 利用率
+* CPU 利用率：显示过去 30 天的平均和峰值 CPU 利用率
+
+
+
+
+==== 快照管理增强功能
+
+工作负载工厂对查看卷快照详细信息和管理卷快照做出了多项增强。这些增强功能使您更容易了解快照的状态并保护您的数据。
+
+image:screenshot-menu-view-volume-details.png["屏幕截图显示了 FSx for ONTAP卷菜单的基本操作，然后查看卷详细信息。"]
+
+“保护”选项卡下的“卷详细信息”中显示其他项目：
+
+* 快照策略名称
+* 快照空间预留
+* 快照空间预留容量
+
+
+image:screenshot-volume-details-protection.png["屏幕截图显示了 FSx for ONTAP卷的详细信息，其中“保护”选项卡处于打开状态。"]
+
+可以从卷访问新的快照管理屏幕；它提供有关卷的快照策略的信息，并包含包含所有卷快照的表。该表显示以下快照详细信息：创建时间、大小、到期时间、不可变快照保护和标签。从管理屏幕，您可以更改卷的快照策略，手动创建快照以及编辑、访问、恢复和删除快照。
+
+image:screenshot-manage-snapshots-screen.png["显示管理快照屏幕的屏幕截图。"]
+
+
+
+==== SSD 存储容量可减少
+
+工作负载工厂支持减少第一代和第二代文件系统的固态硬盘 (SSD) 容量。利用弹性文件系统容量，您可以动态调整文件系统的容量以满足工作负载的需求。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/increase-file-system-capacity.html["调整文件系统容量"]
+
+
+
 == 2025年9月1日
 
 
@@ -371,33 +421,6 @@ https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html[
 您现在可以在 BlueXP 工作负载工厂中为 Builders 克隆项目。克隆项目时，Builders 会根据快照创建一个新项目，其配置与原始项目相同。克隆功能对于快速创建类似项目或进行测试非常有用。您可以按照 Builders 中的说明安装新的项目克隆。
 
 https://docs.netapp.com/us-en/workload-builders/version-projects.html["管理 Builders 项目的 BlueXP 工作负载工厂版本"]
-
-
-
-== 2025年6月8日
-
-
-
-=== 适用于 NetApp ONTAP 的 Amazon FSX
-
-
-
-==== 全新精心设计的分析和问题修复支持
-
-FSx for ONTAP 文件系统的自动容量管理现在作为配置分析包含在精心设计的状态仪表板中。
-
-此外，工作负载工厂现在支持修复以下配置问题：
-
-* SSD容量阈值
-* 数据分层
-* 计划的本地快照
-* FSx for ONTAP 备份
-* 远程数据复制
-* 存储效率
-* 自动容量管理
-
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["修复配置问题"]
 
 
 
