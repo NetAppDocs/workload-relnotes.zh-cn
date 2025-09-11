@@ -26,50 +26,20 @@
   <block id="b04deaa23ce22ae0dafa2736e8afebed" category="doc">GenAI工作负载</block>
   <block id="bb50e2459e4e016aa4b14a56adb2358f" category="doc">设置和管理</block>
   <block id="a76e64a0fbf98a083080351e4cb67566" category="doc">VMware工作负载</block>
-  <block id="d738890a4c9a0f96c08ae0ba66a626a1" category="inline-link">使用迁移顾问为Amazon EC2创建部署计划</block>
-  <block id="2dbb83c0d88f8aa5c12c5445b2b248ee" category="paragraph"><block ref="2dbb83c0d88f8aa5c12c5445b2b248ee" category="inline-link-rx"></block></block>
   <block id="d2705530e45ff55c7a7db4a1196a8b0d" category="summary">了解BlueXP  工作负载工厂中工作负载的最新变化。</block>
   <block id="482a03f8810c074753dd4da1f075dc70" category="doc">BlueXP  工作负载出厂时的最新变更</block>
   <block id="ccbb3c80d40b938a56e8803235ec679c" category="sidebar">本发行说明介绍了BlueXP  工作负载工厂中的云服务的最新增强功能。</block>
   <block id="15d6d0dbf56d72db14e4484abfd8982d" category="sidebar">BlueXP  工作负载出厂发行说明</block>
-  <block id="1d194f6c398ca78aaffd8c430203e1ec" category="doc">Amazon EC2迁移顾问改进</block>
   <block id="428b0b39be2352757edeb5f9f12a7bdd" category="inline-link">BlueXP  工作负载工厂</block>
   <block id="7cf449620aa459bc5c449db69b07e507" category="paragraph"><block ref="7cf449620aa459bc5c449db69b07e507" category="inline-link-rx"></block></block>
-  <block id="4ab00ae468588a563b956d814954695d" category="inline-link-macro">使用CloudShell</block>
-  <block id="2004b4ad1feb57e1e4505f5888cfbb60" category="paragraph"><block ref="2004b4ad1feb57e1e4505f5888cfbb60" category="inline-link-macro-rx"></block></block>
   <block id="6cff628e35cc5d429a57e4a125a0bf6b" category="inline-link-macro">权限引用更改日志</block>
-  <block id="86fbb6c90e401f3291e15bdc1398509c" category="paragraph"><block ref="86fbb6c90e401f3291e15bdc1398509c" category="inline-link-macro-rx"></block></block>
-  <block id="3450754e7ec63bd0a961376c9928752a" category="paragraph">使用CloudShell时、每次发出ONTAP命令行界面命令并出现错误时、您都可以获得AI生成的错误响应、其中包括故障说明、故障原因和详细解决方案。</block>
-  <block id="4ef50e373522b91f7df59d5cba69a8b7" category="section-title">IAM：SimulatePermission Policy权限更新</block>
-  <block id="906699741ebd9905a07af900abcfd438" category="paragraph">现在、当您添加其他AWS帐户凭据或添加新工作负载功能(例如GenAI工作负载)时、您可以从工作负载出厂控制台管理此<block ref="19f5de89e4c667692a153296018e225f" prefix=" " category="inline-code"></block>权限。</block>
-  <block id="186057b8c375bff9b600d22bf8686fc5" category="section-title">2025年3月30日</block>
   <block id="16cb0b733a26e9afa11f388e6d83aec1" category="inline-link-macro">创建GenAI知识库</block>
-  <block id="ef74d01649997b60252254da8a1573fd" category="doc">CloudShell会报告ONTAP命令行界面命令的AI生成的错误响应</block>
   <block id="71a6e13d9246eebc4c665bd6856ef62e" category="paragraph"><block ref="71a6e13d9246eebc4c665bd6856ef62e" category="inline-link-macro-rx"></block></block>
-  <block id="514f1fc0ac0ff6e4200d3637146367f1" category="section-title">更新了权限术语</block>
-  <block id="74d516ef8dfa098bb4cd92313c403475" category="doc">CloudShell自动完成支持</block>
-  <block id="df96b6f4ceabb5c4dbc915475fd821fe" category="paragraph">使用BlueXP  Workload Factory CloudShell时、您可以开始键入命令、然后按Tab键查看可用选项。如果存在多种可能、命令行界面将显示建议列表。此功能可最大限度地减少错误并加快命令执行速度、从而提高工作效率。</block>
-  <block id="795a0e870c9420e8289ae895de63c851" category="paragraph">此版本的适用于VMware的BlueXP  工作负载工厂对Amazon EC2迁移顾问体验进行了以下改进：</block>
-  <block id="81e3939f348a9727ff017a61306371bd" category="paragraph">*将NetApp数据基础架构洞察作为数据源*：现在、工作负载工厂可直接与NetApp数据基础架构洞察连接、以便在使用EC2迁移顾问数据收集器时收集VMware部署信息。</block>
-  <block id="4a8ef01af1fafc8c714496654fc2facc" category="section-title">2025年5月4日</block>
-  <block id="ea3d4df6f8aff21b2dfe549c5ecf9775" category="doc">跟踪器可用于监控和跟踪操作</block>
-  <block id="8daed4c7913162875cceb19ef5e0bf4c" category="paragraph">GenAI 现已提供 Tracker 监控功能。您可以使用 Tracker 监控和跟踪待处理、正在进行和已完成操作的进度和状态，查看操作任务和子任务的详细信息，诊断任何问题或故障，编辑失败操作的参数，以及重试失败的操作。</block>
-  <block id="27e9b8493c313885af8902ac1ae67e24" category="inline-link-macro">使用 BlueXP 工作负载工厂中的 Tracker 监控工作负载操作</block>
-  <block id="6cfb11211ef97bba3b2359a766b22994" category="paragraph"><block ref="6cfb11211ef97bba3b2359a766b22994" category="inline-link-macro-rx"></block></block>
-  <block id="a3a574ae48c14d14b1a16908815471f6" category="section-title">为知识库选择重排序模型</block>
-  <block id="9e0cf47f3974a0b121f9381245ed8931" category="paragraph">现在，您可以通过选择与知识库配合使用的特定重排序模型来提高重排序查询结果的相关性。GenAI支持 Cohere Rerank 和 Amazon Rerank 模型。</block>
-  <block id="8443221e1b90a24e56685750c704746a" category="section-title">2025年6月3日</block>
   <block id="e4b0d36f0e7c4f3745520d8f27ed510b" category="section-title">存储仪表板增强功能</block>
-  <block id="4ead5e435cb4f2c7cf627b1d1e84c333" category="paragraph">工作负载工厂用户界面和文档现在使用“只读”来指代读取权限，使用“读/写”来指代自动化权限。</block>
-  <block id="4cd460e2c71c2ffba346f4471ea0fa00" category="doc">构建者工作负载初始版本</block>
-  <block id="01885fa7b72aa9d947d8efa49fb4b8cd" category="paragraph">适用于构建者的BlueXP  工作负载工厂可简化软件版本的使用和访问、无需自定义工具或脚本。它使您能够将软件版本作为即时克隆使用、并与Perforce Helix Core集成、作为开发流程的便利工作空间、从而节省时间和资源。</block>
-  <block id="5f9f7bdd8b86c6cc583afabbd903007c" category="paragraph">初始版本包括管理项目和工作空间以及使用CodeBox自动执行操作的功能。您还可以将"构建者"与Perforce Helix Core集成、以便管理每个项目的不同版本并在它们之间快速切换。</block>
-  <block id="80d5de3a419a69be5ba960bb0fef9a1d" category="section-title">2024年12月1日</block>
   <block id="fc031ba945e09cb6053f39527ae4937f" category="doc">克隆支持</block>
   <block id="e0fa1f53117aa72ea1061c2daaead5bc" category="paragraph">您现在可以在 BlueXP 工作负载工厂中为 Builders 克隆项目。克隆项目时，Builders 会根据快照创建一个新项目，其配置与原始项目相同。克隆功能对于快速创建类似项目或进行测试非常有用。您可以按照 Builders 中的说明安装新的项目克隆。</block>
   <block id="d88d0821a38808f607bab21c2cc4cf9e" category="inline-link">管理 Builders 项目的 BlueXP 工作负载工厂版本</block>
   <block id="bbdb933c88b694592079931541c31eb3" category="paragraph"><block ref="bbdb933c88b694592079931541c31eb3" category="inline-link-rx"></block></block>
-  <block id="918963c77ef42064702ac721d5a06ebb" category="section-title">2025年6月16日</block>
   <block id="959d33fa69dccfa15152c69ba90f9d41" category="doc">构建者的工作量</block>
   <block id="944ee388209d33a3bf1b309c6acdf693" category="doc">支持托管在通用 NFS/SMB 文件系统上的数据源</block>
   <block id="9a7d241f00b55d0e00761313cced5dd8" category="paragraph">您现在可以从通用 SMB 或 NFS 共享添加数据源。这使您能够包含存储在 Amazon FSx for NetApp ONTAP 以外的文件系统托管的卷上的文件。</block>
@@ -81,7 +51,6 @@
   <block id="0a2319b536912bd5824ac0880375783c" category="paragraph">BlueXP VMware 工作负载工厂现已支持 Amazon Elastic VMware Service。您可以使用迁移顾问快速将本地 VMware 工作负载迁移到 Amazon Elastic VMware Service，从而优化成本并更好地控制您的 VMware 环境，而无需重构或重新构建应用程序平台。</block>
   <block id="e64998710319712d47612cc187a1dc35" category="inline-link">使用迁移顾问为 Amazon EVS 创建部署计划</block>
   <block id="e38866fbf1fd8067b38b878041582246" category="paragraph"><block ref="e38866fbf1fd8067b38b878041582246" category="inline-link-rx"></block></block>
-  <block id="32d7d361955b5f8cb1cd26f6803b7d7d" category="section-title">2025年6月29日</block>
   <block id="64c17706e0528a5c44c7beee628cc101" category="doc">BlueXP 工作负载工厂通知服务支持</block>
   <block id="c0ae6f0ec7cb1322a1c6b72f77e783f2" category="paragraph">BlueXP 工作负载工厂通知服务支持工作负载工厂向 BlueXP 警报服务或 Amazon SNS 主题发送通知。发送到 BlueXP 警报的通知会显示在 BlueXP 警报面板中。当工作负载工厂向 Amazon SNS 主题发布通知时，该主题的订阅者（例如人员或其他应用程序）会在为该主题配置的终端节点上收到通知（例如电子邮件或短信）。</block>
   <block id="76490568879e4523bb6bd6d8263472a9" category="inline-link">配置 BlueXP 工作负载工厂通知</block>
@@ -154,7 +123,6 @@
   <block id="4662a232249c09ca958781da08211b0c" category="paragraph">对于数据保护卷，创建 SMB/CIFS 共享的流程现在包括创建到卷的连接路径以用于安装目的。</block>
   <block id="0162ca60ba3c63c1058d5815f318b75b" category="inline-link-macro">为卷创建 CIFS 共享</block>
   <block id="5f08db4267e771ad7b348d338d92e0e6" category="paragraph"><block ref="5f08db4267e771ad7b348d338d92e0e6" category="inline-link-macro-rx"></block></block>
-  <block id="2aaab0bce595a1e20244bc8b6b14559c" category="section-title">2025年8月3日</block>
   <block id="424013c53fd9187a66e051bb44ddaa34" category="doc">改进了对 Amazon Elastic VMWare Service 的迁移顾问支持</block>
   <block id="37ac2db5bb5bc7f50e3b58bbb706b64b" category="paragraph">Amazon Elastic VMware Service 迁移顾问现在支持自动部署和安装Amazon FSx for NetApp ONTAP文件系统。这样，当迁移到 Amazon EVS 环境完成后，您就可以开始在 FSx for ONTAP文件系统上部署虚拟机。</block>
   <block id="93c34ab13f70b21f6935de45dacb9ae3" category="section-title">计算迁移到 Amazon Elastic VMware Service 节省的成本</block>
@@ -171,7 +139,6 @@
   <block id="3035f336d9539562dbf5355f26c10a4f" category="paragraph">当<block ref="7254170b56a28e207df989a3f40b911f" prefix=" " category="inline-code"></block>用户在 Microsoft SQL Server 上没有足够的权限，您可以使用 SQL Server 凭据进行身份验证，或将缺少的 SQL Server 权限添加到<block ref="7254170b56a28e207df989a3f40b911f" prefix=" " category="inline-code"></block>。</block>
   <block id="79717347a64fe25d0ea054d1670b04c6" category="inline-link-macro">探索使用Amazon FSx for NetApp ONTAP为您的数据库环境节省的潜在成本</block>
   <block id="0c99e0e3525f8446afe1107c5294bead" category="paragraph"><block ref="0c99e0e3525f8446afe1107c5294bead" category="inline-link-macro-rx"></block></block>
-  <block id="a76bbcc12fcf5f723f1560cd99c60ab3" category="section-title">2025年8月4日</block>
   <block id="1d92da78b598707dec3df4d7281f1ec3" category="doc">结构化数据结果的安全存储</block>
   <block id="c4b4739fe392b8cae69417a08008577b" category="paragraph">如果聊天机器人查询结果包含结构化数据，GenAI 可以将结果存储在 Amazon S3 存储桶中。当这些结果存储在 S3 存储桶中时，您可以使用聊天会话中的下载链接下载它们。</block>
   <block id="9a0737b14158e601f99b4265c5bd3e5a" category="section-title">MCP 服务器可用性</block>
@@ -182,7 +149,6 @@
   <block id="0eabf86e93873fc39b5a49903ec1c780" category="inline-link-macro">了解如何通过工作负载工厂控制台保护 Microsoft SQL Server 工作负载</block>
   <block id="7b26957c70db2d24aefeef252ab7b883" category="inline-link-macro">使用BlueXP backup and recovery保护 Microsoft SQL 工作负载概述</block>
   <block id="6f452244df857c1e0fc35a2a40650322" category="paragraph">有关BlueXP backup and recovery的详细信息，请参阅<block ref="b3db6ed8425306b30d05a9028a6a4afe" category="inline-link-macro-rx"></block>。</block>
-  <block id="39454dfcfa6a1a0351437e0b1d0da294" category="section-title">2025年8月12日</block>
   <block id="82776afd94423c79dbb6478467a55ee1" category="paragraph"><block ref="01ada1ee9ae7e42f0ced5cd933931e08" category="inline-link-macro-rx"></block> 。</block>
   <block id="1d7888e9a7739b1a3282310704484ae5" category="doc">BlueXP backup and recovery现在支持 Microsoft SQL Server 工作负载</block>
   <block id="c66ae4617a5e7b903fa49494f6025fe3" category="doc">Agentic AI 驱动的错误日志分析器</block>
@@ -197,7 +163,6 @@
   <block id="66eac601a6b6ad939034aba1005b0d1f" category="paragraph">使用 Windows 凭据对 Microsoft SQL Server 实例进行身份验证已嵌入到工作流程中，以准备使用BlueXP backup and recovery来保护 Microsoft SQL Server 主机。这曾经是需要手动完成的先决步骤。相反，如果您尚未使用 Windows 凭据在工作负载工厂中注册主机，系统将提示您与管理员访问权限共享 Windows 凭据。</block>
   <block id="21e7945dde284bd0e0fc5e2026a591e0" category="section-title">架构良好的分析包括 SQL Server 的 MTU 对齐</block>
   <block id="ecc57bed47e69e41f27979277ae13c78" category="paragraph">精心设计的分析评估并修复了 FSx for ONTAP存储上 Microsoft SQL Server 跨端点的最大传输单元 (MTU) 错位。调整 MTU 设置有助于优化网络性能并减少 SQL Server 工作负载的延迟。</block>
-  <block id="38a5777d2aaca4d9102a019c09e0009c" category="section-title">2025年9月1日</block>
   <block id="d1e5e17e5a4cb355117a41318746c4a4" category="doc">存储库存报告增强功能</block>
   <block id="b749705b43261f48fe8b1309cb366d90" category="paragraph">工作负载工厂增强了针对 FSx for ONTAP文件系统报告的数据。FSx for ONTAP库存页面的可下载报告包括以下新列：</block>
   <block id="c61468edc77ab93ea17568f678793bdd" category="list-text">SSD已用：显示已使用的SSD容量值</block>
@@ -222,5 +187,28 @@
   <block id="0cc6e64eaa35165d8791def1903c483a" category="paragraph">工作负载工厂支持减少第一代和第二代文件系统的固态硬盘 (SSD) 容量。利用弹性文件系统容量，您可以动态调整文件系统的容量以满足工作负载的需求。</block>
   <block id="298ae1d1e13ebe1f0f22936b7ea9ce33" category="inline-link-macro">调整文件系统容量</block>
   <block id="6b4be3b501bf6ae8984293c02d4d610b" category="paragraph"><block ref="6b4be3b501bf6ae8984293c02d4d610b" category="inline-link-macro-rx"></block></block>
-  <block id="a68e5a2143abf532b515a7b3b1734351" category="section-title">2025年9月9日</block>
+  <block id="c836d737c77c0dbce2c99a2b01c719fd" category="paragraph">工作负载工厂为数据库提供以下通知：</block>
+  <block id="33e3371223dba19c723617802e06af8d" category="list-text">结构完善的报告</block>
+  <block id="d415d128365eca1587931ed756de7819" category="list-text">主机部署</block>
+  <block id="8306ce5f84163ec6839ec7518f30183a" category="section-title">用于注册实例的入门增强功能</block>
+  <block id="d2240cc857b28c2cc0c761811ebb0e4d" category="paragraph">数据库工作负载工厂改进了其在Amazon FSx for NetApp ONTAP存储上运行的实例的注册流程。您现在可以批量选择实例进行注册。一旦实例注册，您就可以在工作负载工厂控制台内创建和管理数据库资源。</block>
+  <block id="4f91bce4a20615964f35d2fd97ddb2e1" category="inline-link-macro">实例管理</block>
+  <block id="68d9261728b0a851ce7bc78b7cfd2a69" category="paragraph"><block ref="68d9261728b0a851ce7bc78b7cfd2a69" category="inline-link-macro-rx"></block></block>
+  <block id="2e91c32877a8bf4a56c1853f92a414ba" category="section-title">Microsoft Multipath I/O 超时设置的分析与修复</block>
+  <block id="55dedf6eed5a2ce8c260a3944723e099" category="paragraph">数据库实例的良好架构状态现在包括对 Microsoft 多路径 I/O (MPIO) 超时设置的分析和修复。将 MPIO 超时设置为 60 秒可确保 FSx for ONTAP存储在故障转移期间的连接性和稳定性。如果未相应地设置 MPIO 设置，工作负载工厂将提供修复程序以将 MPIO 超时值设置为 60 秒。</block>
+  <block id="0f6f8a7d2c62793903fd07b4a68f2192" category="section-title">实例清单中的图形增强功能</block>
+  <block id="6bb06f6a313d1245a77bdcc02f151dcd" category="paragraph">从实例库存屏幕，各种资源利用率图表（如吞吐量和 IOPS）现在显示 7 天的数据，以便您可以更有效地从工作负载工厂控制台监控 SQL 节点的性能。从 SQL 节点收集的性能指标将保存在 Amazon CloudWatch 中，可用于 Logs Insights 或与您环境中的其他分析服务集成。</block>
+  <block id="8984f42ceef01f063ea7a1078e620318" category="paragraph">从库存中的实例和数据库选项卡中，我们增强了保护的描述和可视化。</block>
+  <block id="4698c78219bd6bc2a4fb47e8f4149213" category="section-title">工作负载工厂中对 Windows 身份验证的支持</block>
+  <block id="e6884d3b77d68ac903da5836a6c33345" category="paragraph">现在，工作负载工厂支持使用 Windows 身份验证的用户来注册实例并从管理功能中受益的 SQL Server 身份验证。</block>
+  <block id="8373481dd509f9b495f59748db1aa76d" category="inline-link-macro">在数据库工作负载工厂中注册实例</block>
+  <block id="b8419cf58039d1a67d2046abd157e28b" category="paragraph"><block ref="b8419cf58039d1a67d2046abd157e28b" category="inline-link-macro-rx"></block></block>
+  <block id="b271a75b2d121a8cb5f59ae458394323" category="section-title">2025年9月9日</block>
+  <block id="595dacca64a0bfa1f3ae49b78ce41d38" category="section-title">2025年9月1日</block>
+  <block id="d341f0c47f4b7ad5cc1b4c9bb210cfda" category="section-title">2025年8月12日</block>
+  <block id="3488d38349240c72f75d081c2a79fa3b" category="section-title">2025年8月4日</block>
+  <block id="613abd0d9da6f7ee37d283174e11fcaf" category="section-title">2025年8月3日</block>
+  <block id="b77e8ec0a3425747f32b3dbc303adecb" category="section-title">2025年6月30日</block>
+  <block id="7454fc4c14df2a987637928e569efe3a" category="section-title">2025年6月29日</block>
+  <block id="f6db487abe903d447c5070f569416c3a" category="section-title">2025年6月16日</block>
 </blocks>

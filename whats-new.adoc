@@ -286,6 +286,60 @@ link:https://github.com/NetApp/mcp/tree/main/NetApp-KnowledgeBase-MCP-server["Ne
 
 
 
+== 2025年6月30日
+
+
+
+=== 数据库工作负载
+
+
+
+==== BlueXP 工作负载工厂通知服务支持
+
+BlueXP 工作负载工厂通知服务支持工作负载工厂向 BlueXP 警报服务或 Amazon SNS 主题发送通知。发送到 BlueXP 警报的通知会显示在 BlueXP 警报面板中。当工作负载工厂向 Amazon SNS 主题发布通知时，该主题的订阅者（例如人员或其他应用程序）会在为该主题配置的终端节点上收到通知（例如电子邮件或短信）。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["配置 BlueXP 工作负载工厂通知"^]
+
+工作负载工厂为数据库提供以下通知：
+
+* 结构完善的报告
+* 主机部署
+
+
+
+
+==== 用于注册实例的入门增强功能
+
+数据库工作负载工厂改进了其在Amazon FSx for NetApp ONTAP存储上运行的实例的注册流程。您现在可以批量选择实例进行注册。一旦实例注册，您就可以在工作负载工厂控制台内创建和管理数据库资源。
+
+link:https://docs.netapp.com/us-en/workload-databases/manage-instance.html["实例管理"]
+
+
+
+==== Microsoft Multipath I/O 超时设置的分析与修复
+
+数据库实例的良好架构状态现在包括对 Microsoft 多路径 I/O (MPIO) 超时设置的分析和修复。将 MPIO 超时设置为 60 秒可确保 FSx for ONTAP存储在故障转移期间的连接性和稳定性。如果未相应地设置 MPIO 设置，工作负载工厂将提供修复程序以将 MPIO 超时值设置为 60 秒。
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["在工作负载工厂中实现架构良好的数据库配置"]
+
+
+
+==== 实例清单中的图形增强功能
+
+从实例库存屏幕，各种资源利用率图表（如吞吐量和 IOPS）现在显示 7 天的数据，以便您可以更有效地从工作负载工厂控制台监控 SQL 节点的性能。从 SQL 节点收集的性能指标将保存在 Amazon CloudWatch 中，可用于 Logs Insights 或与您环境中的其他分析服务集成。
+
+从库存中的实例和数据库选项卡中，我们增强了保护的描述和可视化。
+
+
+
+==== 工作负载工厂中对 Windows 身份验证的支持
+
+现在，工作负载工厂支持使用 Windows 身份验证的用户来注册实例并从管理功能中受益的 SQL Server 身份验证。
+
+link:https://docs.netapp.com/us-en/workload-databases/register-instance.html["在数据库工作负载工厂中注册实例"]
+
+
+
 == 2025年6月29日
 
 
@@ -421,117 +475,3 @@ https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html[
 您现在可以在 BlueXP 工作负载工厂中为 Builders 克隆项目。克隆项目时，Builders 会根据快照创建一个新项目，其配置与原始项目相同。克隆功能对于快速创建类似项目或进行测试非常有用。您可以按照 Builders 中的说明安装新的项目克隆。
 
 https://docs.netapp.com/us-en/workload-builders/version-projects.html["管理 Builders 项目的 BlueXP 工作负载工厂版本"]
-
-
-
-== 2025年6月3日
-
-
-
-=== GenAI工作负载
-
-
-
-==== 跟踪器可用于监控和跟踪操作
-
-GenAI 现已提供 Tracker 监控功能。您可以使用 Tracker 监控和跟踪待处理、正在进行和已完成操作的进度和状态，查看操作任务和子任务的详细信息，诊断任何问题或故障，编辑失败操作的参数，以及重试失败的操作。
-
-link:https://docs.netapp.com/us-en/workload-genai/general/monitor-operations.html["使用 BlueXP 工作负载工厂中的 Tracker 监控工作负载操作"]
-
-
-
-==== 为知识库选择重排序模型
-
-现在，您可以通过选择与知识库配合使用的特定重排序模型来提高重排序查询结果的相关性。GenAI支持 Cohere Rerank 和 Amazon Rerank 模型。
-
-link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["创建GenAI知识库"]
-
-
-
-== 2025年5月4日
-
-
-
-=== VMware工作负载
-
-
-
-==== Amazon EC2迁移顾问改进
-
-此版本的适用于VMware的BlueXP  工作负载工厂对Amazon EC2迁移顾问体验进行了以下改进：
-
-*将NetApp数据基础架构洞察作为数据源*：现在、工作负载工厂可直接与NetApp数据基础架构洞察连接、以便在使用EC2迁移顾问数据收集器时收集VMware部署信息。
-
-https://docs.netapp.com/us-en/workload-vmware/launch-onboarding-advisor-native.html["使用迁移顾问为Amazon EC2创建部署计划"]
-
-
-
-==== 更新了权限术语
-
-工作负载工厂用户界面和文档现在使用“只读”来指代读取权限，使用“读/写”来指代自动化权限。
-
-
-
-=== 设置和管理
-
-
-
-==== CloudShell自动完成支持
-
-使用BlueXP  Workload Factory CloudShell时、您可以开始键入命令、然后按Tab键查看可用选项。如果存在多种可能、命令行界面将显示建议列表。此功能可最大限度地减少错误并加快命令执行速度、从而提高工作效率。
-
-
-
-==== 更新了权限术语
-
-工作负载工厂用户界面和文档现在使用“只读”来指代读取权限，使用“读/写”来指代自动化权限。
-
-
-
-=== 构建者的工作量
-
-
-
-==== 更新了权限术语
-
-工作负载工厂用户界面和文档现在使用“只读”来指代读取权限，使用“读/写”来指代自动化权限。
-
-
-
-== 2025年3月30日
-
-
-
-=== 设置和管理
-
-
-
-==== CloudShell会报告ONTAP命令行界面命令的AI生成的错误响应
-
-使用CloudShell时、每次发出ONTAP命令行界面命令并出现错误时、您都可以获得AI生成的错误响应、其中包括故障说明、故障原因和详细解决方案。
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["使用CloudShell"]
-
-
-
-==== IAM：SimulatePermission Policy权限更新
-
-现在、当您添加其他AWS帐户凭据或添加新工作负载功能(例如GenAI工作负载)时、您可以从工作负载出厂控制台管理此 `iam:SimulatePrincipalPolicy`权限。
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#change-log["权限引用更改日志"]
-
-
-
-== 2024年12月1日
-
-
-
-=== 构建者的工作量
-
-
-
-==== 构建者工作负载初始版本
-
-适用于构建者的BlueXP  工作负载工厂可简化软件版本的使用和访问、无需自定义工具或脚本。它使您能够将软件版本作为即时克隆使用、并与Perforce Helix Core集成、作为开发流程的便利工作空间、从而节省时间和资源。
-
-初始版本包括管理项目和工作空间以及使用CodeBox自动执行操作的功能。您还可以将"构建者"与Perforce Helix Core集成、以便管理每个项目的不同版本并在它们之间快速切换。
