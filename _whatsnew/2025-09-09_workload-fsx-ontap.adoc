@@ -40,6 +40,6 @@ image:screenshot-manage-snapshots-screen.png["显示管理快照屏幕的屏幕�
 
 === SSD 存储容量可减少
 
-工作负载工厂支持减少第一代和第二代文件系统的固态硬盘 (SSD) 容量。利用弹性文件系统容量，您可以动态调整文件系统的容量以满足工作负载的需求。
+工作负载工厂支持减少第二代文件系统的固态硬盘 (SSD) 容量。利用弹性文件系统容量，您可以动态调整文件系统的容量以满足工作负载的需求。
 
 link:https://docs.netapp.com/us-en/workload-fsx-ontap/increase-file-system-capacity.html["调整文件系统容量"]
