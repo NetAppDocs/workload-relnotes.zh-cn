@@ -15,6 +15,26 @@ summary: 了解NetApp Workload Factory 中工作负载的最新变化。
 
 
 
+== 2025年10月6日
+
+
+
+=== 设置和管理
+
+
+
+==== BlueXP workload factory现为NetApp工作负载工厂
+
+BlueXP已重命名并重新设计，以更好地反映其在管理数据基础设施中的作用。因此， BlueXP workload factory已重命名为NetApp工作负载工厂。
+
+
+
+==== Ask Me 与 MCP 集成
+
+Workload Factory 的 AI 助手 Ask Me 与模型上下文协议 (MCP) 集成。使用 MCP，Ask Me 可以安全地与外部环境交互并查询 API 工具，以提供适合您特定存储环境的响应。
+
+
+
 == 2025年10月5日
 
 
@@ -70,6 +90,18 @@ link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledg
 如果您选择的嵌入、聊天或重新排名模型具有推理设置，您现在可以选择推理类型。这使您能够更好地根据您的需要调整聊天机器人的性能和资源需求。
 
 link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["创建GenAI知识库"]
+
+
+
+=== 设置和管理
+
+
+
+==== 存储的新通知
+
+NetApp Workload Factory 通知服务包括针对存储架构问题的通知。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["NetApp Workload Factory 通知"]
 
 
 
