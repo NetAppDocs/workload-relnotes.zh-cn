@@ -19,6 +19,24 @@ summary: 了解NetApp Workload Factory 中工作负载的最新变化。
 
 
 
+=== VMware工作负载
+
+
+
+==== BlueXP workload factory现为NetApp工作负载工厂
+
+BlueXP已重命名并重新设计，以更好地反映其在管理数据基础设施中的作用。因此， BlueXP workload factory已重命名为NetApp工作负载工厂。
+
+
+
+==== VMware 工作负载规划中心简介
+
+VMware 工作负载规划中心使您能够从一个地方查看和管理您的 VM 库存和迁移计划。您可以从不同的环境上传和保存多个 VM 清单，并开始计划将其中任何一个迁移到 AWS EC2 或 Amazon Elastic VMware 服务。您还可以创建并保存 AWS EC2 或 EVS 迁移计划。
+
+https://docs.netapp.com/us-en/workload-vmware/explore-planning-center.html["探索 VMware 工作负载规划中心"]
+
+
+
 === GenAI工作负载
 
 
@@ -35,7 +53,7 @@ BlueXP已重命名并重新设计，以更好地反映其在管理数据基础�
 
 link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html["为 Amazon Q Business 创建NetApp连接器"]
 
-link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html#add-data-sources-to-the-connector["6320af7d92cd5d357460c5cbc5f642a9"]
+link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html#add-data-sources-to-the-connector["将数据源添加到连接器"]
 
 
 
@@ -312,7 +330,7 @@ https://docs.netapp.com/us-en/workload-vmware/launch-migration-advisor-evs-manua
 
 您现在可以探索将 VMware 工作负载迁移到 Amazon Elastic VMware Service (EVS) 的潜在节省。节省计算器可让您比较使用 Amazon EVS 与Amazon FSx for NetApp ONTAP作为底层存储和不使用 Amazon FSx for NetApp ONTAP 作为底层存储的成本。当您调整环境特征时，计算器会实时显示潜在的节省。
 
-https://docs.netapp.com/us-en/workload-vmware/calculate-evs-savings.html["探索使用BlueXP workload factory节省 Amazon Elastic VMware Service 成本的方法"]
+https://docs.netapp.com/us-en/workload-vmware/calculate-evs-savings.html["探索使用BlueXP Workload Factory 节省 Amazon Elastic VMware Service 成本的方法"]
 
 
 
