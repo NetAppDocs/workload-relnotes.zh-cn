@@ -170,4 +170,25 @@
   <block id="8d1adece5e8b196b0a88b0589326fdf6" category="section-title">Ask Me 与 MCP 集成</block>
   <block id="979df5bd82476afb53055b0675f703a3" category="paragraph">Workload Factory 的 AI 助手 Ask Me 与模型上下文协议 (MCP) 集成。使用 MCP，Ask Me 可以安全地与外部环境交互并查询 API 工具，以提供适合您特定存储环境的响应。</block>
   <block id="a41dd7aa7d921f9f0881a705d3679e6c" category="section-title">2025年10月6日</block>
+  <block id="945d9800b1b25a8b224232b57dabb8a6" category="doc">优化 Amazon Elastic Block Store (EBS) 存储计算器中的节省</block>
+  <block id="b051b129322b1fa228bb46d5704f8ad2" category="paragraph">Workload Factory 可以分析您的 EBS 性能使用情况，然后建议最佳且最具成本效益的 FSx for ONTAP配置，以便您可以通过切换到 FSx for ONTAP来节省更多。</block>
+  <block id="75851f48043c7a3877391f5330fb19c1" category="inline-link-macro">在 Workload Factory 控制台中探索检测到的存储环境的节省情况</block>
+  <block id="4f3edd63a55b4b51bcfc2a68ac50724c" category="paragraph"><block ref="4f3edd63a55b4b51bcfc2a68ac50724c" category="inline-link-macro-rx"></block></block>
+  <block id="524dbd97409f5770f9a380227ba4daea" category="section-title">从文件系统清单快速访问资源屏幕</block>
+  <block id="be962e12d3d4430561fa9a1d6c25c200" category="paragraph">您可以通过从 FSx for ONTAP清单中选择文件系统名称（现在是超链接）快速导航到 FSx for ONTAP文件系统资源屏幕。</block>
+  <block id="5c731a647da91c3579ce81b8d9274fca" category="section-title">在 Workload Factory 控制台中发现缓存关系</block>
+  <block id="7736e3de8e44f415eeeee23744591c40" category="paragraph">如果 FSx for ONTAP文件系统与另一种类型的ONTAP存储（本地系统、 Cloud Volumes ONTAP和 FSx for ONTAP）之间存在缓存关系，则可以从 Workload Factory 控制台发现并查看它们。这使您能够更好地了解数据流、优化缓存利用率并提高分布式环境的效率。</block>
+  <block id="a9ace78aa94256517b0d3b32c8e62e7e" category="inline-link-macro">在 Workload Factory 控制台中发现并查看缓存关系</block>
+  <block id="0d0589415fc04e290e6c826d0b2f4d56" category="paragraph"><block ref="0d0589415fc04e290e6c826d0b2f4d56" category="inline-link-macro-rx"></block></block>
+  <block id="159687e1c95e32f1dcb6c9c1624ba327" category="section-title">精心设计的分析更新</block>
+  <block id="c9e2abe4bb9341b4452bdb977083efb6" category="paragraph">工作负载工厂现在分析您的 FSx for ONTAP文件系统的以下配置：</block>
+  <block id="0d646d7995307f809d73f1d2f653df3d" category="paragraph">卷文件容量利用率阈值：检查文件容量阈值是否设置为 80% 或更低。这可以帮助您避免文件系统空间不足。</block>
+  <block id="99caf3ded950ba093933b266e2734b14" category="section-title">针对配置问题的操作改进</block>
+  <block id="8c66f900656d8687c4beaead10bd47de" category="paragraph">从 FSx for ONTAP文件系统仪表板中的“良好架构分析”选项卡中，您无需关闭文件系统的整个配置，还可以选择文件系统中的一个或多个卷进行修复、关闭或重新激活。</block>
+  <block id="3b6856525ae98f397c04f2dd7b07deae" category="section-title">存储附加通知</block>
+  <block id="b62e88c90eef0f29a13cbdcb4e304ae2" category="paragraph">NetApp Workload Factory 通知服务包括每周针对架构良好的配置问题的通知。</block>
+  <block id="06ccf3bb3519e2c352207978ae4f36eb" category="inline-link-macro">Workload Factory 设置和管理文档中的通知类型和消息</block>
+  <block id="f484540569100bc3d0403ccb87d3a713" category="paragraph"><block ref="f484540569100bc3d0403ccb87d3a713" category="inline-link-macro-rx"></block></block>
+  <block id="872ee1a2a3a499ce76f0f789c2151656" category="section-title">不可变文件支持特权删除</block>
+  <block id="0a7266fd80158c418fbcd6837ec4dbe0" category="paragraph">使用此功能，您可以为 FSx for ONTAP文件系统中的不可变文件配置特权删除访问权限。这使您可以保护关键数据免遭意外或恶意删除，同时仍允许授权用户覆盖锁并根据需要删除这些文件。可以在卷创建期间或针对现有卷启用特权删除。</block>
 </blocks>
