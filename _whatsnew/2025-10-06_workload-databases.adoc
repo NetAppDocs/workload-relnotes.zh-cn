@@ -1,0 +1,49 @@
+= BlueXP workload factory现为NetApp工作负载工厂
+:allow-uri-read: 
+
+
+
+
+=== BlueXP workload factory现为NetApp工作负载工厂
+
+BlueXP已重命名并重新设计，以更好地反映其在管理数据基础设施中的作用。因此， BlueXP workload factory已重命名为NetApp工作负载工厂。
+
+
+
+=== Workload Factory 控制台中针对 Oracle 的增强功能
+
+
+
+==== Oracle 数据库资源屏幕
+
+每个 Oracle 数据库都有自己的专用资源屏幕，可从数据库清单中获取。资源屏幕提供数据库名称、状态（在线或离线）、租赁和部署类型的概览。还包括三个月内以下数据的图表：CPU 利用率、延迟、IOPS 和吞吐量。容量利用率提供数据库的总大小、写入的数据大小、已使用的固态硬盘容量以及已使用的容量池存储。
+
+从资源屏幕，您可以查看有关 Oracle 服务器（部署模型、操作系统、版本、版本等）、位置（AWS 账户、区域、可用区和子网）、存储和计算（FSx for ONTAP文件系统详细信息、数据库实例类型以及关联的 LUN 和卷）以及连接（VPC 和访问协议）的信息。您还可以检查数据库配置的架构状态并查看与数据库关联的可插拔数据库（PDB）。
+
+
+
+==== 支持 Oracle 可插拔数据库
+
+Oracle 可插拔数据库可以在数据库清单中以及其父容器数据库的资源屏幕中查看。您的 PDB 可获得以下信息：CDB 名称、主机名、保护状态、数据库大小、FSx for ONTAP文件系统、AWS 凭证、AWS 账户和区域。
+
+
+
+==== 针对 Oracle 的良好架构分析
+
+精心设计的分析包括对通过 NFS 或 iSCSI（有或没有自动存储管理 (ASM)）的 Oracle 数据库的存储布局的配置问题进行评估，以及对通过 iSCSI LUN 的 Oracle 操作系统的存储配置问题进行评估。您可以使用此信息对数据库部署做出明智的决策并确保它们高效运行。
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["在 Workload Factory 中实施架构良好的数据库配置"]
+
+
+
+=== 数据库清单增强功能
+
+在数据库清单中的实例屏幕中，对于 Microsoft SQL Server 的单个或多个实例，或者对于 Oracle 的单个或多个数据库，可以使用修复、推迟和消除配置问题的选项。
+
+
+
+=== 优化 Amazon Elastic Block Store (EBS) 存储计算器中的节省
+
+Workload Factory 可以分析您的 EBS 性能使用情况，然后建议最佳且最具成本效益的 FSx for ONTAP配置，以便您可以通过切换到 FSx for ONTAP来节省更多。
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html#explore-savings-for-detected-hosts["在 Workload Factory 控制台中探索检测到的存储环境的节省情况"]
