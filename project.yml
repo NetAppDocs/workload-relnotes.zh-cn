@@ -19,12 +19,12 @@ settings:
   langs: zh-cn,us-en,de-de,es-es,fr-fr,it-it,pt-br,ja-jp,ko-kr,zh-tw
 sidebar:
   entries:
-  - title: BlueXP  工作负载出厂发行说明
+  - title: NetApp Workload Factory 发行说明
     url: "/index.html"
   - title: 最近更改
     url: "/whats-new.html"
   - title: 法律声明
     url: "/legal-notices.html"
 product-family:
-  name: BlueXP workload factory
+  name: NetApp Workload Factory
   repo: workload-family
