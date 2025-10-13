@@ -43,3 +43,11 @@ image:screenshot-manage-snapshots-screen.png["显示管理快照屏幕的屏幕�
 工作负载工厂支持减少第二代文件系统的固态硬盘 (SSD) 容量。利用弹性文件系统容量，您可以动态调整文件系统的容量以满足工作负载的需求。
 
 link:https://docs.netapp.com/us-en/workload-fsx-ontap/increase-file-system-capacity.html["调整文件系统容量"]
+
+
+
+=== 存储的新通知
+
+工作负载工厂通知服务包括存储自动容量管理的成功和失败通知。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["BlueXP workload factory的通知"^]
