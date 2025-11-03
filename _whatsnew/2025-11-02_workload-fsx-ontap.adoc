@@ -16,7 +16,7 @@
 * 删除缓存卷
 
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-cache-volumes.html["管理缓存卷"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-cache-volumes.html["管理缓存卷"]
 
 
 
@@ -24,7 +24,7 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-cache-volumes.html[
 
 您可以启用自动 inode 管理，而无需启用自动容量管理。
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/enable-auto-capacity-management.html["启用自动 inode 管理"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/enable-auto-capacity-management.html["启用自动 inode 管理"]
 
 
 
@@ -38,7 +38,7 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/enable-auto-capacity-manag
 
 您可以在NetApp Workload Factory中减小 NFS 和 SMB/CIFS 卷的大小。此功能允许您减小不再需要的卷的大小，从而更好地管理存储资源。
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/adjust-volume-capacity.html["减少体积"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/adjust-volume-capacity.html["减少体积"]
 
 
 
@@ -69,7 +69,7 @@ Workload Factory 可以更清晰地说明执行特定操作所需的权限，并
 
 添加凭据时，您可以根据要授予 Workload Factory 的访问级别，选择一个或多个权限策略。
 
-link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["Workload Factory 权限参考"^]
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["Workload Factory 权限参考"]
 
 
 
@@ -77,4 +77,4 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.ht
 
 您可以使用 FSx for ONTAP作为网络保险库架构中的源或目标来创建网络保险库。网络保险库为存储关键数据提供安全隔离的环境，保护数据免受勒索软件和其他网络威胁的侵害。
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-cyber-vault.html["使用 FSx 为ONTAP设置网络保险库"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-cyber-vault.html["使用 FSx 为ONTAP设置网络保险库"]

@@ -35,7 +35,7 @@ summary: 了解NetApp Workload Factory 中工作负载的最新变化。
 * 删除缓存卷
 
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-cache-volumes.html["管理缓存卷"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-cache-volumes.html["管理缓存卷"]
 
 
 
@@ -43,7 +43,7 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-cache-volumes.html[
 
 您可以启用自动 inode 管理，而无需启用自动容量管理。
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/enable-auto-capacity-management.html["启用自动 inode 管理"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/enable-auto-capacity-management.html["启用自动 inode 管理"]
 
 
 
@@ -57,7 +57,7 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/enable-auto-capacity-manag
 
 您可以在NetApp Workload Factory中减小 NFS 和 SMB/CIFS 卷的大小。此功能允许您减小不再需要的卷的大小，从而更好地管理存储资源。
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/adjust-volume-capacity.html["减少体积"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/adjust-volume-capacity.html["减少体积"]
 
 
 
@@ -88,7 +88,7 @@ Workload Factory 可以更清晰地说明执行特定操作所需的权限，并
 
 添加凭据时，您可以根据要授予 Workload Factory 的访问级别，选择一个或多个权限策略。
 
-link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["Workload Factory 权限参考"^]
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["Workload Factory 权限参考"]
 
 
 
@@ -96,7 +96,7 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.ht
 
 您可以使用 FSx for ONTAP作为网络保险库架构中的源或目标来创建网络保险库。网络保险库为存储关键数据提供安全隔离的环境，保护数据免受勒索软件和其他网络威胁的侵害。
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-cyber-vault.html["使用 FSx 为ONTAP设置网络保险库"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-cyber-vault.html["使用 FSx 为ONTAP设置网络保险库"]
 
 
 
@@ -157,6 +157,34 @@ link:https://docs.netapp.com/us-en/workload-databases/protect-sql-server.html["�
 使用 Workload Factory 中的错误分析功能时，您可以按面向基础架构的标签筛选和查看 Microsoft SQL Server 错误日志。这项增强功能可帮助您快速对问题进行分类、排查和解决问题。
 
 link:https://docs.netapp.com/us-en/workload-databases/analyze-error-logs.html["使用标签筛选分析错误日志"^]
+
+
+
+=== 设置和管理
+
+
+
+==== 权限更新
+
+在此版本中，我们对存储、数据库和 VMware 工作负载的权限策略进行了重大更新，以增强安全性和用户控制。您可以更精细地自定义权限设置，根据需要添加或取消权限。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["Workload Factory 的权限参考"]
+
+
+
+==== 存储的新通知
+
+NetApp Workload Factory通知服务包含存储自动 inode 管理的通知。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["NetApp Workload Factory 通知"]
+
+
+
+==== 自动容量和 inode 管理的阈值警告
+
+可以为存储设置自动容量和 inode 管理，并设置警告阈值，该阈值会触发 Workload Factory 通知服务的通知。要使用此功能，必须先启用工作负载工厂通知服务。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["配置NetApp Workload Factory的通知"]
 
 
 
