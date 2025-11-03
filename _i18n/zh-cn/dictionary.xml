@@ -191,4 +191,27 @@
   <block id="4bc6d1e741e4c817c4985300ec66b77f" category="inline-link-macro">使用 FSx 为ONTAP设置网络保险库</block>
   <block id="545bd81803e837dd73a7bceb1a798b8a" category="paragraph"><block ref="545bd81803e837dd73a7bceb1a798b8a" category="inline-link-macro-rx"></block></block>
   <block id="2afa479317acb4455a0a649aab2944d1" category="section-title">2025年11月2日</block>
+  <block id="58abe9f5fbda29b547f9ab2de50f2332" category="section-title">根据 Amazon Elastic Block Store (EBS) 的使用情况优化节省</block>
+  <block id="3cab156afe8725e62725f4973a3c9949" category="doc">仪表盘改进</block>
+  <block id="18657a21385444f338b37f8f0116ffc3" category="paragraph">新的仪表板经过简化和更好地组织，可以在一个屏幕上更清晰地概览数据库资源和工作负载工厂的关键功能；一张卡片突出显示数据库资源，一张卡片提供有关架构良好评分和分析的信息，一张卡片显示错误分析，两张卡片显示每月成本和潜在节省，一张卡片显示有关沙盒的信息。</block>
+  <block id="52d93a06ea30bbc0d2d568569c6686f5" category="paragraph">精心设计的分析包括对 Oracle 配置的以下评估和修复：</block>
+  <block id="4667bb7539009ed136b942febb5737ba" category="list-text">使用 NFS 协议的存储配置操作系统：评估并修复现有 Oracle 数据库部署的 NFS 配置问题。</block>
+  <block id="679f71c6d98f7a5f25e9535eb16a19b5" category="list-text">使用 iSCSI 协议的存储配置操作系统：评估并修复现有 Oracle 数据库部署的 iSCSI 配置问题。</block>
+  <block id="7548e2cbb02ea769fa6f01e70f1d34ee" category="list-text">使用自动存储管理 (ASM) 的存储配置操作系统：评估现有 Oracle 数据库部署的 ASM 配置问题。</block>
+  <block id="bff5f6ac72c7a46da345751a22e8e0a1" category="section-title">数据库工作负载工厂的权限变更</block>
+  <block id="c3cf114e732250ac6b24d30e117ab24b" category="paragraph">Workload Factory for Databases 更新了权限策略，以便更清晰地说明特定操作所需的权限，并允许您更精细地选择所需的权限。添加凭据时，您将有三个权限选项可供选择，而不是之前的权限模型（_只读_和_读/写_）。新的权限模型将权限策略分解如下：</block>
+  <block id="d9fff61478503c71474a780705c79af6" category="list-text">查看、规划和分析：查看数据库资源清单，了解资源运行状况，审查数据库配置的架构分析，获取错误日志分析，并探索节省成本的方案。</block>
+  <block id="9ef8eb2bc51c8c6f6ba459302a542484" category="list-text">操作和修复：对数据库资源执行操作任务，并修复数据库配置和底层 FSx for ONTAP文件系统存储的问题。</block>
+  <block id="3f285f24375531d34b8b7d73726b69bc" category="list-text">数据库主机创建：根据最佳实践部署数据库主机和底层用于ONTAP文件系统存储的 FSx。</block>
+  <block id="6ca55df595e9339b20f869e49eb0d710" category="paragraph">添加凭据时，您可以根据要授予 Workload Factory for Databases 的访问级别，选择一个或多个权限策略。</block>
+  <block id="034b7227f8903ae8faac7359c9b3d064" category="section-title">新增了设计精良的仪表盘界面。</block>
+  <block id="7a524d371f7a263dae481eea0bc3de88" category="paragraph">数据库菜单中新增了一个名为“架构完善的仪表盘”的屏幕。通过此屏幕，您可以获得整个数据库环境配置状态的汇总视图。</block>
+  <block id="54543cd5b64fb08ea26d865ed21c8691" category="section-title">NetApp Backup and Recovery中数据库部署的编辑保护</block>
+  <block id="c7c9b75c76356b2b8aa328068cd75a1c" category="paragraph">在 Workload Factory 控制台中，您可以选择编辑受保护资源的保护，然后您将被重定向到NetApp Console中的备份和恢复，在那里您可以修改保护策略或计划。</block>
+  <block id="f3a2b46dc542d840ca95ad3799ace39b" category="inline-link-macro">数据库部署的编辑保护</block>
+  <block id="2a601eb3188e615c20b76da1a5734646" category="paragraph"><block ref="2a601eb3188e615c20b76da1a5734646" category="inline-link-macro-rx"></block></block>
+  <block id="cf6dca9fc5d1f30c46f70906ef3152ce" category="section-title">错误分析功能支持按标签进行错误筛选</block>
+  <block id="b79d711ddf4eb26397c99031692c7a26" category="paragraph">使用 Workload Factory 中的错误分析功能时，您可以按面向基础架构的标签筛选和查看 Microsoft SQL Server 错误日志。这项增强功能可帮助您快速对问题进行分类、排查和解决问题。</block>
+  <block id="c9c975f5587642db7fde90312ee94825" category="inline-link-macro">使用标签筛选分析错误日志</block>
+  <block id="99d2df171fdf12824fa9334fd19cf105" category="paragraph"><block ref="99d2df171fdf12824fa9334fd19cf105" category="inline-link-macro-rx"></block></block>
 </blocks>

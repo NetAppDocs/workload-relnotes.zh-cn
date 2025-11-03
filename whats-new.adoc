@@ -100,6 +100,66 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-cyber-vault.html["�
 
 
 
+=== 数据库工作负载
+
+
+
+==== 仪表盘改进
+
+新的仪表板经过简化和更好地组织，可以在一个屏幕上更清晰地概览数据库资源和工作负载工厂的关键功能；一张卡片突出显示数据库资源，一张卡片提供有关架构良好评分和分析的信息，一张卡片显示错误分析，两张卡片显示每月成本和潜在节省，一张卡片显示有关沙盒的信息。
+
+
+
+==== 针对 Oracle 的良好架构分析
+
+精心设计的分析包括对 Oracle 配置的以下评估和修复：
+
+* 使用 NFS 协议的存储配置操作系统：评估并修复现有 Oracle 数据库部署的 NFS 配置问题。
+* 使用 iSCSI 协议的存储配置操作系统：评估并修复现有 Oracle 数据库部署的 iSCSI 配置问题。
+* 使用自动存储管理 (ASM) 的存储配置操作系统：评估现有 Oracle 数据库部署的 ASM 配置问题。
+
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["在 Workload Factory 中实施架构良好的数据库配置"]
+
+
+
+==== 数据库工作负载工厂的权限变更
+
+Workload Factory for Databases 更新了权限策略，以便更清晰地说明特定操作所需的权限，并允许您更精细地选择所需的权限。添加凭据时，您将有三个权限选项可供选择，而不是之前的权限模型（_只读_和_读/写_）。新的权限模型将权限策略分解如下：
+
+* 查看、规划和分析：查看数据库资源清单，了解资源运行状况，审查数据库配置的架构分析，获取错误日志分析，并探索节省成本的方案。
+* 操作和修复：对数据库资源执行操作任务，并修复数据库配置和底层 FSx for ONTAP文件系统存储的问题。
+* 数据库主机创建：根据最佳实践部署数据库主机和底层用于ONTAP文件系统存储的 FSx。
+
+
+添加凭据时，您可以根据要授予 Workload Factory for Databases 的访问级别，选择一个或多个权限策略。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["Workload Factory 权限参考"^]
+
+
+
+==== 新增了设计精良的仪表盘界面。
+
+数据库菜单中新增了一个名为“架构完善的仪表盘”的屏幕。通过此屏幕，您可以获得整个数据库环境配置状态的汇总视图。
+
+
+
+==== NetApp Backup and Recovery中数据库部署的编辑保护
+
+在 Workload Factory 控制台中，您可以选择编辑受保护资源的保护，然后您将被重定向到NetApp Console中的备份和恢复，在那里您可以修改保护策略或计划。
+
+link:https://docs.netapp.com/us-en/workload-databases/protect-sql-server.html["数据库部署的编辑保护"]
+
+
+
+==== 错误分析功能支持按标签进行错误筛选
+
+使用 Workload Factory 中的错误分析功能时，您可以按面向基础架构的标签筛选和查看 Microsoft SQL Server 错误日志。这项增强功能可帮助您快速对问题进行分类、排查和解决问题。
+
+link:https://docs.netapp.com/us-en/workload-databases/analyze-error-logs.html["使用标签筛选分析错误日志"^]
+
+
+
 == 2025年10月6日
 
 
@@ -156,7 +216,7 @@ link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.ht
 
 
 
-==== 优化 Amazon Elastic Block Store (EBS) 存储计算器中的节省
+==== 根据 Amazon Elastic Block Store (EBS) 的使用情况优化节省
 
 Workload Factory 可以分析您的 EBS 性能使用情况，然后建议最佳且最具成本效益的 FSx for ONTAP配置，以便您可以通过切换到 FSx for ONTAP来节省更多。
 
