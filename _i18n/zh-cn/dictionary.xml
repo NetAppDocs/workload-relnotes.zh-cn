@@ -35,12 +35,8 @@
   <block id="4a854a1349dc1900974f3bf6a9552245" category="section-title">精心设计的分析更新</block>
   <block id="bfebf248126ee0c8c192d7442b03e1a1" category="inline-link-macro">查看 FSx for ONTAP文件系统的良好架构状态</block>
   <block id="2a708c78876e2ad54c0b8577c3b2bbd5" category="paragraph"><block ref="2a708c78876e2ad54c0b8577c3b2bbd5" category="inline-link-macro-rx"></block></block>
-  <block id="412038dfc7c530b95fd4f54ca173992c" category="paragraph">BlueXP backup and recovery使您能够备份、恢复、验证和克隆 Microsoft SQL Server 数据库和可用性组。从工作负载工厂控制台，您可以访问和使用BlueXP backup and recovery来保护 Microsoft SQL Server 工作负载。</block>
   <block id="0eabf86e93873fc39b5a49903ec1c780" category="inline-link-macro">了解如何通过工作负载工厂控制台保护 Microsoft SQL Server 工作负载</block>
-  <block id="7b26957c70db2d24aefeef252ab7b883" category="inline-link-macro">使用BlueXP backup and recovery保护 Microsoft SQL 工作负载概述</block>
-  <block id="6f452244df857c1e0fc35a2a40650322" category="paragraph">有关BlueXP backup and recovery的详细信息，请参阅<block ref="b3db6ed8425306b30d05a9028a6a4afe" category="inline-link-macro-rx"></block>。</block>
   <block id="82776afd94423c79dbb6478467a55ee1" category="paragraph"><block ref="01ada1ee9ae7e42f0ced5cd933931e08" category="inline-link-macro-rx"></block> 。</block>
-  <block id="1d7888e9a7739b1a3282310704484ae5" category="doc">BlueXP backup and recovery现在支持 Microsoft SQL Server 工作负载</block>
   <block id="c66ae4617a5e7b903fa49494f6025fe3" category="doc">Agentic AI 驱动的错误日志分析器</block>
   <block id="9d9b1a38d2c7c04daeaa22b4ab5a3d5d" category="paragraph">Agentic AI 驱动的错误日志分析器是一项新功能，它利用先进的机器学习算法自动检测和分析日志文件中的错误。该工具旨在通过根据日志中识别的模式向开发人员提供可操作的见解和建议来简化故障排除过程。</block>
   <block id="b8b677d9dba6a14dd05b3a0eb592a9c5" category="inline-link-macro">了解有关 Agentic AI 驱动的错误日志分析器的更多信息</block>
@@ -78,7 +74,6 @@
   <block id="6b4be3b501bf6ae8984293c02d4d610b" category="paragraph"><block ref="6b4be3b501bf6ae8984293c02d4d610b" category="inline-link-macro-rx"></block></block>
   <block id="b271a75b2d121a8cb5f59ae458394323" category="section-title">2025年9月9日</block>
   <block id="595dacca64a0bfa1f3ae49b78ce41d38" category="section-title">2025年9月1日</block>
-  <block id="d341f0c47f4b7ad5cc1b4c9bb210cfda" category="section-title">2025年8月12日</block>
   <block id="edfbca9622799a953a48987a288fe283" category="paragraph">工作负载工厂支持减少第二代文件系统的固态硬盘 (SSD) 容量。利用弹性文件系统容量，您可以动态调整文件系统的容量以满足工作负载的需求。</block>
   <block id="aeb31c9f8c311597856b129ab948b4e6" category="inline-link">NetApp工作负载工厂</block>
   <block id="55f7843f27571db97da76bdf68a76d22" category="paragraph"><block ref="55f7843f27571db97da76bdf68a76d22" category="inline-link-rx"></block></block>
@@ -199,7 +194,6 @@
   <block id="d9fff61478503c71474a780705c79af6" category="list-text">查看、规划和分析：查看数据库资源清单，了解资源运行状况，审查数据库配置的架构分析，获取错误日志分析，并探索节省成本的方案。</block>
   <block id="9ef8eb2bc51c8c6f6ba459302a542484" category="list-text">操作和修复：对数据库资源执行操作任务，并修复数据库配置和底层 FSx for ONTAP文件系统存储的问题。</block>
   <block id="3f285f24375531d34b8b7d73726b69bc" category="list-text">数据库主机创建：根据最佳实践部署数据库主机和底层用于ONTAP文件系统存储的 FSx。</block>
-  <block id="6ca55df595e9339b20f869e49eb0d710" category="paragraph">添加凭据时，您可以根据要授予 Workload Factory for Databases 的访问级别，选择一个或多个权限策略。</block>
   <block id="034b7227f8903ae8faac7359c9b3d064" category="section-title">新增了设计精良的仪表盘界面。</block>
   <block id="7a524d371f7a263dae481eea0bc3de88" category="paragraph">数据库菜单中新增了一个名为“架构完善的仪表盘”的屏幕。通过此屏幕，您可以获得整个数据库环境配置状态的汇总视图。</block>
   <block id="54543cd5b64fb08ea26d865ed21c8691" category="section-title">NetApp Backup and Recovery中数据库部署的编辑保护</block>
@@ -236,4 +230,5 @@
   <block id="1d194f6c398ca78aaffd8c430203e1ec" category="section-title">Amazon EC2 迁移顾问改进</block>
   <block id="bd926a6dc82c9eb9135d58e6c5a33568" category="paragraph">此版本的NetApp Workload Factory for VMware 对迁移顾问体验进行了多项改进：</block>
   <block id="62057df0ae6e346379f483246f31203b" category="list-text">*保存或下载迁移计划*：您现在可以将迁移计划保存或下载为 PDF 或 CSV 文件。保存迁移计划时，该计划将保存到您的 Workload Factory 帐户中。</block>
+  <block id="d0892726ec1e74441a4a801494ed29bb" category="paragraph">添加凭据时，您可以根据要授予 Workload Factory for Databases 的访问级别，选择一个或多个权限策略。</block>
 </blocks>
