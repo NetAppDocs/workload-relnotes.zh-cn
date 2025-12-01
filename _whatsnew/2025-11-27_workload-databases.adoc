@@ -1,0 +1,37 @@
+= 优化 Amazon Elastic Block Store (EBS) 数据库节省计算器
+:allow-uri-read: 
+
+
+
+
+=== 优化 Amazon Elastic Block Store (EBS) 数据库节省计算器
+
+两个新的计算器功能改进了使用 EBS 存储运行多个实例时的成本节约分析，以便您可以通过切换到 FSx for ONTAP来节省更多成本。
+
+* Workload Factory 为多个数据库主机在单个 FSx for ONTAP文件系统上提供统一的存储解决方案。这种整合通过减少多个数据库主机所需的文件系统数量来优化存储成本，从而提高成本效益。
+* Workload Factory 分析您的 EBS 性能使用情况，然后建议最佳且最具成本效益的 FSx for ONTAP配置。
+
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html#explore-savings-for-detected-hosts["探索已检测到的 EBS 主机的节省方案。"]
+
+
+
+=== 针对架构完善的仪表板，提供 Excel 报告。
+
+您可以下载一份结构完善的仪表板的 Excel 报告。该报告提供了数据库资源的良好架构状态，并针对所有资源配置（包括操作系统和ONTAP 的子配置）提出了建议。
+
+
+
+=== 适用于 Oracle 数据库的错误日志分析器
+
+Agentic AI 驱动的错误日志分析器适用于 Oracle 数据库。该功能利用先进的机器学习算法自动检测和分析日志文件中的错误。该工具旨在通过根据日志中识别的模式向开发人员提供可操作的见解和建议来简化故障排除过程。
+
+link:https://docs.netapp.com/us-en/workload-databases/analyze-error-logs.html["了解有关 Agentic AI 驱动的错误日志分析器的更多信息"]
+
+
+
+=== 针对 Oracle 的良好架构分析
+
+精心设计的分析包括两种新的存储容量配置。该分析评估并修复了现有 Oracle 数据库部署中与交换空间分配和文件系统余量相关的配置问题。
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["在 Workload Factory 中实施架构良好的数据库配置"]
