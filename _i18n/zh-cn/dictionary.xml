@@ -264,9 +264,8 @@
   <block id="6cff628e35cc5d429a57e4a125a0bf6b" category="inline-link-macro">权限参考变更日志</block>
   <block id="86fbb6c90e401f3291e15bdc1398509c" category="paragraph"><block ref="86fbb6c90e401f3291e15bdc1398509c" category="inline-link-macro-rx"></block></block>
   <block id="01f76f754caa3b688233762c1b9391f6" category="section-title">支持用于ONTAP的 FSx 的 AWS S3 访问点</block>
-  <block id="3b8b774c9a2fdbcd783a971c096ca5f2" category="paragraph">借助此功能，您可以从 Workload Factory 控制台使用 S3 访问点创建卷。使用 S3 访问点，您可以通过 AWS S3 API 访问驻留在 SMB/CIFS 或 NFS 卷上的文件数据。这样，您就可以将现有数据与来自支持 S3 访问点的 AWS 服务的 GenAI、ML 和分析功能集成在一起。</block>
   <block id="dc88dce8ec264777b2f90ec0af744f43" category="inline-link-macro">创建卷</block>
   <block id="d3156376048c94102c97709d5ff05e75" category="paragraph"><block ref="d3156376048c94102c97709d5ff05e75" category="inline-link-macro-rx"></block></block>
   <block id="d30cb805d7270ac0b7cc06375888e47f" category="paragraph">NetApp Workload Factory为您的 FSx for ONTAP文件系统提供 AWS S3 访问点。您可以使用 S3 访问点创建卷，将 S3 访问点分配给现有卷，并从 Workload Factory 控制台管理 S3 访问点。使用 S3 访问点，您可以通过 AWS S3 API 访问驻留在 SMB/CIFS 或 NFS 卷上的文件数据。这样，您就可以将现有数据与来自支持 S3 访问点的 AWS 服务的 GenAI、ML 和分析功能集成在一起。</block>
-  <block id="788c421d379c47cc27e8fdc18771f4c7" category="section-title">2025年12月2日</block>
+  <block id="ef6c8d59ba70b1efd5437dd31e63efcb" category="section-title">2025年12月4日</block>
 </blocks>
