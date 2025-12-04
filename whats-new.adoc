@@ -27,7 +27,9 @@ summary: 了解NetApp Workload Factory 中工作负载的最新变化。
 
 NetApp Workload Factory为您的 FSx for ONTAP文件系统提供 AWS S3 访问点。您可以使用 S3 访问点创建卷，将 S3 访问点分配给现有卷，并从 Workload Factory 控制台管理 S3 访问点。使用 S3 访问点，您可以通过 AWS S3 API 访问驻留在 SMB/CIFS 或 NFS 卷上的文件数据。这样，您就可以将现有数据与来自支持 S3 访问点的 AWS 服务的 GenAI、ML 和分析功能集成在一起。
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["创建卷"]
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["使用 S3 接入点创建卷"]
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-s3-access-points.html["管理卷的 S3 访问点"]
+
 
 
 
