@@ -53,3 +53,11 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-fsx-tags.html["在�
 您可以通过工作负载工厂控制台增加和减少缓存卷的容量。
 
 link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-cache-volumes.html["在工作负载工厂中管理缓存卷"]
+
+
+
+=== 支持用于ONTAP的 FSx 的 AWS S3 访问点
+
+借助此功能，您可以从 Workload Factory 控制台使用 S3 访问点创建卷。使用 S3 访问点，您可以通过 AWS S3 API 访问驻留在 SMB/CIFS 或 NFS 卷上的文件数据。这样，您就可以将现有数据与来自支持 S3 访问点的 AWS 服务的 GenAI、ML 和分析功能集成在一起。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["创建卷"]
