@@ -1,0 +1,18 @@
+= Active Directory 集成增强功能
+:allow-uri-read: 
+
+
+
+
+=== Active Directory 集成增强功能
+
+使用“高级创建”选项部署 Microsoft SQL Server 时，数据库工作负载工厂将包含三个新的 Active Directory (AD) 字段。这些增强功能允许您指定 Active Directory 加入首选项并使用托管服务帐户。
+
+新增的 AD 字段包括：
+
+* 首选域控制器
+* 首选组织单元路径
+* 目标 Active Directory 组
+
+
+link:https://docs.netapp.com/us-en/workload-databases/create-database.html["部署 Microsoft SQL Server"]
