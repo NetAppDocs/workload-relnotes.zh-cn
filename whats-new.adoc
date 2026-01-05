@@ -15,6 +15,20 @@ summary: 了解NetApp Workload Factory 中工作负载的最新变化。
 
 
 
+== 2026年1月4日
+
+
+
+=== VMware工作负载
+
+
+
+==== 问我关于人工智能助手首页集成的问题
+
+Workload Factory 控制台主页嵌入了 Ask me AI 助手，使您可以询问有关您自己的存储环境的问题，直接从您的环境中获取个性化见解，并参考以前的对话。您可以与“问我”进行交互，以了解您的工作负载、解决问题并了解更多关于工作负载工厂的信息——所有这些都无需离开控制台。
+
+
+
 == 2025年12月18日
 
 
@@ -391,227 +405,3 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.
 可以为存储设置自动容量和 inode 管理，并设置警告阈值，该阈值会触发 Workload Factory 通知服务的通知。要使用此功能，必须先启用工作负载工厂通知服务。
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["配置NetApp Workload Factory的通知"]
-
-
-
-== 2025年10月6日
-
-
-
-=== 适用于 NetApp ONTAP 的 Amazon FSX
-
-
-
-==== BlueXP workload factory现为NetApp工作负载工厂
-
-BlueXP已重命名并重新设计，以更好地反映其在管理数据基础设施中的作用。因此， BlueXP workload factory已重命名为NetApp工作负载工厂。
-
-
-
-=== 数据库工作负载
-
-
-
-==== BlueXP workload factory现为NetApp工作负载工厂
-
-BlueXP已重命名并重新设计，以更好地反映其在管理数据基础设施中的作用。因此， BlueXP workload factory已重命名为NetApp工作负载工厂。
-
-
-
-==== Workload Factory 控制台中针对 Oracle 的增强功能
-
-
-
-===== Oracle 数据库资源屏幕
-
-每个 Oracle 数据库都有自己的专用资源屏幕，可从数据库清单中获取。资源屏幕提供数据库名称、状态（在线或离线）、租赁和部署类型的概览。还包括三个月内以下数据的图表：CPU 利用率、延迟、IOPS 和吞吐量。容量利用率提供数据库的总大小、写入的数据大小、已使用的固态硬盘容量以及已使用的容量池存储。
-
-从资源屏幕，您可以查看有关 Oracle 服务器（部署模型、操作系统、版本、版本等）、位置（AWS 账户、区域、可用区和子网）、存储和计算（FSx for ONTAP文件系统详细信息、数据库实例类型以及关联的 LUN 和卷）以及连接（VPC 和访问协议）的信息。您还可以检查数据库配置的架构状态并查看与数据库关联的可插拔数据库（PDB）。
-
-
-
-===== 支持 Oracle 可插拔数据库
-
-Oracle 可插拔数据库可以在数据库清单中以及其父容器数据库的资源屏幕中查看。您的 PDB 可获得以下信息：CDB 名称、主机名、保护状态、数据库大小、FSx for ONTAP文件系统、AWS 凭证、AWS 账户和区域。
-
-
-
-===== 针对 Oracle 的良好架构分析
-
-精心设计的分析包括对通过 NFS 或 iSCSI（有或没有自动存储管理 (ASM)）的 Oracle 数据库的存储布局的配置问题进行评估，以及对通过 iSCSI LUN 的 Oracle 操作系统的存储配置问题进行评估。您可以使用此信息对数据库部署做出明智的决策并确保它们高效运行。
-
-link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["在 Workload Factory 中实施架构良好的数据库配置"]
-
-
-
-==== 数据库清单增强功能
-
-在数据库清单中的实例屏幕中，对于 Microsoft SQL Server 的单个或多个实例，或者对于 Oracle 的单个或多个数据库，可以使用修复、推迟和消除配置问题的选项。
-
-
-
-==== 根据 Amazon Elastic Block Store (EBS) 的使用情况优化节省
-
-Workload Factory 可以分析您的 EBS 性能使用情况，然后建议最佳且最具成本效益的 FSx for ONTAP配置，以便您可以通过切换到 FSx for ONTAP来节省更多。
-
-link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html#explore-savings-for-detected-hosts["在 Workload Factory 控制台中探索检测到的存储环境的节省情况"]
-
-
-
-=== 设置和管理
-
-
-
-==== BlueXP workload factory现为NetApp工作负载工厂
-
-BlueXP已重命名并重新设计，以更好地反映其在管理数据基础设施中的作用。因此， BlueXP workload factory已重命名为NetApp工作负载工厂。
-
-
-
-==== Ask Me 与 MCP 集成
-
-Workload Factory 的 AI 助手 Ask Me 与模型上下文协议 (MCP) 集成。使用 MCP，Ask Me 可以安全地与外部环境交互并查询 API 工具，以提供适合您特定存储环境的响应。
-
-
-
-== 2025年10月5日
-
-
-
-=== 适用于 NetApp ONTAP 的 Amazon FSX
-
-
-
-==== 优化 Amazon Elastic Block Store (EBS) 存储计算器中的节省
-
-Workload Factory 可以分析您的 EBS 性能使用情况，然后建议最佳且最具成本效益的 FSx for ONTAP配置，以便您可以通过切换到 FSx for ONTAP来节省更多。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/explore-savings.html#explore-savings-for-detected-storage-environments["在 Workload Factory 控制台中探索检测到的存储环境的节省情况"]
-
-
-
-==== 从文件系统清单快速访问资源屏幕
-
-您可以通过从 FSx for ONTAP清单中选择文件系统名称（现在是超链接）快速导航到 FSx for ONTAP文件系统资源屏幕。
-
-
-
-==== 在 Workload Factory 控制台中发现缓存关系
-
-如果 FSx for ONTAP文件系统与另一种类型的ONTAP存储（本地系统、 Cloud Volumes ONTAP和 FSx for ONTAP）之间存在缓存关系，则可以从 Workload Factory 控制台发现并查看它们。这使您能够更好地了解数据流、优化缓存利用率并提高分布式环境的效率。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/discover-cache-volumes.html["在 Workload Factory 控制台中发现并查看缓存关系"]
-
-
-
-==== 精心设计的分析更新
-
-工作负载工厂现在分析您的 FSx for ONTAP文件系统的以下配置：
-
-卷文件容量利用率阈值：检查文件容量阈值是否设置为 80% 或更低。这可以帮助您避免文件系统空间不足。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["查看 FSx for ONTAP文件系统的良好架构状态"]
-
-
-
-===== 针对配置问题的操作改进
-
-从 FSx for ONTAP文件系统仪表板中的“良好架构分析”选项卡中，您无需关闭文件系统的整个配置，还可以选择文件系统中的一个或多个卷进行修复、关闭或重新激活。
-
-
-
-==== 存储附加通知
-
-NetApp Workload Factory 通知服务包括每周针对架构良好的配置问题的通知。
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html#notification-types-and-messages["Workload Factory 设置和管理文档中的通知类型和消息"]
-
-
-
-==== 不可变文件支持特权删除
-
-使用此功能，您可以为 FSx for ONTAP文件系统中的不可变文件配置特权删除访问权限。这使您可以保护关键数据免遭意外或恶意删除，同时仍允许授权用户覆盖锁并根据需要删除这些文件。可以在卷创建期间或针对现有卷启用特权删除。
-
-
-
-=== VMware工作负载
-
-
-
-==== BlueXP workload factory现为NetApp工作负载工厂
-
-BlueXP已重命名并重新设计，以更好地反映其在管理数据基础设施中的作用。因此， BlueXP workload factory已重命名为NetApp工作负载工厂。
-
-
-
-==== VMware 工作负载规划中心简介
-
-VMware 工作负载规划中心使您能够从一个地方查看和管理您的 VM 库存和迁移计划。您可以从不同的环境上传和保存多个 VM 清单，并开始计划将其中任何一个迁移到 AWS EC2 或 Amazon Elastic VMware 服务。您还可以创建并保存 AWS EC2 或 EVS 迁移计划。
-
-https://docs.netapp.com/us-en/workload-vmware/explore-planning-center.html["探索 VMware 工作负载规划中心"]
-
-
-
-==== 引入对 Amazon Elastic VMWare Service 的迁移顾问支持
-
-BlueXP Workload Factory for VMware 现在允许您使用 Amazon Elastic VMware Service 迁移顾问将本地 VMware 工作负载快速迁移到 Amazon Elastic VMware Service。使用迁移顾问创建迁移计划后，该计划会自动保存在规划中心的迁移计划列表中。
-
-https://docs.netapp.com/us-en/workload-vmware/launch-migration-advisor-evs.html["使用迁移顾问为 Amazon EVS 创建部署计划"]
-
-
-
-=== GenAI工作负载
-
-
-
-==== BlueXP workload factory现为NetApp工作负载工厂
-
-BlueXP已重命名并重新设计，以更好地反映其在管理数据基础设施中的作用。因此， BlueXP workload factory已重命名为NetApp工作负载工厂。
-
-
-
-==== 支持在适用于 Amazon Q Business 的NetApp连接器中添加通用 NFS/SMB 数据源
-
-使用 Workload Factory API，您现在可以将数据源从通用 NFSv3、NFSv4 或 SMB 共享添加到NetApp Connector for Amazon Q Business。这使您能够包含存储在由Amazon FSx for NetApp ONTAP以外的文件系统托管的卷上的文件。
-
-link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html["为 Amazon Q Business 创建NetApp连接器"]
-
-link:https://docs.netapp.com/us-en/workload-genai/connector/define-connector.html#add-data-sources-to-the-connector["将数据源添加到连接器"]
-
-
-
-==== 知识库的高级聊天配置
-
-您现在可以配置适用于知识库聊天模型的高级聊天设置，例如响应长度、温度、推理设置等。其中一些设置（例如最近时间和修改时间设置、高级检索设置和系统提示）仅可使用 Workload Factory API。
-
-link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["创建GenAI知识库"]
-
-
-
-==== 现支持嵌入、聊天和重新排名模型的推理类型选择
-
-如果您选择的嵌入、聊天或重新排名模型具有推理设置，您现在可以选择推理类型。这使您能够更好地根据您的需要调整聊天机器人的性能和资源需求。
-
-link:https://docs.netapp.com/us-en/workload-genai/knowledge-base/create-knowledgebase.html["创建GenAI知识库"]
-
-
-
-=== 设置和管理
-
-
-
-==== 存储的新通知
-
-NetApp Workload Factory 通知服务包括针对存储架构问题的通知。
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["NetApp Workload Factory 通知"]
-
-
-
-=== 构建者的工作量
-
-
-
-==== BlueXP workload factory现为NetApp工作负载工厂
-
-BlueXP已重命名并重新设计，以更好地反映其在管理数据基础设施中的作用。因此， BlueXP workload factory已重命名为NetApp工作负载工厂。
