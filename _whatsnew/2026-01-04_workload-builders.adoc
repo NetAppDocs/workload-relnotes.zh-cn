@@ -1,0 +1,17 @@
+= NetApp Workload Factory for Builders 现已更名为NetApp Workload Factory for EDA
+:allow-uri-read: 
+
+
+
+
+=== NetApp Workload Factory for Builders 现已更名为NetApp Workload Factory for EDA
+
+面向建筑行业的 Workload Factory 现已更名为面向 EDA 的 Workload Factory。更名体现了对电子设计自动化 (EDA) 工作负载的关注。
+
+Workload Factory for EDA 可帮助您跨多个文件系统优化 FSx for ONTAP 。您可以自动化存储参数、分析性能限制，从而优化性能并降低运营成本，并获得 EDA 项目的见解。Workload Factory for EDA 旨在与您的基础设施即代码 (IaC) 框架集成。
+
+
+
+=== 问我关于人工智能助手首页集成的问题
+
+Workload Factory 控制台主页嵌入了 Ask me AI 助手，使您可以询问有关您自己的存储环境的问题，直接从您的环境中获取个性化见解，并参考以前的对话。您可以与“问我”进行交互，以了解您的工作负载、解决问题并了解更多关于工作负载工厂的信息——所有这些都无需离开控制台。

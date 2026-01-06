@@ -214,4 +214,7 @@
   <block id="3c4600754ec66ef615c303417126da12" category="section-title">支持包含块设备的FlexVol卷上的 ARP/AI</block>
   <block id="3043237188bfe3f198084dbfe55d05c0" category="inline-link-macro">NetApp自主勒索软件防护（AI 防护，ARP/AI）</block>
   <block id="34f4bbf8697d1205da43ee612001efe7" category="paragraph">您可以启用 <block ref="028271ae216dacdd20feb47aea2c131d" category="inline-link-macro-rx"></block> 在包含块设备的FlexVol卷上。启用 ARP/AI 可以利用人工智能检测勒索软件攻击，并有助于数据恢复。</block>
+  <block id="ef702fb37688ffbfdf16f6b005df7436" category="doc">NetApp Workload Factory for Builders 现已更名为NetApp Workload Factory for EDA</block>
+  <block id="f48bd4568e33f95e23f1ea90df81f8af" category="paragraph">面向建筑行业的 Workload Factory 现已更名为面向 EDA 的 Workload Factory。更名体现了对电子设计自动化 (EDA) 工作负载的关注。</block>
+  <block id="8e2c84558eaf80d5e8e99422d320b395" category="paragraph">Workload Factory for EDA 可帮助您跨多个文件系统优化 FSx for ONTAP 。您可以自动化存储参数、分析性能限制，从而优化性能并降低运营成本，并获得 EDA 项目的见解。Workload Factory for EDA 旨在与您的基础设施即代码 (IaC) 框架集成。</block>
 </blocks>
