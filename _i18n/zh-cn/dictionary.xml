@@ -178,4 +178,35 @@
   <block id="813bbef54984e0f92c8a1fe77f77d9a8" category="paragraph"><block ref="813bbef54984e0f92c8a1fe77f77d9a8" category="inline-link-macro-rx"></block></block>
   <block id="ae1c2cb14154da0c884354777730e920" category="section-title">Storage 的新权限</block>
   <block id="41489d6d5bf1d06c4d37f0baff512bcd" category="paragraph">已将新权限添加到 Storage 工作负载，以增强对 S3 访问点的管理。</block>
+  <block id="5e3fec4e574658f05a0b92757b364cd9" category="doc">主页包括 Storage 的架构完善问题和 EMS 事件</block>
+  <block id="8743ea79d0b29525fd3c69e5e3566399" category="paragraph">NetApp Workload Factory 主页包含一个焦点图块，其中针对您的工作负载显示精心设计的问题和 FSx for ONTAP 应急管理系统 (EMS) 事件。从那里，您可以导航到存储工作负载，以查看存储环境中所有 FSx for ONTAP 文件系统的良好架构状态或事件。</block>
+  <block id="ccef8795f7e03f715debeb1aa9f4f09a" category="section-title">支持使用 S3 接入点进行本地数据复制</block>
+  <block id="376c2bd6a2c38a02c3dfb4efa6e96674" category="paragraph">Workload Factory 支持将本地 ONTAP 数据复制到云，以便与 AWS GenAI、ML 和分析集成。您可以使用 S3 访问点将本地数据复制到 NFS 或 SMB/CIFS 卷。</block>
+  <block id="b5eeeba16e1b7119307069cbaf3ccdf4" category="inline-link-macro">使用 S3 接入点复制本地数据</block>
+  <block id="4750d90c2cd72e253c7d874bef89beff" category="paragraph"><block ref="4750d90c2cd72e253c7d874bef89beff" category="inline-link-macro-rx"></block></block>
+  <block id="b04638337aac148655a104c2db6c4766" category="section-title">Storage 中的 S3 接入点增强功能</block>
+  <block id="f76e736f45740f58cc12ec666b824eb2" category="paragraph">对 NetApp Workload Factory 的存储工作负载中的 S3 接入点管理功能进行了几项增强。您可以输入 S3 接入点的网络配置详细信息，并添加 S3 接入点标签。其他增强功能包括查看 S3 存储区详细信息以及为管理 S3 接入点执行更多操作的功能。</block>
+  <block id="76f77cbc01f0341dffcaaa5f6236eb73" category="section-title">存储中可用的 S3 存储桶详细信息</block>
+  <block id="c203e76297d071e4d8256e073c93dafb" category="paragraph">为 S3 接入点启用元数据后，NetApp Workload Factory 会自动扫描您的 AWS S3 存储桶并填充 S3 表，为您提供所有对象、其元数据、属性和标记的清晰快照。访问这些详细信息可帮助您保持对自己负责的数据的控制、可见性和可信度，同时减少运营开销。</block>
+  <block id="cc7664945c125a51dd2e69095c8f8200" category="inline-link-macro">查看 FSx for ONTAP 文件系统中 S3 接入点的详细信息</block>
+  <block id="dd52e33b4320b655cb69fb76bc1e345f" category="paragraph"><block ref="dd52e33b4320b655cb69fb76bc1e345f" category="inline-link-macro-rx"></block></block>
+  <block id="2249107cb1f4c202ef0253c53bcff598" category="section-title">S3 接入点的其他管理操作</block>
+  <block id="bf44c4671ee3bfbc818d505bb9a0e59a" category="paragraph">NetApp Workload Factory 为 S3 接入点提供额外的管理操作。您可以查看接入点详细信息、修改现有 S3 接入点以及从 NetApp Workload Factory 界面添加或删除 S3 接入点标签，从而简化您的对象存储管理任务。</block>
+  <block id="366c32f0cbb2503b337e243eaa8c42b5" category="inline-link-macro">在 NetApp Workload Factory 中管理 S3 接入点</block>
+  <block id="d9ec48855b13e13fd489d2442f822e4d" category="paragraph"><block ref="d9ec48855b13e13fd489d2442f822e4d" category="inline-link-macro-rx"></block></block>
+  <block id="e593953aaf04eebecfe2e26326145784" category="list-text">优化缓存卷大小：检查是否在缓存卷上启用了卷自动大小调整和清理功能，以保持最佳大小，并将缓存集中在热数据上，以实现最高效率。</block>
+  <block id="00e21b809963a2e31abfc13c3aea34b6" category="list-text">孤立块设备：建议存档块设备数据或删除连续七天未使用的块设备。</block>
+  <block id="a872ae5d7fdb75042465788519d63c35" category="list-text">Storage VM 逻辑报告：检查 Storage VM 的默认报告设置是否设置为逻辑，从而更好地了解卷级别的存储使用情况。</block>
+  <block id="40fbd58cc84d2567a5be7db0e1e48224" category="section-title">用于块设备的附加卡</block>
+  <block id="e1d58576240df6c3acc0d5f3067d6468" category="paragraph">在存储工作负载的块设备选项卡中添加了三张新卡，以便快速了解块设备的使用情况和保护状态：</block>
+  <block id="2f09b86fd82a1603b2104c3d565e4187" category="list-text">存储效率：显示已用和可用存储容量；已用容量按 SSD 和容量池存储层细分。</block>
+  <block id="075b9a975b25dba22b299c4edaf12834" category="list-text">受保护的设备：显示具有快照、远程复制、NetApp Autonomous Ransomware Protection (ARP/AI) 和备份的数据块设备的百分比。</block>
+  <block id="46dd61e303a77cea00fc631287dfeab6" category="inline-link-macro">为未使用的块设备回收空间</block>
+  <block id="8e8a93bbbd6df5c04a7668748139ce7a" category="list-text">孤立设备：显示连续七天未使用的任何块设备，帮助您有效识别和管理未使用的资源。从这里，您可以<block ref="ddc66f326affa5fcec5ab8f0c0c76e68" category="inline-link-macro-rx"></block>。</block>
+  <block id="9ebda12d23b72f4bdda3cbbcd05e0817" category="section-title">支持启动程序组创建和管理</block>
+  <block id="de002c21193de456c56ce9ccecfc09ab" category="paragraph">NetApp Workload Factory 支持为 FSx for ONTAP 文件系统中的块存储创建和管理启动程序组 (igroups)。启动程序组将块设备 (LUN) 连接到允许访问它们的计算资源，为 SAN 环境中的块存储提供权限层。</block>
+  <block id="e477df666bb45ae0a1fda1f7058551a2" category="inline-link-macro">在 NetApp Workload Factory 中创建启动程序组</block>
+  <block id="5e85fc9bd832f8bc5366f7ffe4912a99" category="list-text"><block ref="5e85fc9bd832f8bc5366f7ffe4912a99" category="inline-link-macro-rx"></block></block>
+  <block id="8933129f9a07c1370a31a0b9f2e53018" category="inline-link-macro">管理 NetApp Workload Factory 中的现有启动程序组</block>
+  <block id="b241a4baaecab76fcbba49cd24dc9185" category="list-text"><block ref="b241a4baaecab76fcbba49cd24dc9185" category="inline-link-macro-rx"></block></block>
 </blocks>

@@ -1,0 +1,71 @@
+= 主页包括 Storage 的架构完善问题和 EMS 事件
+:allow-uri-read: 
+
+
+
+
+=== 主页包括 Storage 的架构完善问题和 EMS 事件
+
+NetApp Workload Factory 主页包含一个焦点图块，其中针对您的工作负载显示精心设计的问题和 FSx for ONTAP 应急管理系统 (EMS) 事件。从那里，您可以导航到存储工作负载，以查看存储环境中所有 FSx for ONTAP 文件系统的良好架构状态或事件。
+
+
+
+=== 支持使用 S3 接入点进行本地数据复制
+
+Workload Factory 支持将本地 ONTAP 数据复制到云，以便与 AWS GenAI、ML 和分析集成。您可以使用 S3 访问点将本地数据复制到 NFS 或 SMB/CIFS 卷。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["使用 S3 接入点复制本地数据"]
+
+
+
+=== Storage 中的 S3 接入点增强功能
+
+对 NetApp Workload Factory 的存储工作负载中的 S3 接入点管理功能进行了几项增强。您可以输入 S3 接入点的网络配置详细信息，并添加 S3 接入点标签。其他增强功能包括查看 S3 存储区详细信息以及为管理 S3 接入点执行更多操作的功能。
+
+
+
+==== 存储中可用的 S3 存储桶详细信息
+
+为 S3 接入点启用元数据后，NetApp Workload Factory 会自动扫描您的 AWS S3 存储桶并填充 S3 表，为您提供所有对象、其元数据、属性和标记的清晰快照。访问这些详细信息可帮助您保持对自己负责的数据的控制、可见性和可信度，同时减少运营开销。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-s3-access-points.html["查看 FSx for ONTAP 文件系统中 S3 接入点的详细信息"^]
+
+
+
+==== S3 接入点的其他管理操作
+
+NetApp Workload Factory 为 S3 接入点提供额外的管理操作。您可以查看接入点详细信息、修改现有 S3 接入点以及从 NetApp Workload Factory 界面添加或删除 S3 接入点标签，从而简化您的对象存储管理任务。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-s3-access-points.html["在 NetApp Workload Factory 中管理 S3 接入点"^]
+
+
+
+=== 精心设计的分析更新
+
+Workload Factory 会分析您的 FSx for ONTAP文件系统，以识别以下配置：
+
+* 优化缓存卷大小：检查是否在缓存卷上启用了卷自动大小调整和清理功能，以保持最佳大小，并将缓存集中在热数据上，以实现最高效率。
+* 孤立块设备：建议存档块设备数据或删除连续七天未使用的块设备。
+* Storage VM 逻辑报告：检查 Storage VM 的默认报告设置是否设置为逻辑，从而更好地了解卷级别的存储使用情况。
+
+
+
+
+=== 用于块设备的附加卡
+
+在存储工作负载的块设备选项卡中添加了三张新卡，以便快速了解块设备的使用情况和保护状态：
+
+* 存储效率：显示已用和可用存储容量；已用容量按 SSD 和容量池存储层细分。
+* 受保护的设备：显示具有快照、远程复制、NetApp Autonomous Ransomware Protection (ARP/AI) 和备份的数据块设备的百分比。
+* 孤立设备：显示连续七天未使用的任何块设备，帮助您有效识别和管理未使用的资源。从这里，您可以link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-devices.html#view-block-device-details["为未使用的块设备回收空间"]。
+
+
+
+
+=== 支持启动程序组创建和管理
+
+NetApp Workload Factory 支持为 FSx for ONTAP 文件系统中的块存储创建和管理启动程序组 (igroups)。启动程序组将块设备 (LUN) 连接到允许访问它们的计算资源，为 SAN 环境中的块存储提供权限层。
+
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-igroup.html["在 NetApp Workload Factory 中创建启动程序组"^]
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-igroups.html["管理 NetApp Workload Factory 中的现有启动程序组"^]
+
