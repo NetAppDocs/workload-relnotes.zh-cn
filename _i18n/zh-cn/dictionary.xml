@@ -141,4 +141,41 @@
   <block id="3ac4be70f27829fbadc2c932a5b029e4" category="inline-link-macro">实施精心设计的配置</block>
   <block id="0f39698d75936e2b93022b9c574c0eb3" category="paragraph"><block ref="0f39698d75936e2b93022b9c574c0eb3" category="inline-link-macro-rx"></block></block>
   <block id="d1fabbd85b7cc34641739e525d26f652" category="section-title">2026 年 2 月 1 日</block>
+  <block id="efc6f47d5e8620dbd993bbf5427fa876" category="doc">使用可自定义标签增强仪表板过滤功能</block>
+  <block id="1c074117512c813d0d3c5474c6839792" category="paragraph">现在，您可以根据 AWS 标签在 EDA 仪表板上配置最多五个自定义过滤器。每个自定义过滤器都包括标签名称、AWS 标签键和选择类型（单选或多选）。</block>
+  <block id="a290a89777e8fd7db6061c83affdbda9" category="paragraph">多选允许您同时选择多个值，而单选限制一次只能选择一个值。自定义筛选器按配置顺序显示，这样可以轻松组织最常用的筛选器。</block>
+  <block id="a9f4d955c73322ea2697149d48ca3230" category="paragraph">如果您未配置自定义筛选器，默认筛选器（文件系统、卷类型和时间范围）仍可用，因此您可以继续查看仪表板并与之交互。</block>
+  <block id="7f599cf351ac708ac51a573f45f1adfe" category="inline-link">详细了解如何配置自定义筛选器</block>
+  <block id="b4d8b5d35eb5ad238c4bc40c7bfa5cc8" category="paragraph"><block ref="0fffea6d188f5a3a46b25be10dcf1dca" category="inline-link-rx"></block>.</block>
+  <block id="5908526b06383bf6b835d957813a0a5b" category="section-title">用于细粒度性能分析的卷详细信息视图</block>
+  <block id="be14699d8f808150c6e3ec8fd5f5fb6f" category="paragraph">仪表板现在提供两种查看模式：总视图和卷视图。总视图显示所有卷的汇总指标，而卷视图显示前 10 个卷在一段时间内的单个性能。</block>
+  <block id="6828b4aa70bf0499581d68bc0a737c8a" category="paragraph">在卷视图中，交互式悬停工具提示提供每个卷的详细信息，包括卷名称、指标和特定时间的值。当相同的卷出现在多个组件中时，一致的颜色编码可以更轻松地跟踪不同指标的特定卷。</block>
+  <block id="b7259cf0b1b93b9f8f56fd85b8a2075f" category="inline-link">了解有关查看卷详细信息的更多信息</block>
+  <block id="3d218b60cf53ed75572aecfde4c1d233" category="paragraph"><block ref="fdc27d3397a23552fa2bc2b42dee0c76" category="inline-link-rx"></block>.</block>
+  <block id="a63dd8c708227f66adf2e93b1b973bfe" category="section-title">用于主动性能监控的延迟分析</block>
+  <block id="4eca5955b4d0f7b664a2f65c49306dcf" category="paragraph">延迟分析使您能够监控整个 FSx for ONTAP 文件系统的卷读取和写入延迟。您可以配置可自定义的警告和关键事件阈值，以便在影响 EDA 工作负载之前主动识别性能瓶颈。</block>
+  <block id="40a74d0e93037927ed8b742952444782" category="paragraph">延迟事件表显示所有警告和关键事件，使您能够监控卷性能并识别需要优化的卷。</block>
+  <block id="40599551b14b033049a0306f8d7e0da2" category="paragraph">此功能需要 AWS 凭据，可从 EDA 仪表板的延迟菜单中进行访问。</block>
+  <block id="195b656b2b34184ab7cb51ea0158eba0" category="inline-link">详细了解延迟分析</block>
+  <block id="3589dd4e8f5f2cbdba29810271d0f1d9" category="paragraph"><block ref="6f22f53277ef02f84f5ed64bde49085d" category="inline-link-rx"></block>.</block>
+  <block id="61e49369a35b0f8a0d95ef11e249239f" category="doc">精心设计的更新</block>
+  <block id="2c8617d4094e3a2f6f2b8588039ad2ed" category="paragraph">NetApp Workload Factory 包括针对 Elastic VMware Service (EVS) 工作负载的精心设计的评估，并添加了针对存储和数据库工作负载的新配置。</block>
+  <block id="af89cdfb55120aeef29143bab52cb6de" category="list-text">*VMware 工作负载* NetApp Workload Factory 为运行架构良好的 Amazon Elastic VMware Service (EVS) 工作负载提供了最佳实践和建议。</block>
+  <block id="74163cd660daafe169a986c2d540a418" category="inline-link-macro">实施精心设计的 EVS 配置</block>
+  <block id="5d6110d1881f093c497cdaeeb5611ea0" category="paragraph"><block ref="5d6110d1881f093c497cdaeeb5611ea0" category="inline-link-macro-rx"></block></block>
+  <block id="764d59d30018a72d1f4f007b467fe5ea" category="list-text">*Storage workloads* 在 Storage workload 中的精心架构功能中添加了几种新配置，以便您更深入地了解存储性能和成本。</block>
+  <block id="20c3b23e12b3cf115bfb4bd82bd3368f" category="list-text">Storage VM 逻辑报告</block>
+  <block id="a9ac5841a812cdf71b3574e2998bafd4" category="list-text">优化缓存卷大小</block>
+  <block id="2dac5abecf96a197d16faee0444100fe" category="list-text">孤立的块设备</block>
+  <block id="a9866f264fab2ea83525e7cc57292cbe" category="inline-link-macro">为存储工作负载实施精心设计的文件系统配置</block>
+  <block id="99187ba72b66267d55626eb367382424" category="paragraph"><block ref="99187ba72b66267d55626eb367382424" category="inline-link-macro-rx"></block></block>
+  <block id="622975b7c88c6bc06b872c6006068776" category="list-text">*数据库工作负载* Workload Factory for Databases 包括新的 Oracle 存储配置，用于启用和设置 Direct NFS (dNFS)，以提高 I/O 性能并降低主机和存储系统的负载。</block>
+  <block id="5017259dadba571295ba93287ef883f9" category="list-text">dNFS 启用</block>
+  <block id="3968d7d3f8cb0f09289a934bc1584128" category="list-text">dNFS 一致的 IP 解析</block>
+  <block id="a727ea61b65e8aff8729b4fc3c629094" category="list-text">dNFS 配置文件</block>
+  <block id="3e4e5c9aa6d22a70ee2aadf98db8552a" category="list-text">dNFS<block ref="4740c034d97ca90a96b8050082816605" prefix=" " category="inline-code"></block></block>
+  <block id="4da0b519f402cca2d38847e59fb3b885" category="inline-link-macro">实施精心设计的数据库工作负载</block>
+  <block id="813bbef54984e0f92c8a1fe77f77d9a8" category="paragraph"><block ref="813bbef54984e0f92c8a1fe77f77d9a8" category="inline-link-macro-rx"></block></block>
+  <block id="ae1c2cb14154da0c884354777730e920" category="section-title">Storage 的新权限</block>
+  <block id="41489d6d5bf1d06c4d37f0baff512bcd" category="paragraph">已将新权限添加到 Storage 工作负载，以增强对 S3 访问点的管理。</block>
 </blocks>
