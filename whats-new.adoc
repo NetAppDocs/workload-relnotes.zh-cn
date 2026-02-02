@@ -15,6 +15,30 @@ summary: 了解NetApp Workload Factory 中工作负载的最新变化。
 
 
 
+== 2026 年 2 月 1 日
+
+
+
+=== VMware工作负载
+
+
+
+==== Amazon Elastic VMware Service 的精心架构分析
+
+Workload Factory 现在为您的 Amazon Elastic VMware Service (EVS) 环境提供自动化的精心设计的分析。每日扫描可识别配置错位，并提供详细的补救建议，以帮助您保持最佳运营、安全性和成本效益。
+
+使用 AWS API 执行扫描，无需 vSphere 凭据或 vCenter 连接。结果可在 EVS 环境详细信息中的新 *Well-architected status* 选项卡中查看。
+
+此版本包括以下方面的见解：
+
+* *实例停止/终止保护状态*：标识没有 EC2 停止或终止保护的 EVS 节点。从 EC2 控制台停止或终止 EVS 节点可能会导致虚拟机数据不可用或数据丢失。
+* *群集节点分区放置对齐*：检测分区不对齐，如果分区在 AWS 可用区内发生故障，可能会导致严重的处理功率损失或停机。每个洞察都包括严重程度、受影响资源信息的详细调查结果以及基于 AWS 最佳实践的分步补救程序。
+
+
+link:view-evs-well-architected.html["实施精心设计的配置"]
+
+
+
 == 2026年1月4日
 
 
@@ -299,211 +323,3 @@ FSx for ONTAP EMS 事件分析器使用 _operations and remediation_ 权限策�
 
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#change-log["权限参考变更日志"]
-
-
-
-== 2025年11月2日
-
-
-
-=== 适用于 NetApp ONTAP 的 Amazon FSX
-
-
-
-==== 缓存卷管理
-
-您可以在 Workload Factory 控制台中执行以下缓存卷管理操作：
-
-* 编辑缓存名称
-* 增加缓存卷的容量
-* 编辑缓存卷的挂载路径或导出策略
-* 更改缓存卷的缓存方法或模式
-* 预先填充缓存卷
-* 删除缓存卷
-
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-cache-volumes.html["管理缓存卷"]
-
-
-
-==== 可自动进行 inode 管理
-
-您可以启用自动 inode 管理，而无需启用自动容量管理。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/enable-auto-capacity-management.html["启用自动 inode 管理"]
-
-
-
-==== 容量和 inode 使用情况的阈值警告设置
-
-容量和 inode 使用情况均有阈值警告。您可以在启用自动容量或 inode 管理时设置这些阈值。要使用此设置，您需要使用以下方式配置通知：link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["NetApp Workload Factory通知服务"^] 。
-
-
-
-==== 容量减少可用
-
-您可以在NetApp Workload Factory中减小 NFS 和 SMB/CIFS 卷的大小。此功能允许您减小不再需要的卷的大小，从而更好地管理存储资源。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/adjust-volume-capacity.html["减少体积"]
-
-
-
-==== 增强型 FSx for ONTAP资源状态
-
-Workload Factory 增强了“配置错误”资源状态，使其包含对资源实际问题的解释。
-
-
-
-==== 精心设计的分析更新
-
-Workload Factory 会分析您的 FSx for ONTAP文件系统，以识别以下配置：
-
-* 卷利用率接近满：检查是否有任何卷已使用 80% 或以上的文件容量。这有助于您确定可能需要额外产能的销量。
-* 未经授权访问卷：检查是否可以使用 NFS 或 SMB/CIFS 挂载路径访问 iSCSI 卷，并允许您删除对卷的未经授权访问，以避免安全风险。
-
-
-
-
-==== Workload Factory for Storage 的权限变更
-
-Workload Factory 可以更清晰地说明执行特定操作所需的权限，并允许您精细地选择所需的权限。添加凭据时，您将有三个权限选项可供选择，而不是之前的权限模型（_只读_和_读/写_）。新的权限模型将权限策略分解如下：
-
-* 查看、规划和分析：查看 FSx for ONTAP文件系统，了解系统运行状况，获取系统架构完善的分析，并探索节省成本的方法。
-* _操作和修复_：执行操作任务，例如调整文件系统容量和修复文件系统配置问题。
-* 文件系统创建和删除：创建和删除ONTAP文件系统和存储虚拟机的 FSx。
-
-
-添加凭据时，您可以根据要授予 Workload Factory 的访问级别，选择一个或多个权限策略。
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["Workload Factory 权限参考"]
-
-
-
-==== FSx 的ONTAP网络保险库支持
-
-您可以使用 FSx for ONTAP作为网络保险库架构中的源或目标来创建网络保险库。网络保险库为存储关键数据提供安全隔离的环境，保护数据免受勒索软件和其他网络威胁的侵害。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-cyber-vault.html["使用 FSx 为ONTAP设置网络保险库"]
-
-
-
-=== 数据库工作负载
-
-
-
-==== 仪表盘改进
-
-新的仪表板经过简化和更好地组织，可以在一个屏幕上更清晰地概览数据库资源和工作负载工厂的关键功能；一张卡片突出显示数据库资源，一张卡片提供有关架构良好评分和分析的信息，一张卡片显示错误分析，两张卡片显示每月成本和潜在节省，一张卡片显示有关沙盒的信息。
-
-
-
-==== 针对 Oracle 的良好架构分析
-
-精心设计的分析包括对 Oracle 配置的以下评估和修复：
-
-* 使用 NFS 协议的存储配置操作系统：评估并修复现有 Oracle 数据库部署的 NFS 配置问题。
-* 使用 iSCSI 协议的存储配置操作系统：评估并修复现有 Oracle 数据库部署的 iSCSI 配置问题。
-* 使用自动存储管理 (ASM) 的存储配置操作系统：评估现有 Oracle 数据库部署的 ASM 配置问题。
-
-
-link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["在 Workload Factory 中实施架构良好的数据库配置"]
-
-
-
-==== 数据库工作负载工厂的权限变更
-
-Workload Factory for Databases 更新了权限策略，以便更清晰地说明特定操作所需的权限，并允许您更精细地选择所需的权限。添加凭据时，您将有三个权限选项可供选择，而不是之前的权限模型（_只读_和_读/写_）。新的权限模型将权限策略分解如下：
-
-* 查看、规划和分析：查看数据库资源清单，了解资源运行状况，审查数据库配置的架构分析，获取错误日志分析，并探索节省成本的方案。
-* 操作和修复：对数据库资源执行操作任务，并修复数据库配置和底层 FSx for ONTAP文件系统存储的问题。
-* 数据库主机创建：根据最佳实践部署数据库主机和底层用于ONTAP文件系统存储的 FSx。
-
-
-添加凭据时，您可以根据要授予 Workload Factory for Databases 的访问级别，选择一个或多个权限策略。
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["Workload Factory 权限参考"^]
-
-
-
-==== 新增了设计精良的仪表盘界面。
-
-数据库菜单中新增了一个名为“架构完善的仪表盘”的屏幕。通过此屏幕，您可以获得整个数据库环境配置状态的汇总视图。
-
-
-
-==== NetApp Backup and Recovery中数据库部署的编辑保护
-
-在 Workload Factory 控制台中，您可以选择编辑受保护资源的保护，然后您将被重定向到NetApp Console中的备份和恢复，在那里您可以修改保护策略或计划。
-
-link:https://docs.netapp.com/us-en/workload-databases/protect-sql-server.html["数据库部署的编辑保护"]
-
-
-
-==== 错误分析功能支持按标签进行错误筛选
-
-使用 Workload Factory 中的错误分析功能时，您可以按面向基础架构的标签筛选和查看 Microsoft SQL Server 错误日志。这项增强功能可帮助您快速对问题进行分类、排查和解决问题。
-
-link:https://docs.netapp.com/us-en/workload-databases/analyze-error-logs.html["使用标签筛选分析错误日志"^]
-
-
-
-=== VMware工作负载
-
-
-
-==== 在 FSx for ONTAP文件系统部署向导中引入 Amazon Elastic VMware Service 首选项
-
-当您部署 FSx for ONTAP文件系统以用作 Amazon Elastic VMware Service 的外部 NFS 数据存储时，现在可以选择数据存储将连接到的 EVS 环境。此功能会自动填充部署向导中的多个字段，以简化部署过程。
-
-https://docs.netapp.com/us-en/workload-vmware/deploy-fsx-file-system-evs.html["部署推荐的适用于ONTAP文件系统的 FSx"]
-
-
-
-==== VMware 工作负载的权限变更
-
-VMware 工作负载能够更清晰地说明特定操作所需的权限，并允许您精细地选择所需的权限。添加凭据时，您将有两个权限选项可供选择，而不是之前的权限模型（_只读_和_读/写_）。新的权限模型将权限策略分解如下：
-
-* 查看、规划和分析：查看 EVS 虚拟化环境的清单，获取系统架构完善的分析，并探索节省成本的方法。
-* 数据存储部署和连接：将推荐的 VM 布局部署到 Amazon EVS、Amazon EC2 或 VMware Cloud on AWS vSphere 集群，并使用定制的Amazon FSx for NetApp ONTAP文件系统作为外部数据存储。
-
-
-添加凭据时，您可以根据要向 VMware 工作负载提供的访问级别，选择一个或多个权限策略。
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["Workload Factory 权限参考"^]
-
-
-
-==== Amazon EC2 迁移顾问改进
-
-此版本的NetApp Workload Factory for VMware 对迁移顾问体验进行了多项改进：
-
-* *保存或下载迁移计划*：您现在可以将迁移计划保存或下载为 PDF 或 CSV 文件。保存迁移计划时，该计划将保存到您的 Workload Factory 帐户中。
-
-
-
-
-=== 设置和管理
-
-
-
-==== 权限更新
-
-在此版本中，我们对存储、数据库和 VMware 工作负载的权限策略进行了重大更新，以增强安全性和用户控制。您可以更精细地自定义权限设置，根据需要添加或取消权限。
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["Workload Factory 的权限参考"]
-
-
-
-==== 存储的新通知
-
-NetApp Workload Factory通知服务包含存储自动 inode 管理的通知。
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["NetApp Workload Factory 通知"]
-
-
-
-==== 自动容量和 inode 管理的阈值警告
-
-可以为存储设置自动容量和 inode 管理，并设置警告阈值，该阈值会触发 Workload Factory 通知服务的通知。要使用此功能，必须先启用工作负载工厂通知服务。
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["配置NetApp Workload Factory的通知"]
