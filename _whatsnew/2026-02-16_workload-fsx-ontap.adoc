@@ -1,0 +1,11 @@
+= 支持 Storage VM 迁移
+:allow-uri-read: 
+
+
+
+
+=== 支持 Storage VM 迁移
+
+NetApp Workload Factory 现在支持存储虚拟机的迁移。此功能允许将 ONTAP 存储系统数据和配置从本地 ONTAP 系统或第一代 FSx for ONTAP 文件系统迁移到第二代 FSx for ONTAP 文件系统。您可以复制存储虚拟机数据和配置设置以移动到新的文件系统，同时将停机时间和对用户和应用程序的中断降至最低。
+
+要使用此功能，link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["创建复制关系"] 并选择 *Migration* 作为用例。要完成迁移过程，您必须 link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html#cut-over-replication-for-migration-use-cases["切换 Storage VM 及其复制卷"] 立即将数据和存储 VM 配置设置永久迁移到目标 FSx for ONTAP 文件系统。

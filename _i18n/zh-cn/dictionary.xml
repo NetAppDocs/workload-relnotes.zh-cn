@@ -26,7 +26,6 @@
   <block id="b04deaa23ce22ae0dafa2736e8afebed" category="doc">GenAI工作负载</block>
   <block id="bb50e2459e4e016aa4b14a56adb2358f" category="doc">设置和管理</block>
   <block id="a76e64a0fbf98a083080351e4cb67566" category="doc">VMware工作负载</block>
-  <block id="959d33fa69dccfa15152c69ba90f9d41" category="doc">构建者的工作量</block>
   <block id="4a854a1349dc1900974f3bf6a9552245" category="section-title">精心设计的分析更新</block>
   <block id="bfebf248126ee0c8c192d7442b03e1a1" category="inline-link-macro">查看 FSx for ONTAP文件系统的良好架构状态</block>
   <block id="2a708c78876e2ad54c0b8577c3b2bbd5" category="paragraph"><block ref="2a708c78876e2ad54c0b8577c3b2bbd5" category="inline-link-macro-rx"></block></block>
@@ -189,24 +188,37 @@
   <block id="76f77cbc01f0341dffcaaa5f6236eb73" category="section-title">存储中可用的 S3 存储桶详细信息</block>
   <block id="c203e76297d071e4d8256e073c93dafb" category="paragraph">为 S3 接入点启用元数据后，NetApp Workload Factory 会自动扫描您的 AWS S3 存储桶并填充 S3 表，为您提供所有对象、其元数据、属性和标记的清晰快照。访问这些详细信息可帮助您保持对自己负责的数据的控制、可见性和可信度，同时减少运营开销。</block>
   <block id="cc7664945c125a51dd2e69095c8f8200" category="inline-link-macro">查看 FSx for ONTAP 文件系统中 S3 接入点的详细信息</block>
-  <block id="dd52e33b4320b655cb69fb76bc1e345f" category="paragraph"><block ref="dd52e33b4320b655cb69fb76bc1e345f" category="inline-link-macro-rx"></block></block>
   <block id="2249107cb1f4c202ef0253c53bcff598" category="section-title">S3 接入点的其他管理操作</block>
   <block id="bf44c4671ee3bfbc818d505bb9a0e59a" category="paragraph">NetApp Workload Factory 为 S3 接入点提供额外的管理操作。您可以查看接入点详细信息、修改现有 S3 接入点以及从 NetApp Workload Factory 界面添加或删除 S3 接入点标签，从而简化您的对象存储管理任务。</block>
   <block id="366c32f0cbb2503b337e243eaa8c42b5" category="inline-link-macro">在 NetApp Workload Factory 中管理 S3 接入点</block>
-  <block id="d9ec48855b13e13fd489d2442f822e4d" category="paragraph"><block ref="d9ec48855b13e13fd489d2442f822e4d" category="inline-link-macro-rx"></block></block>
   <block id="e593953aaf04eebecfe2e26326145784" category="list-text">优化缓存卷大小：检查是否在缓存卷上启用了卷自动大小调整和清理功能，以保持最佳大小，并将缓存集中在热数据上，以实现最高效率。</block>
-  <block id="00e21b809963a2e31abfc13c3aea34b6" category="list-text">孤立块设备：建议存档块设备数据或删除连续七天未使用的块设备。</block>
   <block id="a872ae5d7fdb75042465788519d63c35" category="list-text">Storage VM 逻辑报告：检查 Storage VM 的默认报告设置是否设置为逻辑，从而更好地了解卷级别的存储使用情况。</block>
   <block id="40fbd58cc84d2567a5be7db0e1e48224" category="section-title">用于块设备的附加卡</block>
   <block id="e1d58576240df6c3acc0d5f3067d6468" category="paragraph">在存储工作负载的块设备选项卡中添加了三张新卡，以便快速了解块设备的使用情况和保护状态：</block>
   <block id="2f09b86fd82a1603b2104c3d565e4187" category="list-text">存储效率：显示已用和可用存储容量；已用容量按 SSD 和容量池存储层细分。</block>
   <block id="075b9a975b25dba22b299c4edaf12834" category="list-text">受保护的设备：显示具有快照、远程复制、NetApp Autonomous Ransomware Protection (ARP/AI) 和备份的数据块设备的百分比。</block>
   <block id="46dd61e303a77cea00fc631287dfeab6" category="inline-link-macro">为未使用的块设备回收空间</block>
-  <block id="8e8a93bbbd6df5c04a7668748139ce7a" category="list-text">孤立设备：显示连续七天未使用的任何块设备，帮助您有效识别和管理未使用的资源。从这里，您可以<block ref="ddc66f326affa5fcec5ab8f0c0c76e68" category="inline-link-macro-rx"></block>。</block>
   <block id="9ebda12d23b72f4bdda3cbbcd05e0817" category="section-title">支持启动程序组创建和管理</block>
   <block id="de002c21193de456c56ce9ccecfc09ab" category="paragraph">NetApp Workload Factory 支持为 FSx for ONTAP 文件系统中的块存储创建和管理启动程序组 (igroups)。启动程序组将块设备 (LUN) 连接到允许访问它们的计算资源，为 SAN 环境中的块存储提供权限层。</block>
   <block id="e477df666bb45ae0a1fda1f7058551a2" category="inline-link-macro">在 NetApp Workload Factory 中创建启动程序组</block>
-  <block id="5e85fc9bd832f8bc5366f7ffe4912a99" category="list-text"><block ref="5e85fc9bd832f8bc5366f7ffe4912a99" category="inline-link-macro-rx"></block></block>
   <block id="8933129f9a07c1370a31a0b9f2e53018" category="inline-link-macro">管理 NetApp Workload Factory 中的现有启动程序组</block>
-  <block id="b241a4baaecab76fcbba49cd24dc9185" category="list-text"><block ref="b241a4baaecab76fcbba49cd24dc9185" category="inline-link-macro-rx"></block></block>
+  <block id="2bc4b4a88d694b207aacb90573eb4b7f" category="doc">EDA 工作负载</block>
+  <block id="fdb38c6259208c2509d21f6a3f0beb02" category="paragraph"><block ref="fdb38c6259208c2509d21f6a3f0beb02" category="inline-link-macro-rx"></block></block>
+  <block id="cc97dddf7d9715fea79ba3e831f0fbca" category="paragraph"><block ref="cc97dddf7d9715fea79ba3e831f0fbca" category="inline-link-macro-rx"></block></block>
+  <block id="3ecf18c09ae5a2bd1855ba6515de6cd7" category="list-text">非活动块设备：建议存档块设备数据，或删除连续七天未使用的块设备。</block>
+  <block id="3310dcc189ef22670c22a32bdf58f0c9" category="list-text">孤立设备：显示连续七天未使用的任何块设备，帮助您有效识别和管理未使用的资源。从这里，您可以<block ref="5d1d66741e880017163f47d5a2557cb1" category="inline-link-macro-rx"></block>。</block>
+  <block id="0352f037ca8dfca49383ddb908805d9a" category="list-text"><block ref="0352f037ca8dfca49383ddb908805d9a" category="inline-link-macro-rx"></block></block>
+  <block id="0a17c703284dc61149bdaf13e30980de" category="list-text"><block ref="0a17c703284dc61149bdaf13e30980de" category="inline-link-macro-rx"></block></block>
+  <block id="a7b7c2b9faa4f1ccdcf2564702c510b9" category="doc">改进了 Microsoft SQL Server 本地服务器上多个数据库主机的成本节约</block>
+  <block id="5f7eddfa3501167c2b174aa465bbc5f4" category="paragraph">Microsoft SQL Server 本地存储的成本节约分析已得到增强，可为一个 FSx for ONTAP 文件系统上的多个数据库主机提供整合的存储解决方案。这种整合通过减少多个数据库主机所需的文件系统数量来优化存储成本，从而提高成本节约。</block>
+  <block id="46e4c2ea99ae4765f0b8b2d45f74a583" category="inline-link-macro">探索在本地 Microsoft SQL Server 上检测到的主机的节省费用</block>
+  <block id="23e03c6864871bf7fd6a119e3054dc60" category="paragraph"><block ref="23e03c6864871bf7fd6a119e3054dc60" category="inline-link-macro-rx"></block></block>
+  <block id="6b3755f8c80d4cb74f3c1056641d6741" category="paragraph">架构良好的分析包括针对 Oracle 的存储配置分析的四个新子评估：dNFS 启用、dNFS 一致 IP 解析、dNFS 配置文件和 dNFS<block ref="4740c034d97ca90a96b8050082816605" prefix=" " category="inline-code"></block>。这些评估涉及为 Oracle 环境启用和设置 Direct NFS (dNFS)，该环境绕过主机 NFS 客户端直接在 NFS 服务器上执行 NFS 文件操作，从而提高 I/O 性能，并降低主机和存储系统的负载，因为 I/O 执行效率更高。</block>
+  <block id="5d8caeaede63e2cdba6715a163d09892" category="doc">支持 Storage VM 迁移</block>
+  <block id="353d7ff4a3d58ad1fe8ef0ad6acab574" category="paragraph">NetApp Workload Factory 现在支持存储虚拟机的迁移。此功能允许将 ONTAP 存储系统数据和配置从本地 ONTAP 系统或第一代 FSx for ONTAP 文件系统迁移到第二代 FSx for ONTAP 文件系统。您可以复制存储虚拟机数据和配置设置以移动到新的文件系统，同时将停机时间和对用户和应用程序的中断降至最低。</block>
+  <block id="fb2a77c6756f10fcc139a51a83349d7f" category="inline-link-macro">创建复制关系</block>
+  <block id="33039f37667143e740ae3514cd2b2eea" category="inline-link-macro">切换 Storage VM 及其复制卷</block>
+  <block id="94a0fe38d823039ecf92cb309a897fe3" category="paragraph">要使用此功能，<block ref="0ec91e6ac67cf0fd5240ce60db83aa2f" category="inline-link-macro-rx"></block> 并选择 *Migration* 作为用例。要完成迁移过程，您必须 <block ref="6174d071c9787b2abffa64516d72a11a" category="inline-link-macro-rx"></block> 立即将数据和存储 VM 配置设置永久迁移到目标 FSx for ONTAP 文件系统。</block>
+  <block id="fb042b7b99959e391eeb7c417511098a" category="section-title">2026 年 2 月 16 日</block>
+  <block id="e6437d0fab94a9cc41e9fc0354b23716" category="section-title">2026 年 2 月 02 日</block>
 </blocks>

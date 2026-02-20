@@ -1,0 +1,19 @@
+= 改进了 Microsoft SQL Server 本地服务器上多个数据库主机的成本节约
+:allow-uri-read: 
+
+
+
+
+=== 改进了 Microsoft SQL Server 本地服务器上多个数据库主机的成本节约
+
+Microsoft SQL Server 本地存储的成本节约分析已得到增强，可为一个 FSx for ONTAP 文件系统上的多个数据库主机提供整合的存储解决方案。这种整合通过减少多个数据库主机所需的文件系统数量来优化存储成本，从而提高成本节约。
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html#explore-savings-for-detected-hosts["探索在本地 Microsoft SQL Server 上检测到的主机的节省费用"]
+
+
+
+=== 针对 Oracle 的良好架构分析
+
+架构良好的分析包括针对 Oracle 的存储配置分析的四个新子评估：dNFS 启用、dNFS 一致 IP 解析、dNFS 配置文件和 dNFS `nosharecache`。这些评估涉及为 Oracle 环境启用和设置 Direct NFS (dNFS)，该环境绕过主机 NFS 客户端直接在 NFS 服务器上执行 NFS 文件操作，从而提高 I/O 性能，并降低主机和存储系统的负载，因为 I/O 执行效率更高。
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["在 Workload Factory 中实施架构良好的数据库配置"]

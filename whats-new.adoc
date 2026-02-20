@@ -15,6 +15,46 @@ summary: 了解NetApp Workload Factory 中工作负载的最新变化。
 
 
 
+== 2026 年 2 月 16 日
+
+
+
+=== 适用于 NetApp ONTAP 的 Amazon FSX
+
+
+
+==== 支持 Storage VM 迁移
+
+NetApp Workload Factory 现在支持存储虚拟机的迁移。此功能允许将 ONTAP 存储系统数据和配置从本地 ONTAP 系统或第一代 FSx for ONTAP 文件系统迁移到第二代 FSx for ONTAP 文件系统。您可以复制存储虚拟机数据和配置设置以移动到新的文件系统，同时将停机时间和对用户和应用程序的中断降至最低。
+
+要使用此功能，link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["创建复制关系"] 并选择 *Migration* 作为用例。要完成迁移过程，您必须 link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html#cut-over-replication-for-migration-use-cases["切换 Storage VM 及其复制卷"] 立即将数据和存储 VM 配置设置永久迁移到目标 FSx for ONTAP 文件系统。
+
+
+
+== 2026 年 2 月 02 日
+
+
+
+=== 数据库工作负载
+
+
+
+==== 改进了 Microsoft SQL Server 本地服务器上多个数据库主机的成本节约
+
+Microsoft SQL Server 本地存储的成本节约分析已得到增强，可为一个 FSx for ONTAP 文件系统上的多个数据库主机提供整合的存储解决方案。这种整合通过减少多个数据库主机所需的文件系统数量来优化存储成本，从而提高成本节约。
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html#explore-savings-for-detected-hosts["探索在本地 Microsoft SQL Server 上检测到的主机的节省费用"]
+
+
+
+==== 针对 Oracle 的良好架构分析
+
+架构良好的分析包括针对 Oracle 的存储配置分析的四个新子评估：dNFS 启用、dNFS 一致 IP 解析、dNFS 配置文件和 dNFS `nosharecache`。这些评估涉及为 Oracle 环境启用和设置 Direct NFS (dNFS)，该环境绕过主机 NFS 客户端直接在 NFS 服务器上执行 NFS 文件操作，从而提高 I/O 性能，并降低主机和存储系统的负载，因为 I/O 执行效率更高。
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["在 Workload Factory 中实施架构良好的数据库配置"]
+
+
+
 == 2026 年 2 月 1 日
 
 
@@ -47,7 +87,7 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["�
 
 为 S3 接入点启用元数据后，NetApp Workload Factory 会自动扫描您的 AWS S3 存储桶并填充 S3 表，为您提供所有对象、其元数据、属性和标记的清晰快照。访问这些详细信息可帮助您保持对自己负责的数据的控制、可见性和可信度，同时减少运营开销。
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-s3-access-points.html["查看 FSx for ONTAP 文件系统中 S3 接入点的详细信息"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-s3-access-points.html["查看 FSx for ONTAP 文件系统中 S3 接入点的详细信息"]
 
 
 
@@ -55,7 +95,7 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-s3-access-points.ht
 
 NetApp Workload Factory 为 S3 接入点提供额外的管理操作。您可以查看接入点详细信息、修改现有 S3 接入点以及从 NetApp Workload Factory 界面添加或删除 S3 接入点标签，从而简化您的对象存储管理任务。
 
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-s3-access-points.html["在 NetApp Workload Factory 中管理 S3 接入点"^]
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-s3-access-points.html["在 NetApp Workload Factory 中管理 S3 接入点"]
 
 
 
@@ -64,7 +104,7 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-s3-access-points.ht
 Workload Factory 会分析您的 FSx for ONTAP文件系统，以识别以下配置：
 
 * 优化缓存卷大小：检查是否在缓存卷上启用了卷自动大小调整和清理功能，以保持最佳大小，并将缓存集中在热数据上，以实现最高效率。
-* 孤立块设备：建议存档块设备数据或删除连续七天未使用的块设备。
+* 非活动块设备：建议存档块设备数据，或删除连续七天未使用的块设备。
 * Storage VM 逻辑报告：检查 Storage VM 的默认报告设置是否设置为逻辑，从而更好地了解卷级别的存储使用情况。
 
 
@@ -76,7 +116,7 @@ Workload Factory 会分析您的 FSx for ONTAP文件系统，以识别以下配�
 
 * 存储效率：显示已用和可用存储容量；已用容量按 SSD 和容量池存储层细分。
 * 受保护的设备：显示具有快照、远程复制、NetApp Autonomous Ransomware Protection (ARP/AI) 和备份的数据块设备的百分比。
-* 孤立设备：显示连续七天未使用的任何块设备，帮助您有效识别和管理未使用的资源。从这里，您可以link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-devices.html#view-block-device-details["为未使用的块设备回收空间"]。
+* 孤立设备：显示连续七天未使用的任何块设备，帮助您有效识别和管理未使用的资源。从这里，您可以link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-devices.html#archive-the-data-of-an-inactive-block-device["为未使用的块设备回收空间"]。
 
 
 
@@ -85,8 +125,8 @@ Workload Factory 会分析您的 FSx for ONTAP文件系统，以识别以下配�
 
 NetApp Workload Factory 支持为 FSx for ONTAP 文件系统中的块存储创建和管理启动程序组 (igroups)。启动程序组将块设备 (LUN) 连接到允许访问它们的计算资源，为 SAN 环境中的块存储提供权限层。
 
-* link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-igroup.html["在 NetApp Workload Factory 中创建启动程序组"^]
-* link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-igroups.html["管理 NetApp Workload Factory 中的现有启动程序组"^]
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-igroup.html["在 NetApp Workload Factory 中创建启动程序组"]
+* link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-igroups.html["管理 NetApp Workload Factory 中的现有启动程序组"]
 
 
 
@@ -156,7 +196,7 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.ht
 
 
 
-=== 构建者的工作量
+=== EDA 工作负载
 
 
 
@@ -292,7 +332,7 @@ Workload Factory 控制台主页嵌入了 Ask me AI 助手，使您可以询问�
 
 
 
-=== 构建者的工作量
+=== EDA 工作负载
 
 
 
