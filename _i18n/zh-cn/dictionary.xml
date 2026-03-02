@@ -158,7 +158,6 @@
   <block id="fdb38c6259208c2509d21f6a3f0beb02" category="paragraph"><block ref="fdb38c6259208c2509d21f6a3f0beb02" category="inline-link-macro-rx"></block></block>
   <block id="cc97dddf7d9715fea79ba3e831f0fbca" category="paragraph"><block ref="cc97dddf7d9715fea79ba3e831f0fbca" category="inline-link-macro-rx"></block></block>
   <block id="3ecf18c09ae5a2bd1855ba6515de6cd7" category="list-text">非活动块设备：建议存档块设备数据，或删除连续七天未使用的块设备。</block>
-  <block id="3310dcc189ef22670c22a32bdf58f0c9" category="list-text">孤立设备：显示连续七天未使用的任何块设备，帮助您有效识别和管理未使用的资源。从这里，您可以<block ref="5d1d66741e880017163f47d5a2557cb1" category="inline-link-macro-rx"></block>。</block>
   <block id="0352f037ca8dfca49383ddb908805d9a" category="list-text"><block ref="0352f037ca8dfca49383ddb908805d9a" category="inline-link-macro-rx"></block></block>
   <block id="0a17c703284dc61149bdaf13e30980de" category="list-text"><block ref="0a17c703284dc61149bdaf13e30980de" category="inline-link-macro-rx"></block></block>
   <block id="a7b7c2b9faa4f1ccdcf2564702c510b9" category="doc">改进了 Microsoft SQL Server 本地服务器上多个数据库主机的成本节约</block>
@@ -213,4 +212,26 @@
   <block id="ae5954c9b41b0bfb09043a4117743d2d" category="inline-link-macro">探索本地数据库环境的节约</block>
   <block id="9621b726ce4b31f0b7bc139a85ef6f38" category="paragraph"><block ref="9621b726ce4b31f0b7bc139a85ef6f38" category="inline-link-macro-rx"></block></block>
   <block id="6ddfbfe3d38a813f004cc2f37d2a5866" category="section-title">2026 年 3 月 02 日</block>
+  <block id="b810156a51d2ff011de686d088c6dcce" category="list-text">孤立设备：显示连续七天未使用的任何块设备，帮助您有效识别和管理未使用的资源。从这里，您可以<block ref="04044e5382e57a877bbf97c227fa9ee4" category="inline-link-macro-rx"></block>。</block>
+  <block id="b4faaa513060331f5bb7705e042e49cd" category="list-text">未充分利用的 SSD 容量：检查 SSD 容量层是否未充分利用，并建议降低 SSD 容量以优化成本。</block>
+  <block id="01b065251159f3c3b86f7d49511f1bf7" category="list-text">计划卷备份：Workload Factory 改进了配置建议，并添加了打开 FSx for ONTAP 备份或 AWS Backup 的选项。FSx for ONTAP 备份将默认策略应用于文件系统中的所有卷，创建保存长达 90 天的每日备份。借助 AWS Backup，您可以为备份计划中的每个卷选择不同的保留期。</block>
+  <block id="9ad8abc81514723f5439d23cac33f67b" category="section-title">Workload Factory 支持 AI 和 ML 复制用例</block>
+  <block id="4fabde129d63ed93da8d3a884a34d989" category="paragraph">Workload Factory 支持将本地 ONTAP 数据复制到 FSx for ONTAP，并为 AWS Artificial Intelligence (AI) 和机器学习 (ML) 服务创建 S3 接入点，以加速 AI/ML 工作流程。</block>
+  <block id="6f93097c4b22d10fa124cc3526343351" category="inline-link-macro">为 AI &amp; ML 用例复制本地数据</block>
+  <block id="9204fcf38a3ec17161f43b022482f826" category="paragraph"><block ref="f326bef7ea7d0e36c5b06e0b9913123a" category="inline-link-macro-rx"></block></block>
+  <block id="42fe2ab7947c044bb47fb357526022c2" category="section-title">编辑现有 S3 接入点</block>
+  <block id="33c5aa1872cfcc4e8c7c5850619e6f87" category="paragraph">您可以更改附加到卷的现有 S3 访问点的用户和用户类型。您还可以启用或禁用访问点的元数据。</block>
+  <block id="7525bd4fe22d4a212fea8807fb8d750b" category="inline-link-macro">在 NetApp Workload Factory 中编辑 S3 访问端点</block>
+  <block id="88d72467009c25b9669edfef18e21df3" category="paragraph"><block ref="88d72467009c25b9669edfef18e21df3" category="inline-link-macro-rx"></block></block>
+  <block id="692b5b6f757e38d7e4d1dd3f957a20f0" category="section-title">已添加块存储图</block>
+  <block id="55d6cb6b45d9aaa08c53b22b5ac8a617" category="paragraph">如果您使用块存储，则可以查看块存储图，以可视化块设备如何连接到节点和 igroup。该图可帮助您了解和管理块存储。</block>
+  <block id="e852955e53f52fa18c0de4a24d22f4af" category="inline-link-macro">在 NetApp Workload Factory 中管理块存储</block>
+  <block id="e27c0520df6795eedf0c70ef38381a5b" category="paragraph"><block ref="e27c0520df6795eedf0c70ef38381a5b" category="inline-link-macro-rx"></block></block>
+  <block id="fe8de8255ddcf7ab25ab74f8ebd26038" category="section-title">自动容量管理功能更新</block>
+  <block id="8e5031888ebd5b1abae0d4eb5bf05af3" category="paragraph">此更新将该功能分为两个不同的功能：自动容量管理和容量通知。</block>
+  <block id="10a7856ed25b37558f2b515fcbe24567" category="paragraph">自动容量管理可自动添加或删除文件系统容量，以保持最佳性能。新选项包括增量和自适应模式。在增量模式下，系统在阈值处按固定数量增加容量；在自适应模式下，系统使用历史数据来预测和调整容量。</block>
+  <block id="afca613753b2d7f6ff8f1dad6c1dc86a" category="paragraph">每当发生容量调整和文件系统达到设定限制时，容量通知都会提醒您，以便您可以在出现问题之前管理存储。</block>
+  <block id="19d4c34be6525aca788802a6167a4156" category="inline-link-macro">了解 NetApp Workload Factory 中的自动容量管理和容量通知</block>
+  <block id="ef319467f119e3bda1a975eb1f26e46d" category="paragraph"><block ref="ef319467f119e3bda1a975eb1f26e46d" category="inline-link-macro-rx"></block></block>
+  <block id="1c0128659c34cfdfa6e26b42e3133599" category="paragraph">我们在 Workload Factory 控制台的每个屏幕上添加了一个新的 Ask Me 书签。这项改进使您在需要帮助时可以更轻松、更快地访问 Ask Me。Ask Me 是我们的人工智能助手。您可以询问有关工作负载环境的问题，获取个性化见解，并查看以前的对话。</block>
 </blocks>

@@ -1,0 +1,59 @@
+= 精心设计的分析更新
+:allow-uri-read: 
+
+
+
+
+=== 精心设计的分析更新
+
+Workload Factory 会分析您的 FSx for ONTAP文件系统，以识别以下配置：
+
+* 未充分利用的 SSD 容量：检查 SSD 容量层是否未充分利用，并建议降低 SSD 容量以优化成本。
+* 计划卷备份：Workload Factory 改进了配置建议，并添加了打开 FSx for ONTAP 备份或 AWS Backup 的选项。FSx for ONTAP 备份将默认策略应用于文件系统中的所有卷，创建保存长达 90 天的每日备份。借助 AWS Backup，您可以为备份计划中的每个卷选择不同的保留期。
+
+
+
+
+=== Workload Factory 支持 AI 和 ML 复制用例
+
+Workload Factory 支持将本地 ONTAP 数据复制到 FSx for ONTAP，并为 AWS Artificial Intelligence (AI) 和机器学习 (ML) 服务创建 S3 接入点，以加速 AI/ML 工作流程。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["为 AI  ML 用例复制本地数据"]
+
+
+
+=== 编辑现有 S3 接入点
+
+您可以更改附加到卷的现有 S3 访问点的用户和用户类型。您还可以启用或禁用访问点的元数据。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-s3-access-points.html["在 NetApp Workload Factory 中编辑 S3 访问端点"]
+
+
+
+=== 已添加块存储图
+
+如果您使用块存储，则可以查看块存储图，以可视化块设备如何连接到节点和 igroup。该图可帮助您了解和管理块存储。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-storage.html["在 NetApp Workload Factory 中管理块存储"]
+
+
+
+=== 自动容量管理功能更新
+
+此更新将该功能分为两个不同的功能：自动容量管理和容量通知。
+
+自动容量管理可自动添加或删除文件系统容量，以保持最佳性能。新选项包括增量和自适应模式。在增量模式下，系统在阈值处按固定数量增加容量；在自适应模式下，系统使用历史数据来预测和调整容量。
+
+每当发生容量调整和文件系统达到设定限制时，容量通知都会提醒您，以便您可以在出现问题之前管理存储。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/enable-auto-capacity-management.html["了解 NetApp Workload Factory 中的自动容量管理和容量通知"]
+
+
+
+=== Workload Factory 中提供了新的 Ask Me 书签
+
+我们在 Workload Factory 控制台的每个屏幕上添加了一个新的 Ask Me 书签。这项改进使您在需要帮助时可以更轻松、更快地访问 Ask Me。Ask Me 是我们的人工智能助手。您可以询问有关工作负载环境的问题，获取个性化见解，并查看以前的对话。
+
+您可以通过单击新书签从任何页面打开 Ask Me。它在不中断您当前工作的情况下在侧面板中启动 Ask Me，并提供与您当前操作相关的快速解释和建议。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overview.html#features["详细了解 Ask Me"^]
