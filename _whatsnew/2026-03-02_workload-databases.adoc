@@ -1,0 +1,51 @@
+= 一次性评估
+:allow-uri-read: 
+
+
+
+
+=== 一次性评估
+
+Workload Factory 现在提供一次性评估，以便在需要时分析数据库部署的配置 - 新部署、迁移后、故障排除等。您将获得建议，以帮助您优化部署配置并遵守最佳实践。这是您在不完全致力于设置过程的情况下使用精心设计的功能的机会。您可以评估数据库，而无需在 Workload Factory 中存储凭据、注册数据库资源或设置外部连接。
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["对数据库部署执行一次性评估"]
+
+
+
+=== Microsoft SQL Server 上 Always On 可用性组和 Oracle 上 Data Guard 的注册支持
+
+现在，您可以在 NetApp Workload Factory 的数据库工作负载中，使用 Always On 可用性组 (AOAG) 部署模型发现和注册 Microsoft SQL Server 实例，并使用 Data Guard 部署模型注册 Oracle 数据库。此增强功能允许在 Workload Factory 控制台中更好地管理 SQL Server 和 Oracle 资源。
+
+注册 AOAG 实例和 Data Guard 数据库后，您可以利用 Workload Factory for Databases 中的各种功能，例如查看资源详细信息和分析错误日志。
+
+Workload Factory for Databases 还支持使用 AOAG 部署模型对 Microsoft SQL Server 实例进行精心设计的分析。您可以分析可用性组中 SQL Server 实例的配置，并接收优化部署配置和遵守最佳实践的建议。注册您的 AOAG 实例以启用此功能。
+
+link:https://docs.netapp.com/us-en/workload-databases/register-instance.html#register-a-sql-server-instance["在 Workload Factory for Databases 中注册资源"]
+
+
+
+=== 针对 Oracle 的良好架构分析
+
+精心设计的分析包括 Oracle 的*操作系统补丁*，用于检查您是否在操作系统上安装了最新的补丁，并告诉您如何安装它们。
+
+此外，当存储布局等配置依赖于其他配置时，Oracle 的精心设计的分析会通知您。该通知告诉您要优化链接配置的操作，以便我们提供的所有建议都是最佳的。
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["在 Workload Factory 中实施架构良好的数据库配置"]
+
+
+
+=== Oracle 本地数据库环境成本分析和迁移规划
+
+Workload Factory for Databases 现在可以分析并帮助您规划 Oracle 本地数据库迁移到 Amazon FSx for NetApp ONTAP。您可以使用节省计算器估算在云中运行 Oracle 本地数据库环境的成本，并查看将本地数据库环境迁移到云的建议。
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["探索本地数据库环境的节约"]
+
+
+
+=== Workload Factory 中提供了新的 Ask Me 书签
+
+我们在 Workload Factory 控制台的每个屏幕上都添加了一个新的 Ask Me 书签。这项改进使您在需要帮助时可以更轻松、更快地访问 Ask Me。Ask Me 是我们的人工智能助手，使您可以询问有关您自己的工作负载环境的问题，直接从您的环境中获取个性化见解，并参考以前的对话。
+
+您可以通过单击新书签从任何页面打开 Ask Me。它在不中断您当前工作的情况下在侧面板中启动 Ask Me，并提供与您当前操作相关的快速解释和建议。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overview.html#features["详细了解 Ask Me"^]

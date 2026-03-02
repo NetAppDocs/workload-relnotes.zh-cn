@@ -15,6 +15,62 @@ summary: 了解NetApp Workload Factory 中工作负载的最新变化。
 
 
 
+== 2026 年 3 月 02 日
+
+
+
+=== 数据库工作负载
+
+
+
+==== 一次性评估
+
+Workload Factory 现在提供一次性评估，以便在需要时分析数据库部署的配置 - 新部署、迁移后、故障排除等。您将获得建议，以帮助您优化部署配置并遵守最佳实践。这是您在不完全致力于设置过程的情况下使用精心设计的功能的机会。您可以评估数据库，而无需在 Workload Factory 中存储凭据、注册数据库资源或设置外部连接。
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["对数据库部署执行一次性评估"]
+
+
+
+==== Microsoft SQL Server 上 Always On 可用性组和 Oracle 上 Data Guard 的注册支持
+
+现在，您可以在 NetApp Workload Factory 的数据库工作负载中，使用 Always On 可用性组 (AOAG) 部署模型发现和注册 Microsoft SQL Server 实例，并使用 Data Guard 部署模型注册 Oracle 数据库。此增强功能允许在 Workload Factory 控制台中更好地管理 SQL Server 和 Oracle 资源。
+
+注册 AOAG 实例和 Data Guard 数据库后，您可以利用 Workload Factory for Databases 中的各种功能，例如查看资源详细信息和分析错误日志。
+
+Workload Factory for Databases 还支持使用 AOAG 部署模型对 Microsoft SQL Server 实例进行精心设计的分析。您可以分析可用性组中 SQL Server 实例的配置，并接收优化部署配置和遵守最佳实践的建议。注册您的 AOAG 实例以启用此功能。
+
+link:https://docs.netapp.com/us-en/workload-databases/register-instance.html#register-a-sql-server-instance["在 Workload Factory for Databases 中注册资源"]
+
+
+
+==== 针对 Oracle 的良好架构分析
+
+精心设计的分析包括 Oracle 的*操作系统补丁*，用于检查您是否在操作系统上安装了最新的补丁，并告诉您如何安装它们。
+
+此外，当存储布局等配置依赖于其他配置时，Oracle 的精心设计的分析会通知您。该通知告诉您要优化链接配置的操作，以便我们提供的所有建议都是最佳的。
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["在 Workload Factory 中实施架构良好的数据库配置"]
+
+
+
+==== Oracle 本地数据库环境成本分析和迁移规划
+
+Workload Factory for Databases 现在可以分析并帮助您规划 Oracle 本地数据库迁移到 Amazon FSx for NetApp ONTAP。您可以使用节省计算器估算在云中运行 Oracle 本地数据库环境的成本，并查看将本地数据库环境迁移到云的建议。
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["探索本地数据库环境的节约"]
+
+
+
+==== Workload Factory 中提供了新的 Ask Me 书签
+
+我们在 Workload Factory 控制台的每个屏幕上都添加了一个新的 Ask Me 书签。这项改进使您在需要帮助时可以更轻松、更快地访问 Ask Me。Ask Me 是我们的人工智能助手，使您可以询问有关您自己的工作负载环境的问题，直接从您的环境中获取个性化见解，并参考以前的对话。
+
+您可以通过单击新书签从任何页面打开 Ask Me。它在不中断您当前工作的情况下在侧面板中启动 Ask Me，并提供与您当前操作相关的快速解释和建议。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overview.html#features["详细了解 Ask Me"^]
+
+
+
 == 2026 年 3 月 1 日
 
 
@@ -30,6 +86,46 @@ summary: 了解NetApp Workload Factory 中工作负载的最新变化。
 您可以通过单击新书签从任何页面打开 Ask Me。它在不中断您当前工作的情况下在侧面板中启动 Ask me，并提供与您当前工作相关的快速解释和建议。
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overview.html#features["详细了解 Ask Me"]
+
+
+
+=== EDA 工作负载
+
+
+
+==== EDA 存储管理概览仪表板
+
+作为管理数十个 FSx for ONTAP 文件系统的 IT 管理员，您可以使用概览仪表板回答有关集群运行状况、利用率和卷放置的常见操作问题。
+
+概览控制面板包括：
+
+* *集群运行状况状态*：在信息板顶部汇总的信息，突出显示整个集群的性能、容量、可用性和保护以及安全事件。
+* *集群表*：显示每个集群的 SSD 容量、容量池和吞吐量指标的可搜索、可过滤和分页表，支持列自定义和 CSV 导出。
+
+
+以前的主仪表板现在可以在 *Project* 选项卡中访问。EDA 选项卡现已排序：Overview、Latency、Project、CI/CD。
+
+https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html["详细了解概览控制面板"^]。
+
+
+
+==== 自动延迟分析
+
+延迟分析现在包括自动化基本分析。当检测到延迟事件时，系统会自动分析 ONTAP QoS 延迟中心指标，以确定延迟问题的来源。
+
+基本分析评估 QoS 策略、磁盘性能、网络问题和集群配置，以便在延迟事件表的"详细信息"列中提供即时见解。
+
+https://docs.netapp.com/us-en/workload-eda/task-monitor-latency.html#understanding-basic-analysis["详细了解基本延迟分析"^]。
+
+
+
+==== Workload Factory 中提供了新的 Ask Me 书签
+
+我们在 Workload Factory 控制台的每个屏幕上都添加了一个新的 Ask Me 书签。这项改进使您在需要帮助时可以更轻松、更快地访问 Ask Me。Ask Me 是我们的人工智能助手，使您可以询问有关您自己的工作负载环境的问题，直接从您的环境中获取个性化见解，并参考以前的对话。
+
+您可以通过单击新书签从任何页面打开 Ask Me。它在不中断您当前工作的情况下在侧面板中启动 Ask Me，并提供与您当前操作相关的快速解释和建议。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overview.html#features["详细了解 Ask Me"^]
 
 
 
@@ -324,9 +420,9 @@ NetApp Workload Factory包含以下增强功能： link:https://docs.netapp.com/
 
 
 
-==== 问我关于人工智能助手首页集成的问题
+==== Ask Me AI 助手主页集成
 
-Workload Factory 控制台主页嵌入了 Ask me AI 助手，使您可以询问有关您自己的存储环境的问题，直接从您的环境中获取个性化见解，并参考以前的对话。您可以与“问我”进行交互，以了解您的工作负载、解决问题并了解更多关于工作负载工厂的信息——所有这些都无需离开控制台。
+Workload Factory 控制台主页嵌入了 Ask Me AI 助手，使您可以询问有关您自己的存储空间的问题，直接从您的环境中获取个性化见解，并参考以前的对话。您可以与 Ask Me 交互，了解您的工作负载，解决问题并了解有关 Workload Factory 的更多信息，而无需离开控制台。
 
 
 

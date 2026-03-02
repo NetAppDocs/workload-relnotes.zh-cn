@@ -1,0 +1,39 @@
+= EDA 存储管理概览仪表板
+:allow-uri-read: 
+
+
+
+
+=== EDA 存储管理概览仪表板
+
+作为管理数十个 FSx for ONTAP 文件系统的 IT 管理员，您可以使用概览仪表板回答有关集群运行状况、利用率和卷放置的常见操作问题。
+
+概览控制面板包括：
+
+* *集群运行状况状态*：在信息板顶部汇总的信息，突出显示整个集群的性能、容量、可用性和保护以及安全事件。
+* *集群表*：显示每个集群的 SSD 容量、容量池和吞吐量指标的可搜索、可过滤和分页表，支持列自定义和 CSV 导出。
+
+
+以前的主仪表板现在可以在 *Project* 选项卡中访问。EDA 选项卡现已排序：Overview、Latency、Project、CI/CD。
+
+https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html["详细了解概览控制面板"^]。
+
+
+
+=== 自动延迟分析
+
+延迟分析现在包括自动化基本分析。当检测到延迟事件时，系统会自动分析 ONTAP QoS 延迟中心指标，以确定延迟问题的来源。
+
+基本分析评估 QoS 策略、磁盘性能、网络问题和集群配置，以便在延迟事件表的"详细信息"列中提供即时见解。
+
+https://docs.netapp.com/us-en/workload-eda/task-monitor-latency.html#understanding-basic-analysis["详细了解基本延迟分析"^]。
+
+
+
+=== Workload Factory 中提供了新的 Ask Me 书签
+
+我们在 Workload Factory 控制台的每个屏幕上都添加了一个新的 Ask Me 书签。这项改进使您在需要帮助时可以更轻松、更快地访问 Ask Me。Ask Me 是我们的人工智能助手，使您可以询问有关您自己的工作负载环境的问题，直接从您的环境中获取个性化见解，并参考以前的对话。
+
+您可以通过单击新书签从任何页面打开 Ask Me。它在不中断您当前工作的情况下在侧面板中启动 Ask Me，并提供与您当前操作相关的快速解释和建议。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overview.html#features["详细了解 Ask Me"^]
