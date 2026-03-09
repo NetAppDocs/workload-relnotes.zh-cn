@@ -40,13 +40,6 @@
   <block id="24373c35884bc6090ef23efe0b026c1e" category="paragraph"><block ref="24373c35884bc6090ef23efe0b026c1e" category="inline-link-macro-rx"></block></block>
   <block id="6cff628e35cc5d429a57e4a125a0bf6b" category="inline-link-macro">权限参考变更日志</block>
   <block id="86fbb6c90e401f3291e15bdc1398509c" category="paragraph"><block ref="86fbb6c90e401f3291e15bdc1398509c" category="inline-link-macro-rx"></block></block>
-  <block id="01f76f754caa3b688233762c1b9391f6" category="section-title">支持用于ONTAP的 FSx 的 AWS S3 访问点</block>
-  <block id="d30cb805d7270ac0b7cc06375888e47f" category="paragraph">NetApp Workload Factory为您的 FSx for ONTAP文件系统提供 AWS S3 访问点。您可以使用 S3 访问点创建卷，将 S3 访问点分配给现有卷，并从 Workload Factory 控制台管理 S3 访问点。使用 S3 访问点，您可以通过 AWS S3 API 访问驻留在 SMB/CIFS 或 NFS 卷上的文件数据。这样，您就可以将现有数据与来自支持 S3 访问点的 AWS 服务的 GenAI、ML 和分析功能集成在一起。</block>
-  <block id="ef6c8d59ba70b1efd5437dd31e63efcb" category="section-title">2025年12月4日</block>
-  <block id="bf9dc967c38bf5f6366aea1d464016b5" category="inline-link-macro">使用 S3 接入点创建卷</block>
-  <block id="9650d80f3b4a8975eb2cc3145efe97fd" category="list-text"><block ref="9650d80f3b4a8975eb2cc3145efe97fd" category="inline-link-macro-rx"></block></block>
-  <block id="3e2c74c8c2d6921bd86b94a0e3ce7846" category="inline-link-macro">管理卷的 S3 访问点</block>
-  <block id="bec075d59b91517943ea96b4d56e06de" category="list-text"><block ref="bec075d59b91517943ea96b4d56e06de" category="inline-link-macro-rx"></block></block>
   <block id="e75004bce0e2abb43e6673b8bd4bbd2f" category="doc">Active Directory 集成增强功能</block>
   <block id="4be7fbd19e77cc55e8637326f3cc569d" category="paragraph">使用“高级创建”选项部署 Microsoft SQL Server 时，数据库工作负载工厂将包含三个新的 Active Directory (AD) 字段。这些增强功能允许您指定 Active Directory 加入首选项并使用托管服务帐户。</block>
   <block id="2d652258eef11b26b58d2ac1040af4fb" category="paragraph">新增的 AD 字段包括：</block>
@@ -234,4 +227,13 @@
   <block id="19d4c34be6525aca788802a6167a4156" category="inline-link-macro">了解 NetApp Workload Factory 中的自动容量管理和容量通知</block>
   <block id="ef319467f119e3bda1a975eb1f26e46d" category="paragraph"><block ref="ef319467f119e3bda1a975eb1f26e46d" category="inline-link-macro-rx"></block></block>
   <block id="1c0128659c34cfdfa6e26b42e3133599" category="paragraph">我们在 Workload Factory 控制台的每个屏幕上添加了一个新的 Ask Me 书签。这项改进使您在需要帮助时可以更轻松、更快地访问 Ask Me。Ask Me 是我们的人工智能助手。您可以询问有关工作负载环境的问题，获取个性化见解，并查看以前的对话。</block>
+  <block id="d9a614ba22162f87467dc9820cb657d0" category="doc">隆重推出针对 Google Cloud VMware Engine 的迁移顾问支持</block>
+  <block id="9ed9d229ad690b47d132eb6206cba909" category="paragraph">NetApp Workload Factory 现在支持 Google Cloud VMware Engine。您可以使用 Google Cloud NetApp Volumes 作为外部 NFS 数据存储将本地 VMware 工作负载迁移到 Google Cloud VMware Engine，从而优化成本并实现对 VMware 环境的更大控制，而无需重构或重新平台化应用程序。</block>
+  <block id="42fbc3a98a8196c1e84ea7586967c06f" category="paragraph">Google Cloud VMware Engine 迁移顾问提供：</block>
+  <block id="6e784cfbe98c0f6a070e3304420a9971" category="list-text">支持 VE1 和 VE2 节点类型的自动化 Google Cloud VMware Engine 集群规模调整和设计</block>
+  <block id="f6879c882f4384c5ca30017d48dafe42" category="list-text">vSAN 内部数据存储区和 Google Cloud NetApp Volumes 外部 NFS 数据存储区之间的虚拟机布局优化。</block>
+  <block id="a29465f74d83dc4ead73643e19ed4387" category="list-text">仅 vSAN 和 Google Cloud NetApp Volumes 增强型配置之间的详细成本比较和 TCO 分析。</block>
+  <block id="1711c42c1c1d16547f3fc604cd9af939" category="list-text">支持标准、高级和 Extreme Google Cloud NetApp Volumes 服务级别。</block>
+  <block id="d5adbe8ffd84800d108bc7ddf1451b8a" category="list-text">使用 Terraform 进行基础设施即代码部署，以实现自动化配置。</block>
+  <block id="df4bdd45174b09881add6730bdfaf045" category="section-title">2026 年 3 月 09 日</block>
 </blocks>
