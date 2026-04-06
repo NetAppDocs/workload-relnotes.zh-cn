@@ -205,7 +205,6 @@
   <block id="7f65119c79afd09b7f99936d13e97909" category="section-title">2026 年 4 月 6 日</block>
   <block id="373a2f1d901c2d939efc602830f01830" category="paragraph">新的 Inventory 表自动扫描您的 AWS S3 存储桶并填充 S3 表，为您提供所有对象、其元数据、属性和标签的清晰快照。访问这些详细信息有助于您保持对自己负责的数据的控制、可见性和可信度，同时减少运营开销。您可以在创建和连接 S3 接入点或编辑现有接入点时打开此功能。</block>
   <block id="89431b722804b6b5729917d710d8bca9" category="inline-link-macro">在 NetApp Workload Factory 中为卷创建并附加 S3 访问点</block>
-  <block id="479e84ecf4496e9113dbf4e4caa47328" category="paragraph"><block ref="479e84ecf4496e9113dbf4e4caa47328" category="inline-link-macro-rx"></block></block>
   <block id="0695b468968701e6133374525567ebb8" category="list-text">非活动块设备：显示连续七天未使用的任何块设备，帮助您有效识别和管理未使用的资源。从这里，您可以<block ref="04044e5382e57a877bbf97c227fa9ee4" category="inline-link-macro-rx"></block>。</block>
   <block id="0ba338e49aa7425a86cae293804b2d70" category="paragraph"><block ref="0ba338e49aa7425a86cae293804b2d70" category="inline-link-macro-rx"></block></block>
   <block id="97c89cdac712f1b76105f91dee0572f0" category="paragraph">Workload Factory 分析您的 FSx for ONTAP 文件系统中的*非活动 NAS 卷*。配置分析可识别未主动使用的 NAS 卷，并建议采取措施来优化存储利用率和降低成本。</block>
@@ -225,4 +224,5 @@
   <block id="77633bb85f2dda716363da565416542c" category="paragraph">NetApp Workload Factory 通知服务包括用于存储的 NetApp Autonomous Ransomware Protection with AI (ARP/AI) 通知。</block>
   <block id="a640a35e23fdb53d8114aafcadb8064c" category="inline-link-macro">NetApp Workload Factory 通知</block>
   <block id="cf1b0a0504b0d60ecb883c780228a1eb" category="paragraph"><block ref="cf1b0a0504b0d60ecb883c780228a1eb" category="inline-link-macro-rx"></block></block>
+  <block id="0af31167a43cbbff0833653449e77b49" category="paragraph"><block ref="0af31167a43cbbff0833653449e77b49" category="inline-link-macro-rx"></block></block>
 </blocks>
