@@ -1,12 +1,12 @@
-= 一次性评估
+= SQL Server 一次性评估
 :allow-uri-read: 
 
 
 
 
-=== 一次性评估
+=== SQL Server 一次性评估
 
-Workload Factory 现在提供一次性评估，以便在需要时分析数据库部署的配置 - 新部署、迁移后、故障排除等。您将获得建议，以帮助您优化部署配置并遵守最佳实践。这是您在不完全致力于设置过程的情况下使用精心设计的功能的机会。您可以评估数据库，而无需在 Workload Factory 中存储凭据、注册数据库资源或设置外部连接。
+Workload Factory 现在提供一次性评估，以便在需要时分析 SQL Server 数据库部署的配置 - 新部署、迁移后、故障排除等。您将获得建议，以帮助您优化部署配置并遵守最佳实践。这是您在不完全致力于设置过程的情况下使用精心设计的功能的机会。您可以评估数据库，而无需在 Workload Factory 中存储凭据、注册数据库资源或设置外部连接。
 
 link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["对数据库部署执行一次性评估"]
 

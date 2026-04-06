@@ -1,0 +1,32 @@
+= 针对 Oracle 的良好架构分析
+:allow-uri-read: 
+
+
+
+
+=== 针对 Oracle 的良好架构分析
+
+精心设计的分析包括以下针对 Oracle 的新配置：
+
+* *Oracle Critical Patch Updates*：评估受支持的 Oracle 自我管理数据库安装缺少的安全补丁。
+* *跨区域复制*：检查是否为服务于 Oracle 数据库的 FSx for ONTAP 文件系统启用了跨区域复制 (CRR)。
+* *应用程序一致性快照*：检查 Oracle 数据库是否受到 NetApp SnapCenter 应用程序一致性快照的保护。
+
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["在 Workload Factory 中实施架构良好的数据库配置"]
+
+
+
+=== Oracle 一次性评估
+
+Workload Factory 现在提供一次性评估，以便在需要时分析 Oracle 数据库部署的配置 - 新部署、迁移后、故障排除等。您将获得建议，以帮助您优化部署配置并遵守最佳实践。这是您在不完全致力于设置过程的情况下使用精心设计的功能的机会。您可以评估数据库，而无需在 Workload Factory 中存储凭据、注册数据库资源或设置外部连接。
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["对 Oracle 数据库部署执行一次性评估"]
+
+
+
+=== 改进了多个 Oracle 数据库的成本节约
+
+我们增强了 Oracle 的成本节约分析，在一个 FSx for ONTAP 文件系统上为多个 Oracle 本地数据库提供整合的存储解决方案。这种整合通过减少多个数据库所需的文件系统数量来优化存储成本，从而节省成本。
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html#explore-savings-for-detected-hosts["探索在本地 Oracle 上检测到的数据库的节省"]

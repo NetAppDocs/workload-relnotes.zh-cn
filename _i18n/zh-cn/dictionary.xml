@@ -27,8 +27,6 @@
   <block id="bb50e2459e4e016aa4b14a56adb2358f" category="doc">设置和管理</block>
   <block id="a76e64a0fbf98a083080351e4cb67566" category="doc">VMware工作负载</block>
   <block id="4a854a1349dc1900974f3bf6a9552245" category="section-title">精心设计的分析更新</block>
-  <block id="bfebf248126ee0c8c192d7442b03e1a1" category="inline-link-macro">查看 FSx for ONTAP文件系统的良好架构状态</block>
-  <block id="2a708c78876e2ad54c0b8577c3b2bbd5" category="paragraph"><block ref="2a708c78876e2ad54c0b8577c3b2bbd5" category="inline-link-macro-rx"></block></block>
   <block id="aeb31c9f8c311597856b129ab948b4e6" category="inline-link">NetApp工作负载工厂</block>
   <block id="55f7843f27571db97da76bdf68a76d22" category="paragraph"><block ref="55f7843f27571db97da76bdf68a76d22" category="inline-link-rx"></block></block>
   <block id="da0e88c69cf2ddf39d5537c04ab2fc69" category="summary">了解NetApp Workload Factory 中工作负载的最新变化。</block>
@@ -40,42 +38,7 @@
   <block id="24373c35884bc6090ef23efe0b026c1e" category="paragraph"><block ref="24373c35884bc6090ef23efe0b026c1e" category="inline-link-macro-rx"></block></block>
   <block id="6cff628e35cc5d429a57e4a125a0bf6b" category="inline-link-macro">权限参考变更日志</block>
   <block id="86fbb6c90e401f3291e15bdc1398509c" category="paragraph"><block ref="86fbb6c90e401f3291e15bdc1398509c" category="inline-link-macro-rx"></block></block>
-  <block id="e75004bce0e2abb43e6673b8bd4bbd2f" category="doc">Active Directory 集成增强功能</block>
-  <block id="4be7fbd19e77cc55e8637326f3cc569d" category="paragraph">使用“高级创建”选项部署 Microsoft SQL Server 时，数据库工作负载工厂将包含三个新的 Active Directory (AD) 字段。这些增强功能允许您指定 Active Directory 加入首选项并使用托管服务帐户。</block>
-  <block id="2d652258eef11b26b58d2ac1040af4fb" category="paragraph">新增的 AD 字段包括：</block>
-  <block id="f069ee08ebc87aaad1c479cd4f54611c" category="list-text">首选域控制器</block>
-  <block id="5a90d56c7caec61381ba4316f0a43849" category="list-text">首选组织单元路径</block>
-  <block id="b535bc12ab7716de58cac2633cbe0ec8" category="list-text">目标 Active Directory 组</block>
-  <block id="f43a09fcb5f30e27a88e58e1804f13d0" category="inline-link-macro">部署 Microsoft SQL Server</block>
-  <block id="8139c8013582edc0d0eba7cc713f8ffd" category="paragraph"><block ref="8139c8013582edc0d0eba7cc713f8ffd" category="inline-link-macro-rx"></block></block>
-  <block id="bfcc9fa5a3178fd803540af87a6b6ab7" category="section-title">2025年12月18日</block>
-  <block id="5e3b7f958129022f75fe2931c55615b2" category="doc">问我关于人工智能助手首页集成的问题</block>
-  <block id="65bcc541760e8f25e0281edbfdfbf7f3" category="paragraph">Workload Factory 控制台主页嵌入了 Ask me AI 助手，使您可以询问有关您自己的存储环境的问题，直接从您的环境中获取个性化见解，并参考以前的对话。您可以与“问我”进行交互，以了解您的工作负载、解决问题并了解更多关于工作负载工厂的信息——所有这些都无需离开控制台。</block>
-  <block id="334f5b13a66630c66877aaf36ce24673" category="section-title">2026年1月4日</block>
   <block id="bc5d3bf99236801351dc3a2d7c20aed7" category="paragraph">Workload Factory 会分析您的 FSx for ONTAP文件系统，以识别以下配置：</block>
-  <block id="afc7c7589e5f20d86c03b5e089bbad6b" category="list-text">NetApp自主勒索软件防护 (ARP/AI) 已禁用（包括块设备）：检查块设备卷上的 ARP/AI 是否已禁用</block>
-  <block id="2270e6ac2c31be458c93c87db612a494" category="list-text">缓存关系写入模式：检查写入模式是否最适合缓存卷工作负载。</block>
-  <block id="2125a9a589f0bc57c38acf63f5ffb150" category="list-text">删除不必要的备份：检查备份是否已过期或不再需要，以便删除以降低成本。</block>
-  <block id="270dd22752e2f3f31c99a49ff489774e" category="section-title">在 Lambda 链接资源中采用 IAM 用户主体权限策略</block>
-  <block id="75141a4e46e0a646f4c8379f8d5e7b52" category="paragraph">用于连接 Workload Factory 帐户和一个或多个 FSx for ONTAP文件系统以执行高级ONTAP操作的 Lambda 链接，现在使用 IAM 用户主体进行基于资源的策略权限。此项变更使 AWS 资源访问与行业最佳实践更加一致。</block>
-  <block id="b0dd04cf44137b432a8f89cb4f3c9919" category="section-title">为 EMS 事件的 AI 分析器添加了分析屏幕</block>
-  <block id="5cd27690d7988b2c3f04768e500459bb" category="paragraph">存储菜单中新增了“分析”屏幕。从此屏幕，您可以使用适用于ONTAP EMS 事件功能的 FSx AI 分析器。</block>
-  <block id="a9b4b239246fd03c03ac43e963075319" category="section-title">NetApp Workload Factory中的块设备增强功能</block>
-  <block id="6ef37e3f05edf0fb9740ef851722a8f3" category="paragraph">针对块设备进行了以下增强。</block>
-  <block id="0a32dfaa27bfe59db7152c5c5da72282" category="section-title">创建块设备</block>
-  <block id="8e8c152eb29cb88d5d80a375d44aee87" category="paragraph">NetApp Workload Factory支持在 FSx for ONTAP文件系统上使用 iSCSI 协议创建块设备，以便您可以从 Workload Factory 控制台更好地支持您的业务线 (LOB) 应用程序。</block>
-  <block id="0b5d1c04d20d94c2a21dacfa53d7354d" category="section-title">块设备管理增强功能</block>
-  <block id="e578bac1e9f39054ae2eb2b16d807f71" category="inline-link-macro">管理块设备</block>
-  <block id="e16cdf4dbd146007b4b40124e28ca1a2" category="paragraph">NetApp Workload Factory包含以下增强功能： <block ref="b08ca4e282a45fe2e49c9a019646bd36" category="inline-link-macro-rx"></block>。您现在可以从 Workload Factory 控制台执行以下任务：</block>
-  <block id="f8b3baca819978515d628c6a5881eb4e" category="list-text">管理客户端访问权限</block>
-  <block id="5338dad31c000cc89dea6cc573f1a242" category="list-text">归档块设备数据</block>
-  <block id="88073627bb09173d8e0b3fa15a27725b" category="list-text">删除块设备</block>
-  <block id="3c4600754ec66ef615c303417126da12" category="section-title">支持包含块设备的FlexVol卷上的 ARP/AI</block>
-  <block id="3043237188bfe3f198084dbfe55d05c0" category="inline-link-macro">NetApp自主勒索软件防护（AI 防护，ARP/AI）</block>
-  <block id="34f4bbf8697d1205da43ee612001efe7" category="paragraph">您可以启用 <block ref="028271ae216dacdd20feb47aea2c131d" category="inline-link-macro-rx"></block> 在包含块设备的FlexVol卷上。启用 ARP/AI 可以利用人工智能检测勒索软件攻击，并有助于数据恢复。</block>
-  <block id="ef702fb37688ffbfdf16f6b005df7436" category="doc">NetApp Workload Factory for Builders 现已更名为NetApp Workload Factory for EDA</block>
-  <block id="f48bd4568e33f95e23f1ea90df81f8af" category="paragraph">面向建筑行业的 Workload Factory 现已更名为面向 EDA 的 Workload Factory。更名体现了对电子设计自动化 (EDA) 工作负载的关注。</block>
-  <block id="8e2c84558eaf80d5e8e99422d320b395" category="paragraph">Workload Factory for EDA 可帮助您跨多个文件系统优化 FSx for ONTAP 。您可以自动化存储参数、分析性能限制，从而优化性能并降低运营成本，并获得 EDA 项目的见解。Workload Factory for EDA 旨在与您的基础设施即代码 (IaC) 框架集成。</block>
   <block id="8f1b9e3fbbd44cf22e9f5ac28290aba0" category="doc">Amazon Elastic VMware Service 的精心架构分析</block>
   <block id="f6c8ff445c3db04296fa83d4b2790691" category="paragraph">Workload Factory 现在为您的 Amazon Elastic VMware Service (EVS) 环境提供自动化的精心设计的分析。每日扫描可识别配置错位，并提供详细的补救建议，以帮助您保持最佳运营、安全性和成本效益。</block>
   <block id="7e27d05efe618fad67c0e09d831368c6" category="paragraph">使用 AWS API 执行扫描，无需 vSphere 凭据或 vCenter 连接。结果可在 EVS 环境详细信息中的新 *Well-architected status* 选项卡中查看。</block>
@@ -171,8 +134,6 @@
   <block id="80dcbdee31e7f18a301f863f8b73dc64" category="inline-link-macro">详细了解 Ask Me</block>
   <block id="ca844fa02d938fb3d0329bf797d0a633" category="paragraph"><block ref="ca844fa02d938fb3d0329bf797d0a633" category="inline-link-macro-rx"></block></block>
   <block id="4aa1f4ce7ff97e69b143fbe399631234" category="section-title">2026 年 3 月 1 日</block>
-  <block id="8d73c4037df134a624f4a3cc9d442a9e" category="doc">Ask Me AI 助手主页集成</block>
-  <block id="a00917b130263595d00c3587c0e66a4f" category="paragraph">Workload Factory 控制台主页嵌入了 Ask Me AI 助手，使您可以询问有关您自己的存储空间的问题，直接从您的环境中获取个性化见解，并参考以前的对话。您可以与 Ask Me 交互，了解您的工作负载，解决问题并了解有关 Workload Factory 的更多信息，而无需离开控制台。</block>
   <block id="d2afe782a3799f9f13f95374a1156d01" category="doc">EDA 存储管理概览仪表板</block>
   <block id="4954af78de30fa7a68e150cce01a1ef1" category="paragraph">作为管理数十个 FSx for ONTAP 文件系统的 IT 管理员，您可以使用概览仪表板回答有关集群运行状况、利用率和卷放置的常见操作问题。</block>
   <block id="c9b7c8834662d595e73e6ec795a1438e" category="paragraph">概览控制面板包括：</block>
@@ -188,8 +149,6 @@
   <block id="6469eb7981e75ae8c79c94f4a0fb1f29" category="paragraph"><block ref="ea3e0953bbba2ace45ca5d689b29167b" category="inline-link-rx"></block>。</block>
   <block id="b365ed726bb3010ba5b4a6a1479128f9" category="paragraph">您可以通过单击新书签从任何页面打开 Ask Me。它在不中断您当前工作的情况下在侧面板中启动 Ask Me，并提供与您当前操作相关的快速解释和建议。</block>
   <block id="df84e5c661ad9c55d4921f236021aac2" category="paragraph"><block ref="df84e5c661ad9c55d4921f236021aac2" category="inline-link-macro-rx"></block></block>
-  <block id="4b51d568a03393cf563624fcbba9143f" category="doc">一次性评估</block>
-  <block id="c87bb3ba3f920d90c329acddc2fe7385" category="paragraph">Workload Factory 现在提供一次性评估，以便在需要时分析数据库部署的配置 - 新部署、迁移后、故障排除等。您将获得建议，以帮助您优化部署配置并遵守最佳实践。这是您在不完全致力于设置过程的情况下使用精心设计的功能的机会。您可以评估数据库，而无需在 Workload Factory 中存储凭据、注册数据库资源或设置外部连接。</block>
   <block id="e0b323aef6004097ab97ed7d77d06388" category="inline-link-macro">对数据库部署执行一次性评估</block>
   <block id="fa29998d7ba5fe0bb430a106a7dd86bc" category="paragraph"><block ref="fa29998d7ba5fe0bb430a106a7dd86bc" category="inline-link-macro-rx"></block></block>
   <block id="db82eade40cb0d84a1267b72a439d756" category="section-title">Microsoft SQL Server 上 Always On 可用性组和 Oracle 上 Data Guard 的注册支持</block>
@@ -236,4 +195,19 @@
   <block id="1711c42c1c1d16547f3fc604cd9af939" category="list-text">支持标准、高级和 Extreme Google Cloud NetApp Volumes 服务级别。</block>
   <block id="d5adbe8ffd84800d108bc7ddf1451b8a" category="list-text">使用 Terraform 进行基础设施即代码部署，以实现自动化配置。</block>
   <block id="df4bdd45174b09881add6730bdfaf045" category="section-title">2026 年 3 月 09 日</block>
+  <block id="d3274d6efd4629f10f6f21cf8a7c4820" category="doc">SQL Server 一次性评估</block>
+  <block id="8f42179a48bba7e0f2424b2849f64183" category="paragraph">Workload Factory 现在提供一次性评估，以便在需要时分析 SQL Server 数据库部署的配置 - 新部署、迁移后、故障排除等。您将获得建议，以帮助您优化部署配置并遵守最佳实践。这是您在不完全致力于设置过程的情况下使用精心设计的功能的机会。您可以评估数据库，而无需在 Workload Factory 中存储凭据、注册数据库资源或设置外部连接。</block>
+  <block id="d34510ab77e099f24fa05ceac3ff150c" category="paragraph">精心设计的分析包括以下针对 Oracle 的新配置：</block>
+  <block id="9712df87120461c7551eea660e7f56a6" category="list-text">*Oracle Critical Patch Updates*：评估受支持的 Oracle 自我管理数据库安装缺少的安全补丁。</block>
+  <block id="b435abcc161e9c500b1c5e15baf0cbb5" category="list-text">*跨区域复制*：检查是否为服务于 Oracle 数据库的 FSx for ONTAP 文件系统启用了跨区域复制 (CRR)。</block>
+  <block id="1d06ae97515a4da719bc482a7995a7ae" category="list-text">*应用程序一致性快照*：检查 Oracle 数据库是否受到 NetApp SnapCenter 应用程序一致性快照的保护。</block>
+  <block id="6a4580dc4131680131fa2d1447aa1deb" category="section-title">Oracle 一次性评估</block>
+  <block id="d268ce986e7de78be251b51e6126893b" category="paragraph">Workload Factory 现在提供一次性评估，以便在需要时分析 Oracle 数据库部署的配置 - 新部署、迁移后、故障排除等。您将获得建议，以帮助您优化部署配置并遵守最佳实践。这是您在不完全致力于设置过程的情况下使用精心设计的功能的机会。您可以评估数据库，而无需在 Workload Factory 中存储凭据、注册数据库资源或设置外部连接。</block>
+  <block id="9c1752a9ed07d091eb717e163d985505" category="inline-link-macro">对 Oracle 数据库部署执行一次性评估</block>
+  <block id="24d6ca96f32f995e477bbc13ce8c644a" category="paragraph"><block ref="24d6ca96f32f995e477bbc13ce8c644a" category="inline-link-macro-rx"></block></block>
+  <block id="48b0592736b0870e6ff074c10fa5d5dc" category="section-title">改进了多个 Oracle 数据库的成本节约</block>
+  <block id="dc6ae15573380001d0b7dbda2215fba9" category="paragraph">我们增强了 Oracle 的成本节约分析，在一个 FSx for ONTAP 文件系统上为多个 Oracle 本地数据库提供整合的存储解决方案。这种整合通过减少多个数据库所需的文件系统数量来优化存储成本，从而节省成本。</block>
+  <block id="141e832aa43713671a149000ddcd45e7" category="inline-link-macro">探索在本地 Oracle 上检测到的数据库的节省</block>
+  <block id="dd6bcf35b4739e139fa3041add91e4f2" category="paragraph"><block ref="dd6bcf35b4739e139fa3041add91e4f2" category="inline-link-macro-rx"></block></block>
+  <block id="7f65119c79afd09b7f99936d13e97909" category="section-title">2026 年 4 月 6 日</block>
 </blocks>
