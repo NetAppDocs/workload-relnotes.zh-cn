@@ -1,9 +1,0 @@
-= Ask Me AI 助手主页集成
-:allow-uri-read: 
-
-
-
-
-=== Ask Me AI 助手主页集成
-
-Workload Factory 控制台主页嵌入了 Ask Me AI 助手，使您可以询问有关您自己的存储空间的问题，直接从您的环境中获取个性化见解，并参考以前的对话。您可以与 Ask Me 交互，了解您的工作负载，解决问题并了解有关 Workload Factory 的更多信息，而无需离开控制台。
