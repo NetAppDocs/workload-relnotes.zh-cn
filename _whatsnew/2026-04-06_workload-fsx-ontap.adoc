@@ -1,0 +1,35 @@
+= 精心设计的分析更新
+:allow-uri-read: 
+
+
+
+
+=== 精心设计的分析更新
+
+Workload Factory 分析您的 FSx for ONTAP 文件系统中的*非活动 NAS 卷*。配置分析可识别未主动使用的 NAS 卷，并建议采取措施来优化存储利用率和降低成本。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["为 ONTAP 文件系统实施架构良好的 FSx"]
+
+
+
+=== S3 接入点的日志表功能
+
+日志表功能提供了一种大规模管理 FSx ONTAP S3 对象存储的方法，允许您轻松审核存储桶中对象的用户访问事件和操作。使用 Workload Factory，您可以设置存储桶和 S3 表的自动扫描，以保留事件记录，显示所有对象、其详细信息和用户操作。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/setup-journal-table.html["设置 NetApp Workload Factory 的日记表基础结构"]
+
+
+
+=== 支持管理现有的 igroups
+
+Workload Factory 支持管理现有的 igroups。您可以添加或删除块设备和主机启动器，以便按时交付部署的工作负载。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-storage.html["在 NetApp Workload Factory 中管理块存储"]
+
+
+
+=== 支持为 FlexVol 卷指定聚合
+
+Workload Factory 支持在选定的聚合上创建 FlexVol 卷。这允许您在所有文件系统资源之间分配容量和性能负载。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["在 NetApp Workload Factory 中创建 FlexVol volume"]

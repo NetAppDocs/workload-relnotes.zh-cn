@@ -94,11 +94,8 @@
   <block id="b04638337aac148655a104c2db6c4766" category="section-title">Storage 中的 S3 接入点增强功能</block>
   <block id="f76e736f45740f58cc12ec666b824eb2" category="paragraph">对 NetApp Workload Factory 的存储工作负载中的 S3 接入点管理功能进行了几项增强。您可以输入 S3 接入点的网络配置详细信息，并添加 S3 接入点标签。其他增强功能包括查看 S3 存储区详细信息以及为管理 S3 接入点执行更多操作的功能。</block>
   <block id="76f77cbc01f0341dffcaaa5f6236eb73" category="section-title">存储中可用的 S3 存储桶详细信息</block>
-  <block id="c203e76297d071e4d8256e073c93dafb" category="paragraph">为 S3 接入点启用元数据后，NetApp Workload Factory 会自动扫描您的 AWS S3 存储桶并填充 S3 表，为您提供所有对象、其元数据、属性和标记的清晰快照。访问这些详细信息可帮助您保持对自己负责的数据的控制、可见性和可信度，同时减少运营开销。</block>
-  <block id="cc7664945c125a51dd2e69095c8f8200" category="inline-link-macro">查看 FSx for ONTAP 文件系统中 S3 接入点的详细信息</block>
   <block id="2249107cb1f4c202ef0253c53bcff598" category="section-title">S3 接入点的其他管理操作</block>
   <block id="bf44c4671ee3bfbc818d505bb9a0e59a" category="paragraph">NetApp Workload Factory 为 S3 接入点提供额外的管理操作。您可以查看接入点详细信息、修改现有 S3 接入点以及从 NetApp Workload Factory 界面添加或删除 S3 接入点标签，从而简化您的对象存储管理任务。</block>
-  <block id="366c32f0cbb2503b337e243eaa8c42b5" category="inline-link-macro">在 NetApp Workload Factory 中管理 S3 接入点</block>
   <block id="e593953aaf04eebecfe2e26326145784" category="list-text">优化缓存卷大小：检查是否在缓存卷上启用了卷自动大小调整和清理功能，以保持最佳大小，并将缓存集中在热数据上，以实现最高效率。</block>
   <block id="a872ae5d7fdb75042465788519d63c35" category="list-text">Storage VM 逻辑报告：检查 Storage VM 的默认报告设置是否设置为逻辑，从而更好地了解卷级别的存储使用情况。</block>
   <block id="40fbd58cc84d2567a5be7db0e1e48224" category="section-title">用于块设备的附加卡</block>
@@ -111,8 +108,6 @@
   <block id="e477df666bb45ae0a1fda1f7058551a2" category="inline-link-macro">在 NetApp Workload Factory 中创建启动程序组</block>
   <block id="8933129f9a07c1370a31a0b9f2e53018" category="inline-link-macro">管理 NetApp Workload Factory 中的现有启动程序组</block>
   <block id="2bc4b4a88d694b207aacb90573eb4b7f" category="doc">EDA 工作负载</block>
-  <block id="fdb38c6259208c2509d21f6a3f0beb02" category="paragraph"><block ref="fdb38c6259208c2509d21f6a3f0beb02" category="inline-link-macro-rx"></block></block>
-  <block id="cc97dddf7d9715fea79ba3e831f0fbca" category="paragraph"><block ref="cc97dddf7d9715fea79ba3e831f0fbca" category="inline-link-macro-rx"></block></block>
   <block id="3ecf18c09ae5a2bd1855ba6515de6cd7" category="list-text">非活动块设备：建议存档块设备数据，或删除连续七天未使用的块设备。</block>
   <block id="0352f037ca8dfca49383ddb908805d9a" category="list-text"><block ref="0352f037ca8dfca49383ddb908805d9a" category="inline-link-macro-rx"></block></block>
   <block id="0a17c703284dc61149bdaf13e30980de" category="list-text"><block ref="0a17c703284dc61149bdaf13e30980de" category="inline-link-macro-rx"></block></block>
@@ -164,7 +159,6 @@
   <block id="ae5954c9b41b0bfb09043a4117743d2d" category="inline-link-macro">探索本地数据库环境的节约</block>
   <block id="9621b726ce4b31f0b7bc139a85ef6f38" category="paragraph"><block ref="9621b726ce4b31f0b7bc139a85ef6f38" category="inline-link-macro-rx"></block></block>
   <block id="6ddfbfe3d38a813f004cc2f37d2a5866" category="section-title">2026 年 3 月 02 日</block>
-  <block id="b810156a51d2ff011de686d088c6dcce" category="list-text">孤立设备：显示连续七天未使用的任何块设备，帮助您有效识别和管理未使用的资源。从这里，您可以<block ref="04044e5382e57a877bbf97c227fa9ee4" category="inline-link-macro-rx"></block>。</block>
   <block id="b4faaa513060331f5bb7705e042e49cd" category="list-text">未充分利用的 SSD 容量：检查 SSD 容量层是否未充分利用，并建议降低 SSD 容量以优化成本。</block>
   <block id="01b065251159f3c3b86f7d49511f1bf7" category="list-text">计划卷备份：Workload Factory 改进了配置建议，并添加了打开 FSx for ONTAP 备份或 AWS Backup 的选项。FSx for ONTAP 备份将默认策略应用于文件系统中的所有卷，创建保存长达 90 天的每日备份。借助 AWS Backup，您可以为备份计划中的每个卷选择不同的保留期。</block>
   <block id="9ad8abc81514723f5439d23cac33f67b" category="section-title">Workload Factory 支持 AI 和 ML 复制用例</block>
@@ -174,7 +168,6 @@
   <block id="42fe2ab7947c044bb47fb357526022c2" category="section-title">编辑现有 S3 接入点</block>
   <block id="33c5aa1872cfcc4e8c7c5850619e6f87" category="paragraph">您可以更改附加到卷的现有 S3 访问点的用户和用户类型。您还可以启用或禁用访问点的元数据。</block>
   <block id="7525bd4fe22d4a212fea8807fb8d750b" category="inline-link-macro">在 NetApp Workload Factory 中编辑 S3 访问端点</block>
-  <block id="88d72467009c25b9669edfef18e21df3" category="paragraph"><block ref="88d72467009c25b9669edfef18e21df3" category="inline-link-macro-rx"></block></block>
   <block id="692b5b6f757e38d7e4d1dd3f957a20f0" category="section-title">已添加块存储图</block>
   <block id="55d6cb6b45d9aaa08c53b22b5ac8a617" category="paragraph">如果您使用块存储，则可以查看块存储图，以可视化块设备如何连接到节点和 igroup。该图可帮助您了解和管理块存储。</block>
   <block id="e852955e53f52fa18c0de4a24d22f4af" category="inline-link-macro">在 NetApp Workload Factory 中管理块存储</block>
@@ -210,4 +203,22 @@
   <block id="141e832aa43713671a149000ddcd45e7" category="inline-link-macro">探索在本地 Oracle 上检测到的数据库的节省</block>
   <block id="dd6bcf35b4739e139fa3041add91e4f2" category="paragraph"><block ref="dd6bcf35b4739e139fa3041add91e4f2" category="inline-link-macro-rx"></block></block>
   <block id="7f65119c79afd09b7f99936d13e97909" category="section-title">2026 年 4 月 6 日</block>
+  <block id="373a2f1d901c2d939efc602830f01830" category="paragraph">新的 Inventory 表自动扫描您的 AWS S3 存储桶并填充 S3 表，为您提供所有对象、其元数据、属性和标签的清晰快照。访问这些详细信息有助于您保持对自己负责的数据的控制、可见性和可信度，同时减少运营开销。您可以在创建和连接 S3 接入点或编辑现有接入点时打开此功能。</block>
+  <block id="89431b722804b6b5729917d710d8bca9" category="inline-link-macro">在 NetApp Workload Factory 中为卷创建并附加 S3 访问点</block>
+  <block id="479e84ecf4496e9113dbf4e4caa47328" category="paragraph"><block ref="479e84ecf4496e9113dbf4e4caa47328" category="inline-link-macro-rx"></block></block>
+  <block id="0695b468968701e6133374525567ebb8" category="list-text">非活动块设备：显示连续七天未使用的任何块设备，帮助您有效识别和管理未使用的资源。从这里，您可以<block ref="04044e5382e57a877bbf97c227fa9ee4" category="inline-link-macro-rx"></block>。</block>
+  <block id="0ba338e49aa7425a86cae293804b2d70" category="paragraph"><block ref="0ba338e49aa7425a86cae293804b2d70" category="inline-link-macro-rx"></block></block>
+  <block id="97c89cdac712f1b76105f91dee0572f0" category="paragraph">Workload Factory 分析您的 FSx for ONTAP 文件系统中的*非活动 NAS 卷*。配置分析可识别未主动使用的 NAS 卷，并建议采取措施来优化存储利用率和降低成本。</block>
+  <block id="8fed534b92837766d0beda280a6179f0" category="inline-link-macro">为 ONTAP 文件系统实施架构良好的 FSx</block>
+  <block id="aa9fc3ddfcff516e1422d829fd2d4138" category="paragraph"><block ref="aa9fc3ddfcff516e1422d829fd2d4138" category="inline-link-macro-rx"></block></block>
+  <block id="51d8364219eb8c2bcde5564c48004466" category="section-title">S3 接入点的日志表功能</block>
+  <block id="5693755c177f4efee6db3867cf164616" category="paragraph">日志表功能提供了一种大规模管理 FSx ONTAP S3 对象存储的方法，允许您轻松审核存储桶中对象的用户访问事件和操作。使用 Workload Factory，您可以设置存储桶和 S3 表的自动扫描，以保留事件记录，显示所有对象、其详细信息和用户操作。</block>
+  <block id="f5605effc9ff1f2b6b56333b91b9188b" category="inline-link-macro">设置 NetApp Workload Factory 的日记表基础结构</block>
+  <block id="15ee03197182e575bb603c90e93b0f1d" category="paragraph"><block ref="15ee03197182e575bb603c90e93b0f1d" category="inline-link-macro-rx"></block></block>
+  <block id="7a492c4bebdd8855719e33759860ec85" category="section-title">支持管理现有的 igroups</block>
+  <block id="8770963e84c3458575dd2cb30097ea59" category="paragraph">Workload Factory 支持管理现有的 igroups。您可以添加或删除块设备和主机启动器，以便按时交付部署的工作负载。</block>
+  <block id="fb848967e18d6d577c43fdac12d36dae" category="section-title">支持为 FlexVol 卷指定聚合</block>
+  <block id="d5df323db0a76ed62a683b9faace70ee" category="paragraph">Workload Factory 支持在选定的聚合上创建 FlexVol 卷。这允许您在所有文件系统资源之间分配容量和性能负载。</block>
+  <block id="dfe0bf59b17a7c242e3e57ed9983cadf" category="inline-link-macro">在 NetApp Workload Factory 中创建 FlexVol volume</block>
+  <block id="438b9ce1f05f60505d31940eb7d80713" category="paragraph"><block ref="438b9ce1f05f60505d31940eb7d80713" category="inline-link-macro-rx"></block></block>
 </blocks>
