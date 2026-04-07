@@ -6,7 +6,7 @@
 
 === EDA 存储管理概览仪表板
 
-作为管理数十个 FSx for ONTAP 文件系统的 IT 管理员，您可以使用概览仪表板回答有关集群运行状况、利用率和卷放置的常见操作问题。
+作为管理数十个 FSx for ONTAP 文件系统的 IT 管理员，您可以使用概述仪表板回答有关集群运行状况、利用率和卷放置的常见操作问题。
 
 概览控制面板包括：
 
@@ -16,7 +16,7 @@
 
 以前的主仪表板现在可以在 *Project* 选项卡中访问。EDA 选项卡现已排序：Overview、Latency、Project、CI/CD。
 
-https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html["详细了解概览控制面板"^]。
+https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html["详细了解 Overview 控制面板"^]。
 
 
 
@@ -25,8 +25,6 @@ https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html["详
 延迟分析现在包括自动化基本分析。当检测到延迟事件时，系统会自动分析 ONTAP QoS 延迟中心指标，以确定延迟问题的来源。
 
 基本分析评估 QoS 策略、磁盘性能、网络问题和集群配置，以便在延迟事件表的"详细信息"列中提供即时见解。
-
-https://docs.netapp.com/us-en/workload-eda/task-monitor-latency.html#understanding-basic-analysis["详细了解基本延迟分析"^]。
 
 
 

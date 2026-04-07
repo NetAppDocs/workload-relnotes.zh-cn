@@ -100,6 +100,44 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.
 
 
 
+=== EDA 工作负载
+
+
+
+==== EDA 容量建议
+
+Workload Factory 现在会自动分析 EDA 库存中每个 FSx for ONTAP 集群的 SSD 容量，并在需要调整时生成容量建议。该算法为每个集群每 24 小时运行一次。
+
+确定建议后：
+
+* 您会立即收到电子邮件或 WAD 通知（不包含在每周摘要中）。
+* 在 Clusters 表中，受影响的集群上出现一个灯泡指示器。
+* 概览控制面板上的摘要显示了有活动建议的集群总数。
+
+
+选择具有活动建议的集群以查看建议，该建议解释了建议的更改和推理。
+
+https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html#capacity-recommendations["详细了解容量建议"^]。
+
+
+
+==== 自动 AI 延迟分析
+
+延迟分析现在包括 AI 代理分析。
+
+对于涉及数据或集群延迟的复杂场景，您可以调用 AI-agent 分析以接收：
+
+* 详细的根本原因识别
+* 受影响的 EC2 客户端列表
+* 特定修复步骤
+
+
+AI 代理分析需要 Amazon Bedrock 模型 ARN 配置，并且在基本分析建议进行更深入调查的情况下可按需提供。AI 代理可以识别欺凌卷、非最佳挂载点配置、FlexGroup 重新平衡需求和横向扩展要求等问题。
+
+https://docs.netapp.com/us-en/workload-eda/task-monitor-latency.html#run-ai-agent-analysis["详细了解 AI 代理分析"^]。
+
+
+
 == 2026 年 3 月 09 日
 
 
@@ -277,7 +315,7 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overvie
 
 ==== EDA 存储管理概览仪表板
 
-作为管理数十个 FSx for ONTAP 文件系统的 IT 管理员，您可以使用概览仪表板回答有关集群运行状况、利用率和卷放置的常见操作问题。
+作为管理数十个 FSx for ONTAP 文件系统的 IT 管理员，您可以使用概述仪表板回答有关集群运行状况、利用率和卷放置的常见操作问题。
 
 概览控制面板包括：
 
@@ -287,7 +325,7 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overvie
 
 以前的主仪表板现在可以在 *Project* 选项卡中访问。EDA 选项卡现已排序：Overview、Latency、Project、CI/CD。
 
-https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html["详细了解概览控制面板"^]。
+https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html["详细了解 Overview 控制面板"^]。
 
 
 
@@ -296,8 +334,6 @@ https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html["详
 延迟分析现在包括自动化基本分析。当检测到延迟事件时，系统会自动分析 ONTAP QoS 延迟中心指标，以确定延迟问题的来源。
 
 基本分析评估 QoS 策略、磁盘性能、网络问题和集群配置，以便在延迟事件表的"详细信息"列中提供即时见解。
-
-https://docs.netapp.com/us-en/workload-eda/task-monitor-latency.html#understanding-basic-analysis["详细了解基本延迟分析"^]。
 
 
 

@@ -130,18 +130,12 @@
   <block id="ca844fa02d938fb3d0329bf797d0a633" category="paragraph"><block ref="ca844fa02d938fb3d0329bf797d0a633" category="inline-link-macro-rx"></block></block>
   <block id="4aa1f4ce7ff97e69b143fbe399631234" category="section-title">2026 年 3 月 1 日</block>
   <block id="d2afe782a3799f9f13f95374a1156d01" category="doc">EDA 存储管理概览仪表板</block>
-  <block id="4954af78de30fa7a68e150cce01a1ef1" category="paragraph">作为管理数十个 FSx for ONTAP 文件系统的 IT 管理员，您可以使用概览仪表板回答有关集群运行状况、利用率和卷放置的常见操作问题。</block>
-  <block id="c9b7c8834662d595e73e6ec795a1438e" category="paragraph">概览控制面板包括：</block>
   <block id="6295e7aeea412421b1717d5ccabe235b" category="list-text">*集群运行状况状态*：在信息板顶部汇总的信息，突出显示整个集群的性能、容量、可用性和保护以及安全事件。</block>
   <block id="5ea38aab7fec2dffdc805f386d0132ab" category="list-text">*集群表*：显示每个集群的 SSD 容量、容量池和吞吐量指标的可搜索、可过滤和分页表，支持列自定义和 CSV 导出。</block>
   <block id="b3e3b4895cbd35f5a2365afa09005d4f" category="paragraph">以前的主仪表板现在可以在 *Project* 选项卡中访问。EDA 选项卡现已排序：Overview、Latency、Project、CI/CD。</block>
-  <block id="ad69b5e513be7d3ed6dfa533b8fa5d7b" category="inline-link">详细了解概览控制面板</block>
-  <block id="a9268f7b1948a5e9223d90e6f5ee62ec" category="paragraph"><block ref="ed263773f1ab4c65130c8c21ca91276d" category="inline-link-rx"></block>。</block>
   <block id="ceadd545963dc65de11a451079ea494e" category="section-title">自动延迟分析</block>
   <block id="bb185e5021bfe9db8739ffc98c9e991d" category="paragraph">延迟分析现在包括自动化基本分析。当检测到延迟事件时，系统会自动分析 ONTAP QoS 延迟中心指标，以确定延迟问题的来源。</block>
   <block id="97d9985b0c67c7f1f1fab2857c6777c3" category="paragraph">基本分析评估 QoS 策略、磁盘性能、网络问题和集群配置，以便在延迟事件表的"详细信息"列中提供即时见解。</block>
-  <block id="213d18bdbc3550e144008c033bcbdd2c" category="inline-link">详细了解基本延迟分析</block>
-  <block id="6469eb7981e75ae8c79c94f4a0fb1f29" category="paragraph"><block ref="ea3e0953bbba2ace45ca5d689b29167b" category="inline-link-rx"></block>。</block>
   <block id="b365ed726bb3010ba5b4a6a1479128f9" category="paragraph">您可以通过单击新书签从任何页面打开 Ask Me。它在不中断您当前工作的情况下在侧面板中启动 Ask Me，并提供与您当前操作相关的快速解释和建议。</block>
   <block id="df84e5c661ad9c55d4921f236021aac2" category="paragraph"><block ref="df84e5c661ad9c55d4921f236021aac2" category="inline-link-macro-rx"></block></block>
   <block id="e0b323aef6004097ab97ed7d77d06388" category="inline-link-macro">对数据库部署执行一次性评估</block>
@@ -225,4 +219,26 @@
   <block id="a640a35e23fdb53d8114aafcadb8064c" category="inline-link-macro">NetApp Workload Factory 通知</block>
   <block id="cf1b0a0504b0d60ecb883c780228a1eb" category="paragraph"><block ref="cf1b0a0504b0d60ecb883c780228a1eb" category="inline-link-macro-rx"></block></block>
   <block id="0af31167a43cbbff0833653449e77b49" category="paragraph"><block ref="0af31167a43cbbff0833653449e77b49" category="inline-link-macro-rx"></block></block>
+  <block id="baf7dcba0c4a80ef2ec1dd0465a27ee0" category="paragraph">作为管理数十个 FSx for ONTAP 文件系统的 IT 管理员，您可以使用概述仪表板回答有关集群运行状况、利用率和卷放置的常见操作问题。</block>
+  <block id="a75658829d674de492a2dd7d0818e7ca" category="paragraph">概览控制面板包括：</block>
+  <block id="bac99350c8b9abdf51c8cb6c7a0467fd" category="inline-link">详细了解 Overview 控制面板</block>
+  <block id="427726ce5319ddeb6b4d93d416808b01" category="paragraph"><block ref="eed2fd228fd1462e58b4537ebcb82ccc" category="inline-link-rx"></block>。</block>
+  <block id="7b0ddde1961cce4426c7f0cf5da65e0d" category="doc">EDA 容量建议</block>
+  <block id="edb815136867c3359e368e3f925ae387" category="paragraph">Workload Factory 现在会自动分析 EDA 库存中每个 FSx for ONTAP 集群的 SSD 容量，并在需要调整时生成容量建议。该算法为每个集群每 24 小时运行一次。</block>
+  <block id="1f9c155d60450baccee27bca630b6497" category="paragraph">确定建议后：</block>
+  <block id="8d65ccbe024d7453ace82bd13b7980d8" category="list-text">您会立即收到电子邮件或 WAD 通知（不包含在每周摘要中）。</block>
+  <block id="8e5fe5a1e14c6d69b9c457c33f0204a7" category="list-text">在 Clusters 表中，受影响的集群上出现一个灯泡指示器。</block>
+  <block id="c38bddc25aeb4374d71816e0b71a53a0" category="list-text">概览控制面板上的摘要显示了有活动建议的集群总数。</block>
+  <block id="1471ae7120155f3a06fa9c0a62a7f3f5" category="paragraph">选择具有活动建议的集群以查看建议，该建议解释了建议的更改和推理。</block>
+  <block id="2ccd39a9418b95cbcdec20bb3ef09998" category="inline-link">详细了解容量建议</block>
+  <block id="f5365a647b291a1c3ee4f226944d9a2f" category="paragraph"><block ref="a2995fc8e6aae530361e1ff8a48d8ace" category="inline-link-rx"></block>。</block>
+  <block id="606ee09c41a90b59b9cbb13e38ec6e86" category="section-title">自动 AI 延迟分析</block>
+  <block id="8ae631ba5aac2d33e811621152cdf4a4" category="paragraph">延迟分析现在包括 AI 代理分析。</block>
+  <block id="c9e8409eb7f69f1a747dacb755833499" category="paragraph">对于涉及数据或集群延迟的复杂场景，您可以调用 AI-agent 分析以接收：</block>
+  <block id="81f0dd1809c0f077448d50d48cf6ce43" category="list-text">详细的根本原因识别</block>
+  <block id="a9e75b44526a7c3342bd86bfb6079dcc" category="list-text">受影响的 EC2 客户端列表</block>
+  <block id="f1571de1d5f3c90507985e81e6f34526" category="list-text">特定修复步骤</block>
+  <block id="0e3bc65341eefea76b4aa913be37a4d6" category="paragraph">AI 代理分析需要 Amazon Bedrock 模型 ARN 配置，并且在基本分析建议进行更深入调查的情况下可按需提供。AI 代理可以识别欺凌卷、非最佳挂载点配置、FlexGroup 重新平衡需求和横向扩展要求等问题。</block>
+  <block id="3a0eea1249d5ea83860d68d281f6c97b" category="inline-link">详细了解 AI 代理分析</block>
+  <block id="af2687c5a2b9873716f0987242df8169" category="paragraph"><block ref="2915288e95b80b72c9de65e94d4fc279" category="inline-link-rx"></block>。</block>
 </blocks>
