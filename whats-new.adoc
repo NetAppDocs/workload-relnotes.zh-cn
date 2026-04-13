@@ -55,6 +55,12 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["在 Ne
 
 
 
+==== 块设备的上次访问时间
+
+Workload Factory 报告块设备的最后访问时间。时间基于您上次在 Workload Factory 中访问 igroup 的时间。通过了解每个块设备的最后使用时间，您可以优化资源。
+
+
+
 === 数据库工作负载
 
 

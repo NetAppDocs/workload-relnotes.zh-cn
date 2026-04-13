@@ -241,4 +241,6 @@
   <block id="0e3bc65341eefea76b4aa913be37a4d6" category="paragraph">AI 代理分析需要 Amazon Bedrock 模型 ARN 配置，并且在基本分析建议进行更深入调查的情况下可按需提供。AI 代理可以识别欺凌卷、非最佳挂载点配置、FlexGroup 重新平衡需求和横向扩展要求等问题。</block>
   <block id="3a0eea1249d5ea83860d68d281f6c97b" category="inline-link">详细了解 AI 代理分析</block>
   <block id="af2687c5a2b9873716f0987242df8169" category="paragraph"><block ref="2915288e95b80b72c9de65e94d4fc279" category="inline-link-rx"></block>。</block>
+  <block id="d08fabf4c0fdff2290096692a4ffa28a" category="section-title">块设备的上次访问时间</block>
+  <block id="fa4bdc942217a8579f785220b2742233" category="paragraph">Workload Factory 报告块设备的最后访问时间。时间基于您上次在 Workload Factory 中访问 igroup 的时间。通过了解每个块设备的最后使用时间，您可以优化资源。</block>
 </blocks>

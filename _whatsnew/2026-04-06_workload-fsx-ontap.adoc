@@ -33,3 +33,9 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-storage.html[
 Workload Factory 支持在选定的聚合上创建 FlexVol 卷。这允许您在所有文件系统资源之间分配容量和性能负载。
 
 link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["在 NetApp Workload Factory 中创建 FlexVol volume"]
+
+
+
+=== 块设备的上次访问时间
+
+Workload Factory 报告块设备的最后访问时间。时间基于您上次在 Workload Factory 中访问 igroup 的时间。通过了解每个块设备的最后使用时间，您可以优化资源。
