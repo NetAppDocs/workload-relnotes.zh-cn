@@ -15,6 +15,40 @@ summary: 了解NetApp Workload Factory 中工作负载的最新变化。
 
 
 
+== 2026 年 5 月 3 日
+
+
+
+=== 适用于 NetApp ONTAP 的 Amazon FSX
+
+
+
+==== 块设备克隆
+
+Workload Factory 为您的块设备提供克隆，以便您可以快速配置可写入且高效的数据副本，同时控制容量、访问权限和生命周期。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-storage.html["在 NetApp Workload Factory 中管理块存储"]
+
+
+
+==== 块设备上的 EC2 标签
+
+块设备表现在包括一列，该列显示使用每个块设备的 EC2 主机的标签。这有助于您在故障排除或审核期间确定哪个主机使用每个块设备。
+
+要在每个块设备上创建标记，请使用我们提供的用户脚本部署 EC2 实例。
+
+link:https://github.com/NetApp/FSx-ONTAP-samples-scripts/tree/main/Management-Utilities/ec2-user-data-iscsi-create-and-mount["用于为块设备分配标签的 EC2 用户数据脚本"]
+
+
+
+==== 适用于 ONTAP 文件系统的 FSx 容量趋势
+
+直接从 FSx for ONTAP 文件系统的概述中了解 SSD 容量趋势。新的容量管理卡可全面了解上个月的使用趋势。该分析包括实际使用的容量和分配的容量之间的比较，以便对资源利用率进行明确评估。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-capacity-automatically.html["在 NetApp Workload Factory 中自动管理容量"]
+
+
+
 == 2026 年 4 月 6 日
 
 
