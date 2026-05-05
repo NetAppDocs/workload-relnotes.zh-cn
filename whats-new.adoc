@@ -49,6 +49,36 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-capacity-automatica
 
 
 
+=== EDA 工作负载
+
+
+
+==== 延迟事件的电子邮件和 SNS 通知
+
+现在，当在 FSx for ONTAP 卷上检测到延迟事件时，您可以接收自动通知。在 Workload Factory 设置中配置电子邮件或 Amazon SNS 通知，以便在卷违反配置的延迟阈值时接收实时警报。
+
+通知按文件系统发送，包括有关所有受影响卷、严重性级别、阈值比较的详细信息，以及直接链接到 Latency 页面进行调查。
+
+https://docs.netapp.com/us-en/workload-eda/task-monitor-latency.html#configure-latency-notifications["了解如何配置延迟通知"^]。
+
+
+
+==== 使用交互式图形实现延迟趋势可视化
+
+延迟分析面板现在包括一个选项卡式界面，用于全面的延迟分析：
+
+* *概述*：查看自动基本分析结果，显示哪个组件导致延迟
+* *随着时间的推移*：使用跨多个时间范围（1 小时、3 小时、12 小时、24 小时或 72 小时）的交互式图表可视化卷延迟行为
+
+
+*随着时间的推移*选项卡显示原始 CloudWatch 延迟数据（读取或写入，具体取决于触发的警报），以及警告和关键阈值线、违规指标和每个违规行为的详细指标。
+
+这种全面的可视化可帮助您识别模式，了解延迟问题是重复出现还是孤立存在，并就补救措施做出更明智的决策。
+
+https://docs.netapp.com/us-en/workload-eda/task-analyze-latency-trends.html["了解如何分析延迟趋势"^]。
+
+
+
 == 2026 年 4 月 6 日
 
 

@@ -172,4 +172,17 @@
   <block id="9fe282a2158bc82a938a6290a314ca79" category="inline-link-macro">在 NetApp Workload Factory 中自动管理容量</block>
   <block id="9ab7147fcc802f47be068771ba492092" category="paragraph"><block ref="9ab7147fcc802f47be068771ba492092" category="inline-link-macro-rx"></block></block>
   <block id="3be044b694628f6e958377c22febfacd" category="section-title">2026 年 5 月 3 日</block>
+  <block id="97c13014b9e16335b445d04850fb955f" category="doc">延迟事件的电子邮件和 SNS 通知</block>
+  <block id="c31a2fa4340e87df74fd4add6857d037" category="paragraph">现在，当在 FSx for ONTAP 卷上检测到延迟事件时，您可以接收自动通知。在 Workload Factory 设置中配置电子邮件或 Amazon SNS 通知，以便在卷违反配置的延迟阈值时接收实时警报。</block>
+  <block id="64252b5e1bc1f93bfafd01c34fd0860b" category="paragraph">通知按文件系统发送，包括有关所有受影响卷、严重性级别、阈值比较的详细信息，以及直接链接到 Latency 页面进行调查。</block>
+  <block id="95e7f36fe4398f41dfcbc5591df71f8d" category="inline-link">了解如何配置延迟通知</block>
+  <block id="547067437333ccf9f6257f448035fd15" category="paragraph"><block ref="2a3ce45bc4405505b722625836bbe768" category="inline-link-rx"></block>。</block>
+  <block id="f18c989c700bb32f3bcb80ace5539b64" category="section-title">使用交互式图形实现延迟趋势可视化</block>
+  <block id="11ef7238b057019c31802d06c0bf5b75" category="paragraph">延迟分析面板现在包括一个选项卡式界面，用于全面的延迟分析：</block>
+  <block id="eb39bcaa5c101fc5087275547ab8e3e6" category="list-text">*概述*：查看自动基本分析结果，显示哪个组件导致延迟</block>
+  <block id="142deff8a2ec74d2d2667eca22500eab" category="list-text">*随着时间的推移*：使用跨多个时间范围（1 小时、3 小时、12 小时、24 小时或 72 小时）的交互式图表可视化卷延迟行为</block>
+  <block id="5ff8bee829d6ed38b529ef851b350ad1" category="paragraph">*随着时间的推移*选项卡显示原始 CloudWatch 延迟数据（读取或写入，具体取决于触发的警报），以及警告和关键阈值线、违规指标和每个违规行为的详细指标。</block>
+  <block id="7eec84a410cc084b608a43e90acfccd1" category="paragraph">这种全面的可视化可帮助您识别模式，了解延迟问题是重复出现还是孤立存在，并就补救措施做出更明智的决策。</block>
+  <block id="7d36db06649fc95af5dde34418ae17ae" category="inline-link">了解如何分析延迟趋势</block>
+  <block id="89bed93f6bbf811d8bd82c2b7fbc1dea" category="paragraph"><block ref="ed7c0b83df2858b326a608c49012d510" category="inline-link-rx"></block>。</block>
 </blocks>
