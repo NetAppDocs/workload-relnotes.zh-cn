@@ -193,4 +193,6 @@
   <block id="72139a3373d3afc6254af7e39dc3cd2a" category="paragraph">NetApp Workload Factory 通知服务包括 EDA 延迟通知，当 EDA 操作的延迟超过特定阈值时通知您。</block>
   <block id="7c1a1feb7968ed15d338ae3e7284dd4e" category="inline-link-macro">配置 Workload Factory 通知</block>
   <block id="06c8d6de7277fbcb62791ed118b9bc96" category="paragraph"><block ref="06c8d6de7277fbcb62791ed118b9bc96" category="inline-link-macro-rx"></block></block>
+  <block id="394b492bc5d751a9928357af63eeb4df" category="section-title">FSx for ONTAP 文件系统的新通知</block>
+  <block id="6d358c966898e9dabc6d051e85958cd8" category="paragraph">NetApp Workload Factory 通知服务包括通知，其中包含您的帐户的每月成本摘要，显示支出趋势、异常变化以及 FSx for ONTAP 文件系统的最佳节省机会。</block>
 </blocks>
