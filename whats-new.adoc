@@ -450,19 +450,3 @@ https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html["详
 您可以通过单击新书签从任何页面打开 Ask Me。它在不中断您当前工作的情况下在侧面板中启动 Ask Me，并提供与您当前操作相关的快速解释和建议。
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/workload-factory-overview.html#features["详细了解 Ask Me"^]
-
-
-
-== 2026 年 2 月 16 日
-
-
-
-=== 适用于 NetApp ONTAP 的 Amazon FSX
-
-
-
-==== 支持 Storage VM 迁移
-
-NetApp Workload Factory 现在支持存储虚拟机的迁移。此功能允许将 ONTAP 存储系统数据和配置从本地 ONTAP 系统或第一代 FSx for ONTAP 文件系统迁移到第二代 FSx for ONTAP 文件系统。您可以复制存储虚拟机数据和配置设置以移动到新的文件系统，同时将停机时间和对用户和应用程序的中断降至最低。
-
-要使用此功能，link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["创建复制关系"] 并选择 *Migration* 作为用例。要完成迁移过程，您必须 link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html#cut-over-replication-for-migration-use-cases["切换 Storage VM 及其复制卷"] 立即将数据和存储 VM 配置设置永久迁移到目标 FSx for ONTAP 文件系统。
