@@ -38,12 +38,6 @@
   <block id="24373c35884bc6090ef23efe0b026c1e" category="paragraph"><block ref="24373c35884bc6090ef23efe0b026c1e" category="inline-link-macro-rx"></block></block>
   <block id="bc5d3bf99236801351dc3a2d7c20aed7" category="paragraph">Workload Factory 会分析您的 FSx for ONTAP文件系统，以识别以下配置：</block>
   <block id="2bc4b4a88d694b207aacb90573eb4b7f" category="doc">EDA 工作负载</block>
-  <block id="5d8caeaede63e2cdba6715a163d09892" category="doc">支持 Storage VM 迁移</block>
-  <block id="353d7ff4a3d58ad1fe8ef0ad6acab574" category="paragraph">NetApp Workload Factory 现在支持存储虚拟机的迁移。此功能允许将 ONTAP 存储系统数据和配置从本地 ONTAP 系统或第一代 FSx for ONTAP 文件系统迁移到第二代 FSx for ONTAP 文件系统。您可以复制存储虚拟机数据和配置设置以移动到新的文件系统，同时将停机时间和对用户和应用程序的中断降至最低。</block>
-  <block id="fb2a77c6756f10fcc139a51a83349d7f" category="inline-link-macro">创建复制关系</block>
-  <block id="33039f37667143e740ae3514cd2b2eea" category="inline-link-macro">切换 Storage VM 及其复制卷</block>
-  <block id="94a0fe38d823039ecf92cb309a897fe3" category="paragraph">要使用此功能，<block ref="0ec91e6ac67cf0fd5240ce60db83aa2f" category="inline-link-macro-rx"></block> 并选择 *Migration* 作为用例。要完成迁移过程，您必须 <block ref="6174d071c9787b2abffa64516d72a11a" category="inline-link-macro-rx"></block> 立即将数据和存储 VM 配置设置永久迁移到目标 FSx for ONTAP 文件系统。</block>
-  <block id="fb042b7b99959e391eeb7c417511098a" category="section-title">2026 年 2 月 16 日</block>
   <block id="129560e32411be4dc94c9cfeada8ea67" category="doc">Workload Factory 中提供了新的 Ask Me 书签</block>
   <block id="4ea89e975474ebd5bba8d32ced2e95cc" category="paragraph">我们在 Workload Factory 控制台的每个屏幕上都添加了一个新的 Ask Me 书签。这项改进使您在需要帮助时可以更轻松、更快地访问 Ask Me。Ask Me 是我们的人工智能助手，使您可以询问有关您自己的工作负载环境的问题，直接从您的环境中获取个性化见解，并参考以前的对话。</block>
   <block id="38dc719ee518af5f799c19331bfd5f19" category="paragraph">您可以通过单击新书签从任何页面打开 Ask Me。它在不中断您当前工作的情况下在侧面板中启动 Ask me，并提供与您当前工作相关的快速解释和建议。</block>
@@ -198,4 +192,14 @@
   <block id="deede3cf7f18c08613ec53890188368e" category="section-title">FSx for ONTAP 文件系统架构良好状态的 PDF 报告</block>
   <block id="09731bdb23a8e229cca44808afd3eb18" category="inline-link-macro">在 NetApp Workload Factory 中查看 FSx for ONTAP 文件系统的良好架构状态。</block>
   <block id="bf36e3bb684711138abb04e7f7f95c1a" category="paragraph">分析后，您可以下载 FSx for ONTAP 文件系统架构良好状态的 PDF 报告，用于记录或与您的团队共享。<block ref="8f1fbab727bbab0e7967c959283750c4" category="inline-link-macro-rx"></block></block>
+  <block id="f6fc5d0b34e0c83d4e75f7be25a32b82" category="list-text">*备份配置*：检查您的 Oracle 数据库是否受到 AWS Backup 或 FSx for ONTAP 备份的保护。</block>
+  <block id="e77f1d098a7b16b8bd4d2f20f9aba65f" category="list-text">*克隆清理*：建议删除过时或未使用的克隆，以降低存储成本。</block>
+  <block id="89840aef48298f433a57c56ab247ae08" category="section-title">Amazon Elastic Block Store (EBS) 上 Oracle 数据库的自动节省计算</block>
+  <block id="820714d6c08a1a257cd36fe74e1fed2b" category="paragraph">Workload Factory 自动分析用于 Oracle 数据库的 EBS 存储成本，然后建议最佳且最具成本效益的 FSx for ONTAP 配置。您可以选择多个 EBS 主机进行分析，然后比较在 EBS 与 FSx for ONTAP 上运行这些主机的成本。</block>
+  <block id="754cab29df96851e5cc6bac19fb8e4de" category="inline-link-macro">了解检测到的 EBS 主机的节省费用</block>
+  <block id="9c9dd70e9f385deab27852576ec6db9a" category="paragraph"><block ref="9c9dd70e9f385deab27852576ec6db9a" category="inline-link-macro-rx"></block></block>
+  <block id="19b3c31ea822597c2e4628964f178a69" category="section-title">CRR 配置先决条件检查</block>
+  <block id="9806495507d3f9631835ef96ec7c6a20" category="paragraph">当您为数据库资源启用跨区域复制 (CRR) 时，Database 工作负载将检查 FSx for ONTAP 文件系统是否具有相关的链接和复制设置。如果需要，Database 工作负载会将您重定向到 FSx for ONTAP Storage 工作负载复制向导，以与 Storage 相同的方式处理链接先决条件。</block>
+  <block id="2570f829ce5d9920c913ea709da38970" category="section-title">Microsoft SQL Server 数据库的关联 LUN</block>
+  <block id="7bcbdd4b76f415ad3e96438de020e5cf" category="paragraph">现在，您可以从清单屏幕在 Workload Factory 中查看映射到 Microsoft SQL Server 数据库的 LUN。这使您可以轻松识别哪些 LUN 与哪些数据库关联，从而更轻松地管理和优化存储资源。</block>
 </blocks>
