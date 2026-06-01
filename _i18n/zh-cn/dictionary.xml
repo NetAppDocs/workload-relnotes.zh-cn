@@ -36,58 +36,9 @@
   <block id="41d5af71402e1d82f05775556afa695b" category="section-title">针对 Oracle 的良好架构分析</block>
   <block id="dd0f28440676e89c09bd52c7f70e866b" category="inline-link-macro">在 Workload Factory 中实施架构良好的数据库配置</block>
   <block id="24373c35884bc6090ef23efe0b026c1e" category="paragraph"><block ref="24373c35884bc6090ef23efe0b026c1e" category="inline-link-macro-rx"></block></block>
-  <block id="bc5d3bf99236801351dc3a2d7c20aed7" category="paragraph">Workload Factory 会分析您的 FSx for ONTAP文件系统，以识别以下配置：</block>
   <block id="2bc4b4a88d694b207aacb90573eb4b7f" category="doc">EDA 工作负载</block>
-  <block id="129560e32411be4dc94c9cfeada8ea67" category="doc">Workload Factory 中提供了新的 Ask Me 书签</block>
-  <block id="4ea89e975474ebd5bba8d32ced2e95cc" category="paragraph">我们在 Workload Factory 控制台的每个屏幕上都添加了一个新的 Ask Me 书签。这项改进使您在需要帮助时可以更轻松、更快地访问 Ask Me。Ask Me 是我们的人工智能助手，使您可以询问有关您自己的工作负载环境的问题，直接从您的环境中获取个性化见解，并参考以前的对话。</block>
-  <block id="38dc719ee518af5f799c19331bfd5f19" category="paragraph">您可以通过单击新书签从任何页面打开 Ask Me。它在不中断您当前工作的情况下在侧面板中启动 Ask me，并提供与您当前工作相关的快速解释和建议。</block>
-  <block id="80dcbdee31e7f18a301f863f8b73dc64" category="inline-link-macro">详细了解 Ask Me</block>
-  <block id="ca844fa02d938fb3d0329bf797d0a633" category="paragraph"><block ref="ca844fa02d938fb3d0329bf797d0a633" category="inline-link-macro-rx"></block></block>
-  <block id="4aa1f4ce7ff97e69b143fbe399631234" category="section-title">2026 年 3 月 1 日</block>
-  <block id="d2afe782a3799f9f13f95374a1156d01" category="doc">EDA 存储管理概览仪表板</block>
-  <block id="6295e7aeea412421b1717d5ccabe235b" category="list-text">*集群运行状况状态*：在信息板顶部汇总的信息，突出显示整个集群的性能、容量、可用性和保护以及安全事件。</block>
-  <block id="5ea38aab7fec2dffdc805f386d0132ab" category="list-text">*集群表*：显示每个集群的 SSD 容量、容量池和吞吐量指标的可搜索、可过滤和分页表，支持列自定义和 CSV 导出。</block>
-  <block id="b3e3b4895cbd35f5a2365afa09005d4f" category="paragraph">以前的主仪表板现在可以在 *Project* 选项卡中访问。EDA 选项卡现已排序：Overview、Latency、Project、CI/CD。</block>
-  <block id="ceadd545963dc65de11a451079ea494e" category="section-title">自动延迟分析</block>
-  <block id="bb185e5021bfe9db8739ffc98c9e991d" category="paragraph">延迟分析现在包括自动化基本分析。当检测到延迟事件时，系统会自动分析 ONTAP QoS 延迟中心指标，以确定延迟问题的来源。</block>
-  <block id="97d9985b0c67c7f1f1fab2857c6777c3" category="paragraph">基本分析评估 QoS 策略、磁盘性能、网络问题和集群配置，以便在延迟事件表的"详细信息"列中提供即时见解。</block>
-  <block id="b365ed726bb3010ba5b4a6a1479128f9" category="paragraph">您可以通过单击新书签从任何页面打开 Ask Me。它在不中断您当前工作的情况下在侧面板中启动 Ask Me，并提供与您当前操作相关的快速解释和建议。</block>
-  <block id="df84e5c661ad9c55d4921f236021aac2" category="paragraph"><block ref="df84e5c661ad9c55d4921f236021aac2" category="inline-link-macro-rx"></block></block>
-  <block id="e0b323aef6004097ab97ed7d77d06388" category="inline-link-macro">对数据库部署执行一次性评估</block>
-  <block id="fa29998d7ba5fe0bb430a106a7dd86bc" category="paragraph"><block ref="fa29998d7ba5fe0bb430a106a7dd86bc" category="inline-link-macro-rx"></block></block>
-  <block id="db82eade40cb0d84a1267b72a439d756" category="section-title">Microsoft SQL Server 上 Always On 可用性组和 Oracle 上 Data Guard 的注册支持</block>
-  <block id="9074af594544775f8103abf495f3e489" category="paragraph">现在，您可以在 NetApp Workload Factory 的数据库工作负载中，使用 Always On 可用性组 (AOAG) 部署模型发现和注册 Microsoft SQL Server 实例，并使用 Data Guard 部署模型注册 Oracle 数据库。此增强功能允许在 Workload Factory 控制台中更好地管理 SQL Server 和 Oracle 资源。</block>
-  <block id="f7b5008af0a2a63908c672bf116eb9cd" category="paragraph">注册 AOAG 实例和 Data Guard 数据库后，您可以利用 Workload Factory for Databases 中的各种功能，例如查看资源详细信息和分析错误日志。</block>
-  <block id="b670d12d9dbeacc2f76bcbbabb59b072" category="paragraph">Workload Factory for Databases 还支持使用 AOAG 部署模型对 Microsoft SQL Server 实例进行精心设计的分析。您可以分析可用性组中 SQL Server 实例的配置，并接收优化部署配置和遵守最佳实践的建议。注册您的 AOAG 实例以启用此功能。</block>
-  <block id="fd16a8943ae80384234824f7a04cb2eb" category="inline-link-macro">在 Workload Factory for Databases 中注册资源</block>
-  <block id="e2da1373bb80f776ff6f57fbbe534851" category="paragraph"><block ref="e2da1373bb80f776ff6f57fbbe534851" category="inline-link-macro-rx"></block></block>
-  <block id="acc6acf63c7f7148c690b518cbbc53ca" category="paragraph">精心设计的分析包括 Oracle 的*操作系统补丁*，用于检查您是否在操作系统上安装了最新的补丁，并告诉您如何安装它们。</block>
-  <block id="10c0be29accc7dc47a6524aa470214cb" category="paragraph">此外，当存储布局等配置依赖于其他配置时，Oracle 的精心设计的分析会通知您。该通知告诉您要优化链接配置的操作，以便我们提供的所有建议都是最佳的。</block>
-  <block id="c02b138b3ded0ad5c64dc6ef4350f29e" category="section-title">Oracle 本地数据库环境成本分析和迁移规划</block>
-  <block id="c419699e9c7d19ed5944ddf6b8598cfe" category="paragraph">Workload Factory for Databases 现在可以分析并帮助您规划 Oracle 本地数据库迁移到 Amazon FSx for NetApp ONTAP。您可以使用节省计算器估算在云中运行 Oracle 本地数据库环境的成本，并查看将本地数据库环境迁移到云的建议。</block>
-  <block id="ae5954c9b41b0bfb09043a4117743d2d" category="inline-link-macro">探索本地数据库环境的节约</block>
-  <block id="9621b726ce4b31f0b7bc139a85ef6f38" category="paragraph"><block ref="9621b726ce4b31f0b7bc139a85ef6f38" category="inline-link-macro-rx"></block></block>
-  <block id="6ddfbfe3d38a813f004cc2f37d2a5866" category="section-title">2026 年 3 月 02 日</block>
-  <block id="b4faaa513060331f5bb7705e042e49cd" category="list-text">未充分利用的 SSD 容量：检查 SSD 容量层是否未充分利用，并建议降低 SSD 容量以优化成本。</block>
-  <block id="01b065251159f3c3b86f7d49511f1bf7" category="list-text">计划卷备份：Workload Factory 改进了配置建议，并添加了打开 FSx for ONTAP 备份或 AWS Backup 的选项。FSx for ONTAP 备份将默认策略应用于文件系统中的所有卷，创建保存长达 90 天的每日备份。借助 AWS Backup，您可以为备份计划中的每个卷选择不同的保留期。</block>
-  <block id="9ad8abc81514723f5439d23cac33f67b" category="section-title">Workload Factory 支持 AI 和 ML 复制用例</block>
-  <block id="4fabde129d63ed93da8d3a884a34d989" category="paragraph">Workload Factory 支持将本地 ONTAP 数据复制到 FSx for ONTAP，并为 AWS Artificial Intelligence (AI) 和机器学习 (ML) 服务创建 S3 接入点，以加速 AI/ML 工作流程。</block>
-  <block id="6f93097c4b22d10fa124cc3526343351" category="inline-link-macro">为 AI &amp; ML 用例复制本地数据</block>
-  <block id="9204fcf38a3ec17161f43b022482f826" category="paragraph"><block ref="f326bef7ea7d0e36c5b06e0b9913123a" category="inline-link-macro-rx"></block></block>
-  <block id="42fe2ab7947c044bb47fb357526022c2" category="section-title">编辑现有 S3 接入点</block>
-  <block id="33c5aa1872cfcc4e8c7c5850619e6f87" category="paragraph">您可以更改附加到卷的现有 S3 访问点的用户和用户类型。您还可以启用或禁用访问点的元数据。</block>
-  <block id="7525bd4fe22d4a212fea8807fb8d750b" category="inline-link-macro">在 NetApp Workload Factory 中编辑 S3 访问端点</block>
-  <block id="692b5b6f757e38d7e4d1dd3f957a20f0" category="section-title">已添加块存储图</block>
-  <block id="55d6cb6b45d9aaa08c53b22b5ac8a617" category="paragraph">如果您使用块存储，则可以查看块存储图，以可视化块设备如何连接到节点和 igroup。该图可帮助您了解和管理块存储。</block>
   <block id="e852955e53f52fa18c0de4a24d22f4af" category="inline-link-macro">在 NetApp Workload Factory 中管理块存储</block>
   <block id="e27c0520df6795eedf0c70ef38381a5b" category="paragraph"><block ref="e27c0520df6795eedf0c70ef38381a5b" category="inline-link-macro-rx"></block></block>
-  <block id="fe8de8255ddcf7ab25ab74f8ebd26038" category="section-title">自动容量管理功能更新</block>
-  <block id="8e5031888ebd5b1abae0d4eb5bf05af3" category="paragraph">此更新将该功能分为两个不同的功能：自动容量管理和容量通知。</block>
-  <block id="10a7856ed25b37558f2b515fcbe24567" category="paragraph">自动容量管理可自动添加或删除文件系统容量，以保持最佳性能。新选项包括增量和自适应模式。在增量模式下，系统在阈值处按固定数量增加容量；在自适应模式下，系统使用历史数据来预测和调整容量。</block>
-  <block id="afca613753b2d7f6ff8f1dad6c1dc86a" category="paragraph">每当发生容量调整和文件系统达到设定限制时，容量通知都会提醒您，以便您可以在出现问题之前管理存储。</block>
-  <block id="19d4c34be6525aca788802a6167a4156" category="inline-link-macro">了解 NetApp Workload Factory 中的自动容量管理和容量通知</block>
-  <block id="ef319467f119e3bda1a975eb1f26e46d" category="paragraph"><block ref="ef319467f119e3bda1a975eb1f26e46d" category="inline-link-macro-rx"></block></block>
-  <block id="1c0128659c34cfdfa6e26b42e3133599" category="paragraph">我们在 Workload Factory 控制台的每个屏幕上添加了一个新的 Ask Me 书签。这项改进使您在需要帮助时可以更轻松、更快地访问 Ask Me。Ask Me 是我们的人工智能助手。您可以询问有关工作负载环境的问题，获取个性化见解，并查看以前的对话。</block>
   <block id="d9a614ba22162f87467dc9820cb657d0" category="doc">隆重推出针对 Google Cloud VMware Engine 的迁移顾问支持</block>
   <block id="9ed9d229ad690b47d132eb6206cba909" category="paragraph">NetApp Workload Factory 现在支持 Google Cloud VMware Engine。您可以使用 Google Cloud NetApp Volumes 作为外部 NFS 数据存储将本地 VMware 工作负载迁移到 Google Cloud VMware Engine，从而优化成本并实现对 VMware 环境的更大控制，而无需重构或重新平台化应用程序。</block>
   <block id="42fbc3a98a8196c1e84ea7586967c06f" category="paragraph">Google Cloud VMware Engine 迁移顾问提供：</block>
@@ -97,8 +48,6 @@
   <block id="1711c42c1c1d16547f3fc604cd9af939" category="list-text">支持标准、高级和 Extreme Google Cloud NetApp Volumes 服务级别。</block>
   <block id="d5adbe8ffd84800d108bc7ddf1451b8a" category="list-text">使用 Terraform 进行基础设施即代码部署，以实现自动化配置。</block>
   <block id="df4bdd45174b09881add6730bdfaf045" category="section-title">2026 年 3 月 09 日</block>
-  <block id="d3274d6efd4629f10f6f21cf8a7c4820" category="doc">SQL Server 一次性评估</block>
-  <block id="8f42179a48bba7e0f2424b2849f64183" category="paragraph">Workload Factory 现在提供一次性评估，以便在需要时分析 SQL Server 数据库部署的配置 - 新部署、迁移后、故障排除等。您将获得建议，以帮助您优化部署配置并遵守最佳实践。这是您在不完全致力于设置过程的情况下使用精心设计的功能的机会。您可以评估数据库，而无需在 Workload Factory 中存储凭据、注册数据库资源或设置外部连接。</block>
   <block id="d34510ab77e099f24fa05ceac3ff150c" category="paragraph">精心设计的分析包括以下针对 Oracle 的新配置：</block>
   <block id="9712df87120461c7551eea660e7f56a6" category="list-text">*Oracle Critical Patch Updates*：评估受支持的 Oracle 自我管理数据库安装缺少的安全补丁。</block>
   <block id="b435abcc161e9c500b1c5e15baf0cbb5" category="list-text">*跨区域复制*：检查是否为服务于 Oracle 数据库的 FSx for ONTAP 文件系统启用了跨区域复制 (CRR)。</block>
@@ -112,7 +61,6 @@
   <block id="141e832aa43713671a149000ddcd45e7" category="inline-link-macro">探索在本地 Oracle 上检测到的数据库的节省</block>
   <block id="dd6bcf35b4739e139fa3041add91e4f2" category="paragraph"><block ref="dd6bcf35b4739e139fa3041add91e4f2" category="inline-link-macro-rx"></block></block>
   <block id="7f65119c79afd09b7f99936d13e97909" category="section-title">2026 年 4 月 6 日</block>
-  <block id="0ba338e49aa7425a86cae293804b2d70" category="paragraph"><block ref="0ba338e49aa7425a86cae293804b2d70" category="inline-link-macro-rx"></block></block>
   <block id="97c89cdac712f1b76105f91dee0572f0" category="paragraph">Workload Factory 分析您的 FSx for ONTAP 文件系统中的*非活动 NAS 卷*。配置分析可识别未主动使用的 NAS 卷，并建议采取措施来优化存储利用率和降低成本。</block>
   <block id="8fed534b92837766d0beda280a6179f0" category="inline-link-macro">为 ONTAP 文件系统实施架构良好的 FSx</block>
   <block id="aa9fc3ddfcff516e1422d829fd2d4138" category="paragraph"><block ref="aa9fc3ddfcff516e1422d829fd2d4138" category="inline-link-macro-rx"></block></block>
@@ -130,10 +78,6 @@
   <block id="77633bb85f2dda716363da565416542c" category="paragraph">NetApp Workload Factory 通知服务包括用于存储的 NetApp Autonomous Ransomware Protection with AI (ARP/AI) 通知。</block>
   <block id="a640a35e23fdb53d8114aafcadb8064c" category="inline-link-macro">NetApp Workload Factory 通知</block>
   <block id="cf1b0a0504b0d60ecb883c780228a1eb" category="paragraph"><block ref="cf1b0a0504b0d60ecb883c780228a1eb" category="inline-link-macro-rx"></block></block>
-  <block id="baf7dcba0c4a80ef2ec1dd0465a27ee0" category="paragraph">作为管理数十个 FSx for ONTAP 文件系统的 IT 管理员，您可以使用概述仪表板回答有关集群运行状况、利用率和卷放置的常见操作问题。</block>
-  <block id="a75658829d674de492a2dd7d0818e7ca" category="paragraph">概览控制面板包括：</block>
-  <block id="bac99350c8b9abdf51c8cb6c7a0467fd" category="inline-link">详细了解 Overview 控制面板</block>
-  <block id="427726ce5319ddeb6b4d93d416808b01" category="paragraph"><block ref="eed2fd228fd1462e58b4537ebcb82ccc" category="inline-link-rx"></block>。</block>
   <block id="7b0ddde1961cce4426c7f0cf5da65e0d" category="doc">EDA 容量建议</block>
   <block id="edb815136867c3359e368e3f925ae387" category="paragraph">Workload Factory 现在会自动分析 EDA 库存中每个 FSx for ONTAP 集群的 SSD 容量，并在需要调整时生成容量建议。该算法为每个集群每 24 小时运行一次。</block>
   <block id="1f9c155d60450baccee27bca630b6497" category="paragraph">确定建议后：</block>
@@ -202,4 +146,7 @@
   <block id="9806495507d3f9631835ef96ec7c6a20" category="paragraph">当您为数据库资源启用跨区域复制 (CRR) 时，Database 工作负载将检查 FSx for ONTAP 文件系统是否具有相关的链接和复制设置。如果需要，Database 工作负载会将您重定向到 FSx for ONTAP Storage 工作负载复制向导，以与 Storage 相同的方式处理链接先决条件。</block>
   <block id="2570f829ce5d9920c913ea709da38970" category="section-title">Microsoft SQL Server 数据库的关联 LUN</block>
   <block id="7bcbdd4b76f415ad3e96438de020e5cf" category="paragraph">现在，您可以从清单屏幕在 Workload Factory 中查看映射到 Microsoft SQL Server 数据库的 LUN。这使您可以轻松识别哪些 LUN 与哪些数据库关联，从而更轻松地管理和优化存储资源。</block>
+  <block id="ed577820f4fec6bbade3e14c5eb7020d" category="doc">在 NetApp Workload Factory 中支持 AWS GovCloud (US)</block>
+  <block id="699b8f027b66b237760179b118b65c6e" category="paragraph">NetApp Workload Factory 支持 AWS GovCloud (US) 账户。使用 GovCloud 账户，您可以在 AWS GovCloud (US) 区域部署和管理 GenAI 工作负载。</block>
+  <block id="92ee6e4d72d15689a675017ce0db2fa1" category="section-title">2026 年 5 月 31 日</block>
 </blocks>
