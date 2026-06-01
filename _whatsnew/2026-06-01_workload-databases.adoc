@@ -1,0 +1,27 @@
+= Amazon Elastic Block Store 上 Oracle 主机的定制节省
+:allow-uri-read: 
+
+
+
+
+=== Amazon Elastic Block Store 上 Oracle 主机的定制节省
+
+NetApp Workload Factory for Databases 允许您为 Amazon Elastic Block Store (EBS) 上的 Oracle 主机自定义节省。您可以调整多个字段，如快照频率、克隆副本数量和卷详细信息，以了解它们如何影响您的节省。
+
+link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["探索 Oracle 主机在 EBS 上的节省"]
+
+
+
+=== 适用于 Microsoft SQL Server 和 PostgreSQL 主机部署的多个安全组选择
+
+NetApp Workload Factory for Databases 现在允许您在部署 Microsoft SQL Server 和 PostgreSQL 主机时选择多个安全组。这为您在为数据库工作负载配置网络安全性时提供了更大的灵活性。
+
+* link:https://docs.netapp.com/us-en/workload-databases/create-database-server.html["部署 Microsoft SQL Server 主机"]
+* link:https://docs.netapp.com/us-en/workload-databases/create-postgresql-server.html["部署 PostgreSQL 主机"]
+
+
+
+
+=== 在 NetApp Workload Factory 中支持 AWS GovCloud (US)
+
+NetApp Workload Factory 支持 AWS GovCloud (US) 账户。使用 GovCloud 账户，您可以在 AWS GovCloud (US) 区域中部署和管理数据库工作负载。
