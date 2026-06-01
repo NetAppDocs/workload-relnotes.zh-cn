@@ -51,6 +51,86 @@ NetApp Workload Factory 支持 AWS GovCloud (US) 账户。使用 GovCloud 账户
 
 
 
+=== 适用于 NetApp ONTAP 的 Amazon FSX
+
+
+
+==== 在 NetApp Workload Factory 中支持 AWS GovCloud (US)
+
+NetApp Workload Factory 支持 AWS GovCloud (US) 账户。使用 GovCloud 账户，您可以在 AWS GovCloud (US) 区域中部署和管理存储工作负载。
+
+
+
+==== 在 NetApp Workload Factory 中设置卷延迟阈值
+
+您可以按卷配置延迟阈值，以监控性能并在延迟值超过定义的限制时接收警报。Workload Factory 监控读取和写入延迟，并在超出任一阈值时生成警报。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/set-volume-latency-thresholds.html["在 NetApp Workload Factory 中设置卷延迟阈值"]
+
+
+
+==== 在 NetApp Workload Factory 中跟踪复制延迟
+
+使用 NetApp Workload Factory，您可以跟踪配置了远程复制的 FSx for ONTAP 文件系统的复制延迟。复制延迟表示数据写入源文件系统和复制到目标文件系统之间的时间延迟。跟踪复制延迟可帮助您监控复制设置的运行状况，并确定可能影响数据一致性和恢复点目标 (RPO) 的潜在问题。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/track-replication-delays.html["在 NetApp Workload Factory 中跟踪复制延迟"]
+
+
+
+==== NetApp Workload Factory 中的主机标识和工作负载定义
+
+Workload Factory 标识使用存储的主机以及与主机活动相关联的工作负载类型。工作负载定义是基于 AWS 标记和元数据的 AI 生成的。您可以从 Workload Factory 中的文件系统、卷和块设备资源屏幕查看主机详细信息和工作负载定义。
+
+
+
+==== NetApp Workload Factory 中可用的 LIF 详细信息
+
+我们直接在文件系统的"概述"选项卡中显示所有文件系统和存储虚拟机端点。Workload Factory 控制台内的直接端点可见性使您可以更轻松地监控网络访问、端点和故障转移状态，而无需使用 CLI 或 CloudShell。要显示 LIF 详细信息，包括角色、端点、节点、IP 地址和状态，您需要将链接与文件系统关联。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-link.html["了解如何在 NetApp Workload Factory 中将链接与您的文件系统关联"]。
+
+
+
+==== 成本增强功能
+
+新的可选页面级筛选器可用于改进所有 AWS 账户的资源成本分析结果。您可以选择多个区域，并使用文件系统分配标记键和键值来过滤成本分析结果，并获取针对 FSx for ONTAP 文件系统和卷的资源特定成本详细信息。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/track-costs.html["在 NetApp Workload Factory 中使用筛选器进行成本分析"]
+
+
+
+==== NetApp Workload Factory 中提供复制初始化调度
+
+在数据复制设置期间，您现在可以为 FSx for ONTAP 文件系统安排复制初始化。选项是立即或在指定时间初始化复制关系。复制初始化是通过将数据从源文件系统复制到目标文件系统来创建复制基线的过程。计划复制初始化允许您自动执行此过程，并确保您的复制设置为最新，而无需手动干预。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["在 NetApp Workload Factory 中复制数据"]
+
+
+
+==== FSx for ONTAP 文件系统的良好架构状态的 Excel 报告
+
+分析后，您可以下载 FSx for ONTAP 文件系统的良好架构状态的 Excel 报告，用于记录或与您的团队共享。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["在 NetApp Workload Factory 中查看 FSx for ONTAP 文件系统的良好架构状态"]
+
+
+
+==== 查看和分析延迟事件
+
+Workload Factory 现在支持查看和分析 FSx for ONTAP 卷的延迟事件。您可以在没有链接连接的情况下查看延迟事件，从而更轻松地监控性能问题。要分析延迟事件并接收基于 AI 的见解和建议，您必须使用链接连接到文件系统。分析提供当前延迟值、阈值、QoS 响应分析和补救指导。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/analyze-events.html["在 NetApp Workload Factory 中分析 FSx for ONTAP 事件"]
+
+
+
+==== 设置卷延迟阈值
+
+现在，您可以按卷配置延迟阈值，以便在读取或写入延迟超过定义的限制时监控性能并接收警报。延迟监控可帮助您在影响工作负载之前主动识别性能问题。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/set-volume-latency-thresholds.html["在 NetApp Workload Factory 中设置卷延迟阈值"]
+
+
+
 === GenAI工作负载
 
 
@@ -97,7 +177,9 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-capacity-automatica
 
 ==== FSx for ONTAP 文件系统架构良好状态的 PDF 报告
 
-分析后，您可以下载 FSx for ONTAP 文件系统架构良好状态的 PDF 报告，用于记录或与您的团队共享。link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["在 NetApp Workload Factory 中查看 FSx for ONTAP 文件系统的良好架构状态。"]
+分析后，您可以下载 FSx for ONTAP 文件系统架构良好状态的 PDF 报告，用于记录或与您的团队共享。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["在 NetApp Workload Factory 中查看 FSx for ONTAP 文件系统的良好架构状态"]
 
 
 
