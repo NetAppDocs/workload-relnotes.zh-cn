@@ -191,4 +191,9 @@
   <block id="46d1548637c7b145aedaf16fc4982ded" category="paragraph"><block ref="46d1548637c7b145aedaf16fc4982ded" category="inline-link-macro-rx"></block></block>
   <block id="6935aa37908b8d3e8e6495adec301374" category="section-title">设置卷延迟阈值</block>
   <block id="8d36c5c4d1b5b3180db932fcf4bd5e3b" category="paragraph">现在，您可以按卷配置延迟阈值，以便在读取或写入延迟超过定义的限制时监控性能并接收警报。延迟监控可帮助您在影响工作负载之前主动识别性能问题。</block>
+  <block id="3bb5ae684d139ecc39b584ffe9e6033b" category="paragraph">NetApp Workload Factory 通知服务包括复制延迟通知。</block>
+  <block id="bdd14b3b036670ed34f9ec4d3b52c70c" category="section-title">支持 AWS GovCloud (US) 账户</block>
+  <block id="bc2438830b45cc61abad63e0b037a228" category="paragraph">现在，您可以在 Workload Factory 中创建 AWS GovCloud (US) 账户。此账户类型仅使用 AWS US GovCloud 端点和区域进行设置和操作。凭据和机密保留在 GovCloud 中。支持 GovCloud (US) 区域。</block>
+  <block id="b6d9ef2d00d295b73db4c150b66667c7" category="inline-link-macro">在 Workload Factory 中创建 AWS GovCloud (US) 账户</block>
+  <block id="02235c7f58acbfe62b6b373b8f8ef557" category="paragraph"><block ref="02235c7f58acbfe62b6b373b8f8ef557" category="inline-link-macro-rx"></block></block>
 </blocks>
