@@ -1,0 +1,56 @@
+= SSD 容量增加管理模式和自动化
+:allow-uri-read: 
+
+
+
+
+=== SSD 容量增加管理模式和自动化
+
+Workload Factory 现在提供 SSD 容量增加管理模式，以匹配您的操作偏好：
+
+* *自动化*
+* *推荐*
+* *无*
+
+
+当前模式及其参数显示在文件系统详细信息页面的 SSD 使用情况图表的顶端。您可以根据操作需求随时切换模式。
+
+link:https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html#change-ssd-management-mode["了解 SSD 管理模式"^]。
+
+
+
+=== 批量编辑 SSD 容量增加管理参数
+
+现在，您可以从概览仪表板调整多个文件系统的 SSD 容量增加管理参数。在群集表中选择一个或多个群集，并批量编辑阈值（10-90%）、回溯（1-200 小时）和提前（1-200 小时）值。
+
+编辑对话框根据您的选择自动填充：如果所有选定的文件系统共享相同的参数值，则会显示这些值；否则，将使用默认值。这有助于您在整个环境中应用一致的容量设置。
+
+link:https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html#bulk-edit-ssd-management-parameters["了解如何批量编辑参数"^]。
+
+
+
+=== 容量决策点可视化
+
+SSD 使用情况图表现在显示决策点，指示何时生成容量建议或采取自动操作。
+
+* *建议决定点*：悬停以查看时间戳、建议增加的大小和当前容量。
+* *自动化决策点*：悬停以查看时间戳、成功或失败状态、增加大小和新的聚合大小。失败的尝试包括失败原因。
+
+
+决策点可以每 30 分钟发生一次，并根据选定的时间范围单独显示或合并显示。
+
+link:https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html#analyze-capacity-trends-and-decision-points["了解容量决策点"^]。
+
+
+
+=== Clusters 表中的链接配置状态
+
+概览仪表板上的集群表现在包括一个关联链接列，该列显示是否为每个文件系统配置了 FSx for ONTAP 链接。连接状态每天验证，帮助您识别需要链接配置或可能存在连接问题的文件系统。
+
+link:https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html["查看概览仪表板"^]。
+
+
+
+=== 在 NetApp Workload Factory 中支持 AWS GovCloud (US)
+
+NetApp Workload Factory 支持 AWS GovCloud (US) 账户。使用 GovCloud 账户，您可以在 AWS GovCloud (US) 区域中部署和管理存储工作负载。

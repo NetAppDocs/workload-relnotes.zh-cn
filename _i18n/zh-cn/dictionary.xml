@@ -196,4 +196,28 @@
   <block id="bc2438830b45cc61abad63e0b037a228" category="paragraph">现在，您可以在 Workload Factory 中创建 AWS GovCloud (US) 账户。此账户类型仅使用 AWS US GovCloud 端点和区域进行设置和操作。凭据和机密保留在 GovCloud 中。支持 GovCloud (US) 区域。</block>
   <block id="b6d9ef2d00d295b73db4c150b66667c7" category="inline-link-macro">在 Workload Factory 中创建 AWS GovCloud (US) 账户</block>
   <block id="02235c7f58acbfe62b6b373b8f8ef557" category="paragraph"><block ref="02235c7f58acbfe62b6b373b8f8ef557" category="inline-link-macro-rx"></block></block>
+  <block id="4f08df9e7760628c8a0fcefa27f063f4" category="doc">SSD 容量增加管理模式和自动化</block>
+  <block id="6048180efecc25affb37f0bcfc4af51f" category="paragraph">Workload Factory 现在提供 SSD 容量增加管理模式，以匹配您的操作偏好：</block>
+  <block id="9464fbc6a7b71da353f2d54109960226" category="list-text">*自动化*</block>
+  <block id="66237dc10c2943c0563d26d3f0b6b230" category="list-text">*推荐*</block>
+  <block id="d015a34de96d3f92372df94da0f629a7" category="list-text">*无*</block>
+  <block id="7d2c5b1dd66ac2d00e2f116602f0da91" category="paragraph">当前模式及其参数显示在文件系统详细信息页面的 SSD 使用情况图表的顶端。您可以根据操作需求随时切换模式。</block>
+  <block id="df638dda507575b6f88b684af7608553" category="inline-link-macro">了解 SSD 管理模式</block>
+  <block id="8726b2b1ff09bca86dd85ada696c955e" category="paragraph"><block ref="8a69182f844b7822adef7a1894417217" category="inline-link-macro-rx"></block>。</block>
+  <block id="70a1c8861535253968956554ebf8e231" category="section-title">批量编辑 SSD 容量增加管理参数</block>
+  <block id="771b4b22f5518da40bcc1511e8f12898" category="paragraph">现在，您可以从概览仪表板调整多个文件系统的 SSD 容量增加管理参数。在群集表中选择一个或多个群集，并批量编辑阈值（10-90%）、回溯（1-200 小时）和提前（1-200 小时）值。</block>
+  <block id="012cccd7c99fecdbdf717ccb8b16b7de" category="paragraph">编辑对话框根据您的选择自动填充：如果所有选定的文件系统共享相同的参数值，则会显示这些值；否则，将使用默认值。这有助于您在整个环境中应用一致的容量设置。</block>
+  <block id="68c574408eaf57fb5b79796bef1895be" category="inline-link-macro">了解如何批量编辑参数</block>
+  <block id="ba63cd1a056bc80046c503ba2fa33773" category="paragraph"><block ref="fb2c15e1efaea436655e6825086014e4" category="inline-link-macro-rx"></block>。</block>
+  <block id="b02017def04604d515c33a15c45d2e8e" category="section-title">容量决策点可视化</block>
+  <block id="7dcdf7b0c669e34d376781ffb261c8f6" category="paragraph">SSD 使用情况图表现在显示决策点，指示何时生成容量建议或采取自动操作。</block>
+  <block id="473ad9d52a93a6904458becbb59cdb8f" category="list-text">*建议决定点*：悬停以查看时间戳、建议增加的大小和当前容量。</block>
+  <block id="e13a73a214d35af7df23610e438e2773" category="list-text">*自动化决策点*：悬停以查看时间戳、成功或失败状态、增加大小和新的聚合大小。失败的尝试包括失败原因。</block>
+  <block id="c1d04258174a29f2132edb30e198b9ea" category="paragraph">决策点可以每 30 分钟发生一次，并根据选定的时间范围单独显示或合并显示。</block>
+  <block id="77911424f819f845cb8185bc75dd9c89" category="inline-link-macro">了解容量决策点</block>
+  <block id="2470c0ea25645427c285ac2c1db0ea6d" category="paragraph"><block ref="7d345c706cc4ef56c93e61e8fef7447b" category="inline-link-macro-rx"></block>。</block>
+  <block id="6730925799427eefafa41ca821775fd8" category="section-title">Clusters 表中的链接配置状态</block>
+  <block id="00617692d401e7bead58c1c61c197639" category="paragraph">概览仪表板上的集群表现在包括一个关联链接列，该列显示是否为每个文件系统配置了 FSx for ONTAP 链接。连接状态每天验证，帮助您识别需要链接配置或可能存在连接问题的文件系统。</block>
+  <block id="14447da801a1982ce517d6e1ffb0c116" category="inline-link-macro">查看概览仪表板</block>
+  <block id="ad5ea2e791a779cc733cf94252010c1e" category="paragraph"><block ref="a3c9e85960ac01cd3d2a615266299aa4" category="inline-link-macro-rx"></block>。</block>
 </blocks>
