@@ -185,4 +185,13 @@
   <block id="f2c8c03b6d33f0a06783ce6241b381a6" category="paragraph">自定义仪表板为只读，因此无法更改您的存储或工作负载设置。Workload Factory 帐户中的任何人都可以查看和管理这些仪表板，使团队能够轻松分享见解并保持一致。</block>
   <block id="7f7fdf6329959f984b3ff303ae5ac37f" category="inline-link-macro">详细了解自定义控制面板</block>
   <block id="b95d6b8ad9f73321f9cc2385811deedb" category="paragraph"><block ref="b95d6b8ad9f73321f9cc2385811deedb" category="inline-link-macro-rx"></block></block>
+  <block id="7e2652d4b25a337c594774fc14c2ab17" category="section-title">设置延迟通知频率</block>
+  <block id="39b4011c4c170e1b29e7d8710812c644" category="paragraph">现在，您可以选择接收延迟违规电子邮件通知的频率：</block>
+  <block id="9b4c72b587622d268ed8a5a315219fb5" category="list-text">*每天提醒我（推荐）*：当任何 FSx for ONTAP 文件系统出现新问题时，您将收到通知。</block>
+  <block id="b1960d91c54aac51310626fca3cc3b48" category="paragraph">如果同一个文件系统在一天内出现多个延迟问题，您只会收到一封电子邮件。</block>
+  <block id="a6f20e83b8038d1aeb40bd01b25f763e" category="paragraph">在发送文件系统的延迟警报后，Workload Factory 等待 24 小时后再为该文件系统发送另一个警报。</block>
+  <block id="e2a4178b795c9afb4497b6549895fe0f" category="list-text">*任何延迟违规通知（每 20 分钟一次）*：检测到违规时收到通知，最多每 20 分钟一次。</block>
+  <block id="943fb48a5bde64c680308a09af0a0832" category="paragraph">默认情况下，每日通知处于启用状态，以减少电子邮件数量，同时仍提醒您注意延迟问题。您可以在设置延迟监控或编辑阈值设置时更改通知首选项。</block>
+  <block id="7a13522750dff612c4af95a525a5075b" category="inline-link">了解如何配置延迟监控</block>
+  <block id="496e68c00adfe40e8730acfccde74f6b" category="paragraph"><block ref="9cf52e304b2518ca53073fc069c5a89c" category="inline-link-rx"></block>。</block>
 </blocks>

@@ -22,3 +22,23 @@
 性能图表现在仅在提供 AWS 凭据时可用。FSx for ONTAP 链接仅适用于基础和 AI 分析中的组件细分。
 
 https://docs.netapp.com/us-en/workload-eda/task-analyze-latency-trends.html["了解如何使用多个图表分析延迟趋势"^]。
+
+
+
+=== 设置延迟通知频率
+
+现在，您可以选择接收延迟违规电子邮件通知的频率：
+
+* *每天提醒我（推荐）*：当任何 FSx for ONTAP 文件系统出现新问题时，您将收到通知。
+
+
+如果同一个文件系统在一天内出现多个延迟问题，您只会收到一封电子邮件。
+
+在发送文件系统的延迟警报后，Workload Factory 等待 24 小时后再为该文件系统发送另一个警报。
+
+* *任何延迟违规通知（每 20 分钟一次）*：检测到违规时收到通知，最多每 20 分钟一次。
+
+
+默认情况下，每日通知处于启用状态，以减少电子邮件数量，同时仍提醒您注意延迟问题。您可以在设置延迟监控或编辑阈值设置时更改通知首选项。
+
+https://docs.netapp.com/us-en/workload-eda/task-configure-latency-monitoring.html["了解如何配置延迟监控"^]。
