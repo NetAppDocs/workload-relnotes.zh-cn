@@ -15,6 +15,24 @@ summary: 了解NetApp Workload Factory 中工作负载的最新变化。
 
 
 
+== 2026年7月6日
+
+
+
+=== VMware工作负载
+
+
+
+==== EVS TCO 计算器中的 i7i.metal-24xl 实例支持
+
+EVS TCO 计算器现在支持 AWS i7i.metal-24xl EC2 实例作为集群主机。与 i4i.metal 配置相比，这些实例将计算的 EVS 起始成本降低了约 33%，将 vSAN 存储的 EVS 起始成本降低了约 25%。
+
+计算器会自动比较两种实例类型，并选择最具成本效益的选项。新的比较版块会并排显示 EVS 主机配置，以便更轻松地找到满足您需求的最佳设置。
+
+link:calculate-evs-savings.html["计算 EVS 的预计节省金额"]
+
+
+
 == 2026 年 6 月 1 日
 
 
@@ -128,6 +146,16 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/analyze-events.html["在 N
 现在，您可以按卷配置延迟阈值，以便在读取或写入延迟超过定义的限制时监控性能并接收警报。延迟监控可帮助您在影响工作负载之前主动识别性能问题。
 
 link:https://docs.netapp.com/us-en/workload-fsx-ontap/set-volume-latency-thresholds.html["在 NetApp Workload Factory 中设置卷延迟阈值"]
+
+
+
+=== VMware工作负载
+
+
+
+==== 在 NetApp Workload Factory 中支持 AWS GovCloud (US)
+
+NetApp Workload Factory 支持 AWS GovCloud (US) 账户。使用 GovCloud 账户，您可以在 AWS GovCloud (US) 区域中部署和管理存储工作负载。
 
 
 
@@ -355,132 +383,3 @@ https://docs.netapp.com/us-en/workload-eda/task-monitor-latency.html#configure-l
 这种全面的可视化可帮助您识别模式，了解延迟问题是重复出现还是孤立存在，并就补救措施做出更明智的决策。
 
 https://docs.netapp.com/us-en/workload-eda/task-analyze-latency-trends.html["了解如何分析延迟趋势"^]。
-
-
-
-== 2026 年 4 月 6 日
-
-
-
-=== 适用于 NetApp ONTAP 的 Amazon FSX
-
-
-
-==== 精心设计的分析更新
-
-Workload Factory 分析您的 FSx for ONTAP 文件系统中的*非活动 NAS 卷*。配置分析可识别未主动使用的 NAS 卷，并建议采取措施来优化存储利用率和降低成本。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["为 ONTAP 文件系统实施架构良好的 FSx"]
-
-
-
-==== S3 接入点的日志表功能
-
-日志表功能提供了一种大规模管理 FSx ONTAP S3 对象存储的方法，允许您轻松审核存储桶中对象的用户访问事件和操作。使用 Workload Factory，您可以设置存储桶和 S3 表的自动扫描，以保留事件记录，显示所有对象、其详细信息和用户操作。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/setup-journal-table.html["设置 NetApp Workload Factory 的日记表基础结构"]
-
-
-
-==== 支持管理现有的 igroups
-
-Workload Factory 支持管理现有的 igroups。您可以添加或删除块设备和主机启动器，以便按时交付部署的工作负载。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-storage.html["在 NetApp Workload Factory 中管理块存储"]
-
-
-
-==== 支持为 FlexVol 卷指定聚合
-
-Workload Factory 支持在选定的聚合上创建 FlexVol 卷。这允许您在所有文件系统资源之间分配容量和性能负载。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["在 NetApp Workload Factory 中创建 FlexVol volume"]
-
-
-
-==== 块设备的上次访问时间
-
-Workload Factory 报告块设备的最后访问时间。时间基于您上次在 Workload Factory 中访问 igroup 的时间。通过了解每个块设备的最后使用时间，您可以优化资源。
-
-
-
-=== 数据库工作负载
-
-
-
-==== 针对 Oracle 的良好架构分析
-
-精心设计的分析包括以下针对 Oracle 的新配置：
-
-* *Oracle Critical Patch Updates*：评估受支持的 Oracle 自我管理数据库安装缺少的安全补丁。
-* *跨区域复制*：检查是否为服务于 Oracle 数据库的 FSx for ONTAP 文件系统启用了跨区域复制 (CRR)。
-* *应用程序一致性快照*：检查 Oracle 数据库是否受到 NetApp SnapCenter 应用程序一致性快照的保护。
-
-
-link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["在 Workload Factory 中实施架构良好的数据库配置"]
-
-
-
-==== Oracle 一次性评估
-
-Workload Factory 现在提供一次性评估，以便在需要时分析 Oracle 数据库部署的配置 - 新部署、迁移后、故障排除等。您将获得建议，以帮助您优化部署配置并遵守最佳实践。这是您在不完全致力于设置过程的情况下使用精心设计的功能的机会。您可以评估数据库，而无需在 Workload Factory 中存储凭据、注册数据库资源或设置外部连接。
-
-link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["对 Oracle 数据库部署执行一次性评估"]
-
-
-
-==== 改进了多个 Oracle 数据库的成本节约
-
-我们增强了 Oracle 的成本节约分析，在一个 FSx for ONTAP 文件系统上为多个 Oracle 本地数据库提供整合的存储解决方案。这种整合通过减少多个数据库所需的文件系统数量来优化存储成本，从而节省成本。
-
-link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html#explore-savings-for-detected-hosts["探索在本地 Oracle 上检测到的数据库的节省"]
-
-
-
-=== 设置和管理
-
-
-
-==== Storage 的新通知
-
-NetApp Workload Factory 通知服务包括用于存储的 NetApp Autonomous Ransomware Protection with AI (ARP/AI) 通知。
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["NetApp Workload Factory 通知"]
-
-
-
-=== EDA 工作负载
-
-
-
-==== EDA 容量建议
-
-Workload Factory 现在会自动分析 EDA 库存中每个 FSx for ONTAP 集群的 SSD 容量，并在需要调整时生成容量建议。该算法为每个集群每 24 小时运行一次。
-
-确定建议后：
-
-* 您会立即收到电子邮件或 WAD 通知（不包含在每周摘要中）。
-* 在 Clusters 表中，受影响的集群上出现一个灯泡指示器。
-* 概览控制面板上的摘要显示了有活动建议的集群总数。
-
-
-选择具有活动建议的集群以查看建议，该建议解释了建议的更改和推理。
-
-https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html#capacity-recommendations["详细了解容量建议"^]。
-
-
-
-==== 自动 AI 延迟分析
-
-延迟分析现在包括 AI 代理分析。
-
-对于涉及数据或集群延迟的复杂场景，您可以调用 AI-agent 分析以接收：
-
-* 详细的根本原因识别
-* 受影响的 EC2 客户端列表
-* 特定修复步骤
-
-
-AI 代理分析需要 Amazon Bedrock 模型 ARN 配置，并且在基本分析建议进行更深入调查的情况下可按需提供。AI 代理可以识别欺凌卷、非最佳挂载点配置、FlexGroup 重新平衡需求和横向扩展要求等问题。
-
-https://docs.netapp.com/us-en/workload-eda/task-monitor-latency.html#run-ai-agent-analysis["详细了解 AI 代理分析"^]。

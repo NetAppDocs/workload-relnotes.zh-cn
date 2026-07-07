@@ -26,7 +26,6 @@
   <block id="b04deaa23ce22ae0dafa2736e8afebed" category="doc">GenAI工作负载</block>
   <block id="bb50e2459e4e016aa4b14a56adb2358f" category="doc">设置和管理</block>
   <block id="a76e64a0fbf98a083080351e4cb67566" category="doc">VMware工作负载</block>
-  <block id="4a854a1349dc1900974f3bf6a9552245" category="section-title">精心设计的分析更新</block>
   <block id="aeb31c9f8c311597856b129ab948b4e6" category="inline-link">NetApp工作负载工厂</block>
   <block id="55f7843f27571db97da76bdf68a76d22" category="paragraph"><block ref="55f7843f27571db97da76bdf68a76d22" category="inline-link-rx"></block></block>
   <block id="da0e88c69cf2ddf39d5537c04ab2fc69" category="summary">了解NetApp Workload Factory 中工作负载的最新变化。</block>
@@ -39,65 +38,7 @@
   <block id="2bc4b4a88d694b207aacb90573eb4b7f" category="doc">EDA 工作负载</block>
   <block id="e852955e53f52fa18c0de4a24d22f4af" category="inline-link-macro">在 NetApp Workload Factory 中管理块存储</block>
   <block id="e27c0520df6795eedf0c70ef38381a5b" category="paragraph"><block ref="e27c0520df6795eedf0c70ef38381a5b" category="inline-link-macro-rx"></block></block>
-  <block id="d9a614ba22162f87467dc9820cb657d0" category="doc">隆重推出针对 Google Cloud VMware Engine 的迁移顾问支持</block>
-  <block id="9ed9d229ad690b47d132eb6206cba909" category="paragraph">NetApp Workload Factory 现在支持 Google Cloud VMware Engine。您可以使用 Google Cloud NetApp Volumes 作为外部 NFS 数据存储将本地 VMware 工作负载迁移到 Google Cloud VMware Engine，从而优化成本并实现对 VMware 环境的更大控制，而无需重构或重新平台化应用程序。</block>
-  <block id="42fbc3a98a8196c1e84ea7586967c06f" category="paragraph">Google Cloud VMware Engine 迁移顾问提供：</block>
-  <block id="6e784cfbe98c0f6a070e3304420a9971" category="list-text">支持 VE1 和 VE2 节点类型的自动化 Google Cloud VMware Engine 集群规模调整和设计</block>
-  <block id="f6879c882f4384c5ca30017d48dafe42" category="list-text">vSAN 内部数据存储区和 Google Cloud NetApp Volumes 外部 NFS 数据存储区之间的虚拟机布局优化。</block>
-  <block id="a29465f74d83dc4ead73643e19ed4387" category="list-text">仅 vSAN 和 Google Cloud NetApp Volumes 增强型配置之间的详细成本比较和 TCO 分析。</block>
-  <block id="1711c42c1c1d16547f3fc604cd9af939" category="list-text">支持标准、高级和 Extreme Google Cloud NetApp Volumes 服务级别。</block>
-  <block id="d5adbe8ffd84800d108bc7ddf1451b8a" category="list-text">使用 Terraform 进行基础设施即代码部署，以实现自动化配置。</block>
-  <block id="df4bdd45174b09881add6730bdfaf045" category="section-title">2026 年 3 月 09 日</block>
   <block id="d34510ab77e099f24fa05ceac3ff150c" category="paragraph">精心设计的分析包括以下针对 Oracle 的新配置：</block>
-  <block id="9712df87120461c7551eea660e7f56a6" category="list-text">*Oracle Critical Patch Updates*：评估受支持的 Oracle 自我管理数据库安装缺少的安全补丁。</block>
-  <block id="b435abcc161e9c500b1c5e15baf0cbb5" category="list-text">*跨区域复制*：检查是否为服务于 Oracle 数据库的 FSx for ONTAP 文件系统启用了跨区域复制 (CRR)。</block>
-  <block id="1d06ae97515a4da719bc482a7995a7ae" category="list-text">*应用程序一致性快照*：检查 Oracle 数据库是否受到 NetApp SnapCenter 应用程序一致性快照的保护。</block>
-  <block id="6a4580dc4131680131fa2d1447aa1deb" category="section-title">Oracle 一次性评估</block>
-  <block id="d268ce986e7de78be251b51e6126893b" category="paragraph">Workload Factory 现在提供一次性评估，以便在需要时分析 Oracle 数据库部署的配置 - 新部署、迁移后、故障排除等。您将获得建议，以帮助您优化部署配置并遵守最佳实践。这是您在不完全致力于设置过程的情况下使用精心设计的功能的机会。您可以评估数据库，而无需在 Workload Factory 中存储凭据、注册数据库资源或设置外部连接。</block>
-  <block id="9c1752a9ed07d091eb717e163d985505" category="inline-link-macro">对 Oracle 数据库部署执行一次性评估</block>
-  <block id="24d6ca96f32f995e477bbc13ce8c644a" category="paragraph"><block ref="24d6ca96f32f995e477bbc13ce8c644a" category="inline-link-macro-rx"></block></block>
-  <block id="48b0592736b0870e6ff074c10fa5d5dc" category="section-title">改进了多个 Oracle 数据库的成本节约</block>
-  <block id="dc6ae15573380001d0b7dbda2215fba9" category="paragraph">我们增强了 Oracle 的成本节约分析，在一个 FSx for ONTAP 文件系统上为多个 Oracle 本地数据库提供整合的存储解决方案。这种整合通过减少多个数据库所需的文件系统数量来优化存储成本，从而节省成本。</block>
-  <block id="141e832aa43713671a149000ddcd45e7" category="inline-link-macro">探索在本地 Oracle 上检测到的数据库的节省</block>
-  <block id="dd6bcf35b4739e139fa3041add91e4f2" category="paragraph"><block ref="dd6bcf35b4739e139fa3041add91e4f2" category="inline-link-macro-rx"></block></block>
-  <block id="7f65119c79afd09b7f99936d13e97909" category="section-title">2026 年 4 月 6 日</block>
-  <block id="97c89cdac712f1b76105f91dee0572f0" category="paragraph">Workload Factory 分析您的 FSx for ONTAP 文件系统中的*非活动 NAS 卷*。配置分析可识别未主动使用的 NAS 卷，并建议采取措施来优化存储利用率和降低成本。</block>
-  <block id="8fed534b92837766d0beda280a6179f0" category="inline-link-macro">为 ONTAP 文件系统实施架构良好的 FSx</block>
-  <block id="aa9fc3ddfcff516e1422d829fd2d4138" category="paragraph"><block ref="aa9fc3ddfcff516e1422d829fd2d4138" category="inline-link-macro-rx"></block></block>
-  <block id="51d8364219eb8c2bcde5564c48004466" category="section-title">S3 接入点的日志表功能</block>
-  <block id="5693755c177f4efee6db3867cf164616" category="paragraph">日志表功能提供了一种大规模管理 FSx ONTAP S3 对象存储的方法，允许您轻松审核存储桶中对象的用户访问事件和操作。使用 Workload Factory，您可以设置存储桶和 S3 表的自动扫描，以保留事件记录，显示所有对象、其详细信息和用户操作。</block>
-  <block id="f5605effc9ff1f2b6b56333b91b9188b" category="inline-link-macro">设置 NetApp Workload Factory 的日记表基础结构</block>
-  <block id="15ee03197182e575bb603c90e93b0f1d" category="paragraph"><block ref="15ee03197182e575bb603c90e93b0f1d" category="inline-link-macro-rx"></block></block>
-  <block id="7a492c4bebdd8855719e33759860ec85" category="section-title">支持管理现有的 igroups</block>
-  <block id="8770963e84c3458575dd2cb30097ea59" category="paragraph">Workload Factory 支持管理现有的 igroups。您可以添加或删除块设备和主机启动器，以便按时交付部署的工作负载。</block>
-  <block id="fb848967e18d6d577c43fdac12d36dae" category="section-title">支持为 FlexVol 卷指定聚合</block>
-  <block id="d5df323db0a76ed62a683b9faace70ee" category="paragraph">Workload Factory 支持在选定的聚合上创建 FlexVol 卷。这允许您在所有文件系统资源之间分配容量和性能负载。</block>
-  <block id="dfe0bf59b17a7c242e3e57ed9983cadf" category="inline-link-macro">在 NetApp Workload Factory 中创建 FlexVol volume</block>
-  <block id="438b9ce1f05f60505d31940eb7d80713" category="paragraph"><block ref="438b9ce1f05f60505d31940eb7d80713" category="inline-link-macro-rx"></block></block>
-  <block id="ea7d4002457b002b29ca2cb9a498c0bc" category="doc">Storage 的新通知</block>
-  <block id="77633bb85f2dda716363da565416542c" category="paragraph">NetApp Workload Factory 通知服务包括用于存储的 NetApp Autonomous Ransomware Protection with AI (ARP/AI) 通知。</block>
-  <block id="a640a35e23fdb53d8114aafcadb8064c" category="inline-link-macro">NetApp Workload Factory 通知</block>
-  <block id="cf1b0a0504b0d60ecb883c780228a1eb" category="paragraph"><block ref="cf1b0a0504b0d60ecb883c780228a1eb" category="inline-link-macro-rx"></block></block>
-  <block id="7b0ddde1961cce4426c7f0cf5da65e0d" category="doc">EDA 容量建议</block>
-  <block id="edb815136867c3359e368e3f925ae387" category="paragraph">Workload Factory 现在会自动分析 EDA 库存中每个 FSx for ONTAP 集群的 SSD 容量，并在需要调整时生成容量建议。该算法为每个集群每 24 小时运行一次。</block>
-  <block id="1f9c155d60450baccee27bca630b6497" category="paragraph">确定建议后：</block>
-  <block id="8d65ccbe024d7453ace82bd13b7980d8" category="list-text">您会立即收到电子邮件或 WAD 通知（不包含在每周摘要中）。</block>
-  <block id="8e5fe5a1e14c6d69b9c457c33f0204a7" category="list-text">在 Clusters 表中，受影响的集群上出现一个灯泡指示器。</block>
-  <block id="c38bddc25aeb4374d71816e0b71a53a0" category="list-text">概览控制面板上的摘要显示了有活动建议的集群总数。</block>
-  <block id="1471ae7120155f3a06fa9c0a62a7f3f5" category="paragraph">选择具有活动建议的集群以查看建议，该建议解释了建议的更改和推理。</block>
-  <block id="2ccd39a9418b95cbcdec20bb3ef09998" category="inline-link">详细了解容量建议</block>
-  <block id="f5365a647b291a1c3ee4f226944d9a2f" category="paragraph"><block ref="a2995fc8e6aae530361e1ff8a48d8ace" category="inline-link-rx"></block>。</block>
-  <block id="606ee09c41a90b59b9cbb13e38ec6e86" category="section-title">自动 AI 延迟分析</block>
-  <block id="8ae631ba5aac2d33e811621152cdf4a4" category="paragraph">延迟分析现在包括 AI 代理分析。</block>
-  <block id="c9e8409eb7f69f1a747dacb755833499" category="paragraph">对于涉及数据或集群延迟的复杂场景，您可以调用 AI-agent 分析以接收：</block>
-  <block id="81f0dd1809c0f077448d50d48cf6ce43" category="list-text">详细的根本原因识别</block>
-  <block id="a9e75b44526a7c3342bd86bfb6079dcc" category="list-text">受影响的 EC2 客户端列表</block>
-  <block id="f1571de1d5f3c90507985e81e6f34526" category="list-text">特定修复步骤</block>
-  <block id="0e3bc65341eefea76b4aa913be37a4d6" category="paragraph">AI 代理分析需要 Amazon Bedrock 模型 ARN 配置，并且在基本分析建议进行更深入调查的情况下可按需提供。AI 代理可以识别欺凌卷、非最佳挂载点配置、FlexGroup 重新平衡需求和横向扩展要求等问题。</block>
-  <block id="3a0eea1249d5ea83860d68d281f6c97b" category="inline-link">详细了解 AI 代理分析</block>
-  <block id="af2687c5a2b9873716f0987242df8169" category="paragraph"><block ref="2915288e95b80b72c9de65e94d4fc279" category="inline-link-rx"></block>。</block>
-  <block id="d08fabf4c0fdff2290096692a4ffa28a" category="section-title">块设备的上次访问时间</block>
-  <block id="fa4bdc942217a8579f785220b2742233" category="paragraph">Workload Factory 报告块设备的最后访问时间。时间基于您上次在 Workload Factory 中访问 igroup 的时间。通过了解每个块设备的最后使用时间，您可以优化资源。</block>
   <block id="5a022ce9df2c118b15eecf6d431faf14" category="doc">块设备克隆</block>
   <block id="c74340453798a5d4d4e10a5aaef38904" category="paragraph">Workload Factory 为您的块设备提供克隆，以便您可以快速配置可写入且高效的数据副本，同时控制容量、访问权限和生命周期。</block>
   <block id="91cb86206fad91f1ee03be3263ce2b5e" category="section-title">块设备上的 EC2 标签</block>
@@ -220,4 +161,10 @@
   <block id="00617692d401e7bead58c1c61c197639" category="paragraph">概览仪表板上的集群表现在包括一个关联链接列，该列显示是否为每个文件系统配置了 FSx for ONTAP 链接。连接状态每天验证，帮助您识别需要链接配置或可能存在连接问题的文件系统。</block>
   <block id="14447da801a1982ce517d6e1ffb0c116" category="inline-link-macro">查看概览仪表板</block>
   <block id="ad5ea2e791a779cc733cf94252010c1e" category="paragraph"><block ref="a3c9e85960ac01cd3d2a615266299aa4" category="inline-link-macro-rx"></block>。</block>
+  <block id="caa606c0b1085a846c384cef14c3a17f" category="doc">EVS TCO 计算器中的 i7i.metal-24xl 实例支持</block>
+  <block id="b055674b094a39e8822f5941fd1ddf8d" category="paragraph">EVS TCO 计算器现在支持 AWS i7i.metal-24xl EC2 实例作为集群主机。与 i4i.metal 配置相比，这些实例将计算的 EVS 起始成本降低了约 33%，将 vSAN 存储的 EVS 起始成本降低了约 25%。</block>
+  <block id="bbc7cb1849fc26e314ad21ecd99ca5fe" category="paragraph">计算器会自动比较两种实例类型，并选择最具成本效益的选项。新的比较版块会并排显示 EVS 主机配置，以便更轻松地找到满足您需求的最佳设置。</block>
+  <block id="0665cdd8950328e06e0db9b1e16938d3" category="inline-link-macro">计算 EVS 的预计节省金额</block>
+  <block id="86271c8c1063215a7f1ff0f45240c576" category="paragraph"><block ref="86271c8c1063215a7f1ff0f45240c576" category="inline-link-macro-rx"></block></block>
+  <block id="b2384f97ee5bce1c28f5573e6878c9c1" category="section-title">2026年7月6日</block>
 </blocks>
