@@ -1,0 +1,55 @@
+= 适用于所有 FSx for ONTAP 系统的全新架构良好的仪表板
+:allow-uri-read: 
+
+
+
+
+=== 适用于所有 FSx for ONTAP 系统的全新架构良好的仪表板
+
+现在，可以从 NetApp Workload Factory 中新的架构完善仪表板对 FSx for ONTAP 文件系统进行架构完善分析。新仪表板在一个位置集中显示跨帐户和区域的所有文件系统及其配置。当您从文件系统访问*架构完善*选项卡时，会出现弹出通知。在 Workload Factory 的左侧导航菜单中选择*架构完善*，即可访问新仪表板。
+
+您仍然可以访问特定文件系统的良好架构分析，也可以通过 Storage 中的 *Well-architected* 菜单选项进行访问。
+
+
+
+=== 精心设计的分析中的新建议
+
+Workload Factory 现在在 FSx for ONTAP 文件系统的良好架构分析中包含以下配置：
+
+* 连接主机到故障转移节点：检查主机是否连接到主动-被动 FSx for ONTAP 文件系统中的故障转移节点，并建议将主机连接到故障转移节点以提高可靠性。
+* 连接主机到首选节点：使用首选节点检查主机是否连接到其块设备，并建议将主机连接到首选节点以提高性能效率。
+
+
+
+
+=== 卷资源管理器
+
+卷资源管理器为您提供了 NetApp Workload Factory 中所有卷的简单可搜索视图。快速查看哪些卷提供数据块或文件工作负载。查看每个卷的逻辑大小、物理已用容量，以及它是否使用存储效率功能（压缩、重复数据删除和压缩）。按名称、状态（可用/失败）、延迟、大小、已用容量和保护功能进行筛选和排序。
+
+
+
+=== 复制延迟增强功能
+
+
+
+==== 针对复制延迟增强的电子邮件通知
+
+有关复制延迟的电子邮件通知现在包括有关受影响关系的更多详细信息。此通知可帮助您快速识别受影响的关系，并在 Workload Factory 控制台中进行调查。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/track-replication-delays.html["为复制延迟启用通知"]
+
+
+
+==== 将复制延迟数据导出到CSV
+
+现在，您可以将复制延迟数据导出为 CSV 文件，以便在电子表格中分析数据并与他人共享。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/track-replication-delays.html["跟踪复制延迟"]
+
+
+
+=== 块设备创建增强
+
+Workload Factory 支持从卷快照创建块设备。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-block-device.html["在 Workload Factory 中从卷快照创建块设备"]
