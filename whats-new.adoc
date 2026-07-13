@@ -15,10 +15,12 @@ summary: 了解NetApp Workload Factory 中工作负载的最新变化。
 
 
 
+[[06-july-2026]]
 == 2026年7月6日
 
 
 
+[[vmware-workloads]]
 === VMware工作负载
 
 
@@ -33,10 +35,12 @@ link:calculate-evs-savings.html["计算 EVS 的预计节省金额"]
 
 
 
+[[05-july-2026]]
 == 2026年7月5日
 
 
 
+[[amazon-fsx-for-netapp-ontap]]
 === 适用于 NetApp ONTAP 的 Amazon FSX
 
 
@@ -49,39 +53,17 @@ link:calculate-evs-savings.html["计算 EVS 的预计节省金额"]
 
 
 
-==== 精心设计的分析中的新建议
-
-Workload Factory 现在在 FSx for ONTAP 文件系统的良好架构分析中包含以下配置：
-
-* 连接主机到故障转移节点：检查主机是否连接到主动-被动 FSx for ONTAP 文件系统中的故障转移节点，并建议将主机连接到故障转移节点以提高可靠性。
-* 连接主机到首选节点：使用首选节点检查主机是否连接到其块设备，并建议将主机连接到首选节点以提高性能效率。
-
-
-
-
 ==== 卷资源管理器
 
 卷资源管理器为您提供了 NetApp Workload Factory 中所有卷的简单可搜索视图。快速查看哪些卷提供数据块或文件工作负载。查看每个卷的逻辑大小、物理已用容量，以及它是否使用存储效率功能（压缩、重复数据删除和压缩）。按名称、状态（可用/失败）、延迟、大小、已用容量和保护功能进行筛选和排序。
 
 
 
-==== 复制延迟增强功能
-
-
-
-===== 针对复制延迟增强的电子邮件通知
+==== 针对复制延迟增强的电子邮件通知
 
 有关复制延迟的电子邮件通知现在包括有关受影响关系的更多详细信息。此通知可帮助您快速识别受影响的关系，并在 Workload Factory 控制台中进行调查。
 
 link:https://docs.netapp.com/us-en/workload-fsx-ontap/track-replication-delays.html["为复制延迟启用通知"]
-
-
-
-===== 将复制延迟数据导出到CSV
-
-现在，您可以将复制延迟数据导出为 CSV 文件，以便在电子表格中分析数据并与他人共享。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/track-replication-delays.html["跟踪复制延迟"]
 
 
 
@@ -93,6 +75,7 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-block-device.html["
 
 
 
+[[setup-and-administration]]
 === 设置和管理
 
 
@@ -109,6 +92,7 @@ link:learn-custom-dashboards.html["详细了解自定义控制面板"]
 
 
 
+[[eda-workloads]]
 === EDA 工作负载
 
 
@@ -154,10 +138,12 @@ https://docs.netapp.com/us-en/workload-eda/task-configure-latency-monitoring.htm
 
 
 
+[[01-june-2026]]
 == 2026 年 6 月 1 日
 
 
 
+[[database-workloads]]
 === 数据库工作负载
 
 
@@ -186,10 +172,12 @@ NetApp Workload Factory 支持 AWS GovCloud (US) 账户。使用 GovCloud 账户
 
 
 
+[[31-may-2026]]
 == 2026 年 5 月 31 日
 
 
 
+[[amazon-fsx-for-netapp-ontap]]
 === 适用于 NetApp ONTAP 的 Amazon FSX
 
 
@@ -270,6 +258,7 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/set-volume-latency-thresho
 
 
 
+[[vmware-workloads]]
 === VMware工作负载
 
 
@@ -280,6 +269,7 @@ NetApp Workload Factory 支持 AWS GovCloud (US) 账户。使用 GovCloud 账户
 
 
 
+[[genai-workloads]]
 === GenAI工作负载
 
 
@@ -290,6 +280,7 @@ NetApp Workload Factory 支持 AWS GovCloud (US) 账户。使用 GovCloud 账户
 
 
 
+[[setup-and-administration]]
 === 设置和管理
 
 
@@ -310,6 +301,7 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/sign-up-saas.html["在 W
 
 
 
+[[eda-workloads]]
 === EDA 工作负载
 
 
@@ -367,10 +359,12 @@ NetApp Workload Factory 支持 AWS GovCloud (US) 账户。使用 GovCloud 账户
 
 
 
+[[03-may-2026]]
 == 2026 年 5 月 3 日
 
 
 
+[[amazon-fsx-for-netapp-ontap]]
 === 适用于 NetApp ONTAP 的 Amazon FSX
 
 
@@ -409,6 +403,7 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.htm
 
 
 
+[[database-workloads]]
 === 数据库工作负载
 
 
@@ -447,6 +442,7 @@ link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.ht
 
 
 
+[[setup-and-administration]]
 === 设置和管理
 
 
@@ -477,6 +473,7 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.
 
 
 
+[[eda-workloads]]
 === EDA 工作负载
 
 

@@ -4,6 +4,7 @@
 
 
 
+[[well-architected-analysis-for-oracle]]
 === 针对 Oracle 的良好架构分析
 
 精心设计的分析包括以下针对 Oracle 的新配置：
@@ -16,6 +17,7 @@ link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.ht
 
 
 
+[[automatic-savings-calculation-for-oracle-databases-on-amazon-elastic-block-store-ebs]]
 === Amazon Elastic Block Store (EBS) 上 Oracle 数据库的自动节省计算
 
 Workload Factory 自动分析用于 Oracle 数据库的 EBS 存储成本，然后建议最佳且最具成本效益的 FSx for ONTAP 配置。您可以选择多个 EBS 主机进行分析，然后比较在 EBS 与 FSx for ONTAP 上运行这些主机的成本。
@@ -24,6 +26,7 @@ link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html#explo
 
 
 
+[[crr-configuration-prerequisite-check]]
 === CRR 配置先决条件检查
 
 当您为数据库资源启用跨区域复制 (CRR) 时，Database 工作负载将检查 FSx for ONTAP 文件系统是否具有相关的链接和复制设置。如果需要，Database 工作负载会将您重定向到 FSx for ONTAP Storage 工作负载复制向导，以与 Storage 相同的方式处理链接先决条件。
@@ -32,6 +35,7 @@ link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.ht
 
 
 
+[[associated-luns-for-microsoft-sql-server-databases]]
 === Microsoft SQL Server 数据库的关联 LUN
 
 现在，您可以从清单屏幕在 Workload Factory 中查看映射到 Microsoft SQL Server 数据库的 LUN。这使您可以轻松识别哪些 LUN 与哪些数据库关联，从而更轻松地管理和优化存储资源。

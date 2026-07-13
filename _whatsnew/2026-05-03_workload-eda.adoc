@@ -4,6 +4,7 @@
 
 
 
+[[email-and-sns-notifications-for-latency-events]]
 === 延迟事件的电子邮件和 SNS 通知
 
 现在，当在 FSx for ONTAP 卷上检测到延迟事件时，您可以接收自动通知。在 Workload Factory 设置中配置电子邮件或 Amazon SNS 通知，以便在卷违反配置的延迟阈值时接收实时警报。
@@ -14,6 +15,7 @@ https://docs.netapp.com/us-en/workload-eda/task-monitor-latency.html#configure-l
 
 
 
+[[latency-trend-visualization-with-interactive-graphs]]
 === 使用交互式图形实现延迟趋势可视化
 
 延迟分析面板现在包括一个选项卡式界面，用于全面的延迟分析：

@@ -4,6 +4,7 @@
 
 
 
+[[i7i-metal-24xl-instance-support-in-evs-tco-calculator]]
 === EVS TCO 计算器中的 i7i.metal-24xl 实例支持
 
 EVS TCO 计算器现在支持 AWS i7i.metal-24xl EC2 实例作为集群主机。与 i4i.metal 配置相比，这些实例将计算的 EVS 起始成本降低了约 33%，将 vSAN 存储的 EVS 起始成本降低了约 25%。

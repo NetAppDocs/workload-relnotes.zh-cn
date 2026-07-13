@@ -4,6 +4,7 @@
 
 
 
+[[enhanced-latency-analysis-with-iops-and-throughput-graphs]]
 === 使用 IOPS 和吞吐量图表增强延迟分析
 
 延迟分析面板现在在 *Over time* 选项卡中显示同步的性能图表：
@@ -25,6 +26,7 @@ https://docs.netapp.com/us-en/workload-eda/task-analyze-latency-trends.html["了
 
 
 
+[[set-latency-notification-frequency]]
 === 设置延迟通知频率
 
 现在，您可以选择接收延迟违规电子邮件通知的频率：

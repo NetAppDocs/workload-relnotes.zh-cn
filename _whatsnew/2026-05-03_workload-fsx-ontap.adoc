@@ -4,6 +4,7 @@
 
 
 
+[[block-device-clones]]
 === 块设备克隆
 
 Workload Factory 为您的块设备提供克隆，以便您可以快速配置可写入且高效的数据副本，同时控制容量、访问权限和生命周期。
@@ -12,6 +13,7 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-storage.html[
 
 
 
+[[ec2-tags-on-block-devices]]
 === 块设备上的 EC2 标签
 
 块设备表现在包括一列，该列显示使用每个块设备的 EC2 主机的标签。这有助于您在故障排除或审核期间确定哪个主机使用每个块设备。
@@ -22,6 +24,7 @@ link:https://github.com/NetApp/FSx-ONTAP-samples-scripts/tree/main/Management-Ut
 
 
 
+[[capacity-trends-for-fsx-for-ontap-file-systems]]
 === 适用于 ONTAP 文件系统的 FSx 容量趋势
 
 直接从适用于 ONTAP 文件系统的 FSx 概述中了解 SSD 容量趋势。新的容量管理卡显示了上个月的使用趋势。该分析比较了实际容量和分配容量，便于评估资源使用情况。
@@ -30,6 +33,7 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-capacity-automatica
 
 
 
+[[pdf-report-of-the-well-architected-status-of-fsx-for-ontap-file-systems]]
 === FSx for ONTAP 文件系统架构良好状态的 PDF 报告
 
 分析后，您可以下载 FSx for ONTAP 文件系统架构良好状态的 PDF 报告，用于记录或与您的团队共享。
