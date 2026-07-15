@@ -194,26 +194,16 @@
   <block id="943fb48a5bde64c680308a09af0a0832" category="paragraph">默认情况下，每日通知处于启用状态，以减少电子邮件数量，同时仍提醒您注意延迟问题。您可以在设置延迟监控或编辑阈值设置时更改通知首选项。</block>
   <block id="7a13522750dff612c4af95a525a5075b" category="inline-link">了解如何配置延迟监控</block>
   <block id="496e68c00adfe40e8730acfccde74f6b" category="paragraph"><block ref="9cf52e304b2518ca53073fc069c5a89c" category="inline-link-rx"></block>。</block>
-  <block id="da6f5bf8aee08ef83468ad38ab52796b" category="doc">适用于所有 FSx for ONTAP 系统的全新架构良好的仪表板</block>
-  <block id="7fca025a8bf1b5d72a149731d5c88125" category="paragraph">现在，可以从 NetApp Workload Factory 中新的架构完善仪表板对 FSx for ONTAP 文件系统进行架构完善分析。新仪表板在一个位置集中显示跨帐户和区域的所有文件系统及其配置。当您从文件系统访问*架构完善*选项卡时，会出现弹出通知。在 Workload Factory 的左侧导航菜单中选择*架构完善*，即可访问新仪表板。</block>
-  <block id="b09ad8a2ad81c470093e9c74313ea0c2" category="paragraph">您仍然可以访问特定文件系统的良好架构分析，也可以通过 Storage 中的 *Well-architected* 菜单选项进行访问。</block>
-  <block id="9864fa88fc3747e67b6fc38c9b938677" category="section-title">精心设计的分析中的新建议</block>
-  <block id="a38b9a0af0de5e85c5e64a158079deb5" category="paragraph">Workload Factory 现在在 FSx for ONTAP 文件系统的良好架构分析中包含以下配置：</block>
-  <block id="fd2d46026cdd19577962231303a46abd" category="list-text">连接主机到故障转移节点：检查主机是否连接到主动-被动 FSx for ONTAP 文件系统中的故障转移节点，并建议将主机连接到故障转移节点以提高可靠性。</block>
-  <block id="0e7d4cc90eb78377a1315bafe07799dd" category="list-text">连接主机到首选节点：使用首选节点检查主机是否连接到其块设备，并建议将主机连接到首选节点以提高性能效率。</block>
   <block id="efbeddc0347a679a438120189b77f860" category="section-title">卷资源管理器</block>
   <block id="3e1cc7f8632eafd5f69d910c06db3aa4" category="paragraph">卷资源管理器为您提供了 NetApp Workload Factory 中所有卷的简单可搜索视图。快速查看哪些卷提供数据块或文件工作负载。查看每个卷的逻辑大小、物理已用容量，以及它是否使用存储效率功能（压缩、重复数据删除和压缩）。按名称、状态（可用/失败）、延迟、大小、已用容量和保护功能进行筛选和排序。</block>
-  <block id="2731bbeb58ccf58c8e631528a8e3fc94" category="section-title">复制延迟增强功能</block>
   <block id="3a410df7dfc102007ea8a7569fdb1810" category="section-title">针对复制延迟增强的电子邮件通知</block>
   <block id="bd78ae8d1a9aed4500716acc31d179d8" category="paragraph">有关复制延迟的电子邮件通知现在包括有关受影响关系的更多详细信息。此通知可帮助您快速识别受影响的关系，并在 Workload Factory 控制台中进行调查。</block>
   <block id="4dc5c4a9c4b845746295cce1108ec278" category="inline-link-macro">为复制延迟启用通知</block>
   <block id="7f27417270cfb269527e679a64b5a19a" category="paragraph"><block ref="7f27417270cfb269527e679a64b5a19a" category="inline-link-macro-rx"></block></block>
-  <block id="347a810d994926c5e31d1bd690b34fcf" category="section-title">将复制延迟数据导出到CSV</block>
-  <block id="45cbeaeb98d1d075d560a8e62269fbbb" category="paragraph">现在，您可以将复制延迟数据导出为 CSV 文件，以便在电子表格中分析数据并与他人共享。</block>
-  <block id="2b3d29c88190bdb57da25e1848b65b7d" category="inline-link-macro">跟踪复制延迟</block>
-  <block id="7aab1e1b0e0fcc4720b15dcc5848034e" category="paragraph"><block ref="7aab1e1b0e0fcc4720b15dcc5848034e" category="inline-link-macro-rx"></block></block>
   <block id="5312d8ea7e9ef079aeac882dbcd64d0a" category="section-title">块设备创建增强</block>
   <block id="85fb39d6f3bb52679cb9ce3bd27ffd1c" category="paragraph">Workload Factory 支持从卷快照创建块设备。</block>
   <block id="a439412a0228682fa1054f4bc1a96815" category="inline-link-macro">在 Workload Factory 中从卷快照创建块设备</block>
   <block id="40a9299c5fdf8c1e8242dcb670c6b1cd" category="paragraph"><block ref="40a9299c5fdf8c1e8242dcb670c6b1cd" category="inline-link-macro-rx"></block></block>
+  <block id="cc661418365d138458bf55f936b73a47" category="section-title">从 Workload Factory 中删除 GenAI 工作负载</block>
+  <block id="ef18329e66f7a0f5b022b9a400dd74ed" category="paragraph">GenAI 工作负载已从 Workload Factory 控制台中删除。</block>
 </blocks>

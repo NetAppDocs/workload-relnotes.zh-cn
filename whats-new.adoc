@@ -84,6 +84,12 @@ link:learn-custom-dashboards.html["详细了解自定义控制面板"]
 
 
 
+==== 从 Workload Factory 中删除 GenAI 工作负载
+
+GenAI 工作负载已从 Workload Factory 控制台中删除。
+
+
+
 [[eda-workloads]]
 === EDA 工作负载
 
