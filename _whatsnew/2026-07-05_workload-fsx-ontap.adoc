@@ -26,3 +26,10 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/track-replication-delays.h
 Workload Factory 支持从卷快照创建块设备。
 
 link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-block-device.html["在 Workload Factory 中从卷快照创建块设备"]
+
+
+
+[[workload-tagging-for-volumes-and-block-devices]]
+=== 卷和块设备的工作负载标记
+
+工作负载工厂现在通过其主要工作负载或应用程序识别和标记卷和块设备。您可以分配预定义的工作负载标记（如 Microsoft SQL Server 或 Oracle Database），或为应用程序创建自定义标记。标记可以应用于单个资源，也可以由连接的存储资源继承。这有助于使存储配置与工作负载要求保持一致，了解事件影响，并更有效地进行故障排除。

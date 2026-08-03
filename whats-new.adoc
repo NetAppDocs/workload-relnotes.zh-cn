@@ -15,6 +15,74 @@ summary: 了解NetApp Workload Factory 中工作负载的最新变化。
 
 
 
+[[03-august-2026]]
+== 2026年8月3日
+
+
+
+[[setup-and-administration]]
+=== 设置和管理
+
+
+
+==== 已更新数据库的 IAM 权限策略
+
+已更新数据库的权限，以改善功能访问并在不必要时限制 SSM 访问。
+
+查看、规划和分析权限仅限于 AWS SSM 文档。使用这些权限，您可以查看主机、实例和数据库。您还可以对资源运行基本的按需架构完善分析。
+
+操作和修正权限允许您对资源进行更改、分析错误日志、对资源进行全面的架构完善分析并修复配置问题。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["权限参考"] === 自定义仪表板
+
+
+
+===== 自定义信息板的通知
+
+Workload Factory现在会在您的自定义仪表板准备就绪或创建失败时通知您。
+
+创建自定义控制面板后，您将收到一条通知，其中包含查看该控制面板的直接链接。如果创建失败，您将收到一条通知，其中包含自定义控制面板清单的链接，以便重试。
+
+这有助于您了解控制面板何时准备就绪，并轻松查看或重新创建控制面板。
+
+link:create-custom-dashboard.html["了解如何创建自定义控制面板"]
+
+link:configure-notifications.html["了解如何配置通知"]
+
+
+
+===== 私人和公共自定义控制面板
+
+自定义仪表板现在包含共享设置。您可以将控制面板设为私有或与您的团队共享。
+
+默认情况下，新控制面板是私密的，只有您可以看到。您可以随时将控制面板设为公开，以便与 Workload Factory 帐户中的所有人共享。
+
+每个控制面板卡都会显示"私人"或"公共"标签，因此您可以快速查看哪些控制面板是共享的。
+
+link:learn-custom-dashboards.html#dashboard-visibility-and-sharing["了解控制面板的可见性和共享性"]
+
+link:manage-custom-dashboards.html#change-dashboard-visibility["了解如何共享控制面板"]
+
+
+
+==== AI 功能管理
+
+您可以通过 Workload Factory 管理中的以下设置来控制整个组织对 AI 功能的访问。
+
+* 使用 NetApp 托管的 Bedrock（推荐且默认启用，设有每月信用额度限制）
+* 关闭所有 AI 功能
+
+
+通过新的管理页面，您可以在一个地方管理这些设置。
+
+AI功能包括Ask Me、自定义仪表板、规则生成器以及EMS、数据库日志和卷延迟的分析器。
+
+如果关闭 AI 功能，用户将看到"AI 不可用"的消息。
+
+link:manage-genai-features.html["了解如何管理 AI 功能"]
+
+
+
 [[06-july-2026]]
 == 2026年7月6日
 
@@ -64,6 +132,12 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/track-replication-delays.h
 Workload Factory 支持从卷快照创建块设备。
 
 link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-block-device.html["在 Workload Factory 中从卷快照创建块设备"]
+
+
+
+==== 卷和块设备的工作负载标记
+
+工作负载工厂现在通过其主要工作负载或应用程序识别和标记卷和块设备。您可以分配预定义的工作负载标记（如 Microsoft SQL Server 或 Oracle Database），或为应用程序创建自定义标记。标记可以应用于单个资源，也可以由连接的存储资源继承。这有助于使存储配置与工作负载要求保持一致，了解事件影响，并更有效地进行故障排除。
 
 
 
@@ -350,148 +424,3 @@ link:https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html
 ==== 在 NetApp Workload Factory 中支持 AWS GovCloud (US)
 
 NetApp Workload Factory 支持 AWS GovCloud (US) 账户。使用 GovCloud 账户，您可以在 AWS GovCloud (US) 区域中部署和管理存储工作负载。
-
-
-
-[[03-may-2026]]
-== 2026 年 5 月 3 日
-
-
-
-[[amazon-fsx-for-netapp-ontap]]
-=== 适用于 NetApp ONTAP 的 Amazon FSX
-
-
-
-==== 块设备克隆
-
-Workload Factory 为您的块设备提供克隆，以便您可以快速配置可写入且高效的数据副本，同时控制容量、访问权限和生命周期。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-block-storage.html["在 NetApp Workload Factory 中管理块存储"]
-
-
-
-==== 块设备上的 EC2 标签
-
-块设备表现在包括一列，该列显示使用每个块设备的 EC2 主机的标签。这有助于您在故障排除或审核期间确定哪个主机使用每个块设备。
-
-要在每个块设备上创建标记，请使用我们提供的用户脚本部署 EC2 实例。
-
-link:https://github.com/NetApp/FSx-ONTAP-samples-scripts/tree/main/Management-Utilities/ec2-user-data-iscsi-create-and-mount["用于为块设备分配标签的 EC2 用户数据脚本"]
-
-
-
-==== 适用于 ONTAP 文件系统的 FSx 容量趋势
-
-直接从适用于 ONTAP 文件系统的 FSx 概述中了解 SSD 容量趋势。新的容量管理卡显示了上个月的使用趋势。该分析比较了实际容量和分配容量，便于评估资源使用情况。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-capacity-automatically.html["在 NetApp Workload Factory 中自动管理容量"]
-
-
-
-==== FSx for ONTAP 文件系统架构良好状态的 PDF 报告
-
-分析后，您可以下载 FSx for ONTAP 文件系统架构良好状态的 PDF 报告，用于记录或与您的团队共享。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/improve-configurations.html["在 NetApp Workload Factory 中查看 FSx for ONTAP 文件系统的良好架构状态"]
-
-
-
-[[database-workloads]]
-=== 数据库工作负载
-
-
-
-==== 针对 Oracle 的良好架构分析
-
-精心设计的分析包括以下针对 Oracle 的新配置：
-
-* *备份配置*：检查您的 Oracle 数据库是否受到 AWS Backup 或 FSx for ONTAP 备份的保护。
-* *克隆清理*：建议删除过时或未使用的克隆，以降低存储成本。
-
-
-link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["在 Workload Factory 中实施架构良好的数据库配置"]
-
-
-
-==== Amazon Elastic Block Store (EBS) 上 Oracle 数据库的自动节省计算
-
-Workload Factory 自动分析用于 Oracle 数据库的 EBS 存储成本，然后建议最佳且最具成本效益的 FSx for ONTAP 配置。您可以选择多个 EBS 主机进行分析，然后比较在 EBS 与 FSx for ONTAP 上运行这些主机的成本。
-
-link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html#explore-savings-for-detected-hosts["了解检测到的 EBS 主机的节省费用"]
-
-
-
-==== CRR 配置先决条件检查
-
-当您为数据库资源启用跨区域复制 (CRR) 时，Database 工作负载将检查 FSx for ONTAP 文件系统是否具有相关的链接和复制设置。如果需要，Database 工作负载会将您重定向到 FSx for ONTAP Storage 工作负载复制向导，以与 Storage 相同的方式处理链接先决条件。
-
-link:https://docs.netapp.com/us-en/workload-databases/optimize-configurations.html["在 Workload Factory 中实施架构良好的数据库配置"]
-
-
-
-==== Microsoft SQL Server 数据库的关联 LUN
-
-现在，您可以从清单屏幕在 Workload Factory 中查看映射到 Microsoft SQL Server 数据库的 LUN。这使您可以轻松识别哪些 LUN 与哪些数据库关联，从而更轻松地管理和优化存储资源。
-
-
-
-[[setup-and-administration]]
-=== 设置和管理
-
-
-
-==== Workload Factory 的电子邮件通知
-
-现在，您可以通过电子邮件接收 Workload Factory 通知，而无需配置 Amazon SNS 主题。启用电子邮件通知，以将通知发送到与帐户关联的任何电子邮件地址。
-
-您可以从 Workload Factory 控制台或 NetApp Console 配置电子邮件通知。NetApp Console 还提供配置出现在铃铛图标下的 NetApp Console 通知的选项。
-
-如果在 NetApp Console 中配置通知，NetApp Console 将拥有通知传递的所有权。Workload Factory 控制台中的通知设置变为只读，以防止重复通知。
-
-
-
-==== EDA 延迟新通知
-
-NetApp Workload Factory 通知服务包括 EDA 延迟通知，当 EDA 操作的延迟超过特定阈值时通知您。
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["配置 Workload Factory 通知"]
-
-
-
-==== FSx for ONTAP 文件系统的新通知
-
-NetApp Workload Factory 通知服务包括通知，其中包含您的帐户的每月成本摘要，显示支出趋势、异常变化以及 FSx for ONTAP 文件系统的最佳节省机会。
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["配置 Workload Factory 通知"]
-
-
-
-[[eda-workloads]]
-=== EDA 工作负载
-
-
-
-==== 延迟事件的电子邮件和 SNS 通知
-
-现在，当在 FSx for ONTAP 卷上检测到延迟事件时，您可以接收自动通知。在 Workload Factory 设置中配置电子邮件或 Amazon SNS 通知，以便在卷违反配置的延迟阈值时接收实时警报。
-
-通知按文件系统发送，包括有关所有受影响卷、严重性级别、阈值比较的详细信息，以及直接链接到 Latency 页面进行调查。
-
-https://docs.netapp.com/us-en/workload-eda/task-monitor-latency.html#configure-latency-notifications["了解如何配置延迟通知"^]。
-
-
-
-==== 使用交互式图形实现延迟趋势可视化
-
-延迟分析面板现在包括一个选项卡式界面，用于全面的延迟分析：
-
-* *概述*：查看自动基本分析结果，显示哪个组件导致延迟
-* *随着时间的推移*：使用跨多个时间范围（1 小时、3 小时、12 小时、24 小时或 72 小时）的交互式图表可视化卷延迟行为
-
-
-*随着时间的推移*选项卡显示原始 CloudWatch 延迟数据（读取或写入，具体取决于触发的警报），以及警告和关键阈值线、违规指标和每个违规行为的详细指标。
-
-这种全面的可视化可帮助您识别模式，了解延迟问题是重复出现还是孤立存在，并就补救措施做出更明智的决策。
-
-https://docs.netapp.com/us-en/workload-eda/task-analyze-latency-trends.html["了解如何分析延迟趋势"^]。
