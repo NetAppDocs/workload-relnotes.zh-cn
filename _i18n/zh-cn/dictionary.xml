@@ -188,4 +188,18 @@
   <block id="48dc51848c127d267cdd7ab1bcd0fe5e" category="inline-link-macro">了解如何管理 AI 功能</block>
   <block id="56d2e09cbb0a828478db20ff2d11774d" category="paragraph"><block ref="56d2e09cbb0a828478db20ff2d11774d" category="inline-link-macro-rx"></block></block>
   <block id="91d90ea5487ed9ed44e834f42f272ccb" category="section-title">2026年8月3日</block>
+  <block id="1eda45f1f79ca6e9d6b738032665f7c6" category="doc">具有成本控制的 AI 延迟分析</block>
+  <block id="b171182b7dc211a76d3e7cecbdf5e425" category="paragraph">作为 Workload Factory 管理员，您可以控制对整个组织的 AI 延迟分析的访问权限。</block>
+  <block id="4c9d3f8b46f94437f92a47d3612a2829" category="list-text">*NetApp 托管 AI 积分*：如果您的管理员启用了此功能，您可以通过 NetApp 的托管 Amazon Bedrock 集成使用 AI 分析。无需额外设置。您的每月使用量受您分配的预算限制。如果您达到每月限额，AI 功能将被禁用，您将看到一条消息。</block>
+  <block id="67ee5da1047f90d8a684f7e0d2ca1944" category="list-text">*由管理员禁用*：如果您的管理员关闭了 AI 功能，则 AI 分析选项将变为灰色，您将看到该功能已关闭的消息。</block>
+  <block id="69e316ff96b412dd2a5045f8dd2f433c" category="section-title">弹性吞吐量增加管理</block>
+  <block id="a01f5f5609c9aee121b699114cfe006f" category="paragraph">现在，您可以从 EDA 概述页面管理一个或多个选定的 FSx for ONTAP 文件系统的吞吐量增加行为。</block>
+  <block id="9c3ee7dcbca3424fcc3c760549aa303d" category="list-text">*模式选择*：选择 *Automate* 或 *Recommend*。</block>
+  <block id="b9722197734c8293fedc4e7c6db77abe" category="list-text">*批量更新*：选择一个或多个文件系统，并在一个操作中应用模式和参数更改。</block>
+  <block id="1a97c66f134399c6e8ddf03e8cd9055e" category="list-text">*更改吞吐量管理对话框*：使用对话框中的 EDA 默认值编辑吞吐量增加设置。</block>
+  <block id="0e71e5ed033b79a12a3d33146bbef832" category="list-text">*Advanced settings*：在可扩展的 *Advanced configuration* 部分中配置其他吞吐量决策参数。</block>
+  <block id="3c559babe76da927fd273d0640ba2089" category="list-text">*表可见性*：Clusters 表中提供了一个新的*吞吐量管理*列，可以从列设置中启用。</block>
+  <block id="b353daec82916c89eec0f9b0557132c1" category="list-text">*顶卡配置*：上卡现在支持吞吐量增加模式配置，类似于 SSD 管理。</block>
+  <block id="e6ae1bdcdd4c1d6a5bc23c326f27ff3f" category="inline-link-macro">了解如何使用概览信息板</block>
+  <block id="070faad8fac25fb3d4c659a4b7497b19" category="paragraph"><block ref="0a3eee7cb6c31ec86c09cd7ae18ee1d3" category="inline-link-macro-rx"></block>。</block>
 </blocks>

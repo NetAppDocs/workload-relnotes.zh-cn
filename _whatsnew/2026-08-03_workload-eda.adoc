@@ -1,0 +1,31 @@
+= 具有成本控制的 AI 延迟分析
+:allow-uri-read: 
+
+
+
+
+[[ai-latency-analysis-with-cost-controls]]
+=== 具有成本控制的 AI 延迟分析
+
+作为 Workload Factory 管理员，您可以控制对整个组织的 AI 延迟分析的访问权限。
+
+* *NetApp 托管 AI 积分*：如果您的管理员启用了此功能，您可以通过 NetApp 的托管 Amazon Bedrock 集成使用 AI 分析。无需额外设置。您的每月使用量受您分配的预算限制。如果您达到每月限额，AI 功能将被禁用，您将看到一条消息。
+* *由管理员禁用*：如果您的管理员关闭了 AI 功能，则 AI 分析选项将变为灰色，您将看到该功能已关闭的消息。
+
+
+
+
+[[elastic-throughput-increase-management]]
+=== 弹性吞吐量增加管理
+
+现在，您可以从 EDA 概述页面管理一个或多个选定的 FSx for ONTAP 文件系统的吞吐量增加行为。
+
+* *模式选择*：选择 *Automate* 或 *Recommend*。
+* *批量更新*：选择一个或多个文件系统，并在一个操作中应用模式和参数更改。
+* *更改吞吐量管理对话框*：使用对话框中的 EDA 默认值编辑吞吐量增加设置。
+* *Advanced settings*：在可扩展的 *Advanced configuration* 部分中配置其他吞吐量决策参数。
+* *表可见性*：Clusters 表中提供了一个新的*吞吐量管理*列，可以从列设置中启用。
+* *顶卡配置*：上卡现在支持吞吐量增加模式配置，类似于 SSD 管理。
+
+
+link:https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html["了解如何使用概览信息板"^]。
