@@ -202,4 +202,31 @@
   <block id="b353daec82916c89eec0f9b0557132c1" category="list-text">*顶卡配置*：上卡现在支持吞吐量增加模式配置，类似于 SSD 管理。</block>
   <block id="e6ae1bdcdd4c1d6a5bc23c326f27ff3f" category="inline-link-macro">了解如何使用概览信息板</block>
   <block id="070faad8fac25fb3d4c659a4b7497b19" category="paragraph"><block ref="0a3eee7cb6c31ec86c09cd7ae18ee1d3" category="inline-link-macro-rx"></block>。</block>
+  <block id="da6f5bf8aee08ef83468ad38ab52796b" category="doc">适用于所有 FSx for ONTAP 系统的全新架构良好的仪表板</block>
+  <block id="7fca025a8bf1b5d72a149731d5c88125" category="paragraph">现在，可以从 NetApp Workload Factory 中新的架构完善仪表板对 FSx for ONTAP 文件系统进行架构完善分析。新仪表板在一个位置集中显示跨帐户和区域的所有文件系统及其配置。当您从文件系统访问*架构完善*选项卡时，会出现弹出通知。在 Workload Factory 的左侧导航菜单中选择*架构完善*，即可访问新仪表板。</block>
+  <block id="b09ad8a2ad81c470093e9c74313ea0c2" category="paragraph">您仍然可以访问特定文件系统的良好架构分析，也可以通过 Storage 中的 *Well-architected* 菜单选项进行访问。</block>
+  <block id="63960000d4e139f329b74b4b91c43feb" category="section-title">新小部件已添加到存储仪表板</block>
+  <block id="1b701a8eaad0525cd9d21842a87a1800" category="paragraph">存储控制面板现在包括两个新的小部件，可帮助您了解如何使用存储空间并找到优化存储空间的方法。</block>
+  <block id="0e2bbff5eb55e16098106686c6657f4e" category="list-text">*Top discovered workloads* 显示标记服务在整个环境中找到的工作负载数据。查看置信度得分高于 80% 的工作负载，其中包括相关的 FSx 资源，例如卷和块设备。每个工作负载都显示其名称、资源数量、已调配容量和已用容量。按资源计数（默认值）、已调配容量或已用容量排序，以快速识别最大工作负载并了解存储使用模式。</block>
+  <block id="dea1b9553440d525973da9d88c579dd0" category="list-text">*AI 驱动的洞察与观察* 显示您托管资产的 AI 生成洞察。该小工具会在选定范围内查看您的资产数据，并突出显示关键领域的前三大发现，包括容量、性能、数据保护、复制、成本节约和存储趋势。</block>
+  <block id="e3b3cc77c3245b045d666342b4d976b2" category="paragraph">每个见解都包括摘要、详细调查结果和建议操作。展开见解以查看更多详细信息，并根据严重程度、性能改进和节省成本的机会排定问题的优先级。</block>
+  <block id="cd4ef961255320407f22a2c9683cfd1d" category="section-title">工作负载标记</block>
+  <block id="6e7c3ced7d1755c7c375f47ca6b2c3f0" category="section-title">AWS Systems Manager 集成，用于工作负载标记</block>
+  <block id="8cc8dc3c329756b30481400836ca180c" category="paragraph">工作负载标记服务现在可与 AWS Systems Manager 配合使用，为主机库存数据添加更多详细信息。Workload Factory 现在可以收集和处理 SSM 库存信息，以更好地识别和分类工作负载。AWS SSM 属性也包含在标记过程中，以提高工作负载发现的准确性。</block>
+  <block id="7f1ecac494abdd70b1fef3cc1209be0c" category="paragraph">精心设计的仪表板中的每个卷相关配置现在都包含资源表中的 *Workload* 列。此列显示 Workload Factory 与每个卷关联的工作负载。</block>
+  <block id="b26629c4d0db7a100913103c2501115d" category="section-title">工作负载标记和人工智能功能</block>
+  <block id="c6e3575ea0e96a40eeea1698ed97e99f" category="paragraph">当管理员禁用 AI 功能时，不会标记工作负载。如果在 Workload Factory 帐户设置中关闭了 AI 功能，则标记服务将不会识别或分类存储资源上的工作负载。</block>
+  <block id="9801425a2145ab6ed5aa12b9446c905c" category="inline-link-macro">了解 AI 管理</block>
+  <block id="cbbc45b1bedc18c950d2da6ef1fe1f43" category="paragraph"><block ref="40737cbe54dcebc9ef5c68ebf72b8d96" category="inline-link-macro-rx"></block>。</block>
+  <block id="39cf1aaf3e84c5c49c930c5bfe27e098" category="section-title">探索节省快照计算改进</block>
+  <block id="a4f25c93cc96e84a15a9a235f569bbe2" category="paragraph">探索节省功能现在使用一致的快照容量计算，因此 FSx for ONTAP 节省估算可正确考虑额外的快照容量池要求。</block>
+  <block id="e14c4b029cabd340fe3b6c67835e9927" category="inline-link-macro">了解如何在 Amazon Elastic Block Store、FSx for Windows File Server 和 Elastic File System 上为您的存储环境节省成本。</block>
+  <block id="01ee25f562cbb2e8ca2ff8f41e96f80d" category="paragraph"><block ref="01ee25f562cbb2e8ca2ff8f41e96f80d" category="inline-link-macro-rx"></block></block>
+  <block id="347a810d994926c5e31d1bd690b34fcf" category="section-title">将复制延迟数据导出到CSV</block>
+  <block id="45cbeaeb98d1d075d560a8e62269fbbb" category="paragraph">现在，您可以将复制延迟数据导出为 CSV 文件，以便在电子表格中分析数据并与他人共享。</block>
+  <block id="abda6db4ef1e45cf251dcf456064a874" category="section-title">S3 访问点事件</block>
+  <block id="084779dffb2a62383b80e6fbe69e0dc4" category="paragraph">您现在可以按照设定的计划将 S3 访问点事件发送到 SNS 主题。每次更新都包含自上次更新以来发生的所有事件。</block>
+  <block id="c634bf7b5214ed8f0d82613de1e29eff" category="inline-link-macro">编辑 S3 接入点</block>
+  <block id="84118bd808a8989867b6fc874b0b1b45" category="paragraph">要设置 S3 事件的通知，<block ref="5014cadb2b53045b84df58ebddada57a" category="inline-link-macro-rx"></block>并选择 *Journal table* 部分下的 *Send S3 events by SNS*。</block>
+  <block id="adf6bc23c10d536eed25c42f34ba48e8" category="section-title">2026年8月2日</block>
 </blocks>
