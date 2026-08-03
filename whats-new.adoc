@@ -20,6 +20,37 @@ summary: 了解NetApp Workload Factory 中工作负载的最新变化。
 
 
 
+[[database-workloads]]
+=== 数据库工作负载
+
+
+
+==== 在精心设计的分析中对 Oracle 和 Microsoft SQL Server 的配置更改
+
+在架构完善的分析中，多个数据库配置已合并并重命名为以下配置。
+
+* *块设备空间管理*：包括空间预留、空间分配和部分预留
+* *存储效率*：包括压缩、重复数据删除和缩减
+* *分层/TCO 优化*：包括分层策略和分层最短冷却天数
+* *计划本地 Snapshots*：包括 Snapshot 策略
+
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-overview.html["Workload Factory 中的配置分析"]
+
+
+
+==== 已更新数据库的 IAM 权限策略
+
+已更新数据库的权限，以改善功能访问并在不必要时限制 SSM 访问。
+
+查看、规划和分析权限仅限于 AWS SSM 文档。使用这些权限，您可以查看主机、实例和数据库。您还可以对资源运行基本的按需架构完善分析。
+
+操作和修正权限允许您对资源进行更改、分析错误日志、对资源进行全面的架构完善分析并修复配置问题。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["权限参考"^]
+
+
+
 [[setup-and-administration]]
 === 设置和管理
 
@@ -33,7 +64,11 @@ summary: 了解NetApp Workload Factory 中工作负载的最新变化。
 
 操作和修正权限允许您对资源进行更改、分析错误日志、对资源进行全面的架构完善分析并修复配置问题。
 
-link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["权限参考"] === 自定义仪表板
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["权限参考"]
+
+
+
+==== 自定义信息板
 
 
 
@@ -45,9 +80,9 @@ Workload Factory现在会在您的自定义仪表板准备就绪或创建失败�
 
 这有助于您了解控制面板何时准备就绪，并轻松查看或重新创建控制面板。
 
-link:create-custom-dashboard.html["了解如何创建自定义控制面板"]
+link:https://docs.netapp.com/us-en/workload-setup-admin/create-custom-dashboard.html["了解如何创建自定义控制面板"]
 
-link:configure-notifications.html["了解如何配置通知"]
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["了解如何配置通知"]
 
 
 
@@ -59,9 +94,9 @@ link:configure-notifications.html["了解如何配置通知"]
 
 每个控制面板卡都会显示"私人"或"公共"标签，因此您可以快速查看哪些控制面板是共享的。
 
-link:learn-custom-dashboards.html#dashboard-visibility-and-sharing["了解控制面板的可见性和共享性"]
+link:https://docs.netapp.com/us-en/workload-setup-admin/learn-custom-dashboards.html#view-and-share-dashboards["了解控制面板的可见性和共享性"]
 
-link:manage-custom-dashboards.html#change-dashboard-visibility["了解如何共享控制面板"]
+link:https://docs.netapp.com/us-en/workload-setup-admin/manage-custom-dashboards.html#change-dashboard-visibility["了解如何共享控制面板"]
 
 
 
@@ -79,7 +114,7 @@ AI功能包括Ask Me、自定义仪表板、规则生成器以及EMS、数据库
 
 如果关闭 AI 功能，用户将看到"AI 不可用"的消息。
 
-link:manage-genai-features.html["了解如何管理 AI 功能"]
+link:https://docs.netapp.com/us-en/workload-setup-admin/manage-genai-features.html["了解如何管理 AI 功能"]
 
 
 

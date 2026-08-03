@@ -161,23 +161,18 @@
   <block id="6f70bfe68d48e1ab770cfb69bea59dfd" category="paragraph">查看、规划和分析权限仅限于 AWS SSM 文档。使用这些权限，您可以查看主机、实例和数据库。您还可以对资源运行基本的按需架构完善分析。</block>
   <block id="e9ad7ba5991717b52c215bd25e788b28" category="paragraph">操作和修正权限允许您对资源进行更改、分析错误日志、对资源进行全面的架构完善分析并修复配置问题。</block>
   <block id="b8646f09ea34b75c077cfea12f75617b" category="inline-link-macro">权限参考</block>
-  <block id="0c92fa03ad5e533f4ef42de9a2ae598f" category="paragraph"><block ref="167e20b67f84068555b3081057c696b8" category="inline-link-macro-rx"></block> === 自定义仪表板</block>
   <block id="d5eb0f9120b28b557f3e367589adf4bb" category="section-title">自定义信息板的通知</block>
   <block id="fb5e135dfdab99cdebbb946a22093655" category="paragraph">Workload Factory现在会在您的自定义仪表板准备就绪或创建失败时通知您。</block>
   <block id="7a99102fbba6a5729480bc61967c8423" category="paragraph">创建自定义控制面板后，您将收到一条通知，其中包含查看该控制面板的直接链接。如果创建失败，您将收到一条通知，其中包含自定义控制面板清单的链接，以便重试。</block>
   <block id="a9402b6e97b8b59ffa86012d5cfb7f9a" category="paragraph">这有助于您了解控制面板何时准备就绪，并轻松查看或重新创建控制面板。</block>
   <block id="359ab637c5369e269d0e004308b6c089" category="inline-link-macro">了解如何创建自定义控制面板</block>
-  <block id="2b4fe8741ca59e9e85fecaff24736613" category="paragraph"><block ref="2b4fe8741ca59e9e85fecaff24736613" category="inline-link-macro-rx"></block></block>
   <block id="863d814c29385fa8ebfd13bc1c1c7e96" category="inline-link-macro">了解如何配置通知</block>
-  <block id="19fa6c73a4251f43a74dc700e68a79f1" category="paragraph"><block ref="19fa6c73a4251f43a74dc700e68a79f1" category="inline-link-macro-rx"></block></block>
   <block id="27a522e1e6e4d9921e08ab5e7ad99158" category="section-title">私人和公共自定义控制面板</block>
   <block id="add4e669fb22c004f4eef61607cc5df8" category="paragraph">自定义仪表板现在包含共享设置。您可以将控制面板设为私有或与您的团队共享。</block>
   <block id="1bdd40db25752f704baa9b254470fb9a" category="paragraph">默认情况下，新控制面板是私密的，只有您可以看到。您可以随时将控制面板设为公开，以便与 Workload Factory 帐户中的所有人共享。</block>
   <block id="26e05170ba3616166d4659e72d415450" category="paragraph">每个控制面板卡都会显示"私人"或"公共"标签，因此您可以快速查看哪些控制面板是共享的。</block>
   <block id="29f897a53b188561913c2393050ce43a" category="inline-link-macro">了解控制面板的可见性和共享性</block>
-  <block id="c5d5a7386c6c7c68f8d62de175cd235f" category="paragraph"><block ref="c5d5a7386c6c7c68f8d62de175cd235f" category="inline-link-macro-rx"></block></block>
   <block id="c0bb5d7518380c44f5710f0803f9b3f4" category="inline-link-macro">了解如何共享控制面板</block>
-  <block id="15bb464c4011a82a1976bc518af9f860" category="paragraph"><block ref="15bb464c4011a82a1976bc518af9f860" category="inline-link-macro-rx"></block></block>
   <block id="b6ea1239e82705b159df88578e6fb6f0" category="section-title">AI 功能管理</block>
   <block id="1c7ba82e26fc30a97a625aaad623e4f4" category="paragraph">您可以通过 Workload Factory 管理中的以下设置来控制整个组织对 AI 功能的访问。</block>
   <block id="e585625dd2a0a8e71ca8d8a269834ba9" category="list-text">使用 NetApp 托管的 Bedrock（推荐且默认启用，设有每月信用额度限制）</block>
@@ -186,7 +181,6 @@
   <block id="cd89624525aeeba4f9fce9dcfb6d9a91" category="paragraph">AI功能包括Ask Me、自定义仪表板、规则生成器以及EMS、数据库日志和卷延迟的分析器。</block>
   <block id="dc363e90d503e57b6cddc555e2f96d5f" category="paragraph">如果关闭 AI 功能，用户将看到"AI 不可用"的消息。</block>
   <block id="48dc51848c127d267cdd7ab1bcd0fe5e" category="inline-link-macro">了解如何管理 AI 功能</block>
-  <block id="56d2e09cbb0a828478db20ff2d11774d" category="paragraph"><block ref="56d2e09cbb0a828478db20ff2d11774d" category="inline-link-macro-rx"></block></block>
   <block id="91d90ea5487ed9ed44e834f42f272ccb" category="section-title">2026年8月3日</block>
   <block id="1eda45f1f79ca6e9d6b738032665f7c6" category="doc">具有成本控制的 AI 延迟分析</block>
   <block id="b171182b7dc211a76d3e7cecbdf5e425" category="paragraph">作为 Workload Factory 管理员，您可以控制对整个组织的 AI 延迟分析的访问权限。</block>
@@ -229,4 +223,19 @@
   <block id="84118bd808a8989867b6fc874b0b1b45" category="paragraph">要设置 S3 事件的通知，<block ref="5014cadb2b53045b84df58ebddada57a" category="inline-link-macro-rx"></block>并选择 *Journal table* 部分下的 *Send S3 events by SNS*。</block>
   <block id="adf6bc23c10d536eed25c42f34ba48e8" category="section-title">2026年8月2日</block>
   <block id="bb971caaebe9e5940267caf457500810" category="paragraph"><block ref="247b746a5e5f871115d636673a8fd3a7" category="inline-link-macro-rx"></block>。</block>
+  <block id="78a4e31d1c34a343ac1189ff737a0982" category="doc">在精心设计的分析中对 Oracle 和 Microsoft SQL Server 的配置更改</block>
+  <block id="1d617de46837a3d67b6850fd27b13c02" category="paragraph">在架构完善的分析中，多个数据库配置已合并并重命名为以下配置。</block>
+  <block id="70dc13ee7e3320f270e7236f7fa9f60d" category="list-text">*块设备空间管理*：包括空间预留、空间分配和部分预留</block>
+  <block id="c75bc7e1a77b2b8e809bf87a1b1c2b5b" category="list-text">*存储效率*：包括压缩、重复数据删除和缩减</block>
+  <block id="706125d817b831eb4c31ea90c004eee2" category="list-text">*分层/TCO 优化*：包括分层策略和分层最短冷却天数</block>
+  <block id="08ab4e6e5d6d250dd93617842402b41f" category="list-text">*计划本地 Snapshots*：包括 Snapshot 策略</block>
+  <block id="3791b9a912543795aa72719e1fa5c488" category="inline-link-macro">Workload Factory 中的配置分析</block>
+  <block id="5874b771173388bd46c8912da31750a0" category="paragraph"><block ref="5874b771173388bd46c8912da31750a0" category="inline-link-macro-rx"></block></block>
+  <block id="c041c2dfd235a9062883922df8e04748" category="paragraph"><block ref="c041c2dfd235a9062883922df8e04748" category="inline-link-macro-rx"></block></block>
+  <block id="167e20b67f84068555b3081057c696b8" category="paragraph"><block ref="167e20b67f84068555b3081057c696b8" category="inline-link-macro-rx"></block></block>
+  <block id="0e23d2a91e2fd1a7eb141ceb8cd9ddcf" category="paragraph"><block ref="0e23d2a91e2fd1a7eb141ceb8cd9ddcf" category="inline-link-macro-rx"></block></block>
+  <block id="d972d2e4f90697cd9aea0ea06c6d65ea" category="paragraph"><block ref="d972d2e4f90697cd9aea0ea06c6d65ea" category="inline-link-macro-rx"></block></block>
+  <block id="5243974c66976ebd592df24b62b1b9bf" category="paragraph"><block ref="5243974c66976ebd592df24b62b1b9bf" category="inline-link-macro-rx"></block></block>
+  <block id="a8d7b4c293e04e8a879f9be70ed380ba" category="paragraph"><block ref="a8d7b4c293e04e8a879f9be70ed380ba" category="inline-link-macro-rx"></block></block>
+  <block id="8d20116cd01bc3ce31dae628497af0dc" category="paragraph"><block ref="8d20116cd01bc3ce31dae628497af0dc" category="inline-link-macro-rx"></block></block>
 </blocks>

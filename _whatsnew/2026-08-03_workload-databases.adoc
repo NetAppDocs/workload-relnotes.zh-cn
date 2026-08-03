@@ -1,0 +1,31 @@
+= 在精心设计的分析中对 Oracle 和 Microsoft SQL Server 的配置更改
+:allow-uri-read: 
+
+
+
+
+[[configuration-changes-for-oracle-and-microsoft-sql-server-in-the-well-architected-analysis]]
+=== 在精心设计的分析中对 Oracle 和 Microsoft SQL Server 的配置更改
+
+在架构完善的分析中，多个数据库配置已合并并重命名为以下配置。
+
+* *块设备空间管理*：包括空间预留、空间分配和部分预留
+* *存储效率*：包括压缩、重复数据删除和缩减
+* *分层/TCO 优化*：包括分层策略和分层最短冷却天数
+* *计划本地 Snapshots*：包括 Snapshot 策略
+
+
+link:https://docs.netapp.com/us-en/workload-databases/optimize-overview.html["Workload Factory 中的配置分析"]
+
+
+
+[[updated-iam-permission-policies-for-databases]]
+=== 已更新数据库的 IAM 权限策略
+
+已更新数据库的权限，以改善功能访问并在不必要时限制 SSM 访问。
+
+查看、规划和分析权限仅限于 AWS SSM 文档。使用这些权限，您可以查看主机、实例和数据库。您还可以对资源运行基本的按需架构完善分析。
+
+操作和修正权限允许您对资源进行更改、分析错误日志、对资源进行全面的架构完善分析并修复配置问题。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["权限参考"^]
