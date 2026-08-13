@@ -69,3 +69,10 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/explore-savings.html["了�
 您现在可以按照设定的计划将 S3 访问点事件发送到 SNS 主题。每次更新都包含自上次更新以来发生的所有事件。
 
 要设置 S3 事件的通知，link:https://docs.netapp.com/us-en/workload-fsx-ontap/edit-s3-access-points.html["编辑 S3 接入点"]并选择 *Journal table* 部分下的 *Send S3 events by SNS*。
+
+
+
+[[ontap-features-displayed-in-volumes-explorer]]
+=== 卷资源管理器中显示的 ONTAP 功能
+
+卷资源管理器现在在卷表中包含 ONTAP 功能。这些功能可更详细地了解卷的配置和状态，例如保护范围、自主勒索软件保护 (ARP/AI) 状态、存储效率、分层策略和卷自动增长。

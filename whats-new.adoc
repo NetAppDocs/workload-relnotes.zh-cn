@@ -221,6 +221,12 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/explore-savings.html["了�
 
 
 
+==== 卷资源管理器中显示的 ONTAP 功能
+
+卷资源管理器现在在卷表中包含 ONTAP 功能。这些功能可更详细地了解卷的配置和状态，例如保护范围、自主勒索软件保护 (ARP/AI) 状态、存储效率、分层策略和卷自动增长。
+
+
+
 [[06-july-2026]]
 == 2026年7月6日
 
@@ -472,17 +478,6 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/set-volume-latency-thresho
 ==== 在 NetApp Workload Factory 中支持 AWS GovCloud (US)
 
 NetApp Workload Factory 支持 AWS GovCloud (US) 账户。使用 GovCloud 账户，您可以在 AWS GovCloud (US) 区域中部署和管理存储工作负载。
-
-
-
-[[genai-workloads]]
-=== GenAI工作负载
-
-
-
-==== 在 NetApp Workload Factory 中支持 AWS GovCloud (US)
-
-NetApp Workload Factory 支持 AWS GovCloud (US) 账户。使用 GovCloud 账户，您可以在 AWS GovCloud (US) 区域部署和管理 GenAI 工作负载。
 
 
 

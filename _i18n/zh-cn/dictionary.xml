@@ -37,7 +37,6 @@
   <block id="06c8d6de7277fbcb62791ed118b9bc96" category="paragraph"><block ref="06c8d6de7277fbcb62791ed118b9bc96" category="inline-link-macro-rx"></block></block>
   <block id="394b492bc5d751a9928357af63eeb4df" category="section-title">FSx for ONTAP 文件系统的新通知</block>
   <block id="ed577820f4fec6bbade3e14c5eb7020d" category="doc">在 NetApp Workload Factory 中支持 AWS GovCloud (US)</block>
-  <block id="699b8f027b66b237760179b118b65c6e" category="paragraph">NetApp Workload Factory 支持 AWS GovCloud (US) 账户。使用 GovCloud 账户，您可以在 AWS GovCloud (US) 区域部署和管理 GenAI 工作负载。</block>
   <block id="92ee6e4d72d15689a675017ce0db2fa1" category="section-title">2026 年 5 月 31 日</block>
   <block id="779d05f80e557ffb6b9d91002c8c535c" category="doc">Amazon Elastic Block Store 上 Oracle 主机的定制节省</block>
   <block id="3a4be47663e2fa751113137a974a3fbf" category="paragraph">NetApp Workload Factory for Databases 允许您为 Amazon Elastic Block Store (EBS) 上的 Oracle 主机自定义节省。您可以调整多个字段，如快照频率、克隆副本数量和卷详细信息，以了解它们如何影响您的节省。</block>
@@ -238,4 +237,6 @@
   <block id="5243974c66976ebd592df24b62b1b9bf" category="paragraph"><block ref="5243974c66976ebd592df24b62b1b9bf" category="inline-link-macro-rx"></block></block>
   <block id="a8d7b4c293e04e8a879f9be70ed380ba" category="paragraph"><block ref="a8d7b4c293e04e8a879f9be70ed380ba" category="inline-link-macro-rx"></block></block>
   <block id="8d20116cd01bc3ce31dae628497af0dc" category="paragraph"><block ref="8d20116cd01bc3ce31dae628497af0dc" category="inline-link-macro-rx"></block></block>
+  <block id="935b1e26eff078e94b224d92e0db898a" category="section-title">卷资源管理器中显示的 ONTAP 功能</block>
+  <block id="2d4406cf931edb2fbd5ab72e7eb07c66" category="paragraph">卷资源管理器现在在卷表中包含 ONTAP 功能。这些功能可更详细地了解卷的配置和状态，例如保护范围、自主勒索软件保护 (ARP/AI) 状态、存储效率、分层策略和卷自动增长。</block>
 </blocks>
