@@ -15,6 +15,22 @@ summary: 了解NetApp Workload Factory 中工作负载的最新变化。
 
 
 
+[[11-august-2026]]
+== 2026年8月11日
+
+
+
+[[amazon-fsx-for-netapp-ontap]]
+=== 适用于 NetApp ONTAP 的 Amazon FSX
+
+
+
+==== 卷资源管理器中可用的卷操作
+
+所有卷操作都可以直接从一个或多个卷的 Volumes explorer 中获得。这样可以更快地执行卷级操作。卷操作包括修改卷设置、管理快照以及执行其他卷任务，而无需离开 Volumes explorer。您还可以从 FSx for ONTAP 文件系统概述中的 Volumes 选项卡访问这些操作。
+
+
+
 [[03-august-2026]]
 == 2026年8月3日
 

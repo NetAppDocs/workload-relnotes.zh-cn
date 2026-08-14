@@ -239,4 +239,7 @@
   <block id="8d20116cd01bc3ce31dae628497af0dc" category="paragraph"><block ref="8d20116cd01bc3ce31dae628497af0dc" category="inline-link-macro-rx"></block></block>
   <block id="935b1e26eff078e94b224d92e0db898a" category="section-title">卷资源管理器中显示的 ONTAP 功能</block>
   <block id="2d4406cf931edb2fbd5ab72e7eb07c66" category="paragraph">卷资源管理器现在在卷表中包含 ONTAP 功能。这些功能可更详细地了解卷的配置和状态，例如保护范围、自主勒索软件保护 (ARP/AI) 状态、存储效率、分层策略和卷自动增长。</block>
+  <block id="9b988decb4830a521f8e1487584f0385" category="doc">卷资源管理器中可用的卷操作</block>
+  <block id="a0c01b4b61e4e5c8542aca4694a620d6" category="paragraph">所有卷操作都可以直接从一个或多个卷的 Volumes explorer 中获得。这样可以更快地执行卷级操作。卷操作包括修改卷设置、管理快照以及执行其他卷任务，而无需离开 Volumes explorer。您还可以从 FSx for ONTAP 文件系统概述中的 Volumes 选项卡访问这些操作。</block>
+  <block id="7ade7e78371066efd6d4e823d8da1fd8" category="section-title">2026年8月11日</block>
 </blocks>
