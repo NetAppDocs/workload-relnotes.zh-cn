@@ -138,7 +138,6 @@
   <block id="7a13522750dff612c4af95a525a5075b" category="inline-link">了解如何配置延迟监控</block>
   <block id="496e68c00adfe40e8730acfccde74f6b" category="paragraph"><block ref="9cf52e304b2518ca53073fc069c5a89c" category="inline-link-rx"></block>。</block>
   <block id="efbeddc0347a679a438120189b77f860" category="section-title">卷资源管理器</block>
-  <block id="3e1cc7f8632eafd5f69d910c06db3aa4" category="paragraph">卷资源管理器为您提供了 NetApp Workload Factory 中所有卷的简单可搜索视图。快速查看哪些卷提供数据块或文件工作负载。查看每个卷的逻辑大小、物理已用容量，以及它是否使用存储效率功能（压缩、重复数据删除和压缩）。按名称、状态（可用/失败）、延迟、大小、已用容量和保护功能进行筛选和排序。</block>
   <block id="3a410df7dfc102007ea8a7569fdb1810" category="section-title">针对复制延迟增强的电子邮件通知</block>
   <block id="bd78ae8d1a9aed4500716acc31d179d8" category="paragraph">有关复制延迟的电子邮件通知现在包括有关受影响关系的更多详细信息。此通知可帮助您快速识别受影响的关系，并在 Workload Factory 控制台中进行调查。</block>
   <block id="4dc5c4a9c4b845746295cce1108ec278" category="inline-link-macro">为复制延迟启用通知</block>
@@ -242,4 +241,5 @@
   <block id="9b988decb4830a521f8e1487584f0385" category="doc">卷资源管理器中可用的卷操作</block>
   <block id="a0c01b4b61e4e5c8542aca4694a620d6" category="paragraph">所有卷操作都可以直接从一个或多个卷的 Volumes explorer 中获得。这样可以更快地执行卷级操作。卷操作包括修改卷设置、管理快照以及执行其他卷任务，而无需离开 Volumes explorer。您还可以从 FSx for ONTAP 文件系统概述中的 Volumes 选项卡访问这些操作。</block>
   <block id="7ade7e78371066efd6d4e823d8da1fd8" category="section-title">2026年8月11日</block>
+  <block id="2b2db21e376d227839b25c1e6fcb7638" category="paragraph">卷资源管理器为您提供了 NetApp Workload Factory 中所有卷的简单可搜索视图。快速查看哪些卷提供数据块或文件工作负载。查看每个卷的逻辑大小、物理已用容量，以及它是否使用存储效率功能（压缩、重复数据删除和压缩）。按名称、状态（可用/失败）、延迟、大小、已用容量和保护功能进行筛选和排序。</block>
 </blocks>
