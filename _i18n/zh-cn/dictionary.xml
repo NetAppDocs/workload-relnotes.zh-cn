@@ -33,83 +33,6 @@
   <block id="ed09318eed7d979b31cfb4afc3b11097" category="sidebar">这些发行说明介绍了NetApp Workload Factory 的云服务的最新增强功能。</block>
   <block id="9ff48e1eaa80562d8bc97f2d59b40e41" category="sidebar">NetApp Workload Factory 发行说明</block>
   <block id="2bc4b4a88d694b207aacb90573eb4b7f" category="doc">EDA 工作负载</block>
-  <block id="7c1a1feb7968ed15d338ae3e7284dd4e" category="inline-link-macro">配置 Workload Factory 通知</block>
-  <block id="06c8d6de7277fbcb62791ed118b9bc96" category="paragraph"><block ref="06c8d6de7277fbcb62791ed118b9bc96" category="inline-link-macro-rx"></block></block>
-  <block id="394b492bc5d751a9928357af63eeb4df" category="section-title">FSx for ONTAP 文件系统的新通知</block>
-  <block id="ed577820f4fec6bbade3e14c5eb7020d" category="doc">在 NetApp Workload Factory 中支持 AWS GovCloud (US)</block>
-  <block id="92ee6e4d72d15689a675017ce0db2fa1" category="section-title">2026 年 5 月 31 日</block>
-  <block id="779d05f80e557ffb6b9d91002c8c535c" category="doc">Amazon Elastic Block Store 上 Oracle 主机的定制节省</block>
-  <block id="3a4be47663e2fa751113137a974a3fbf" category="paragraph">NetApp Workload Factory for Databases 允许您为 Amazon Elastic Block Store (EBS) 上的 Oracle 主机自定义节省。您可以调整多个字段，如快照频率、克隆副本数量和卷详细信息，以了解它们如何影响您的节省。</block>
-  <block id="df8ce82904fb7f768a98668382cdec3a" category="inline-link-macro">探索 Oracle 主机在 EBS 上的节省</block>
-  <block id="d1839e6ad7687f9aaf499df8a37a528b" category="paragraph"><block ref="d1839e6ad7687f9aaf499df8a37a528b" category="inline-link-macro-rx"></block></block>
-  <block id="1ed508a845657aa228cb523211b501a0" category="section-title">适用于 Microsoft SQL Server 和 PostgreSQL 主机部署的多个安全组选择</block>
-  <block id="5f3983aebdf54bf31555d0b354f825df" category="paragraph">NetApp Workload Factory for Databases 现在允许您在部署 Microsoft SQL Server 和 PostgreSQL 主机时选择多个安全组。这为您在为数据库工作负载配置网络安全性时提供了更大的灵活性。</block>
-  <block id="2e9b0a449319af8e501ebf42f946b3a4" category="inline-link-macro">部署 Microsoft SQL Server 主机</block>
-  <block id="36827721f24c7683f7cbb55f48380665" category="list-text"><block ref="36827721f24c7683f7cbb55f48380665" category="inline-link-macro-rx"></block></block>
-  <block id="3b1a9a0ee670c86859aadb420ba7a43d" category="inline-link-macro">部署 PostgreSQL 主机</block>
-  <block id="d9d75ceb2e92d25dfa5fd1bd2ea01dfc" category="list-text"><block ref="d9d75ceb2e92d25dfa5fd1bd2ea01dfc" category="inline-link-macro-rx"></block></block>
-  <block id="092e50fff7799a091642caa817b6e9ee" category="paragraph">NetApp Workload Factory 支持 AWS GovCloud (US) 账户。使用 GovCloud 账户，您可以在 AWS GovCloud (US) 区域中部署和管理数据库工作负载。</block>
-  <block id="431b3c73dcd090440f753c5d3af80bb0" category="section-title">2026 年 6 月 1 日</block>
-  <block id="1e2f4a38d5efedb5cf0944fea2e5cddf" category="inline-link-macro">在 NetApp Workload Factory 中查看 FSx for ONTAP 文件系统的良好架构状态</block>
-  <block id="74d7776910c4ca73289bbbb6c6bfddf9" category="paragraph"><block ref="74d7776910c4ca73289bbbb6c6bfddf9" category="inline-link-macro-rx"></block></block>
-  <block id="8b15ccb7fd3de568f0d6670c4c2d0d62" category="paragraph">NetApp Workload Factory 支持 AWS GovCloud (US) 账户。使用 GovCloud 账户，您可以在 AWS GovCloud (US) 区域中部署和管理存储工作负载。</block>
-  <block id="8e45f2905d109c7f7ad7492d2341d234" category="section-title">在 NetApp Workload Factory 中设置卷延迟阈值</block>
-  <block id="aef3e325f515541566b19394d335ef43" category="paragraph">您可以按卷配置延迟阈值，以监控性能并在延迟值超过定义的限制时接收警报。Workload Factory 监控读取和写入延迟，并在超出任一阈值时生成警报。</block>
-  <block id="e38f666491d8e4d592d5df89c8419266" category="paragraph"><block ref="e38f666491d8e4d592d5df89c8419266" category="inline-link-macro-rx"></block></block>
-  <block id="b9ceeddf626c03ee2118a4917ae8c38b" category="section-title">在 NetApp Workload Factory 中跟踪复制延迟</block>
-  <block id="a36f1662cdb9e2ceab93d3f25e0eca77" category="paragraph">使用 NetApp Workload Factory，您可以跟踪配置了远程复制的 FSx for ONTAP 文件系统的复制延迟。复制延迟表示数据写入源文件系统和复制到目标文件系统之间的时间延迟。跟踪复制延迟可帮助您监控复制设置的运行状况，并确定可能影响数据一致性和恢复点目标 (RPO) 的潜在问题。</block>
-  <block id="fde2f1eddf6c2d5994d4c9cacc07ff31" category="paragraph"><block ref="fde2f1eddf6c2d5994d4c9cacc07ff31" category="inline-link-macro-rx"></block></block>
-  <block id="15f374eb532ab28d06443136d99e63b5" category="section-title">NetApp Workload Factory 中的主机标识和工作负载定义</block>
-  <block id="e4d934df8f9ddefcebbc02695e3cfbdc" category="paragraph">Workload Factory 标识使用存储的主机以及与主机活动相关联的工作负载类型。工作负载定义是基于 AWS 标记和元数据的 AI 生成的。您可以从 Workload Factory 中的文件系统、卷和块设备资源屏幕查看主机详细信息和工作负载定义。</block>
-  <block id="9ef57b630c87ffd61b917510a7a26030" category="section-title">NetApp Workload Factory 中可用的 LIF 详细信息</block>
-  <block id="055f68ac1562a94352bd56b1842791fb" category="paragraph">我们直接在文件系统的"概述"选项卡中显示所有文件系统和存储虚拟机端点。Workload Factory 控制台内的直接端点可见性使您可以更轻松地监控网络访问、端点和故障转移状态，而无需使用 CLI 或 CloudShell。要显示 LIF 详细信息，包括角色、端点、节点、IP 地址和状态，您需要将链接与文件系统关联。</block>
-  <block id="c1bff806faafabc5316c2270f113bd85" category="inline-link-macro">了解如何在 NetApp Workload Factory 中将链接与您的文件系统关联</block>
-  <block id="0cfa9f29837495af6181228a2286658a" category="paragraph"><block ref="966e2ff22df42c69be9cce59aca228ff" category="inline-link-macro-rx"></block>。</block>
-  <block id="3cb407325a893b82dafad46209626b50" category="section-title">成本增强功能</block>
-  <block id="4ca110e0d9ae04c6ba757ec8fd3182f2" category="paragraph">新的可选页面级筛选器可用于改进所有 AWS 账户的资源成本分析结果。您可以选择多个区域，并使用文件系统分配标记键和键值来过滤成本分析结果，并获取针对 FSx for ONTAP 文件系统和卷的资源特定成本详细信息。</block>
-  <block id="083b82dbc7669e65217c0c4cdd6a08f3" category="inline-link-macro">在 NetApp Workload Factory 中使用筛选器进行成本分析</block>
-  <block id="cd3891050de2d442936c795f42b5be55" category="paragraph"><block ref="cd3891050de2d442936c795f42b5be55" category="inline-link-macro-rx"></block></block>
-  <block id="830f303cdae9912a4ea32f1f9cbf416e" category="section-title">NetApp Workload Factory 中提供复制初始化调度</block>
-  <block id="15bc72c00374b1de7051b2d672060b33" category="paragraph">在数据复制设置期间，您现在可以为 FSx for ONTAP 文件系统安排复制初始化。选项是立即或在指定时间初始化复制关系。复制初始化是通过将数据从源文件系统复制到目标文件系统来创建复制基线的过程。计划复制初始化允许您自动执行此过程，并确保您的复制设置为最新，而无需手动干预。</block>
-  <block id="214d407853490bc740a9484be85b4f3e" category="inline-link-macro">在 NetApp Workload Factory 中复制数据</block>
-  <block id="f9e073199d07787a028f9eaa386764c2" category="paragraph"><block ref="f9e073199d07787a028f9eaa386764c2" category="inline-link-macro-rx"></block></block>
-  <block id="365c1d3c417c4ceff114f4189c08aded" category="section-title">FSx for ONTAP 文件系统的良好架构状态的 Excel 报告</block>
-  <block id="cef65a1b6b28821282b97ae2bfcccb7b" category="paragraph">分析后，您可以下载 FSx for ONTAP 文件系统的良好架构状态的 Excel 报告，用于记录或与您的团队共享。</block>
-  <block id="d280f690a98c812adf5c9aff661addf4" category="section-title">查看和分析延迟事件</block>
-  <block id="9863682c1ac348823880a0e92aae9424" category="paragraph">Workload Factory 现在支持查看和分析 FSx for ONTAP 卷的延迟事件。您可以在没有链接连接的情况下查看延迟事件，从而更轻松地监控性能问题。要分析延迟事件并接收基于 AI 的见解和建议，您必须使用链接连接到文件系统。分析提供当前延迟值、阈值、QoS 响应分析和补救指导。</block>
-  <block id="48b5c4d3746aea9e001799935441305e" category="inline-link-macro">在 NetApp Workload Factory 中分析 FSx for ONTAP 事件</block>
-  <block id="46d1548637c7b145aedaf16fc4982ded" category="paragraph"><block ref="46d1548637c7b145aedaf16fc4982ded" category="inline-link-macro-rx"></block></block>
-  <block id="6935aa37908b8d3e8e6495adec301374" category="section-title">设置卷延迟阈值</block>
-  <block id="8d36c5c4d1b5b3180db932fcf4bd5e3b" category="paragraph">现在，您可以按卷配置延迟阈值，以便在读取或写入延迟超过定义的限制时监控性能并接收警报。延迟监控可帮助您在影响工作负载之前主动识别性能问题。</block>
-  <block id="3bb5ae684d139ecc39b584ffe9e6033b" category="paragraph">NetApp Workload Factory 通知服务包括复制延迟通知。</block>
-  <block id="bdd14b3b036670ed34f9ec4d3b52c70c" category="section-title">支持 AWS GovCloud (US) 账户</block>
-  <block id="bc2438830b45cc61abad63e0b037a228" category="paragraph">现在，您可以在 Workload Factory 中创建 AWS GovCloud (US) 账户。此账户类型仅使用 AWS US GovCloud 端点和区域进行设置和操作。凭据和机密保留在 GovCloud 中。支持 GovCloud (US) 区域。</block>
-  <block id="b6d9ef2d00d295b73db4c150b66667c7" category="inline-link-macro">在 Workload Factory 中创建 AWS GovCloud (US) 账户</block>
-  <block id="02235c7f58acbfe62b6b373b8f8ef557" category="paragraph"><block ref="02235c7f58acbfe62b6b373b8f8ef557" category="inline-link-macro-rx"></block></block>
-  <block id="4f08df9e7760628c8a0fcefa27f063f4" category="doc">SSD 容量增加管理模式和自动化</block>
-  <block id="6048180efecc25affb37f0bcfc4af51f" category="paragraph">Workload Factory 现在提供 SSD 容量增加管理模式，以匹配您的操作偏好：</block>
-  <block id="9464fbc6a7b71da353f2d54109960226" category="list-text">*自动化*</block>
-  <block id="66237dc10c2943c0563d26d3f0b6b230" category="list-text">*推荐*</block>
-  <block id="d015a34de96d3f92372df94da0f629a7" category="list-text">*无*</block>
-  <block id="7d2c5b1dd66ac2d00e2f116602f0da91" category="paragraph">当前模式及其参数显示在文件系统详细信息页面的 SSD 使用情况图表的顶端。您可以根据操作需求随时切换模式。</block>
-  <block id="df638dda507575b6f88b684af7608553" category="inline-link-macro">了解 SSD 管理模式</block>
-  <block id="8726b2b1ff09bca86dd85ada696c955e" category="paragraph"><block ref="8a69182f844b7822adef7a1894417217" category="inline-link-macro-rx"></block>。</block>
-  <block id="70a1c8861535253968956554ebf8e231" category="section-title">批量编辑 SSD 容量增加管理参数</block>
-  <block id="771b4b22f5518da40bcc1511e8f12898" category="paragraph">现在，您可以从概览仪表板调整多个文件系统的 SSD 容量增加管理参数。在群集表中选择一个或多个群集，并批量编辑阈值（10-90%）、回溯（1-200 小时）和提前（1-200 小时）值。</block>
-  <block id="012cccd7c99fecdbdf717ccb8b16b7de" category="paragraph">编辑对话框根据您的选择自动填充：如果所有选定的文件系统共享相同的参数值，则会显示这些值；否则，将使用默认值。这有助于您在整个环境中应用一致的容量设置。</block>
-  <block id="68c574408eaf57fb5b79796bef1895be" category="inline-link-macro">了解如何批量编辑参数</block>
-  <block id="ba63cd1a056bc80046c503ba2fa33773" category="paragraph"><block ref="fb2c15e1efaea436655e6825086014e4" category="inline-link-macro-rx"></block>。</block>
-  <block id="b02017def04604d515c33a15c45d2e8e" category="section-title">容量决策点可视化</block>
-  <block id="7dcdf7b0c669e34d376781ffb261c8f6" category="paragraph">SSD 使用情况图表现在显示决策点，指示何时生成容量建议或采取自动操作。</block>
-  <block id="473ad9d52a93a6904458becbb59cdb8f" category="list-text">*建议决定点*：悬停以查看时间戳、建议增加的大小和当前容量。</block>
-  <block id="e13a73a214d35af7df23610e438e2773" category="list-text">*自动化决策点*：悬停以查看时间戳、成功或失败状态、增加大小和新的聚合大小。失败的尝试包括失败原因。</block>
-  <block id="c1d04258174a29f2132edb30e198b9ea" category="paragraph">决策点可以每 30 分钟发生一次，并根据选定的时间范围单独显示或合并显示。</block>
-  <block id="77911424f819f845cb8185bc75dd9c89" category="inline-link-macro">了解容量决策点</block>
-  <block id="2470c0ea25645427c285ac2c1db0ea6d" category="paragraph"><block ref="7d345c706cc4ef56c93e61e8fef7447b" category="inline-link-macro-rx"></block>。</block>
-  <block id="6730925799427eefafa41ca821775fd8" category="section-title">Clusters 表中的链接配置状态</block>
-  <block id="00617692d401e7bead58c1c61c197639" category="paragraph">概览仪表板上的集群表现在包括一个关联链接列，该列显示是否为每个文件系统配置了 FSx for ONTAP 链接。连接状态每天验证，帮助您识别需要链接配置或可能存在连接问题的文件系统。</block>
-  <block id="14447da801a1982ce517d6e1ffb0c116" category="inline-link-macro">查看概览仪表板</block>
-  <block id="ad5ea2e791a779cc733cf94252010c1e" category="paragraph"><block ref="a3c9e85960ac01cd3d2a615266299aa4" category="inline-link-macro-rx"></block>。</block>
   <block id="caa606c0b1085a846c384cef14c3a17f" category="doc">EVS TCO 计算器中的 i7i.metal-24xl 实例支持</block>
   <block id="b055674b094a39e8822f5941fd1ddf8d" category="paragraph">EVS TCO 计算器现在支持 AWS i7i.metal-24xl EC2 实例作为集群主机。与 i4i.metal 配置相比，这些实例将计算的 EVS 起始成本降低了约 33%，将 vSAN 存储的 EVS 起始成本降低了约 25%。</block>
   <block id="bbc7cb1849fc26e314ad21ecd99ca5fe" category="paragraph">计算器会自动比较两种实例类型，并选择最具成本效益的选项。新的比较版块会并排显示 EVS 主机配置，以便更轻松地找到满足您需求的最佳设置。</block>
@@ -242,4 +165,7 @@
   <block id="a0c01b4b61e4e5c8542aca4694a620d6" category="paragraph">所有卷操作都可以直接从一个或多个卷的 Volumes explorer 中获得。这样可以更快地执行卷级操作。卷操作包括修改卷设置、管理快照以及执行其他卷任务，而无需离开 Volumes explorer。您还可以从 FSx for ONTAP 文件系统概述中的 Volumes 选项卡访问这些操作。</block>
   <block id="7ade7e78371066efd6d4e823d8da1fd8" category="section-title">2026年8月11日</block>
   <block id="2b2db21e376d227839b25c1e6fcb7638" category="paragraph">卷资源管理器为您提供了 NetApp Workload Factory 中所有卷的简单可搜索视图。快速查看哪些卷提供数据块或文件工作负载。查看每个卷的逻辑大小、物理已用容量，以及它是否使用存储效率功能（压缩、重复数据删除和压缩）。按名称、状态（可用/失败）、延迟、大小、已用容量和保护功能进行筛选和排序。</block>
+  <block id="8d8c52a0c2cdf249c1bf6acdbd825469" category="doc">凭据和链接的新入门体验</block>
+  <block id="4f9abf683fceb68d04e55eccea1aef30" category="paragraph">Workload Factory 改进了凭据和链接的入门体验，使入门更加简便。创建账号并登录后，在任何工作负载图块（例如 *Storage*）中选择 *Get started*，下一页将逐步引导您完成设置过程。</block>
+  <block id="1641126472d40ab162e3acf05ac611ba" category="section-title">2026年8月30日</block>
 </blocks>
