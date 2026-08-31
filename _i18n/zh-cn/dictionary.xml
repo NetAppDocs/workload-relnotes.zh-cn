@@ -168,4 +168,8 @@
   <block id="8d8c52a0c2cdf249c1bf6acdbd825469" category="doc">凭据和链接的新入门体验</block>
   <block id="4f9abf683fceb68d04e55eccea1aef30" category="paragraph">Workload Factory 改进了凭据和链接的入门体验，使入门更加简便。创建账号并登录后，在任何工作负载图块（例如 *Storage*）中选择 *Get started*，下一页将逐步引导您完成设置过程。</block>
   <block id="1641126472d40ab162e3acf05ac611ba" category="section-title">2026年8月30日</block>
+  <block id="c329a6ebc8c0891e88889203e3e31c39" category="doc">可从链接页面创建链接</block>
+  <block id="ef8e743556b96fe2947729361cb5835f" category="paragraph">现在，除了 FSx for ONTAP 库存页面和文件系统概述页面之外，您还可以直接从"管理"菜单中的"链接"页面创建链接。</block>
+  <block id="b65fab1584e1a15fb6cd01b1fb573a1f" category="inline-link-macro">详细了解如何创建链接</block>
+  <block id="2fb8fbf9eac6cb7cdbca3e8cae581dd0" category="paragraph"><block ref="ac8902bc899b18c41d3bea9bfd9e1e86" category="inline-link-macro-rx"></block>。</block>
 </blocks>

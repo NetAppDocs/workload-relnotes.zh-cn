@@ -1,0 +1,12 @@
+= 可从链接页面创建链接
+:allow-uri-read: 
+
+
+
+
+[[link-creation-available-from-links-page]]
+=== 可从链接页面创建链接
+
+现在，除了 FSx for ONTAP 库存页面和文件系统概述页面之外，您还可以直接从"管理"菜单中的"链接"页面创建链接。
+
+link:create-link.html["详细了解如何创建链接"]。
