@@ -172,4 +172,10 @@
   <block id="ef8e743556b96fe2947729361cb5835f" category="paragraph">现在，除了 FSx for ONTAP 库存页面和文件系统概述页面之外，您还可以直接从"管理"菜单中的"链接"页面创建链接。</block>
   <block id="b65fab1584e1a15fb6cd01b1fb573a1f" category="inline-link-macro">详细了解如何创建链接</block>
   <block id="2fb8fbf9eac6cb7cdbca3e8cae581dd0" category="paragraph"><block ref="ac8902bc899b18c41d3bea9bfd9e1e86" category="inline-link-macro-rx"></block>。</block>
+  <block id="619b54ce9e8c031c19256b4d8d750363" category="doc">节省计算器更新</block>
+  <block id="e5dcb68e9a92c735dc0967956647bc80" category="paragraph">您可以仅使用查看、规划和分析权限，比较在 FSx for ONTAP 文件系统上运行 Microsoft SQL Server 工作负载的各种成本组成部分（如存储、计算、SQL 许可证、快照和克隆）与 Elastic Block Store (EBS)、FSx for Windows File Server 及本地存储之间的差异。</block>
+  <block id="fa97573f07318758714d48498eeb8beb" category="inline-link-macro">探索数据库工作负载的节省</block>
+  <block id="99e479d341973e05fca0c15ab9ffdad2" category="list-text"><block ref="99e479d341973e05fca0c15ab9ffdad2" category="inline-link-macro-rx"></block></block>
+  <block id="a5ca0e96d815aa95d08fcc15e4dee05c" category="inline-link-macro">数据库工作负载的权限</block>
+  <block id="6c371a91504dc6f98ab6ece596f7ab2f" category="list-text"><block ref="6c371a91504dc6f98ab6ece596f7ab2f" category="inline-link-macro-rx"></block></block>
 </blocks>

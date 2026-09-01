@@ -1,0 +1,14 @@
+= 节省计算器更新
+:allow-uri-read: 
+
+
+
+
+[[savings-calculator-update]]
+=== 节省计算器更新
+
+您可以仅使用查看、规划和分析权限，比较在 FSx for ONTAP 文件系统上运行 Microsoft SQL Server 工作负载的各种成本组成部分（如存储、计算、SQL 许可证、快照和克隆）与 Elastic Block Store (EBS)、FSx for Windows File Server 及本地存储之间的差异。
+
+* link:https://docs.netapp.com/us-en/workload-databases/explore-savings.html["探索数据库工作负载的节省"]
+* link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#permissions-for-database-workloads["数据库工作负载的权限"^]
+
