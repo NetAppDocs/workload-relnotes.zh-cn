@@ -178,4 +178,7 @@
   <block id="99e479d341973e05fca0c15ab9ffdad2" category="list-text"><block ref="99e479d341973e05fca0c15ab9ffdad2" category="inline-link-macro-rx"></block></block>
   <block id="a5ca0e96d815aa95d08fcc15e4dee05c" category="inline-link-macro">数据库工作负载的权限</block>
   <block id="6c371a91504dc6f98ab6ece596f7ab2f" category="list-text"><block ref="6c371a91504dc6f98ab6ece596f7ab2f" category="inline-link-macro-rx"></block></block>
+  <block id="c82db17d9640cb358a39977100613e95" category="section-title">工作负载标识</block>
+  <block id="9c2440b961ba52df8467b29a146f98ba" category="list-text">Workload Factory 现在可识别连接到部署在不同区域的 FSx for ONTAP 存储的主机的工作负载。</block>
+  <block id="c48db719590b6821db48e6238f4be1c4" category="list-text">改进的工作负载检测逻辑现在可以发现其他工作负载类型并提高调查结果的准确性。</block>
 </blocks>

@@ -10,3 +10,12 @@
 现在，除了 FSx for ONTAP 库存页面和文件系统概述页面之外，您还可以直接从"管理"菜单中的"链接"页面创建链接。
 
 link:create-link.html["详细了解如何创建链接"]。
+
+
+
+[[workload-identification]]
+=== 工作负载标识
+
+* Workload Factory 现在可识别连接到部署在不同区域的 FSx for ONTAP 存储的主机的工作负载。
+* 改进的工作负载检测逻辑现在可以发现其他工作负载类型并提高调查结果的准确性。
+
