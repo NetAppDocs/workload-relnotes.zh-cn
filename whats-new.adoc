@@ -415,3 +415,27 @@ https://docs.netapp.com/us-en/workload-eda/task-analyze-latency-trends.html["了
 默认情况下，每日通知处于启用状态，以减少电子邮件数量，同时仍提醒您注意延迟问题。您可以在设置延迟监控或编辑阈值设置时更改通知首选项。
 
 https://docs.netapp.com/us-en/workload-eda/task-configure-latency-monitoring.html["了解如何配置延迟监控"^]。
+
+
+
+[[01-june-2026]]
+== 2026 年 6 月 1 日
+
+
+
+[[database-workloads]]
+=== 数据库工作负载
+
+未解决的指令，位于 <stdin> - include::_whatsnew/2026-06-01_workload-databases.adoc[leveloffset=+1]
+
+
+
+[[31-may-2026]]
+== 2026 年 5 月 31 日
+
+
+
+[[amazon-fsx-for-netapp-ontap]]
+=== 适用于 NetApp ONTAP 的 Amazon FSX
+
+未解决的指令，位于 <stdin> - include::_whatsnew/2026-05-31_workload-fsx-ontap.adoc[leveloffset=+1] === VMware 工作负载未解决的指令，位于 <stdin> - include::_whatsnew/2026-05-31_workload-vmware.adoc[leveloffset=+1] === 设置和管理未解决的指令，位于 <stdin> - include::_whatsnew/2026-05-31_workload-setup-admin.adoc[leveloffset=+1] === EDA 工作负载未解决的指令，位于 <stdin> - include::_whatsnew/2026-05-31_workload-eda.adoc[leveloffset=+1]

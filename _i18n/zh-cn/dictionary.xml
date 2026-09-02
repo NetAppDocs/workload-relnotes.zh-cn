@@ -181,4 +181,8 @@
   <block id="c82db17d9640cb358a39977100613e95" category="section-title">工作负载标识</block>
   <block id="9c2440b961ba52df8467b29a146f98ba" category="list-text">Workload Factory 现在可识别连接到部署在不同区域的 FSx for ONTAP 存储的主机的工作负载。</block>
   <block id="c48db719590b6821db48e6238f4be1c4" category="list-text">改进的工作负载检测逻辑现在可以发现其他工作负载类型并提高调查结果的准确性。</block>
+  <block id="431b3c73dcd090440f753c5d3af80bb0" category="section-title">2026 年 6 月 1 日</block>
+  <block id="04c0507bac5db3815eb05149e687293a" category="paragraph">未解决的指令，位于 &lt;stdin&gt; - include::_whatsnew/2026-06-01_workload-databases.adoc[leveloffset=+1]</block>
+  <block id="92ee6e4d72d15689a675017ce0db2fa1" category="section-title">2026 年 5 月 31 日</block>
+  <block id="a5f1df54f2f444fcc2dd868e0f219417" category="paragraph">未解决的指令，位于 &lt;stdin&gt; - include::_whatsnew/2026-05-31_workload-fsx-ontap.adoc[leveloffset=+1] === VMware 工作负载未解决的指令，位于 &lt;stdin&gt; - include::_whatsnew/2026-05-31_workload-vmware.adoc[leveloffset=+1] === 设置和管理未解决的指令，位于 &lt;stdin&gt; - include::_whatsnew/2026-05-31_workload-setup-admin.adoc[leveloffset=+1] === EDA 工作负载未解决的指令，位于 &lt;stdin&gt; - include::_whatsnew/2026-05-31_workload-eda.adoc[leveloffset=+1]</block>
 </blocks>
