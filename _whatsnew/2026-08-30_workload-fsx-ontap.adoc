@@ -9,7 +9,7 @@
 
 现在，除了 FSx for ONTAP 库存页面和文件系统概述页面之外，您还可以直接从"管理"菜单中的"链接"页面创建链接。
 
-link:create-link.html["详细了解如何创建链接"]。
+link:https://docs.netapp.com/us-en/workload-setup-admin/create-link.html["详细了解如何创建链接"^]。
 
 
 
