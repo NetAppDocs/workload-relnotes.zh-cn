@@ -181,4 +181,14 @@
   <block id="9c2440b961ba52df8467b29a146f98ba" category="list-text">Workload Factory 现在可识别连接到部署在不同区域的 FSx for ONTAP 存储的主机的工作负载。</block>
   <block id="c48db719590b6821db48e6238f4be1c4" category="list-text">改进的工作负载检测逻辑现在可以发现其他工作负载类型并提高调查结果的准确性。</block>
   <block id="5755a9e38430cc58eec03f6a091d949b" category="paragraph"><block ref="3b334f327ff595e44f743e1d47e519c8" category="inline-link-macro-rx"></block>。</block>
+  <block id="b3ae445fa637203f0dc17550b5c4a56c" category="doc">精心设计的仪表板中包含的数据库配置</block>
+  <block id="a04fc413f106e041524732d895e4258e" category="paragraph">架构完善的控制面板现在包含针对数据库配置的建议，您可以据此根据最佳实践评估和优化设置。第一批配置包括：</block>
+  <block id="0ab265b548fdc40b21483e61ffde3aba" category="list-text">冷数据分层</block>
+  <block id="af20abc7154e9ee224c54b48b6ec7d63" category="list-text">存储效率</block>
+  <block id="4c0abf2d4c54820b8d33061abaf30759" category="list-text">Snapshot 策略</block>
+  <block id="6f5cf50fa90f8d99bf50f65e676c6cba" category="list-text">固态硬盘容量余量</block>
+  <block id="4dcac8e07a1246e665077c1572955236" category="paragraph">通过选择 Workload Factory 控制台中的主菜单并选择 *Well-architected*，找到精心架构的仪表板。</block>
+  <block id="2d647234501319107057acb4d3f8dfaf" category="inline-image-macro">Workload Factory 控制台中的架构完善菜单选项</block>
+  <block id="353cc99df6b21e74c805e74bdab4b8aa" category="paragraph"><block ref="353cc99df6b21e74c805e74bdab4b8aa" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="301497b54979bb49bba5249c4f44b4ad" category="section-title">2026年9月27日</block>
 </blocks>

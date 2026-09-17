@@ -15,6 +15,32 @@ summary: 了解NetApp Workload Factory 中工作负载的最新变化。
 
 
 
+[[27-september-2026]]
+== 2026年9月27日
+
+
+
+[[database-workloads]]
+=== 数据库工作负载
+
+
+
+==== 精心设计的仪表板中包含的数据库配置
+
+架构完善的控制面板现在包含针对数据库配置的建议，您可以据此根据最佳实践评估和优化设置。第一批配置包括：
+
+* 冷数据分层
+* 存储效率
+* Snapshot 策略
+* 固态硬盘容量余量
+
+
+通过选择 Workload Factory 控制台中的主菜单并选择 *Well-architected*，找到精心架构的仪表板。
+
+image:well-architected-menu-option.png["Workload Factory 控制台中的架构完善菜单选项"]
+
+
+
 [[30-august-2026]]
 == 2026年8月30日
 
