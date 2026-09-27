@@ -37,7 +37,6 @@
   <block id="b055674b094a39e8822f5941fd1ddf8d" category="paragraph">EVS TCO 计算器现在支持 AWS i7i.metal-24xl EC2 实例作为集群主机。与 i4i.metal 配置相比，这些实例将计算的 EVS 起始成本降低了约 33%，将 vSAN 存储的 EVS 起始成本降低了约 25%。</block>
   <block id="bbc7cb1849fc26e314ad21ecd99ca5fe" category="paragraph">计算器会自动比较两种实例类型，并选择最具成本效益的选项。新的比较版块会并排显示 EVS 主机配置，以便更轻松地找到满足您需求的最佳设置。</block>
   <block id="0665cdd8950328e06e0db9b1e16938d3" category="inline-link-macro">计算 EVS 的预计节省金额</block>
-  <block id="86271c8c1063215a7f1ff0f45240c576" category="paragraph"><block ref="86271c8c1063215a7f1ff0f45240c576" category="inline-link-macro-rx"></block></block>
   <block id="b2384f97ee5bce1c28f5573e6878c9c1" category="section-title">2026年7月6日</block>
   <block id="07139d61108a6478189b71bcdc7f39b8" category="list-text">*延迟图*：显示延迟如何随时间变化，以及超出限制时的阈值线和警报。</block>
   <block id="390641ad0fb5c4dcbd3e1ea9a432933d" category="list-text">*IOPS 图形*：显示每秒操作数，以及过去超出限制的阈值线和指示器。</block>
@@ -191,4 +190,5 @@
   <block id="353cc99df6b21e74c805e74bdab4b8aa" category="paragraph"><block ref="353cc99df6b21e74c805e74bdab4b8aa" category="inline-image-macro-rx" type="image"></block></block>
   <block id="301497b54979bb49bba5249c4f44b4ad" category="section-title">2026年9月27日</block>
   <block id="dd6c12ecaee3143ccc7a7d85e16032ff" category="paragraph"><block ref="dd6c12ecaee3143ccc7a7d85e16032ff" category="inline-link-macro-rx"></block></block>
+  <block id="034feb9138972a75bb0c4407e9663857" category="paragraph"><block ref="034feb9138972a75bb0c4407e9663857" category="inline-link-macro-rx"></block></block>
 </blocks>
