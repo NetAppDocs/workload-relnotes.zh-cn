@@ -1,0 +1,28 @@
+= 增强的SSD容量通知
+:allow-uri-read: 
+
+
+
+
+[[enhanced-ssd-capacity-notifications]]
+=== 增强的SSD容量通知
+
+SSD 容量管理通知现在包括用于排查自动化故障的详细错误消息。系统会针对以下情况发送通知：容量增加成功、增加操作期间出现错误、容量检查失败、阈值警告以及相关建议。错误详细信息包括具体的故障原因，例如缺少权限、正在进行并发更新、AWS 冷却期或 CloudWatch 指标检索问题。
+
+link:https://docs.netapp.com/us-en/workload-eda/learn-overview-dashboard.html["了解SSD容量管理"^]。
+
+
+
+[[week-time-frame-for-latency-graphs]]
+=== 延迟图的周时间范围
+
+除了现有选项（1小时、3小时、12小时、24小时、72小时）之外，延迟分析图表现在还支持1周的时间范围。使用周视图识别卷延迟行为的长期模式和趋势。
+
+link:https://docs.netapp.com/us-en/workload-eda/task-analyze-latency-trends.html["了解延迟趋势分析"^]。
+
+
+
+[[improved-file-system-visibility-in-the-interface]]
+=== 改进了界面中的文件系统可见性
+
+Workload Factory 现在可让您在界面中更清晰地查看文件系统。您可以直接从文件系统概述中查看 SSD 容量和吞吐量使用趋势、工作负载摘要和详细配置信息。
