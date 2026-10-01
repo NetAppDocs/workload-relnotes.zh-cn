@@ -227,4 +227,57 @@
   <block id="14bda382780d759b676db8bd277841a9" category="paragraph">当较新的链接版本可用于不支持自动升级的链接时，您还将在 FSx for ONTAP 仪表板中收到警报。</block>
   <block id="753d621a767f80f69e64e577e1856e54" category="doc">每个实例支持多个文件系统</block>
   <block id="6adeb7328ee4497e74b45036bf16ff9d" category="paragraph">Workload Factory for Databases 支持每个 Microsoft SQL Server 实例使用多个文件系统。您可以在 SQL Server 实例中注册多个文件系统，并同时修复 SQL Server 实例中多个文件系统的一个配置问题。</block>
+  <block id="742e8a94cca89f813a440bc0508d7c63" category="doc">扩展 AWS 服务的工作负载标记发现</block>
+  <block id="fc938d0dc981599b261454607fc86170" category="paragraph">Workload Factory 现在可检测更多用于工作负载标记的 AWS 服务，从而扩展了对可标记资源的支持。它现在可以查找 Amazon EKS 和 Amazon WorkSpaces 资源，并将其纳入标记系统，以便可对其进行标记。</block>
+  <block id="7c7c395a9e71b769780835b584936d18" category="section-title">成本信息板增强功能</block>
+  <block id="9c675696ade448920fc34f83e51d38d8" category="paragraph">成本控制面板现在包括一个成本执行摘要部分，其中概述了您的组织支出，帮助您快速了解和管理成本。Workload Factory 的 AI 助手 Ask Me 可以根据您的成本数据提供更多见解和建议。您可以与 Ask Me 互动，获取有关优化成本的详细说明和建议。</block>
+  <block id="2635ebe2e5edae86c685ff667ec0822e" category="paragraph">此外，您可以按一个或多个文件系统以及文件系统内的一个或多个卷筛选成本数据。应用过滤器时，Workload Factory 显示：</block>
+  <block id="13e56e9761e9578d11e3297ef00775ab" category="list-text">每月预估总费用</block>
+  <block id="9c65bacdf627435ba2a90904d9e852d2" category="list-text">每 GiB/月的估计成本</block>
+  <block id="90dcf9543caa4040e2faec1ec9a09342" category="list-text">按服务分列的详细成本明细</block>
+  <block id="326b41573eaec770cb26f9f663722170" category="paragraph">除文件系统和卷级成本分配外，所有成本信息均直接来自 AWS Cost Explorer API；Workload Factory 估算文件系统和卷级成本分配。</block>
+  <block id="a4b0895311938bbe97380c217d8bc91a" category="section-title">Well-architected 控制面板访问权限</block>
+  <block id="99443f6b5bfec8a35e6748e731a10d71" category="paragraph">您可以从 Workload Factory 控制台的主菜单和文件系统内部访问架构良好的仪表板。要从主菜单中找到架构良好的仪表板，请选择主菜单，然后选择 *Well-architected*。</block>
+  <block id="2d647234501319107057acb4d3f8dfaf" category="inline-image-macro">Workload Factory 控制台中的架构完善菜单选项</block>
+  <block id="353cc99df6b21e74c805e74bdab4b8aa" category="paragraph"><block ref="353cc99df6b21e74c805e74bdab4b8aa" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="9864fa88fc3747e67b6fc38c9b938677" category="section-title">精心设计的分析中的新建议</block>
+  <block id="a38b9a0af0de5e85c5e64a158079deb5" category="paragraph">Workload Factory 现在在 FSx for ONTAP 文件系统的良好架构分析中包含以下配置：</block>
+  <block id="3b4bb2bfc2800826050f3805ec9d835a" category="list-text">*卷空间管理配置*：建议为 FSx for ONTAP 卷启用协调卷空间管理。</block>
+  <block id="594a2a7cd4db6352ea1d5d334cfa0a21" category="list-text">*FSx 与 AWS MGN 的集成*：建议将所需的 AWS MGN 就绪配置应用于选定的 FSx for ONTAP 文件系统。</block>
+  <block id="694bde8531b34682aa88439be5164604" category="inline-link-macro">详细了解适用于您的 FSx for ONTAP 文件系统的最佳实践建议。</block>
+  <block id="9825e6852eeedd827593b4d773384fbc" category="paragraph"><block ref="9825e6852eeedd827593b4d773384fbc" category="inline-link-macro-rx"></block></block>
+  <block id="7f937176bc96624307a21211c6e363b9" category="section-title">卷资源管理器增强功能</block>
+  <block id="1e03dd70bc3f22624fc439b8d08a63b9" category="paragraph">卷资源管理器是 NetApp Workload Factory 控制台中的一个中心位置，您可以在其中查看和管理跨不同文件系统的所有卷。它提供了有关每个卷的详细信息，包括其性能、使用情况和保护状态。此版本的增强功能包括工作负载选择、卷延迟显示和卷的 ARP/AI 状态。</block>
+  <block id="77d988ee70ae9e7cb2b7e4de090207d1" category="section-title">卷资源管理器支持工作负载选择</block>
+  <block id="a169ce3630fc82cd3c31d5b142735229" category="paragraph">Workload Factory 默认根据卷的特征及其使用模式选择工作负载。现在，您可以从卷资源管理器更改一个或多个卷的工作负载。</block>
+  <block id="b99ed9f04858236d62c52c081efa202b" category="section-title">卷资源管理器显示卷延迟</block>
+  <block id="96e831549b8faaa2376c1cad77a7724b" category="paragraph">卷资源管理器显示具有以下状态的卷延迟状态：未配置、在阈值内和超出。这些状态可帮助您发现并修复卷级别的性能瓶颈。</block>
+  <block id="a187114bcc51b42124813d0e4d20730d" category="section-title">卷资源管理器显示所有文件系统上卷的 ARP/AI 状态</block>
+  <block id="14bbbfe188029f45698ccb26b1280a48" category="paragraph">卷资源管理器屏幕现在包含一个卡片，显示所有文件系统中各卷的 NetApp Autonomous Ransomware Protection with AI (ARP/AI) 状态。该卡片显示受保护卷的数量，并指示是否有卷存在风险。在卡片中，您可以*分析攻击*以调查潜在的勒索软件威胁，并采取适当的措施来保护您的数据。</block>
+  <block id="3f25080804b8d019675a456a436cb471" category="inline-image-macro">屏幕截图显示卷资源管理器屏幕上的新卡，显示所有文件系统上卷的 ARP/AI 状态。该卡指示受保护卷的数量和存在风险的任何卷。用户可以选择文本"分析攻击"来调查可疑攻击并采取适当措施来保护其数据。</block>
+  <block id="3984208540eb5fb15ca89127c0ce9c35" category="paragraph"><block ref="3984208540eb5fb15ca89127c0ce9c35" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="3ae39496097bf7dd54def47f219d44a2" category="inline-link-macro">详细了解勒索软件防护。</block>
+  <block id="32d61e76f54bb5b368f607bb435c5c1f" category="paragraph"><block ref="32d61e76f54bb5b368f607bb435c5c1f" category="inline-link-macro-rx"></block></block>
+  <block id="bf408a384d3111f4dc3c9bd2e2488084" category="section-title">不正常复制关系的电子邮件通知</block>
+  <block id="57e3b24e41795e306c1438a28c7decf0" category="paragraph">当复制关系的状态为"不正常"时，NetApp Workload Factory 每 24 小时发送一次电子邮件通知，直到该关系恢复正常。当关系恢复正常状态后，提醒通知将停止。</block>
+  <block id="b71e2b8899dc0fe8e023a4e58308aad8" category="section-title">支持 AIOps 的受限 ONTAP 凭据</block>
+  <block id="a7d7b0e4b2bd1183c123539bfa66e083" category="paragraph">Workload Factory 支持两种类型的 ONTAP 凭据，用于 FSx for ONTAP 文件系统：主凭据和受限凭据。默认情况下，文件系统使用主 ONTAP 凭据。我们仅将受限凭据用于 AI 运营（AIOps），例如 Rule builder、自定义仪表板和 AI 助手 Ask Me。现在，您可以使用用户名和密码或 Secret ARN 添加自己的凭据，以限制对 AIOps 功能的访问。</block>
+  <block id="10c14d4d5209ea66d60008bc61e4b8a0" category="inline-link-macro">管理 FSx for ONTAP 文件系统的 ONTAP 凭据</block>
+  <block id="815e81643ae9d4244d2592133accd965" category="paragraph"><block ref="815e81643ae9d4244d2592133accd965" category="inline-link-macro-rx"></block></block>
+  <block id="5bfa6b402ee6d0271d1900cc4c493d94" category="section-title">创建卷期间的工作负载选择</block>
+  <block id="af4d82ae4525cd4fac92ed7b9d0bda08" category="paragraph">NetApp Workload Factory 现在在卷创建中包含一个 *Workloads* 字段，以便您可以选择要与卷关联的工作负载。这可确保卷从创建之时起便针对预期工作负载进行优化。</block>
+  <block id="f7d605ac326197c1ae0ff4a123f8e9b7" category="inline-link-macro">在 Workload Factory 控制台中创建卷</block>
+  <block id="ab73ef18e997d7357c2f88d149d57429" category="paragraph"><block ref="ab73ef18e997d7357c2f88d149d57429" category="inline-link-macro-rx"></block></block>
+  <block id="b5033aab245daac51a144f2bf76d1491" category="section-title">FlexCache 写入模式改进</block>
+  <block id="988626e00644e40216e6917f272294d3" category="paragraph">Workload Factory 现在可以识别卷的首选 FlexCache 写入模式，并建议在必要时进行更改以优化性能。</block>
+  <block id="7add6c128bfc87116bba8dfec617987f" category="section-title">链接文档支持</block>
+  <block id="19ecacf22bc9ac252b9476a0a17ca657" category="inline-link-macro">了解 NetApp Workload Factory 链接</block>
+  <block id="41d8c250ba5deffd33a0d05e7f94eaf4" category="paragraph">所有链接文档现在都包含在 Workload Factory 设置和管理文档中。您仍然可以参考 Workload Factory FSx for ONTAP 文档中的 <block ref="25b81a757714a127c9c382013e960ce5" category="inline-link-macro-rx"></block>，并在设置和管理文档中找到相关页面的链接。</block>
+  <block id="ab868acd52ff4eb0e8c4b7bedf975941" category="inline-link-macro">详细了解如何在 Workload Factory 控制台中配置链接。</block>
+  <block id="3d5d598217b93a807560cdae92940fdc" category="paragraph"><block ref="3d5d598217b93a807560cdae92940fdc" category="inline-link-macro-rx"></block></block>
+  <block id="433dd4f7423c50024b8b40531d2cdae6" category="section-title">跨区域主机到存储关系发现</block>
+  <block id="51cc7a047a17fd04f676fa6e4c62dc71" category="paragraph">NetApp Workload Factory 现在支持在工作负载标记服务中跨多个 AWS 区域查找主机和存储之间的连接。它可以跨区域识别和链接主机和存储资源，包括在区域之间映射 IP 地址，从而正确标记和分类主机与存储之间的关系。</block>
+  <block id="9b81d2dcd48e266f74c209ecd9598393" category="section-title">提高了工作负载和主机识别的准确性</block>
+  <block id="a2113e92c2a5c9986659d92e10f81f0a" category="paragraph">Workload Factory 现在可以更准确地识别和分类工作负载标记服务中的工作负载和主机。更新的检测方法减少了错误分类，并提供了更准确的标记和分类结果。</block>
+  <block id="a8b7294bac36c008516aba27f6d45bab" category="paragraph">Workload Factory 现在可让您在界面中更清晰地查看文件系统。您可以直接从文件系统概述中查看 SSD 容量和吞吐量使用趋势、工作负载摘要和详细配置信息。Workload Factory 现在可以更准确地识别和分类工作负载标记服务中的工作负载和主机。更新的检测方法减少了错误分类，并提供了更准确的标记和分类结果。</block>
 </blocks>
