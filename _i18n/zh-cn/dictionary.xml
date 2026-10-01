@@ -179,7 +179,6 @@
   <block id="9c2440b961ba52df8467b29a146f98ba" category="list-text">Workload Factory 现在可识别连接到部署在不同区域的 FSx for ONTAP 存储的主机的工作负载。</block>
   <block id="c48db719590b6821db48e6238f4be1c4" category="list-text">改进的工作负载检测逻辑现在可以发现其他工作负载类型并提高调查结果的准确性。</block>
   <block id="5755a9e38430cc58eec03f6a091d949b" category="paragraph"><block ref="3b334f327ff595e44f743e1d47e519c8" category="inline-link-macro-rx"></block>。</block>
-  <block id="301497b54979bb49bba5249c4f44b4ad" category="section-title">2026年9月27日</block>
   <block id="dd6c12ecaee3143ccc7a7d85e16032ff" category="paragraph"><block ref="dd6c12ecaee3143ccc7a7d85e16032ff" category="inline-link-macro-rx"></block></block>
   <block id="034feb9138972a75bb0c4407e9663857" category="paragraph"><block ref="034feb9138972a75bb0c4407e9663857" category="inline-link-macro-rx"></block></block>
   <block id="08b543f700a568688a9f78d874d0ce8b" category="doc">增强的SSD容量通知</block>
@@ -280,4 +279,5 @@
   <block id="9b81d2dcd48e266f74c209ecd9598393" category="section-title">提高了工作负载和主机识别的准确性</block>
   <block id="a2113e92c2a5c9986659d92e10f81f0a" category="paragraph">Workload Factory 现在可以更准确地识别和分类工作负载标记服务中的工作负载和主机。更新的检测方法减少了错误分类，并提供了更准确的标记和分类结果。</block>
   <block id="a8b7294bac36c008516aba27f6d45bab" category="paragraph">Workload Factory 现在可让您在界面中更清晰地查看文件系统。您可以直接从文件系统概述中查看 SSD 容量和吞吐量使用趋势、工作负载摘要和详细配置信息。Workload Factory 现在可以更准确地识别和分类工作负载标记服务中的工作负载和主机。更新的检测方法减少了错误分类，并提供了更准确的标记和分类结果。</block>
+  <block id="74bc5d714652a3ae18c64ee93e4ba085" category="section-title">2026年9月30日</block>
 </blocks>
