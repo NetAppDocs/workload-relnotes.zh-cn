@@ -113,7 +113,7 @@ Workload Factory 现在可以识别卷的首选 FlexCache 写入模式，并建�
 [[link-documentation-support]]
 === 链接文档支持
 
-所有链接文档现在都包含在 Workload Factory 设置和管理文档中。您仍然可以参考 Workload Factory FSx for ONTAP 文档中的 link:links-overview.html["了解 NetApp Workload Factory 链接"]，并在设置和管理文档中找到相关页面的链接。
+所有链接文档现在都包含在 Workload Factory 设置和管理文档中。您仍然可以参考 Workload Factory FSx for ONTAP 文档中的 link:https://docs.netapp.com/us-en/workload-fsx-ontap/links-overview.html["了解 NetApp Workload Factory 链接"]，并在设置和管理文档中找到相关页面的链接。
 
 link:https://docs.netapp.com/us-en/workload-setup-admin/create-link.html["详细了解如何在 Workload Factory 控制台中配置链接。"^]
 
