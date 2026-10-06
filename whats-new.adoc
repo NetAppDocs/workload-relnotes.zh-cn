@@ -15,6 +15,40 @@ summary: 了解NetApp Workload Factory 中工作负载的最新变化。
 
 
 
+[[04-october-2026]]
+== 2026年10月4日
+
+
+
+[[setup-and-administration]]
+=== 设置和管理
+
+
+
+==== 自定义仪表板更新
+
+自定义仪表板现在使管理您的工作变得更加轻松。
+
+您可以直接在目录中编辑仪表板，包括指标、图表和时间范围。
+
+当您编辑仪表板时，Workload Factory 会使用您之前的提示和消息重新打开聊天。然后，您可以更新仪表板、保存更改或还原以前的版本。
+
+只有仪表板创建者可以编辑仪表板。在您编辑时，其他用户在您保存之前无法看到您的更改。
+
+控制面板目录现在包含更多筛选器，可帮助您根据类别和状态快速查找控制面板。
+
+如果您的管理员禁用 AI 功能或已达到每月信用额度，则会禁用仪表板创建和编辑。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/learn-custom-dashboards.html["了解自定义控制面板"]
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/create-custom-dashboard.html["创建自定义仪表板"]
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/manage-custom-dashboards.html["管理自定义仪表板"]
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/troubleshoot-custom-dashboards.html["对自定义信息板进行故障排除"]
+
+
+
 [[30-september-2026]]
 == 2026年9月30日
 
@@ -538,126 +572,3 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/explore-savings.html["了�
 ==== 卷资源管理器中显示的 ONTAP 功能
 
 卷资源管理器现在在卷表中包含 ONTAP 功能。这些功能可更详细地了解卷的配置和状态，例如保护范围、自主勒索软件保护 (ARP/AI) 状态、存储效率、分层策略和卷自动增长。
-
-
-
-[[06-july-2026]]
-== 2026年7月6日
-
-
-
-[[vmware-workloads]]
-=== VMware工作负载
-
-
-
-==== EVS TCO 计算器中的 i7i.metal-24xl 实例支持
-
-EVS TCO 计算器现在支持 AWS i7i.metal-24xl EC2 实例作为集群主机。与 i4i.metal 配置相比，这些实例将计算的 EVS 起始成本降低了约 33%，将 vSAN 存储的 EVS 起始成本降低了约 25%。
-
-计算器会自动比较两种实例类型，并选择最具成本效益的选项。新的比较版块会并排显示 EVS 主机配置，以便更轻松地找到满足您需求的最佳设置。
-
-link:https://docs.netapp.com/us-en/workload-vmware/calculate-evs-savings.html["计算 EVS 的预计节省金额"]
-
-
-
-[[05-july-2026]]
-== 2026年7月5日
-
-
-
-[[amazon-fsx-for-netapp-ontap]]
-=== 适用于 NetApp ONTAP 的 Amazon FSX
-
-
-
-==== 卷资源管理器
-
-卷资源管理器为您提供了 NetApp Workload Factory 中所有卷的简单可搜索视图。快速查看哪些卷提供数据块或文件工作负载。查看每个卷的逻辑大小、物理已用容量，以及它是否使用存储效率功能（压缩、重复数据删除和压缩）。按名称、状态（可用/失败）、延迟、大小、已用容量和保护功能进行筛选和排序。
-
-
-
-==== 针对复制延迟增强的电子邮件通知
-
-有关复制延迟的电子邮件通知现在包括有关受影响关系的更多详细信息。此通知可帮助您快速识别受影响的关系，并在 Workload Factory 控制台中进行调查。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/track-replication-delays.html["为复制延迟启用通知"]
-
-
-
-==== 块设备创建增强
-
-Workload Factory 支持从卷快照创建块设备。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-block-device.html["在 Workload Factory 中从卷快照创建块设备"]
-
-
-
-==== 卷和块设备的工作负载标记
-
-工作负载工厂现在通过其主要工作负载或应用程序识别和标记卷和块设备。您可以分配预定义的工作负载标记（如 Microsoft SQL Server 或 Oracle Database），或为应用程序创建自定义标记。标记可以应用于单个资源，也可以由连接的存储资源继承。这有助于使存储配置与工作负载要求保持一致，了解事件影响，并更有效地进行故障排除。
-
-
-
-[[setup-and-administration]]
-=== 设置和管理
-
-
-
-==== 自定义信息板
-
-创建符合工作负载和优先级的 AI 驱动仪表板，以便轻松查看运营绩效。自定义仪表板可让您专注于最重要的信息，而不是依赖于固定视图。
-
-只需用简单的语言描述您想要跟踪的内容，AI 将根据您的请求创建一个仪表板。例如，您可以跨区域跟踪灾难恢复状态、容量和成本、存储保护合规性以及其他运营指标。
-
-自定义仪表板为只读，因此无法更改您的存储或工作负载设置。Workload Factory 帐户中的任何人都可以查看和管理这些仪表板，使团队能够轻松分享见解并保持一致。
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/learn-custom-dashboards.html["详细了解自定义控制面板"]
-
-
-
-==== 从 Workload Factory 中删除 GenAI 工作负载
-
-GenAI 工作负载已从 Workload Factory 控制台中删除。
-
-
-
-[[eda-workloads]]
-=== EDA 工作负载
-
-
-
-==== 通过同步延迟、IOPS 和吞吐量图表增强延迟分析
-
-延迟分析面板现在包括一个具有同步性能图表的*详细延迟分析*页面：
-
-* *延迟图*：显示延迟如何随时间变化，以及超出限制时的阈值线和警报。
-* *IOPS 图形*：显示每秒操作数，以及过去超出限制的阈值线和指示器。
-* *吞吐量图*：显示数据传输速率（DataReadBytes 或 DataWriteBytes）。在筛选器中选择元数据时，吞吐量图表不显示任何数据。
-
-
-所有图形都使用相同的时间线，并根据事件是读取还是写入自动显示正确的指标。
-
-您可以调整视图，并将延迟峰值与 IOPS 和吞吐量的变化相关联。违规标记和悬停详细信息可帮助您查看超出阈值的时间，并查看检测到的违规行为的关键指标。
-
-https://docs.netapp.com/us-en/workload-eda/task-analyze-latency-trends.html["了解如何使用多个图表分析延迟趋势"^]。
-
-
-
-==== 设置延迟通知频率
-
-现在，您可以选择接收延迟违规电子邮件通知的频率：
-
-* *每天提醒我（推荐）*：当任何 FSx for ONTAP 文件系统出现新问题时，您将收到通知。
-
-
-如果同一个文件系统在一天内出现多个延迟问题，您只会收到一封电子邮件。
-
-在发送文件系统的延迟警报后，Workload Factory 等待 24 小时后再为该文件系统发送另一个警报。
-
-* *任何延迟违规通知（每 20 分钟一次）*：检测到违规时收到通知，最多每 20 分钟一次。
-
-
-默认情况下，每日通知处于启用状态，以减少电子邮件数量，同时仍提醒您注意延迟问题。您可以在设置延迟监控或编辑阈值设置时更改通知首选项。
-
-https://docs.netapp.com/us-en/workload-eda/task-configure-latency-monitoring.html["了解如何配置延迟监控"^]。

@@ -33,48 +33,7 @@
   <block id="ed09318eed7d979b31cfb4afc3b11097" category="sidebar">这些发行说明介绍了NetApp Workload Factory 的云服务的最新增强功能。</block>
   <block id="9ff48e1eaa80562d8bc97f2d59b40e41" category="sidebar">NetApp Workload Factory 发行说明</block>
   <block id="2bc4b4a88d694b207aacb90573eb4b7f" category="doc">EDA 工作负载</block>
-  <block id="caa606c0b1085a846c384cef14c3a17f" category="doc">EVS TCO 计算器中的 i7i.metal-24xl 实例支持</block>
-  <block id="b055674b094a39e8822f5941fd1ddf8d" category="paragraph">EVS TCO 计算器现在支持 AWS i7i.metal-24xl EC2 实例作为集群主机。与 i4i.metal 配置相比，这些实例将计算的 EVS 起始成本降低了约 33%，将 vSAN 存储的 EVS 起始成本降低了约 25%。</block>
-  <block id="bbc7cb1849fc26e314ad21ecd99ca5fe" category="paragraph">计算器会自动比较两种实例类型，并选择最具成本效益的选项。新的比较版块会并排显示 EVS 主机配置，以便更轻松地找到满足您需求的最佳设置。</block>
-  <block id="0665cdd8950328e06e0db9b1e16938d3" category="inline-link-macro">计算 EVS 的预计节省金额</block>
-  <block id="b2384f97ee5bce1c28f5573e6878c9c1" category="section-title">2026年7月6日</block>
-  <block id="07139d61108a6478189b71bcdc7f39b8" category="list-text">*延迟图*：显示延迟如何随时间变化，以及超出限制时的阈值线和警报。</block>
-  <block id="390641ad0fb5c4dcbd3e1ea9a432933d" category="list-text">*IOPS 图形*：显示每秒操作数，以及过去超出限制的阈值线和指示器。</block>
-  <block id="38f51c8db276cb26c3c7af52f545996e" category="paragraph">所有图形都使用相同的时间线，并根据事件是读取还是写入自动显示正确的指标。</block>
-  <block id="8dd5201c5cc5a3396ebbb0eed3c4385d" category="inline-link">了解如何使用多个图表分析延迟趋势</block>
-  <block id="96f2a9474e94ea84ba4915ee29411c85" category="paragraph"><block ref="6741c3b9db1b1d3c4d7831b9652aaaca" category="inline-link-rx"></block>。</block>
-  <block id="1cdbc8bcb26cc8d5e894a97b9e7f269f" category="section-title">2026年7月5日</block>
   <block id="992672ecff7fe59cf2782ddb79f58e1d" category="doc">自定义信息板</block>
-  <block id="2865e3ecb86dc9391d13f92e53f2a2ac" category="paragraph">创建符合工作负载和优先级的 AI 驱动仪表板，以便轻松查看运营绩效。自定义仪表板可让您专注于最重要的信息，而不是依赖于固定视图。</block>
-  <block id="4ebed31793305164cd5e1b71336c2244" category="paragraph">只需用简单的语言描述您想要跟踪的内容，AI 将根据您的请求创建一个仪表板。例如，您可以跨区域跟踪灾难恢复状态、容量和成本、存储保护合规性以及其他运营指标。</block>
-  <block id="f2c8c03b6d33f0a06783ce6241b381a6" category="paragraph">自定义仪表板为只读，因此无法更改您的存储或工作负载设置。Workload Factory 帐户中的任何人都可以查看和管理这些仪表板，使团队能够轻松分享见解并保持一致。</block>
-  <block id="7f7fdf6329959f984b3ff303ae5ac37f" category="inline-link-macro">详细了解自定义控制面板</block>
-  <block id="7e2652d4b25a337c594774fc14c2ab17" category="section-title">设置延迟通知频率</block>
-  <block id="39b4011c4c170e1b29e7d8710812c644" category="paragraph">现在，您可以选择接收延迟违规电子邮件通知的频率：</block>
-  <block id="9b4c72b587622d268ed8a5a315219fb5" category="list-text">*每天提醒我（推荐）*：当任何 FSx for ONTAP 文件系统出现新问题时，您将收到通知。</block>
-  <block id="b1960d91c54aac51310626fca3cc3b48" category="paragraph">如果同一个文件系统在一天内出现多个延迟问题，您只会收到一封电子邮件。</block>
-  <block id="a6f20e83b8038d1aeb40bd01b25f763e" category="paragraph">在发送文件系统的延迟警报后，Workload Factory 等待 24 小时后再为该文件系统发送另一个警报。</block>
-  <block id="e2a4178b795c9afb4497b6549895fe0f" category="list-text">*任何延迟违规通知（每 20 分钟一次）*：检测到违规时收到通知，最多每 20 分钟一次。</block>
-  <block id="943fb48a5bde64c680308a09af0a0832" category="paragraph">默认情况下，每日通知处于启用状态，以减少电子邮件数量，同时仍提醒您注意延迟问题。您可以在设置延迟监控或编辑阈值设置时更改通知首选项。</block>
-  <block id="7a13522750dff612c4af95a525a5075b" category="inline-link">了解如何配置延迟监控</block>
-  <block id="496e68c00adfe40e8730acfccde74f6b" category="paragraph"><block ref="9cf52e304b2518ca53073fc069c5a89c" category="inline-link-rx"></block>。</block>
-  <block id="efbeddc0347a679a438120189b77f860" category="section-title">卷资源管理器</block>
-  <block id="3a410df7dfc102007ea8a7569fdb1810" category="section-title">针对复制延迟增强的电子邮件通知</block>
-  <block id="bd78ae8d1a9aed4500716acc31d179d8" category="paragraph">有关复制延迟的电子邮件通知现在包括有关受影响关系的更多详细信息。此通知可帮助您快速识别受影响的关系，并在 Workload Factory 控制台中进行调查。</block>
-  <block id="4dc5c4a9c4b845746295cce1108ec278" category="inline-link-macro">为复制延迟启用通知</block>
-  <block id="7f27417270cfb269527e679a64b5a19a" category="paragraph"><block ref="7f27417270cfb269527e679a64b5a19a" category="inline-link-macro-rx"></block></block>
-  <block id="5312d8ea7e9ef079aeac882dbcd64d0a" category="section-title">块设备创建增强</block>
-  <block id="85fb39d6f3bb52679cb9ce3bd27ffd1c" category="paragraph">Workload Factory 支持从卷快照创建块设备。</block>
-  <block id="a439412a0228682fa1054f4bc1a96815" category="inline-link-macro">在 Workload Factory 中从卷快照创建块设备</block>
-  <block id="40a9299c5fdf8c1e8242dcb670c6b1cd" category="paragraph"><block ref="40a9299c5fdf8c1e8242dcb670c6b1cd" category="inline-link-macro-rx"></block></block>
-  <block id="cc661418365d138458bf55f936b73a47" category="section-title">从 Workload Factory 中删除 GenAI 工作负载</block>
-  <block id="ef18329e66f7a0f5b022b9a400dd74ed" category="paragraph">GenAI 工作负载已从 Workload Factory 控制台中删除。</block>
-  <block id="efb6a1d0d54500167c0d1ae30ab8ac5b" category="doc">通过同步延迟、IOPS 和吞吐量图表增强延迟分析</block>
-  <block id="a868b37aeda2e8d7f0a8e48f498112fc" category="paragraph">延迟分析面板现在包括一个具有同步性能图表的*详细延迟分析*页面：</block>
-  <block id="a4abbd682ae58689df4450b4a65c90a2" category="list-text">*吞吐量图*：显示数据传输速率（DataReadBytes 或 DataWriteBytes）。在筛选器中选择元数据时，吞吐量图表不显示任何数据。</block>
-  <block id="7e9591a005bdef4cdf16dfd575186f3b" category="paragraph">您可以调整视图，并将延迟峰值与 IOPS 和吞吐量的变化相关联。违规标记和悬停详细信息可帮助您查看超出阈值的时间，并查看检测到的违规行为的关键指标。</block>
-  <block id="842065a36dace972d6dab0c170421bd1" category="section-title">卷和块设备的工作负载标记</block>
-  <block id="47c38c6a3d7e96ce1b3b2519a980f283" category="paragraph">工作负载工厂现在通过其主要工作负载或应用程序识别和标记卷和块设备。您可以分配预定义的工作负载标记（如 Microsoft SQL Server 或 Oracle Database），或为应用程序创建自定义标记。标记可以应用于单个资源，也可以由连接的存储资源继承。这有助于使存储配置与工作负载要求保持一致，了解事件影响，并更有效地进行故障排除。</block>
   <block id="da0c92072a1db7fee3208bcad3ad822b" category="doc">已更新数据库的 IAM 权限策略</block>
   <block id="e9e3af45119a834b75ee5ce8ad5fc96d" category="paragraph">已更新数据库的权限，以改善功能访问并在不必要时限制 SSM 访问。</block>
   <block id="6f70bfe68d48e1ab770cfb69bea59dfd" category="paragraph">查看、规划和分析权限仅限于 AWS SSM 文档。使用这些权限，您可以查看主机、实例和数据库。您还可以对资源运行基本的按需架构完善分析。</block>
@@ -162,7 +121,6 @@
   <block id="9b988decb4830a521f8e1487584f0385" category="doc">卷资源管理器中可用的卷操作</block>
   <block id="a0c01b4b61e4e5c8542aca4694a620d6" category="paragraph">所有卷操作都可以直接从一个或多个卷的 Volumes explorer 中获得。这样可以更快地执行卷级操作。卷操作包括修改卷设置、管理快照以及执行其他卷任务，而无需离开 Volumes explorer。您还可以从 FSx for ONTAP 文件系统概述中的 Volumes 选项卡访问这些操作。</block>
   <block id="7ade7e78371066efd6d4e823d8da1fd8" category="section-title">2026年8月11日</block>
-  <block id="2b2db21e376d227839b25c1e6fcb7638" category="paragraph">卷资源管理器为您提供了 NetApp Workload Factory 中所有卷的简单可搜索视图。快速查看哪些卷提供数据块或文件工作负载。查看每个卷的逻辑大小、物理已用容量，以及它是否使用存储效率功能（压缩、重复数据删除和压缩）。按名称、状态（可用/失败）、延迟、大小、已用容量和保护功能进行筛选和排序。</block>
   <block id="8d8c52a0c2cdf249c1bf6acdbd825469" category="doc">凭据和链接的新入门体验</block>
   <block id="4f9abf683fceb68d04e55eccea1aef30" category="paragraph">Workload Factory 改进了凭据和链接的入门体验，使入门更加简便。创建账号并登录后，在任何工作负载图块（例如 *Storage*）中选择 *Get started*，下一页将逐步引导您完成设置过程。</block>
   <block id="1641126472d40ab162e3acf05ac611ba" category="section-title">2026年8月30日</block>
@@ -179,8 +137,6 @@
   <block id="9c2440b961ba52df8467b29a146f98ba" category="list-text">Workload Factory 现在可识别连接到部署在不同区域的 FSx for ONTAP 存储的主机的工作负载。</block>
   <block id="c48db719590b6821db48e6238f4be1c4" category="list-text">改进的工作负载检测逻辑现在可以发现其他工作负载类型并提高调查结果的准确性。</block>
   <block id="5755a9e38430cc58eec03f6a091d949b" category="paragraph"><block ref="3b334f327ff595e44f743e1d47e519c8" category="inline-link-macro-rx"></block>。</block>
-  <block id="dd6c12ecaee3143ccc7a7d85e16032ff" category="paragraph"><block ref="dd6c12ecaee3143ccc7a7d85e16032ff" category="inline-link-macro-rx"></block></block>
-  <block id="034feb9138972a75bb0c4407e9663857" category="paragraph"><block ref="034feb9138972a75bb0c4407e9663857" category="inline-link-macro-rx"></block></block>
   <block id="08b543f700a568688a9f78d874d0ce8b" category="doc">增强的SSD容量通知</block>
   <block id="f37e9239265205bdf39af7b4def6f75a" category="paragraph">SSD 容量管理通知现在包括用于排查自动化故障的详细错误消息。系统会针对以下情况发送通知：容量增加成功、增加操作期间出现错误、容量检查失败、阈值警告以及相关建议。错误详细信息包括具体的故障原因，例如缺少权限、正在进行并发更新、AWS 冷却期或 CloudWatch 指标检索问题。</block>
   <block id="4a3354724a06bbb8040fa512f39a5e07" category="inline-link-macro">了解SSD容量管理</block>
@@ -280,4 +236,20 @@
   <block id="56643767ee547abedda1d643567a4c85" category="paragraph">所有链接文档现在都包含在 Workload Factory 设置和管理文档中。您仍然可以参考 Workload Factory FSx for ONTAP 文档中的 <block ref="08c564abbdedd12846cfb2f0de43f628" category="inline-link-macro-rx"></block>，并在设置和管理文档中找到相关页面的链接。</block>
   <block id="d757afa220ac7f97f408903182fddee2" category="section-title">Ask Me 中的存储支持</block>
   <block id="541644294bd888a59c4f26e19102bfb2" category="paragraph">Ask Me 现在支持 FSx for ONTAP 和 Google Cloud NetApp Volumes。使用相同的聊天体验，在受支持的存储环境中获取答案和见解。</block>
+  <block id="77c39d029270c567ae2816d2c688ea3b" category="doc">自定义仪表板更新</block>
+  <block id="b4a3fedd52cfe46140994157b6fa12ec" category="paragraph">自定义仪表板现在使管理您的工作变得更加轻松。</block>
+  <block id="5d95426dd9834d03b33e051ae7f9fb5c" category="paragraph">您可以直接在目录中编辑仪表板，包括指标、图表和时间范围。</block>
+  <block id="e57137dc0ab44a9b0797700e3e8c851c" category="paragraph">当您编辑仪表板时，Workload Factory 会使用您之前的提示和消息重新打开聊天。然后，您可以更新仪表板、保存更改或还原以前的版本。</block>
+  <block id="8f44990f66d79c05eb2b8e612e7e18b5" category="paragraph">只有仪表板创建者可以编辑仪表板。在您编辑时，其他用户在您保存之前无法看到您的更改。</block>
+  <block id="14dd0ad1c8f18e92cbbc77ecf3a2645b" category="paragraph">控制面板目录现在包含更多筛选器，可帮助您根据类别和状态快速查找控制面板。</block>
+  <block id="fb1ecdb5253f537a735a53d5e9e2eba6" category="paragraph">如果您的管理员禁用 AI 功能或已达到每月信用额度，则会禁用仪表板创建和编辑。</block>
+  <block id="adf3d3abc197eec345a7ab721730806c" category="inline-link-macro">了解自定义控制面板</block>
+  <block id="f736e966e4394f88a05cee94fdba57ff" category="paragraph"><block ref="f736e966e4394f88a05cee94fdba57ff" category="inline-link-macro-rx"></block></block>
+  <block id="dfc2a77d9b383cd28cba1a1e99f9a378" category="inline-link-macro">创建自定义仪表板</block>
+  <block id="e703f5c9737234e07b6d50b473d03d31" category="paragraph"><block ref="e703f5c9737234e07b6d50b473d03d31" category="inline-link-macro-rx"></block></block>
+  <block id="62403e3fa28afe128e2c0e15bf0333f7" category="inline-link-macro">管理自定义仪表板</block>
+  <block id="a6624b6c8238a8d2fecbcab00748683a" category="paragraph"><block ref="a6624b6c8238a8d2fecbcab00748683a" category="inline-link-macro-rx"></block></block>
+  <block id="1703fc0755f2533bd9d727fa0298c500" category="inline-link-macro">对自定义信息板进行故障排除</block>
+  <block id="6690aacdf8125a25e4539caa3239e86f" category="paragraph"><block ref="6690aacdf8125a25e4539caa3239e86f" category="inline-link-macro-rx"></block></block>
+  <block id="6cd19393862a5a23e39bb63b43a86baa" category="section-title">2026年10月4日</block>
 </blocks>
