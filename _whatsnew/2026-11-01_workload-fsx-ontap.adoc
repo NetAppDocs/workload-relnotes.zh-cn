@@ -1,0 +1,117 @@
+= 启动程序组图增强功能
+:allow-uri-read: 
+
+
+
+
+[[initiator-group-diagram-enhancements]]
+=== 启动程序组图增强功能
+
+在“管理客户端访问权限”页面上显示块设备启动器组的图表现在包括主机的更多详细信息。当您将鼠标悬停在图表中的主机上时，将显示主机详细信息，包括主机名、实例 ID、工作负载类型、区域和 iSCSI 限定名称（IQN）。
+
+
+
+[[email-enhancement-for-well-architected-issues]]
+=== 针对架构完善的问题的电子邮件增强功能
+
+新的电子邮件设计为 Workload Factory 检测到的配置问题提供了更多详细信息和上下文。该电子邮件包括已分析的资源数量、存在警告或严重问题的资源数量，以及这些问题是什么。该电子邮件还链接到 FSx for ONTAP 架构完善的控制面板，以便您可以立即解决问题。
+
+
+
+[[well-architected-dashboard-enhancements]]
+=== 精心设计的仪表板增强功能
+
+
+
+==== 支持选定的配置检查
+
+您可以对选定配置手动运行分析，以便仅分析您感兴趣的配置并减少等待时间。
+
+
+
+==== 精心设计的分析中的新建议
+
+Workload Factory 现在在 FSx for ONTAP 文件系统的良好架构分析中包含以下配置：
+
+对于存储工作负载：
+
+* *将主机连接到故障转移节点*：检查主机是否连接到主动-被动 FSx for ONTAP 文件系统中的故障转移节点，以确保可靠性。
+* *将主机连接到首选节点*：检查主机是否使用首选节点连接到其块设备，以提高性能效率。
+* *ARP/AI 多设备检测差距*：当卷仅连接了一个块设备时，ARP/AI 可提供全面的保护覆盖。如果卷连接了多个块设备，Workload Factory 会将这些块设备移动到新卷，以便每个卷只有一个块设备。
+* *克隆清理*：检查是否有任何超过 30 天的卷克隆可以删除，以优化存储使用并降低成本。
+* *将 igroup OS 与主机匹配*：检查启动器组（igroup）的操作系统是否与主机的操作系统匹配，以防止 I/O 或性能问题。
+
+
+对于 Kubernetes 工作负载：
+
+* *QoS 配置*：检查 Kubernetes 持久卷是否受到 ONTAP QoS 策略的保护，以提高性能效率。
+* *专用 Kubernetes 存储虚拟机*：检查文件系统是否正在为 Kubernetes 工作负载使用专用存储虚拟机，以提高隔离度并简化存储管理。
+* *专用 Kubernetes 导出策略*：检查每个 Kubernetes 持久卷是否具有仅允许从集群的工作节点访问的专用导出策略。
+* *Kubernetes iSCSI 后端的双向 CHAP*：检查 Trident iSCSI 后端是否启用了双向 CHAP 身份验证以确保安全。
+* *在应用程序存储 VM 上禁用 `showmount`*：检查是否在应用程序存储 VM 上禁用了 `showmount`，以防止客户端列出其无法访问的导出。
+
+
+对于数据库工作负载：
+
+* *SAP HANA 快照策略*：检查 SAP HANA 卷的快照策略是否设置为“无”，以降低存储成本并提高活动数据库数据的性能。
+* *MySQL 快照策略*：检查 MySQL 卷的快照策略是否设置为“None”，以降低存储成本并提高活动数据库数据的性能。
+* *PostgreSQL 快照策略*：检查 PostgreSQL 卷的快照策略是否设置为“None”，以降低存储成本并提高活动数据库数据的性能。
+
+
+
+
+==== 配置的当前值和建议值
+
+您可以在架构完善的仪表板中查看某些未优化配置的当前值和推荐值。这可让您在进行修复之前了解推荐值。
+
+* 冷数据分层
+* Snapshot 策略
+* 固态硬盘容量余量
+
+
+
+
+[[cost-improvements]]
+=== 成本改进
+
+
+
+==== 成本预测和见解
+
+现在，您可以使用成本预测功能预测 FSx for ONTAP 文件系统的成本。这有助于您规划预算并有效优化资源。您还可以查看有关成本和使用模式的见解，以确定成本优化的机会。
+
+
+
+==== AWS 成本和使用情况报告（CUR）
+
+Workload Factory 现在使用 AWS Cost and Usage Reports（CUR）而不是 AWS Cost Explorer 来提供交付给客户拥有的 S3 存储桶的详细计费记录。CUR 提供了更好的成本粒度，并作为高级 FinOps、内部计费和成本分配用例的基础。
+
+
+
+[[storage-vm-migration-improvements]]
+=== Storage VM 迁移改进
+
+Workload Factory 在用户界面中为迁移存储虚拟机提供增强的指导。这包括分步说明以及在将迁移提交到生产环境之前进行测试运行。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["详细了解存储虚拟机迁移"]
+
+
+
+[[replication-lag-email-notification-improvement]]
+=== 复制滞后电子邮件通知改进
+
+当发生大量相关复制延迟事件时，Workload Factory 会自动将其合并为一封电子邮件通知，以免您收到过多通知。
+
+
+
+[[automatic-capacity-management-enhancement]]
+=== 自动容量管理增强
+
+现在，您可以在要求 Workload Factory 自动管理您的容量之前，打开自动容量管理通知以试用此功能。当您的文件系统容量不足时，您将收到通知。
+
+
+
+[[throughput-decision-points]]
+=== 吞吐量决策点
+
+您现在可以查看客户端吞吐量建议和自动化决策点。将鼠标悬停在决策点上可查看详细信息，例如当前和推荐的 SKU 或时间窗口中的违规指标（%）。

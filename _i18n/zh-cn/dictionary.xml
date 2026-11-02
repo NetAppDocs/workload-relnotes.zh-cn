@@ -211,4 +211,69 @@
   <block id="6716a97e4d0f5c2b2ba84a9c8a65b74d" category="list-text">集群仲裁</block>
   <block id="34d46ee23892b96b30e5db7bf4eb7871" category="list-text">计算资源合理调整</block>
   <block id="33bf723377efe51bc70f70bbb5efa8a4" category="paragraph">在 Workload Factory 控制台中选择主菜单，然后选择 *Well-architected* 以查找架构完善的仪表板。</block>
+  <block id="230227ce1631475a082d9f0865ea84b2" category="doc">启动程序组图增强功能</block>
+  <block id="9312a185b7f4389cd2dc1b61172e5f20" category="paragraph">在“管理客户端访问权限”页面上显示块设备启动器组的图表现在包括主机的更多详细信息。当您将鼠标悬停在图表中的主机上时，将显示主机详细信息，包括主机名、实例 ID、工作负载类型、区域和 iSCSI 限定名称（IQN）。</block>
+  <block id="6ea6cb3b2f3b5abc021a1f0e4229c7fc" category="inline-link-macro">在 Workload Factory 控制台中配置通知</block>
+  <block id="a518b4e2bba0d0ce3d0ecdc772d503ed" category="paragraph"><block ref="a518b4e2bba0d0ce3d0ecdc772d503ed" category="inline-link-macro-rx"></block></block>
+  <block id="41d8c250ba5deffd33a0d05e7f94eaf4" category="paragraph">所有链接文档现在都包含在 Workload Factory 设置和管理文档中。您仍然可以参考 Workload Factory FSx for ONTAP 文档中的 <block ref="25b81a757714a127c9c382013e960ce5" category="inline-link-macro-rx"></block>，并在设置和管理文档中找到相关页面的链接。</block>
+  <block id="40a8a1ceba59de4101cf77a14d6fb2d5" category="section-title">针对架构完善的问题的电子邮件增强功能</block>
+  <block id="954ae82c2d96e9bd8c7d4e143bf3c187" category="paragraph">新的电子邮件设计为 Workload Factory 检测到的配置问题提供了更多详细信息和上下文。该电子邮件包括已分析的资源数量、存在警告或严重问题的资源数量，以及这些问题是什么。该电子邮件还链接到 FSx for ONTAP 架构完善的控制面板，以便您可以立即解决问题。</block>
+  <block id="1854fdec65dd4a2dd839c666aba07186" category="section-title">精心设计的仪表板增强功能</block>
+  <block id="4640bfbf90e44f31ffe06c764207a151" category="section-title">支持选定的配置检查</block>
+  <block id="4baa1879436d89821519b031a9b29e1d" category="paragraph">您可以对选定配置手动运行分析，以便仅分析您感兴趣的配置并减少等待时间。</block>
+  <block id="696836fc5f2a32266d0ffc0fb5047e3b" category="paragraph">对于存储工作负载：</block>
+  <block id="c244576dbf541429d6bef056ce769d1b" category="list-text">*将主机连接到故障转移节点*：检查主机是否连接到主动-被动 FSx for ONTAP 文件系统中的故障转移节点，以确保可靠性。</block>
+  <block id="6ebacaf65862325841aba88bf388a132" category="list-text">*将主机连接到首选节点*：检查主机是否使用首选节点连接到其块设备，以提高性能效率。</block>
+  <block id="b25392745f1a47aaf9f1983cd8b1eff5" category="list-text">*ARP/AI 多设备检测差距*：当卷仅连接了一个块设备时，ARP/AI 可提供全面的保护覆盖。如果卷连接了多个块设备，Workload Factory 会将这些块设备移动到新卷，以便每个卷只有一个块设备。</block>
+  <block id="034f9073833298cb75f90f7455203432" category="list-text">*克隆清理*：检查是否有任何超过 30 天的卷克隆可以删除，以优化存储使用并降低成本。</block>
+  <block id="8e5f97675e6b58e2c142d4e3623f4e20" category="list-text">*将 igroup OS 与主机匹配*：检查启动器组（igroup）的操作系统是否与主机的操作系统匹配，以防止 I/O 或性能问题。</block>
+  <block id="68545ea02d5d413d5558618d4f250fed" category="paragraph">对于 Kubernetes 工作负载：</block>
+  <block id="92ea527417ca1a6f10e672dd5dc590fb" category="list-text">*QoS 配置*：检查 Kubernetes 持久卷是否受到 ONTAP QoS 策略的保护，以提高性能效率。</block>
+  <block id="a48d1b9cc2b4fca01a8c056a0f21ca0b" category="list-text">*专用 Kubernetes 存储虚拟机*：检查文件系统是否正在为 Kubernetes 工作负载使用专用存储虚拟机，以提高隔离度并简化存储管理。</block>
+  <block id="e8b78d1ad4445d483c25f605f3dcd508" category="list-text">*专用 Kubernetes 导出策略*：检查每个 Kubernetes 持久卷是否具有仅允许从集群的工作节点访问的专用导出策略。</block>
+  <block id="15c94f3b03de47c250527326d660fabe" category="list-text">*Kubernetes iSCSI 后端的双向 CHAP*：检查 Trident iSCSI 后端是否启用了双向 CHAP 身份验证以确保安全。</block>
+  <block id="a9f15f720c325ed93ec2ae6e8f017053" category="list-text">*在应用程序存储 VM 上禁用<block ref="d51321f13693d09d4a9cbb2758b42d12" prefix=" " category="inline-code"></block>*：检查是否在应用程序存储 VM 上禁用了<block ref="d51321f13693d09d4a9cbb2758b42d12" prefix=" " category="inline-code"></block>，以防止客户端列出其无法访问的导出。</block>
+  <block id="8c491145be7052ead6caabd40f13d8d8" category="paragraph">对于数据库工作负载：</block>
+  <block id="109086be5976370a05137d1276790c52" category="list-text">*SAP HANA 快照策略*：检查 SAP HANA 卷的快照策略是否设置为“无”，以降低存储成本并提高活动数据库数据的性能。</block>
+  <block id="f516997bc5858804907fffead3bf17bc" category="list-text">*MySQL 快照策略*：检查 MySQL 卷的快照策略是否设置为“None”，以降低存储成本并提高活动数据库数据的性能。</block>
+  <block id="326acdfcec515bde261a6c24416222fc" category="list-text">*PostgreSQL 快照策略*：检查 PostgreSQL 卷的快照策略是否设置为“None”，以降低存储成本并提高活动数据库数据的性能。</block>
+  <block id="b37f9a2971bf4d3f39ba06b420da1cf6" category="section-title">配置的当前值和建议值</block>
+  <block id="da748e56834f287fe9b9c164de80a667" category="paragraph">您可以在架构完善的仪表板中查看某些未优化配置的当前值和推荐值。这可让您在进行修复之前了解推荐值。</block>
+  <block id="4c3fd0f1c4be65a2279b728897c84838" category="section-title">成本改进</block>
+  <block id="7d9291e210fb85e5195b3fd168c5441e" category="section-title">成本预测和见解</block>
+  <block id="abc7b1907c0e0856759e4d13b2c516f0" category="paragraph">现在，您可以使用成本预测功能预测 FSx for ONTAP 文件系统的成本。这有助于您规划预算并有效优化资源。您还可以查看有关成本和使用模式的见解，以确定成本优化的机会。</block>
+  <block id="0e1d8ca59fdf60970c2d4a8bbabe2e5b" category="section-title">AWS 成本和使用情况报告（CUR）</block>
+  <block id="133a30124f90912db7b6e93321823906" category="paragraph">Workload Factory 现在使用 AWS Cost and Usage Reports（CUR）而不是 AWS Cost Explorer 来提供交付给客户拥有的 S3 存储桶的详细计费记录。CUR 提供了更好的成本粒度，并作为高级 FinOps、内部计费和成本分配用例的基础。</block>
+  <block id="9744964a1ca6fbce3b75a4f5042f9597" category="section-title">Storage VM 迁移改进</block>
+  <block id="e6567f9c034c2cedd4efbe2f207f9b2a" category="paragraph">Workload Factory 在用户界面中为迁移存储虚拟机提供增强的指导。这包括分步说明以及在将迁移提交到生产环境之前进行测试运行。</block>
+  <block id="5d9883007f4bc5361c0311ad3ad7cfd1" category="inline-link-macro">详细了解存储虚拟机迁移</block>
+  <block id="3bcf392ef4e690644e59c7c7eb9bb71f" category="paragraph"><block ref="3bcf392ef4e690644e59c7c7eb9bb71f" category="inline-link-macro-rx"></block></block>
+  <block id="f96336c52a88a7b30c68866854b7e3f2" category="section-title">复制滞后电子邮件通知改进</block>
+  <block id="1e403f6a94558e4fb3362faed8f74a9b" category="paragraph">当发生大量相关复制延迟事件时，Workload Factory 会自动将其合并为一封电子邮件通知，以免您收到过多通知。</block>
+  <block id="f45963c176c2d5c66e1ddbfab6e6a59e" category="section-title">自动容量管理增强</block>
+  <block id="cc7093a020c173b1abf32b6436684cd2" category="paragraph">现在，您可以在要求 Workload Factory 自动管理您的容量之前，打开自动容量管理通知以试用此功能。当您的文件系统容量不足时，您将收到通知。</block>
+  <block id="44c9fa36f4500e57d111bbc550132124" category="paragraph">您现在可以查看客户端吞吐量建议和自动化决策点。将鼠标悬停在决策点上可查看详细信息，例如当前和推荐的 SKU 或时间窗口中的违规指标（%）。</block>
+  <block id="d5700d6fbdfdaa11c8c6dcbd565d8446" category="doc">检查和刷新自定义仪表板数据</block>
+  <block id="a2ace9589bb1ff3e1b64e40ba9982721" category="paragraph">现在，您可以查看上次更新自定义控制面板指标的时间，并手动刷新这些指标。将鼠标悬停在*刷新数据*上以查看上次更新的日期和时间。</block>
+  <block id="6497706c70a607634590a156941b4e50" category="paragraph">选择*刷新数据*以开始新的扫描。横幅将确认扫描已开始，并且该按钮将被禁用，直到扫描完成。</block>
+  <block id="2895998bd3d7c5fdb39e7fddc2bd608a" category="paragraph">有新数据可用时，请在通知横幅中选择*立即加载*以更新控制面板。</block>
+  <block id="f418ba29e821ca3da1b907e6156d2db5" category="paragraph">*刷新数据*和*立即加载*均会在 Tracker 中创建数据收集事件。</block>
+  <block id="0b62b5947fe6e091e6c0c1e387e32e69" category="inline-link-macro">了解如何刷新自定义仪表板数据</block>
+  <block id="348426e840eb5ae32d612438487c2065" category="paragraph"><block ref="348426e840eb5ae32d612438487c2065" category="inline-link-macro-rx"></block></block>
+  <block id="524f9b4ee818c419ee1585959e10855c" category="section-title">指定自定义仪表板的区域</block>
+  <block id="9aca8419896ce9b5d75b523be971bafb" category="paragraph">如果您的请求未包含区域，自定义控制面板现在会要求您选择一个或多个区域。控制面板数据仅限于您选择的区域。</block>
+  <block id="35a63836682befdc98086e583b61298a" category="inline-link-macro">了解如何创建自定义仪表板</block>
+  <block id="c41b815c81909f8ff39eb5b52d29746d" category="paragraph"><block ref="c41b815c81909f8ff39eb5b52d29746d" category="inline-link-macro-rx"></block></block>
+  <block id="cc2d0ca75f186230ede0faa3f7692c06" category="section-title">链接创建的 IAM 策略</block>
+  <block id="20721709cc5df2882070722a30cc34c3" category="paragraph">用于创建链接的 CloudFormation 模板和 Terraform 代码现在使用 IAM 策略而不是内联 Lambda 权限。</block>
+  <block id="68cd2ca9724f378c0a2815415eeecfbd" category="inline-link-macro">了解如何创建链接</block>
+  <block id="38b63c1d391fa52af61b987953824171" category="paragraph"><block ref="38b63c1d391fa52af61b987953824171" category="inline-link-macro-rx"></block></block>
+  <block id="b3e7d6d7f8501adc86f1a7337ebfb531" category="section-title">审核和跟踪 AI 代理操作</block>
+  <block id="fc5902f94dd3899ad0ce791954b6f521" category="paragraph">现在，您可以使用 Tracker 查看 AI 代理设置的更改，并在读写模式下查看每个审批请求，包括代理的问题和用户的答案。</block>
+  <block id="25d50a8630b3c335d684f59cca6d3ace" category="paragraph">通过 Workload Factory API 进行的资源更改由执行该操作的 Workload Factory 服务记录。</block>
+  <block id="db0781c4ffb5f26ba7ad4f2ffe3dfdbd" category="inline-link-macro">了解审核和跟踪代理操作的相关信息</block>
+  <block id="9b06f95ad3e4fc8477f2ca89d854a603" category="paragraph"><block ref="9b06f95ad3e4fc8477f2ca89d854a603" category="inline-link-macro-rx"></block></block>
+  <block id="3714dde7378ac290c154f62d9c080369" category="section-title">链路创建改进</block>
+  <block id="73501dc89cd2fc3be142f43eaffe971b" category="paragraph">Workload Factory 已更新用于创建链接的 Codebox 输出，将内联 Lambda 权限替换为 CloudFormation 模板和 Terraform 的 IAM 策略。</block>
+  <block id="301497b54979bb49bba5249c4f44b4ad" category="section-title">2026年9月27日</block>
 </blocks>

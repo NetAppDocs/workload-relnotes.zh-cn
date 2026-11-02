@@ -20,6 +20,117 @@ summary: 了解NetApp Workload Factory 中工作负载的最新变化。
 
 
 
+[[amazon-fsx-for-netapp-ontap]]
+=== 适用于 NetApp ONTAP 的 Amazon FSX
+
+
+
+==== 启动程序组图增强功能
+
+在“管理客户端访问权限”页面上显示块设备启动器组的图表现在包括主机的更多详细信息。当您将鼠标悬停在图表中的主机上时，将显示主机详细信息，包括主机名、实例 ID、工作负载类型、区域和 iSCSI 限定名称（IQN）。
+
+
+
+==== 针对架构完善的问题的电子邮件增强功能
+
+新的电子邮件设计为 Workload Factory 检测到的配置问题提供了更多详细信息和上下文。该电子邮件包括已分析的资源数量、存在警告或严重问题的资源数量，以及这些问题是什么。该电子邮件还链接到 FSx for ONTAP 架构完善的控制面板，以便您可以立即解决问题。
+
+
+
+==== 精心设计的仪表板增强功能
+
+
+
+===== 支持选定的配置检查
+
+您可以对选定配置手动运行分析，以便仅分析您感兴趣的配置并减少等待时间。
+
+
+
+===== 精心设计的分析中的新建议
+
+Workload Factory 现在在 FSx for ONTAP 文件系统的良好架构分析中包含以下配置：
+
+对于存储工作负载：
+
+* *将主机连接到故障转移节点*：检查主机是否连接到主动-被动 FSx for ONTAP 文件系统中的故障转移节点，以确保可靠性。
+* *将主机连接到首选节点*：检查主机是否使用首选节点连接到其块设备，以提高性能效率。
+* *ARP/AI 多设备检测差距*：当卷仅连接了一个块设备时，ARP/AI 可提供全面的保护覆盖。如果卷连接了多个块设备，Workload Factory 会将这些块设备移动到新卷，以便每个卷只有一个块设备。
+* *克隆清理*：检查是否有任何超过 30 天的卷克隆可以删除，以优化存储使用并降低成本。
+* *将 igroup OS 与主机匹配*：检查启动器组（igroup）的操作系统是否与主机的操作系统匹配，以防止 I/O 或性能问题。
+
+
+对于 Kubernetes 工作负载：
+
+* *QoS 配置*：检查 Kubernetes 持久卷是否受到 ONTAP QoS 策略的保护，以提高性能效率。
+* *专用 Kubernetes 存储虚拟机*：检查文件系统是否正在为 Kubernetes 工作负载使用专用存储虚拟机，以提高隔离度并简化存储管理。
+* *专用 Kubernetes 导出策略*：检查每个 Kubernetes 持久卷是否具有仅允许从集群的工作节点访问的专用导出策略。
+* *Kubernetes iSCSI 后端的双向 CHAP*：检查 Trident iSCSI 后端是否启用了双向 CHAP 身份验证以确保安全。
+* *在应用程序存储 VM 上禁用 `showmount`*：检查是否在应用程序存储 VM 上禁用了 `showmount`，以防止客户端列出其无法访问的导出。
+
+
+对于数据库工作负载：
+
+* *SAP HANA 快照策略*：检查 SAP HANA 卷的快照策略是否设置为“无”，以降低存储成本并提高活动数据库数据的性能。
+* *MySQL 快照策略*：检查 MySQL 卷的快照策略是否设置为“None”，以降低存储成本并提高活动数据库数据的性能。
+* *PostgreSQL 快照策略*：检查 PostgreSQL 卷的快照策略是否设置为“None”，以降低存储成本并提高活动数据库数据的性能。
+
+
+
+
+===== 配置的当前值和建议值
+
+您可以在架构完善的仪表板中查看某些未优化配置的当前值和推荐值。这可让您在进行修复之前了解推荐值。
+
+* 冷数据分层
+* Snapshot 策略
+* 固态硬盘容量余量
+
+
+
+
+==== 成本改进
+
+
+
+===== 成本预测和见解
+
+现在，您可以使用成本预测功能预测 FSx for ONTAP 文件系统的成本。这有助于您规划预算并有效优化资源。您还可以查看有关成本和使用模式的见解，以确定成本优化的机会。
+
+
+
+===== AWS 成本和使用情况报告（CUR）
+
+Workload Factory 现在使用 AWS Cost and Usage Reports（CUR）而不是 AWS Cost Explorer 来提供交付给客户拥有的 S3 存储桶的详细计费记录。CUR 提供了更好的成本粒度，并作为高级 FinOps、内部计费和成本分配用例的基础。
+
+
+
+==== Storage VM 迁移改进
+
+Workload Factory 在用户界面中为迁移存储虚拟机提供增强的指导。这包括分步说明以及在将迁移提交到生产环境之前进行测试运行。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["详细了解存储虚拟机迁移"]
+
+
+
+==== 复制滞后电子邮件通知改进
+
+当发生大量相关复制延迟事件时，Workload Factory 会自动将其合并为一封电子邮件通知，以免您收到过多通知。
+
+
+
+==== 自动容量管理增强
+
+现在，您可以在要求 Workload Factory 自动管理您的容量之前，打开自动容量管理通知以试用此功能。当您的文件系统容量不足时，您将收到通知。
+
+
+
+==== 吞吐量决策点
+
+您现在可以查看客户端吞吐量建议和自动化决策点。将鼠标悬停在决策点上可查看详细信息，例如当前和推荐的 SKU 或时间窗口中的违规指标（%）。
+
+
+
 [[database-workloads]]
 === 数据库工作负载
 
@@ -63,6 +174,57 @@ EVS TCO 计算器现在支持 AWS i7i.metal-24xl 和 i7i.metal-48xl EC2 实例�
 计算器比较所有实例类型并自动选择成本最低的选项。新的对比部分会并排显示 EVS 主机配置，以便更轻松地根据您的需求选择最佳设置。
 
 link:https://docs.netapp.com/us-en/workload-vmware/calculate-evs-savings.html["计算 EVS 的预计节省金额"]
+
+
+
+[[setup-and-administration]]
+=== 设置和管理
+
+
+
+==== 检查和刷新自定义仪表板数据
+
+现在，您可以查看上次更新自定义控制面板指标的时间，并手动刷新这些指标。将鼠标悬停在*刷新数据*上以查看上次更新的日期和时间。
+
+选择*刷新数据*以开始新的扫描。横幅将确认扫描已开始，并且该按钮将被禁用，直到扫描完成。
+
+有新数据可用时，请在通知横幅中选择*立即加载*以更新控制面板。
+
+*刷新数据*和*立即加载*均会在 Tracker 中创建数据收集事件。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/manage-custom-dashboards.html#refresh-dashboard-data["了解如何刷新自定义仪表板数据"]
+
+
+
+==== 指定自定义仪表板的区域
+
+如果您的请求未包含区域，自定义控制面板现在会要求您选择一个或多个区域。控制面板数据仅限于您选择的区域。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/create-custom-dashboard.html["了解如何创建自定义仪表板"]
+
+
+
+==== 链接创建的 IAM 策略
+
+用于创建链接的 CloudFormation 模板和 Terraform 代码现在使用 IAM 策略而不是内联 Lambda 权限。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/create-link.html["了解如何创建链接"]
+
+
+
+==== 审核和跟踪 AI 代理操作
+
+现在，您可以使用 Tracker 查看 AI 代理设置的更改，并在读写模式下查看每个审批请求，包括代理的问题和用户的答案。
+
+通过 Workload Factory API 进行的资源更改由执行该操作的 Workload Factory 服务记录。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/learn-agent.html#audit-and-tracking-for-agent-actions["了解审核和跟踪代理操作的相关信息"]
+
+
+
+==== 链路创建改进
+
+Workload Factory 已更新用于创建链接的 Codebox 输出，将内联 Lambda 权限替换为 CloudFormation 模板和 Terraform 的 IAM 策略。
 
 
 
@@ -400,6 +562,129 @@ link:https://docs.netapp.com/us-en/workload-eda/task-analyze-latency-trends.html
 ==== 改进了界面中的文件系统可见性
 
 Workload Factory 现在可让您在界面中更清晰地查看文件系统。您可以直接从文件系统概述中查看 SSD 容量和吞吐量使用趋势、工作负载摘要和详细配置信息。
+
+
+
+[[27-september-2026]]
+== 2026年9月27日
+
+
+
+[[amazon-fsx-for-netapp-ontap]]
+=== 适用于 NetApp ONTAP 的 Amazon FSX
+
+
+
+==== 启动程序组图增强功能
+
+在“管理客户端访问权限”页面上显示块设备启动器组的图表现在包括主机的更多详细信息。当您将鼠标悬停在图表中的主机上时，将显示主机详细信息，包括主机名、实例 ID、工作负载类型、区域和 iSCSI 限定名称（IQN）。
+
+
+
+==== 成本信息板增强功能
+
+成本控制面板现在包括一个成本执行摘要部分，其中概述了您的组织支出，帮助您快速了解和管理成本。Workload Factory 的 AI 助手 Ask Me 可以根据您的成本数据提供更多见解和建议。您可以与 Ask Me 互动，获取有关优化成本的详细说明和建议。
+
+此外，您可以按一个或多个文件系统以及文件系统内的一个或多个卷筛选成本数据。应用过滤器时，Workload Factory 显示：
+
+* 每月预估总费用
+* 每 GiB/月的估计成本
+* 按服务分列的详细成本明细
+
+
+除文件系统和卷级成本分配外，所有成本信息均直接来自 AWS Cost Explorer API；Workload Factory 估算文件系统和卷级成本分配。
+
+
+
+==== Well-architected 控制面板访问权限
+
+您可以从 Workload Factory 控制台的主菜单和文件系统内部访问架构良好的仪表板。要从主菜单中找到架构良好的仪表板，请选择主菜单，然后选择 *Well-architected*。
+
+image:well-architected-menu-option.png["Workload Factory 控制台中的架构完善菜单选项"]
+
+
+
+==== 精心设计的分析中的新建议
+
+Workload Factory 现在在 FSx for ONTAP 文件系统的良好架构分析中包含以下配置：
+
+* *卷空间管理配置*：建议为 FSx for ONTAP 卷启用协调卷空间管理。
+* *FSx 与 AWS MGN 的集成*：建议将所需的 AWS MGN 就绪配置应用于选定的 FSx for ONTAP 文件系统。
+
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/configuration-analysis.html["详细了解适用于您的 FSx for ONTAP 文件系统的最佳实践建议。"]
+
+
+
+==== 卷资源管理器增强功能
+
+卷资源管理器是 NetApp Workload Factory 控制台中的一个中心位置，您可以在其中查看和管理跨不同文件系统的所有卷。它提供了有关每个卷的详细信息，包括其性能、使用情况和保护状态。此版本的增强功能包括工作负载选择、卷延迟显示和卷的 ARP/AI 状态。
+
+
+
+===== 卷资源管理器支持工作负载选择
+
+Workload Factory 默认根据卷的特征及其使用模式选择工作负载。现在，您可以从卷资源管理器更改一个或多个卷的工作负载。
+
+
+
+===== 卷资源管理器显示卷延迟
+
+卷资源管理器显示具有以下状态的卷延迟状态：未配置、在阈值内和超出。这些状态可帮助您发现并修复卷级别的性能瓶颈。
+
+
+
+===== 卷资源管理器显示所有文件系统上卷的 ARP/AI 状态
+
+卷资源管理器屏幕现在包含一个卡片，显示所有文件系统中各卷的 NetApp Autonomous Ransomware Protection with AI (ARP/AI) 状态。该卡片显示受保护卷的数量，并指示是否有卷存在风险。在卡片中，您可以*分析攻击*以调查潜在的勒索软件威胁，并采取适当的措施来保护您的数据。
+
+image:volumes-explorer-arp-ai-card.png["屏幕截图显示卷资源管理器屏幕上的新卡，显示所有文件系统上卷的 ARP/AI 状态。该卡指示受保护卷的数量和存在风险的任何卷。用户可以选择文本\"分析攻击\"来调查可疑攻击并采取适当措施来保护其数据。"]
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/ransomware-protection.html["详细了解勒索软件防护。"]
+
+
+
+==== 不正常复制关系的电子邮件通知
+
+当复制关系的状态为"不正常"时，NetApp Workload Factory 每 24 小时发送一次电子邮件通知，直到该关系恢复正常。当关系恢复正常状态后，提醒通知将停止。
+
+
+
+==== 支持 AIOps 的受限 ONTAP 凭据
+
+Workload Factory 支持两种类型的 ONTAP 凭据，用于 FSx for ONTAP 文件系统：主凭据和受限凭据。默认情况下，文件系统使用主 ONTAP 凭据。我们仅将受限凭据用于 AI 运营（AIOps），例如 Rule builder、自定义仪表板和 AI 助手 Ask Me。现在，您可以使用用户名和密码或 Secret ARN 添加自己的凭据，以限制对 AIOps 功能的访问。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/manage-file-system-settings.html["管理 FSx for ONTAP 文件系统的 ONTAP 凭据"]
+
+
+
+==== 创建卷期间的工作负载选择
+
+NetApp Workload Factory 现在在卷创建中包含一个 *Workloads* 字段，以便您可以选择要与卷关联的工作负载。这可确保卷从创建之时起便针对预期工作负载进行优化。
+
+link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-volume.html["在 Workload Factory 控制台中创建卷"]
+
+
+
+==== FlexCache 写入模式改进
+
+Workload Factory 现在可以识别卷的首选 FlexCache 写入模式，并建议在必要时进行更改以优化性能。
+
+
+
+==== 链接创建通知电子邮件
+
+Workload Factory 现在提醒您在成功添加凭据后完成链接关联。虽然凭据支持资源发现，但高级 ONTAP 功能需要与发现的文件系统进行链接关联。您将每周一收到一次电子邮件通知。完成链接关联后，通知将停止。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["在 Workload Factory 控制台中配置通知"]
+
+
+
+==== 链接文档支持
+
+所有链接文档现在都包含在 Workload Factory 设置和管理文档中。您仍然可以参考 Workload Factory FSx for ONTAP 文档中的 link:links-overview.html["了解 NetApp Workload Factory 链接"]，并在设置和管理文档中找到相关页面的链接。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/create-link.html["详细了解如何在 Workload Factory 控制台中配置链接。"^]
 
 
 
