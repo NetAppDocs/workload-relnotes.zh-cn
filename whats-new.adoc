@@ -131,6 +131,12 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["�
 
 
 
+==== 客户管理的 Bedrock 分类支持
+
+Workload Factory 现在允许您使用自己的 Amazon Bedrock 设置进行工作负载标记分类。您可以提供自己的 Bedrock 端点和凭据，以便分类请求通过您自己的 Bedrock 配置运行。
+
+
+
 [[database-workloads]]
 === 数据库工作负载
 

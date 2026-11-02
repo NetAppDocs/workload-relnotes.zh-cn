@@ -115,3 +115,10 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["�
 === 吞吐量决策点
 
 您现在可以查看客户端吞吐量建议和自动化决策点。将鼠标悬停在决策点上可查看详细信息，例如当前和推荐的 SKU 或时间窗口中的违规指标（%）。
+
+
+
+[[customer-managed-bedrock-support-for-classification]]
+=== 客户管理的 Bedrock 分类支持
+
+Workload Factory 现在允许您使用自己的 Amazon Bedrock 设置进行工作负载标记分类。您可以提供自己的 Bedrock 端点和凭据，以便分类请求通过您自己的 Bedrock 配置运行。
