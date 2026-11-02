@@ -1,0 +1,37 @@
+= 延迟分析中的卷详细信息
+:allow-uri-read: 
+
+
+
+
+[[volume-details-in-latency-analysis]]
+=== 延迟分析中的卷详细信息
+
+您现在可以在 *详细延迟分析* 页面中查看其他卷详细信息 *卷类型*（RW/DP）、*卷样式*（FlexVol 和 FlexGroup）。
+
+
+
+[[file-system-pressure-check-for-latency-events]]
+=== 延迟事件的文件系统压力检查
+
+对于出现延迟警报的卷，您现在可以检查在事件发生时文件系统是否承受了足以影响性能的压力。您可以查看事件发生前 40 分钟的 CloudWatch 数据，并点击指向文件系统的链接进行深入调查。
+
+link:https://docs.netapp.com/us-en/workload-eda/task-analyze-latency-trends.html["了解有关分析延迟趋势的信息"^]。
+
+
+
+[[throughput-decision-points]]
+=== 吞吐量决策点
+
+您现在可以查看客户端吞吐量建议和自动化决策点。将鼠标悬停在决策点上可查看详细信息，例如当前和推荐的 SKU 或时间窗口中的违规指标（%）。
+
+link:https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html#analyze-capacity-trends-and-decision-points["了解决策点"^]。
+
+
+
+[[re-run-latency-analysis]]
+=== 重新运行延迟分析
+
+您现在可以选择*再次运行分析*以启动卷的新延迟分析并按需刷新结果。
+
+link:https://docs.netapp.com/us-en/workload-eda/task-analyze-latency-issues.html["了解有关分析延迟问题的信息"^]。

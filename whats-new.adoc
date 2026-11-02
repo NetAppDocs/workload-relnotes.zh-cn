@@ -15,6 +15,83 @@ summary: 了解NetApp Workload Factory 中工作负载的最新变化。
 
 
 
+[[01-november-2026]]
+== 2026年11月1日
+
+
+
+[[vmware-workloads]]
+=== VMware工作负载
+
+
+
+==== 在 EVS TCO 计算器中支持 i7i.metal-24xl 和 i7i.metal-48xl 实例
+
+EVS TCO 计算器现在支持 AWS i7i.metal-24xl 和 i7i.metal-48xl EC2 实例作为集群主机。与 i4i.metal 配置相比，i7i.metal-24xl 实例将计算的 EVS 起始成本降低了约 33%，将 vSAN 存储的 EVS 起始成本降低了 25%。
+
+计算器比较所有实例类型并自动选择成本最低的选项。新的对比部分会并排显示 EVS 主机配置，以便更轻松地根据您的需求选择最佳设置。
+
+link:https://docs.netapp.com/us-en/workload-vmware/calculate-evs-savings.html["计算 EVS 的预计节省金额"]
+
+
+
+[[eda-workloads]]
+=== EDA 工作负载
+
+
+
+==== 延迟分析中的卷详细信息
+
+您现在可以在 *详细延迟分析* 页面中查看其他卷详细信息 *卷类型*（RW/DP）、*卷样式*（FlexVol 和 FlexGroup）。
+
+
+
+==== 延迟事件的文件系统压力检查
+
+对于出现延迟警报的卷，您现在可以检查在事件发生时文件系统是否承受了足以影响性能的压力。您可以查看事件发生前 40 分钟的 CloudWatch 数据，并点击指向文件系统的链接进行深入调查。
+
+link:https://docs.netapp.com/us-en/workload-eda/task-analyze-latency-trends.html["了解有关分析延迟趋势的信息"^]。
+
+
+
+==== 吞吐量决策点
+
+您现在可以查看客户端吞吐量建议和自动化决策点。将鼠标悬停在决策点上可查看详细信息，例如当前和推荐的 SKU 或时间窗口中的违规指标（%）。
+
+link:https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html#analyze-capacity-trends-and-decision-points["了解决策点"^]。
+
+
+
+==== 重新运行延迟分析
+
+您现在可以选择*再次运行分析*以启动卷的新延迟分析并按需刷新结果。
+
+link:https://docs.netapp.com/us-en/workload-eda/task-analyze-latency-issues.html["了解有关分析延迟问题的信息"^]。
+
+
+
+[[14-october-2026]]
+== 2026年10月14日
+
+
+
+[[setup-and-administration]]
+=== 设置和管理
+
+
+
+==== 将自己的 Amazon Bedrock 实例用于 AI 工具
+
+Workload Factory 现在在 AI 设置页面上包含另一个选项，允许客户使用自己的 Amazon Bedrock 实例。
+
+此选项在用于 AI 工具的客户管理的 Bedrock 下可用，并受所有 Workload Factory AI 服务的支持。
+
+连接后，Workload Factory 会通知您连接是否成功。
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/manage-genai-features.html["了解如何管理 AI 功能"]
+
+
+
 [[04-october-2026]]
 == 2026年10月4日
 
@@ -360,215 +437,3 @@ Workload Factory 改进了凭据和链接的入门体验，使入门更加简便
 ==== 卷资源管理器中可用的卷操作
 
 所有卷操作都可以直接从一个或多个卷的 Volumes explorer 中获得。这样可以更快地执行卷级操作。卷操作包括修改卷设置、管理快照以及执行其他卷任务，而无需离开 Volumes explorer。您还可以从 FSx for ONTAP 文件系统概述中的 Volumes 选项卡访问这些操作。
-
-
-
-[[03-august-2026]]
-== 2026年8月3日
-
-
-
-[[database-workloads]]
-=== 数据库工作负载
-
-
-
-==== 在精心设计的分析中对 Oracle 和 Microsoft SQL Server 的配置更改
-
-在架构完善的分析中，多个数据库配置已合并并重命名为以下配置。
-
-* *块设备空间管理*：包括空间预留、空间分配和部分预留
-* *存储效率*：包括压缩、重复数据删除和缩减
-* *分层/TCO 优化*：包括分层策略和分层最短冷却天数
-* *计划本地 Snapshots*：包括 Snapshot 策略
-
-
-link:https://docs.netapp.com/us-en/workload-databases/optimize-overview.html["Workload Factory 中的配置分析"]
-
-
-
-==== 已更新数据库的 IAM 权限策略
-
-已更新数据库的权限，以改善功能访问并在不必要时限制 SSM 访问。
-
-查看、规划和分析权限仅限于 AWS SSM 文档。使用这些权限，您可以查看主机、实例和数据库。您还可以对资源运行基本的按需架构完善分析。
-
-操作和修正权限允许您对资源进行更改、分析错误日志、对资源进行全面的架构完善分析并修复配置问题。
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["权限参考"^]
-
-
-
-[[setup-and-administration]]
-=== 设置和管理
-
-
-
-==== 已更新数据库的 IAM 权限策略
-
-已更新数据库的权限，以改善功能访问并在不必要时限制 SSM 访问。
-
-查看、规划和分析权限仅限于 AWS SSM 文档。使用这些权限，您可以查看主机、实例和数据库。您还可以对资源运行基本的按需架构完善分析。
-
-操作和修正权限允许您对资源进行更改、分析错误日志、对资源进行全面的架构完善分析并修复配置问题。
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html["权限参考"]
-
-
-
-==== 自定义信息板
-
-
-
-===== 自定义信息板的通知
-
-Workload Factory现在会在您的自定义仪表板准备就绪或创建失败时通知您。
-
-创建自定义控制面板后，您将收到一条通知，其中包含查看该控制面板的直接链接。如果创建失败，您将收到一条通知，其中包含自定义控制面板清单的链接，以便重试。
-
-这有助于您了解控制面板何时准备就绪，并轻松查看或重新创建控制面板。
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/create-custom-dashboard.html["了解如何创建自定义控制面板"]
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["了解如何配置通知"]
-
-
-
-===== 私人和公共自定义控制面板
-
-自定义仪表板现在包含共享设置。您可以将控制面板设为私有或与您的团队共享。
-
-默认情况下，新控制面板是私密的，只有您可以看到。您可以随时将控制面板设为公开，以便与 Workload Factory 帐户中的所有人共享。
-
-每个控制面板卡都会显示"私人"或"公共"标签，因此您可以快速查看哪些控制面板是共享的。
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/learn-custom-dashboards.html#view-and-share-dashboards["了解控制面板的可见性和共享性"]
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/manage-custom-dashboards.html#change-dashboard-visibility["了解如何共享控制面板"]
-
-
-
-==== AI 功能管理
-
-您可以通过 Workload Factory 管理中的以下设置来控制整个组织对 AI 功能的访问。
-
-* 使用 NetApp 托管的 Bedrock（推荐且默认启用，设有每月信用额度限制）
-* 关闭所有 AI 功能
-
-
-通过新的管理页面，您可以在一个地方管理这些设置。
-
-AI功能包括Ask Me、自定义仪表板、规则生成器以及EMS、数据库日志和卷延迟的分析器。
-
-如果关闭 AI 功能，用户将看到"AI 不可用"的消息。
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/manage-genai-features.html["了解如何管理 AI 功能"]
-
-
-
-[[eda-workloads]]
-=== EDA 工作负载
-
-
-
-==== 具有成本控制的 AI 延迟分析
-
-作为 Workload Factory 管理员，您可以控制对整个组织的 AI 延迟分析的访问权限。
-
-* *NetApp 托管 AI 积分*：如果您的管理员启用了此功能，您可以通过 NetApp 的托管 Amazon Bedrock 集成使用 AI 分析。无需额外设置。您的每月使用量受您分配的预算限制。如果您达到每月限额，AI 功能将被禁用，您将看到一条消息。
-* *由管理员禁用*：如果您的管理员关闭了 AI 功能，则 AI 分析选项将变为灰色，您将看到该功能已关闭的消息。
-
-
-
-
-==== 弹性吞吐量增加管理
-
-现在，您可以从 EDA 概述页面管理一个或多个选定的 FSx for ONTAP 文件系统的吞吐量增加行为。
-
-* *模式选择*：选择 *Automate* 或 *Recommend*。
-* *批量更新*：选择一个或多个文件系统，并在一个操作中应用模式和参数更改。
-* *更改吞吐量管理对话框*：使用对话框中的 EDA 默认值编辑吞吐量增加设置。
-* *Advanced settings*：在可扩展的 *Advanced configuration* 部分中配置其他吞吐量决策参数。
-* *表可见性*：Clusters 表中提供了一个新的*吞吐量管理*列，可以从列设置中启用。
-* *顶卡配置*：上卡现在支持吞吐量增加模式配置，类似于 SSD 管理。
-
-
-link:https://docs.netapp.com/us-en/workload-eda/task-use-overview-dashboard.html["了解如何使用概览信息板"^]。
-
-
-
-[[02-august-2026]]
-== 2026年8月2日
-
-
-
-[[amazon-fsx-for-netapp-ontap]]
-=== 适用于 NetApp ONTAP 的 Amazon FSX
-
-
-
-==== 适用于所有 FSx for ONTAP 系统的全新架构良好的仪表板
-
-现在，可以从 NetApp Workload Factory 中新的架构完善仪表板对 FSx for ONTAP 文件系统进行架构完善分析。新仪表板在一个位置集中显示跨帐户和区域的所有文件系统及其配置。当您从文件系统访问*架构完善*选项卡时，会出现弹出通知。在 Workload Factory 的左侧导航菜单中选择*架构完善*，即可访问新仪表板。
-
-您仍然可以访问特定文件系统的良好架构分析，也可以通过 Storage 中的 *Well-architected* 菜单选项进行访问。
-
-
-
-==== 新小部件已添加到存储仪表板
-
-存储控制面板现在包括两个新的小部件，可帮助您了解如何使用存储空间并找到优化存储空间的方法。
-
-* *Top discovered workloads* 显示标记服务在整个环境中找到的工作负载数据。查看置信度得分高于 80% 的工作负载，其中包括相关的 FSx 资源，例如卷和块设备。每个工作负载都显示其名称、资源数量、已调配容量和已用容量。按资源计数（默认值）、已调配容量或已用容量排序，以快速识别最大工作负载并了解存储使用模式。
-* *AI 驱动的洞察与观察* 显示您托管资产的 AI 生成洞察。该小工具会在选定范围内查看您的资产数据，并突出显示关键领域的前三大发现，包括容量、性能、数据保护、复制、成本节约和存储趋势。
-
-
-每个见解都包括摘要、详细调查结果和建议操作。展开见解以查看更多详细信息，并根据严重程度、性能改进和节省成本的机会排定问题的优先级。
-
-
-
-==== 工作负载标记
-
-
-
-===== AWS Systems Manager 集成，用于工作负载标记
-
-工作负载标记服务现在可与 AWS Systems Manager 配合使用，为主机库存数据添加更多详细信息。Workload Factory 现在可以收集和处理 SSM 库存信息，以更好地识别和分类工作负载。AWS SSM 属性也包含在标记过程中，以提高工作负载发现的准确性。
-
-精心设计的仪表板中的每个卷相关配置现在都包含资源表中的 *Workload* 列。此列显示 Workload Factory 与每个卷关联的工作负载。
-
-
-
-==== 工作负载标记和人工智能功能
-
-当管理员禁用 AI 功能时，不会标记工作负载。如果在 Workload Factory 帐户设置中关闭了 AI 功能，则标记服务将不会识别或分类存储资源上的工作负载。
-
-link:https://docs.netapp.com/us-en/workload-setup-admin/manage-genai-features.html["了解 AI 管理"^]。
-
-
-
-==== 探索节省快照计算改进
-
-探索节省功能现在使用一致的快照容量计算，因此 FSx for ONTAP 节省估算可正确考虑额外的快照容量池要求。
-
-link:https://docs.netapp.com/us-en/workload-fsx-ontap/explore-savings.html["了解如何在 Amazon Elastic Block Store、FSx for Windows File Server 和 Elastic File System 上为您的存储环境节省成本。"]
-
-
-
-===== 将复制延迟数据导出到CSV
-
-现在，您可以将复制延迟数据导出为 CSV 文件，以便在电子表格中分析数据并与他人共享。
-
-
-
-==== S3 访问点事件
-
-您现在可以按照设定的计划将 S3 访问点事件发送到 SNS 主题。每次更新都包含自上次更新以来发生的所有事件。
-
-要设置 S3 事件的通知，link:https://docs.netapp.com/us-en/workload-fsx-ontap/edit-s3-access-points.html["编辑 S3 接入点"]并选择 *Journal table* 部分下的 *Send S3 events by SNS*。
-
-
-
-==== 卷资源管理器中显示的 ONTAP 功能
-
-卷资源管理器现在在卷表中包含 ONTAP 功能。这些功能可更详细地了解卷的配置和状态，例如保护范围、自主勒索软件保护 (ARP/AI) 状态、存储效率、分层策略和卷自动增长。

@@ -33,91 +33,8 @@
   <block id="ed09318eed7d979b31cfb4afc3b11097" category="sidebar">这些发行说明介绍了NetApp Workload Factory 的云服务的最新增强功能。</block>
   <block id="9ff48e1eaa80562d8bc97f2d59b40e41" category="sidebar">NetApp Workload Factory 发行说明</block>
   <block id="2bc4b4a88d694b207aacb90573eb4b7f" category="doc">EDA 工作负载</block>
-  <block id="992672ecff7fe59cf2782ddb79f58e1d" category="doc">自定义信息板</block>
-  <block id="da0c92072a1db7fee3208bcad3ad822b" category="doc">已更新数据库的 IAM 权限策略</block>
-  <block id="e9e3af45119a834b75ee5ce8ad5fc96d" category="paragraph">已更新数据库的权限，以改善功能访问并在不必要时限制 SSM 访问。</block>
-  <block id="6f70bfe68d48e1ab770cfb69bea59dfd" category="paragraph">查看、规划和分析权限仅限于 AWS SSM 文档。使用这些权限，您可以查看主机、实例和数据库。您还可以对资源运行基本的按需架构完善分析。</block>
-  <block id="e9ad7ba5991717b52c215bd25e788b28" category="paragraph">操作和修正权限允许您对资源进行更改、分析错误日志、对资源进行全面的架构完善分析并修复配置问题。</block>
-  <block id="b8646f09ea34b75c077cfea12f75617b" category="inline-link-macro">权限参考</block>
-  <block id="d5eb0f9120b28b557f3e367589adf4bb" category="section-title">自定义信息板的通知</block>
-  <block id="fb5e135dfdab99cdebbb946a22093655" category="paragraph">Workload Factory现在会在您的自定义仪表板准备就绪或创建失败时通知您。</block>
-  <block id="7a99102fbba6a5729480bc61967c8423" category="paragraph">创建自定义控制面板后，您将收到一条通知，其中包含查看该控制面板的直接链接。如果创建失败，您将收到一条通知，其中包含自定义控制面板清单的链接，以便重试。</block>
-  <block id="a9402b6e97b8b59ffa86012d5cfb7f9a" category="paragraph">这有助于您了解控制面板何时准备就绪，并轻松查看或重新创建控制面板。</block>
-  <block id="359ab637c5369e269d0e004308b6c089" category="inline-link-macro">了解如何创建自定义控制面板</block>
-  <block id="863d814c29385fa8ebfd13bc1c1c7e96" category="inline-link-macro">了解如何配置通知</block>
-  <block id="27a522e1e6e4d9921e08ab5e7ad99158" category="section-title">私人和公共自定义控制面板</block>
-  <block id="add4e669fb22c004f4eef61607cc5df8" category="paragraph">自定义仪表板现在包含共享设置。您可以将控制面板设为私有或与您的团队共享。</block>
-  <block id="1bdd40db25752f704baa9b254470fb9a" category="paragraph">默认情况下，新控制面板是私密的，只有您可以看到。您可以随时将控制面板设为公开，以便与 Workload Factory 帐户中的所有人共享。</block>
-  <block id="26e05170ba3616166d4659e72d415450" category="paragraph">每个控制面板卡都会显示"私人"或"公共"标签，因此您可以快速查看哪些控制面板是共享的。</block>
-  <block id="29f897a53b188561913c2393050ce43a" category="inline-link-macro">了解控制面板的可见性和共享性</block>
-  <block id="c0bb5d7518380c44f5710f0803f9b3f4" category="inline-link-macro">了解如何共享控制面板</block>
-  <block id="b6ea1239e82705b159df88578e6fb6f0" category="section-title">AI 功能管理</block>
-  <block id="1c7ba82e26fc30a97a625aaad623e4f4" category="paragraph">您可以通过 Workload Factory 管理中的以下设置来控制整个组织对 AI 功能的访问。</block>
-  <block id="e585625dd2a0a8e71ca8d8a269834ba9" category="list-text">使用 NetApp 托管的 Bedrock（推荐且默认启用，设有每月信用额度限制）</block>
-  <block id="7f72da8c356eeacf603a52c235e09676" category="list-text">关闭所有 AI 功能</block>
-  <block id="aa55b63e5a41704f1621780515cd8a24" category="paragraph">通过新的管理页面，您可以在一个地方管理这些设置。</block>
-  <block id="cd89624525aeeba4f9fce9dcfb6d9a91" category="paragraph">AI功能包括Ask Me、自定义仪表板、规则生成器以及EMS、数据库日志和卷延迟的分析器。</block>
-  <block id="dc363e90d503e57b6cddc555e2f96d5f" category="paragraph">如果关闭 AI 功能，用户将看到"AI 不可用"的消息。</block>
   <block id="48dc51848c127d267cdd7ab1bcd0fe5e" category="inline-link-macro">了解如何管理 AI 功能</block>
-  <block id="91d90ea5487ed9ed44e834f42f272ccb" category="section-title">2026年8月3日</block>
-  <block id="1eda45f1f79ca6e9d6b738032665f7c6" category="doc">具有成本控制的 AI 延迟分析</block>
-  <block id="b171182b7dc211a76d3e7cecbdf5e425" category="paragraph">作为 Workload Factory 管理员，您可以控制对整个组织的 AI 延迟分析的访问权限。</block>
-  <block id="4c9d3f8b46f94437f92a47d3612a2829" category="list-text">*NetApp 托管 AI 积分*：如果您的管理员启用了此功能，您可以通过 NetApp 的托管 Amazon Bedrock 集成使用 AI 分析。无需额外设置。您的每月使用量受您分配的预算限制。如果您达到每月限额，AI 功能将被禁用，您将看到一条消息。</block>
-  <block id="67ee5da1047f90d8a684f7e0d2ca1944" category="list-text">*由管理员禁用*：如果您的管理员关闭了 AI 功能，则 AI 分析选项将变为灰色，您将看到该功能已关闭的消息。</block>
-  <block id="69e316ff96b412dd2a5045f8dd2f433c" category="section-title">弹性吞吐量增加管理</block>
-  <block id="a01f5f5609c9aee121b699114cfe006f" category="paragraph">现在，您可以从 EDA 概述页面管理一个或多个选定的 FSx for ONTAP 文件系统的吞吐量增加行为。</block>
-  <block id="9c3ee7dcbca3424fcc3c760549aa303d" category="list-text">*模式选择*：选择 *Automate* 或 *Recommend*。</block>
-  <block id="b9722197734c8293fedc4e7c6db77abe" category="list-text">*批量更新*：选择一个或多个文件系统，并在一个操作中应用模式和参数更改。</block>
-  <block id="1a97c66f134399c6e8ddf03e8cd9055e" category="list-text">*更改吞吐量管理对话框*：使用对话框中的 EDA 默认值编辑吞吐量增加设置。</block>
-  <block id="0e71e5ed033b79a12a3d33146bbef832" category="list-text">*Advanced settings*：在可扩展的 *Advanced configuration* 部分中配置其他吞吐量决策参数。</block>
-  <block id="3c559babe76da927fd273d0640ba2089" category="list-text">*表可见性*：Clusters 表中提供了一个新的*吞吐量管理*列，可以从列设置中启用。</block>
-  <block id="b353daec82916c89eec0f9b0557132c1" category="list-text">*顶卡配置*：上卡现在支持吞吐量增加模式配置，类似于 SSD 管理。</block>
-  <block id="e6ae1bdcdd4c1d6a5bc23c326f27ff3f" category="inline-link-macro">了解如何使用概览信息板</block>
-  <block id="070faad8fac25fb3d4c659a4b7497b19" category="paragraph"><block ref="0a3eee7cb6c31ec86c09cd7ae18ee1d3" category="inline-link-macro-rx"></block>。</block>
-  <block id="da6f5bf8aee08ef83468ad38ab52796b" category="doc">适用于所有 FSx for ONTAP 系统的全新架构良好的仪表板</block>
-  <block id="7fca025a8bf1b5d72a149731d5c88125" category="paragraph">现在，可以从 NetApp Workload Factory 中新的架构完善仪表板对 FSx for ONTAP 文件系统进行架构完善分析。新仪表板在一个位置集中显示跨帐户和区域的所有文件系统及其配置。当您从文件系统访问*架构完善*选项卡时，会出现弹出通知。在 Workload Factory 的左侧导航菜单中选择*架构完善*，即可访问新仪表板。</block>
-  <block id="b09ad8a2ad81c470093e9c74313ea0c2" category="paragraph">您仍然可以访问特定文件系统的良好架构分析，也可以通过 Storage 中的 *Well-architected* 菜单选项进行访问。</block>
-  <block id="63960000d4e139f329b74b4b91c43feb" category="section-title">新小部件已添加到存储仪表板</block>
-  <block id="1b701a8eaad0525cd9d21842a87a1800" category="paragraph">存储控制面板现在包括两个新的小部件，可帮助您了解如何使用存储空间并找到优化存储空间的方法。</block>
-  <block id="0e2bbff5eb55e16098106686c6657f4e" category="list-text">*Top discovered workloads* 显示标记服务在整个环境中找到的工作负载数据。查看置信度得分高于 80% 的工作负载，其中包括相关的 FSx 资源，例如卷和块设备。每个工作负载都显示其名称、资源数量、已调配容量和已用容量。按资源计数（默认值）、已调配容量或已用容量排序，以快速识别最大工作负载并了解存储使用模式。</block>
-  <block id="dea1b9553440d525973da9d88c579dd0" category="list-text">*AI 驱动的洞察与观察* 显示您托管资产的 AI 生成洞察。该小工具会在选定范围内查看您的资产数据，并突出显示关键领域的前三大发现，包括容量、性能、数据保护、复制、成本节约和存储趋势。</block>
-  <block id="e3b3cc77c3245b045d666342b4d976b2" category="paragraph">每个见解都包括摘要、详细调查结果和建议操作。展开见解以查看更多详细信息，并根据严重程度、性能改进和节省成本的机会排定问题的优先级。</block>
-  <block id="cd4ef961255320407f22a2c9683cfd1d" category="section-title">工作负载标记</block>
-  <block id="6e7c3ced7d1755c7c375f47ca6b2c3f0" category="section-title">AWS Systems Manager 集成，用于工作负载标记</block>
-  <block id="8cc8dc3c329756b30481400836ca180c" category="paragraph">工作负载标记服务现在可与 AWS Systems Manager 配合使用，为主机库存数据添加更多详细信息。Workload Factory 现在可以收集和处理 SSM 库存信息，以更好地识别和分类工作负载。AWS SSM 属性也包含在标记过程中，以提高工作负载发现的准确性。</block>
-  <block id="7f1ecac494abdd70b1fef3cc1209be0c" category="paragraph">精心设计的仪表板中的每个卷相关配置现在都包含资源表中的 *Workload* 列。此列显示 Workload Factory 与每个卷关联的工作负载。</block>
-  <block id="b26629c4d0db7a100913103c2501115d" category="section-title">工作负载标记和人工智能功能</block>
-  <block id="c6e3575ea0e96a40eeea1698ed97e99f" category="paragraph">当管理员禁用 AI 功能时，不会标记工作负载。如果在 Workload Factory 帐户设置中关闭了 AI 功能，则标记服务将不会识别或分类存储资源上的工作负载。</block>
-  <block id="9801425a2145ab6ed5aa12b9446c905c" category="inline-link-macro">了解 AI 管理</block>
-  <block id="39cf1aaf3e84c5c49c930c5bfe27e098" category="section-title">探索节省快照计算改进</block>
-  <block id="a4f25c93cc96e84a15a9a235f569bbe2" category="paragraph">探索节省功能现在使用一致的快照容量计算，因此 FSx for ONTAP 节省估算可正确考虑额外的快照容量池要求。</block>
-  <block id="e14c4b029cabd340fe3b6c67835e9927" category="inline-link-macro">了解如何在 Amazon Elastic Block Store、FSx for Windows File Server 和 Elastic File System 上为您的存储环境节省成本。</block>
-  <block id="01ee25f562cbb2e8ca2ff8f41e96f80d" category="paragraph"><block ref="01ee25f562cbb2e8ca2ff8f41e96f80d" category="inline-link-macro-rx"></block></block>
-  <block id="347a810d994926c5e31d1bd690b34fcf" category="section-title">将复制延迟数据导出到CSV</block>
-  <block id="45cbeaeb98d1d075d560a8e62269fbbb" category="paragraph">现在，您可以将复制延迟数据导出为 CSV 文件，以便在电子表格中分析数据并与他人共享。</block>
-  <block id="abda6db4ef1e45cf251dcf456064a874" category="section-title">S3 访问点事件</block>
-  <block id="084779dffb2a62383b80e6fbe69e0dc4" category="paragraph">您现在可以按照设定的计划将 S3 访问点事件发送到 SNS 主题。每次更新都包含自上次更新以来发生的所有事件。</block>
-  <block id="c634bf7b5214ed8f0d82613de1e29eff" category="inline-link-macro">编辑 S3 接入点</block>
-  <block id="84118bd808a8989867b6fc874b0b1b45" category="paragraph">要设置 S3 事件的通知，<block ref="5014cadb2b53045b84df58ebddada57a" category="inline-link-macro-rx"></block>并选择 *Journal table* 部分下的 *Send S3 events by SNS*。</block>
-  <block id="adf6bc23c10d536eed25c42f34ba48e8" category="section-title">2026年8月2日</block>
-  <block id="bb971caaebe9e5940267caf457500810" category="paragraph"><block ref="247b746a5e5f871115d636673a8fd3a7" category="inline-link-macro-rx"></block>。</block>
-  <block id="78a4e31d1c34a343ac1189ff737a0982" category="doc">在精心设计的分析中对 Oracle 和 Microsoft SQL Server 的配置更改</block>
-  <block id="1d617de46837a3d67b6850fd27b13c02" category="paragraph">在架构完善的分析中，多个数据库配置已合并并重命名为以下配置。</block>
-  <block id="70dc13ee7e3320f270e7236f7fa9f60d" category="list-text">*块设备空间管理*：包括空间预留、空间分配和部分预留</block>
-  <block id="c75bc7e1a77b2b8e809bf87a1b1c2b5b" category="list-text">*存储效率*：包括压缩、重复数据删除和缩减</block>
-  <block id="706125d817b831eb4c31ea90c004eee2" category="list-text">*分层/TCO 优化*：包括分层策略和分层最短冷却天数</block>
-  <block id="08ab4e6e5d6d250dd93617842402b41f" category="list-text">*计划本地 Snapshots*：包括 Snapshot 策略</block>
-  <block id="3791b9a912543795aa72719e1fa5c488" category="inline-link-macro">Workload Factory 中的配置分析</block>
-  <block id="5874b771173388bd46c8912da31750a0" category="paragraph"><block ref="5874b771173388bd46c8912da31750a0" category="inline-link-macro-rx"></block></block>
-  <block id="c041c2dfd235a9062883922df8e04748" category="paragraph"><block ref="c041c2dfd235a9062883922df8e04748" category="inline-link-macro-rx"></block></block>
-  <block id="167e20b67f84068555b3081057c696b8" category="paragraph"><block ref="167e20b67f84068555b3081057c696b8" category="inline-link-macro-rx"></block></block>
-  <block id="0e23d2a91e2fd1a7eb141ceb8cd9ddcf" category="paragraph"><block ref="0e23d2a91e2fd1a7eb141ceb8cd9ddcf" category="inline-link-macro-rx"></block></block>
-  <block id="d972d2e4f90697cd9aea0ea06c6d65ea" category="paragraph"><block ref="d972d2e4f90697cd9aea0ea06c6d65ea" category="inline-link-macro-rx"></block></block>
-  <block id="5243974c66976ebd592df24b62b1b9bf" category="paragraph"><block ref="5243974c66976ebd592df24b62b1b9bf" category="inline-link-macro-rx"></block></block>
-  <block id="a8d7b4c293e04e8a879f9be70ed380ba" category="paragraph"><block ref="a8d7b4c293e04e8a879f9be70ed380ba" category="inline-link-macro-rx"></block></block>
   <block id="8d20116cd01bc3ce31dae628497af0dc" category="paragraph"><block ref="8d20116cd01bc3ce31dae628497af0dc" category="inline-link-macro-rx"></block></block>
-  <block id="935b1e26eff078e94b224d92e0db898a" category="section-title">卷资源管理器中显示的 ONTAP 功能</block>
-  <block id="2d4406cf931edb2fbd5ab72e7eb07c66" category="paragraph">卷资源管理器现在在卷表中包含 ONTAP 功能。这些功能可更详细地了解卷的配置和状态，例如保护范围、自主勒索软件保护 (ARP/AI) 状态、存储效率、分层策略和卷自动增长。</block>
   <block id="9b988decb4830a521f8e1487584f0385" category="doc">卷资源管理器中可用的卷操作</block>
   <block id="a0c01b4b61e4e5c8542aca4694a620d6" category="paragraph">所有卷操作都可以直接从一个或多个卷的 Volumes explorer 中获得。这样可以更快地执行卷级操作。卷操作包括修改卷设置、管理快照以及执行其他卷任务，而无需离开 Volumes explorer。您还可以从 FSx for ONTAP 文件系统概述中的 Volumes 选项卡访问这些操作。</block>
   <block id="7ade7e78371066efd6d4e823d8da1fd8" category="section-title">2026年8月11日</block>
@@ -252,4 +169,29 @@
   <block id="1703fc0755f2533bd9d727fa0298c500" category="inline-link-macro">对自定义信息板进行故障排除</block>
   <block id="6690aacdf8125a25e4539caa3239e86f" category="paragraph"><block ref="6690aacdf8125a25e4539caa3239e86f" category="inline-link-macro-rx"></block></block>
   <block id="6cd19393862a5a23e39bb63b43a86baa" category="section-title">2026年10月4日</block>
+  <block id="b680b1a7fd35564d77eb715d3c89f5cb" category="doc">将自己的 Amazon Bedrock 实例用于 AI 工具</block>
+  <block id="aefffefabafd2a723ba252259d49413b" category="paragraph">Workload Factory 现在在 AI 设置页面上包含另一个选项，允许客户使用自己的 Amazon Bedrock 实例。</block>
+  <block id="59071a98cbd118cd70a7342fac20edee" category="paragraph">此选项在用于 AI 工具的客户管理的 Bedrock 下可用，并受所有 Workload Factory AI 服务的支持。</block>
+  <block id="723b7f36410bdffd1d79fc26537b0350" category="paragraph">连接后，Workload Factory 会通知您连接是否成功。</block>
+  <block id="c13ffbb74415f75e6bfbceb28746aa00" category="doc">延迟分析中的卷详细信息</block>
+  <block id="e702df4af5908b691938e2a636bf0d11" category="paragraph">您现在可以在 *详细延迟分析* 页面中查看其他卷详细信息 *卷类型*（RW/DP）、*卷样式*（FlexVol 和 FlexGroup）。</block>
+  <block id="84040e078366ab4b302c9f45a3caa89d" category="section-title">延迟事件的文件系统压力检查</block>
+  <block id="06aefa6560003b3171cd7662ef2b3d9d" category="paragraph">对于出现延迟警报的卷，您现在可以检查在事件发生时文件系统是否承受了足以影响性能的压力。您可以查看事件发生前 40 分钟的 CloudWatch 数据，并点击指向文件系统的链接进行深入调查。</block>
+  <block id="3e7850720206a5fe00f7310f49f139ef" category="inline-link-macro">了解有关分析延迟趋势的信息</block>
+  <block id="4082bd9c59dc64a78f083ec07f0f1ade" category="paragraph"><block ref="e0c19bfe1186d72bb091851a5915268f" category="inline-link-macro-rx"></block>。</block>
+  <block id="84ae0158deb3f95e6027fdf8d5ff467d" category="section-title">吞吐量决策点</block>
+  <block id="d561222faafa1c2e107d8307549a4372" category="paragraph">您现在可以查看客户端吞吐量建议和自动化决策点。将鼠标悬停在决策点上可查看详细信息，例如当前和推荐的 SKU 或时间窗口中的违规指标（%）。</block>
+  <block id="e7e1d8130eb396a11055ef0aad27b20c" category="inline-link-macro">了解决策点</block>
+  <block id="b1b6afda8cefc68653435f204de78f32" category="paragraph"><block ref="c182c1de3b13ab1f612ac32dab94169a" category="inline-link-macro-rx"></block>。</block>
+  <block id="1e67c2facf6c9ccaed8c578497980ba2" category="section-title">重新运行延迟分析</block>
+  <block id="95386ac844fe5334b9e7743d6098dfab" category="paragraph">您现在可以选择*再次运行分析*以启动卷的新延迟分析并按需刷新结果。</block>
+  <block id="1e2beb43d53ce6e7e78ce598ad680f34" category="inline-link-macro">了解有关分析延迟问题的信息</block>
+  <block id="7ab17ff19aa466bc8531cc7568dea5a6" category="paragraph"><block ref="13291cb64cb4778475d22fb041bce2e0" category="inline-link-macro-rx"></block>。</block>
+  <block id="d6ed55c5fa0490be9e9d07719ba741ce" category="doc">在 EVS TCO 计算器中支持 i7i.metal-24xl 和 i7i.metal-48xl 实例</block>
+  <block id="b6c3bb340d0b13e009a53c6c8a2b9219" category="paragraph">EVS TCO 计算器现在支持 AWS i7i.metal-24xl 和 i7i.metal-48xl EC2 实例作为集群主机。与 i4i.metal 配置相比，i7i.metal-24xl 实例将计算的 EVS 起始成本降低了约 33%，将 vSAN 存储的 EVS 起始成本降低了 25%。</block>
+  <block id="e50148793a31ae443693925cfda40d91" category="paragraph">计算器比较所有实例类型并自动选择成本最低的选项。新的对比部分会并排显示 EVS 主机配置，以便更轻松地根据您的需求选择最佳设置。</block>
+  <block id="0665cdd8950328e06e0db9b1e16938d3" category="inline-link-macro">计算 EVS 的预计节省金额</block>
+  <block id="034feb9138972a75bb0c4407e9663857" category="paragraph"><block ref="034feb9138972a75bb0c4407e9663857" category="inline-link-macro-rx"></block></block>
+  <block id="8b253c1d4259c21c8314fc85adcb31d6" category="section-title">2026年11月1日</block>
+  <block id="f535eb1278ad100b4d323539a7942781" category="section-title">2026年10月14日</block>
 </blocks>
