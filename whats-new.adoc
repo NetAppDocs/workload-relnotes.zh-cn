@@ -15,6 +15,42 @@ summary: 了解NetApp Workload Factory 中工作负载的最新变化。
 
 
 
+[[02-november-2026]]
+== 2026年11月2日
+
+
+
+[[database-workloads]]
+=== 数据库工作负载
+
+
+
+==== 精心设计的仪表板中包含的数据库配置
+
+精心设计的仪表板现在包含针对您的数据库配置的建议，使您能够根据最佳实践评估和优化设置。仪表板中包含的首批配置包括：
+
+* 冷数据分层
+* 存储效率
+* Snapshot 策略
+* 固态硬盘容量余量
+* 块设备空间管理
+* OS 类型
+* 将块设备操作系统类型与主机匹配
+* 非活动的数据块设备（LUN）
+* 数据文件（.mdf）放置
+* 日志文件（.ldf）放置
+* 多路径 I/O 状态
+* 多路径 I/O 超时
+* 集群仲裁
+* 计算资源合理调整
+
+
+在 Workload Factory 控制台中选择主菜单，然后选择 *Well-architected* 以查找架构完善的仪表板。
+
+image:workload-databases/well-architected-menu-option-databases.png["Workload Factory 控制台中的架构完善菜单选项"]
+
+
+
 [[01-november-2026]]
 == 2026年11月1日
 
@@ -134,37 +170,6 @@ link:https://docs.netapp.com/us-en/workload-fsx-ontap/create-replication.html["�
 ==== 客户管理的 Bedrock 分类支持
 
 Workload Factory 现在允许您使用自己的 Amazon Bedrock 设置进行工作负载标记分类。您可以提供自己的 Bedrock 端点和凭据，以便分类请求通过您自己的 Bedrock 配置运行。
-
-
-
-[[database-workloads]]
-=== 数据库工作负载
-
-
-
-==== 精心设计的仪表板中包含的数据库配置
-
-精心设计的仪表板现在包含针对您的数据库配置的建议，使您能够根据最佳实践评估和优化设置。仪表板中包含的首批配置包括：
-
-* 冷数据分层
-* 存储效率
-* Snapshot 策略
-* 固态硬盘容量余量
-* 块设备空间管理
-* OS 类型
-* 将块设备操作系统类型与主机匹配
-* 非活动的数据块设备（LUN）
-* 数据文件（.mdf）放置
-* 日志文件（.ldf）放置
-* 多路径 I/O 状态
-* 多路径 I/O 超时
-* 集群仲裁
-* 计算资源合理调整
-
-
-在 Workload Factory 控制台中选择主菜单，然后选择 *Well-architected* 以查找架构完善的仪表板。
-
-image:workload-databases/well-architected-menu-option-databases.png["Workload Factory 控制台中的架构完善菜单选项"]
 
 
 
