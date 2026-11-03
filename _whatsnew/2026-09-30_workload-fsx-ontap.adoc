@@ -32,7 +32,7 @@ Workload Factory 现在可检测更多用于工作负载标记的 AWS 服务，�
 
 您可以从 Workload Factory 控制台的主菜单和文件系统内部访问架构良好的仪表板。要从主菜单中找到架构良好的仪表板，请选择主菜单，然后选择 *Well-architected*。
 
-image:well-architected-menu-option.png["Workload Factory 控制台中的架构完善菜单选项"]
+image:workload-fsx-ontap/well-architected-menu-option.png["Workload Factory 控制台中的架构完善菜单选项"]
 
 
 
@@ -72,7 +72,7 @@ Workload Factory 默认根据卷的特征及其使用模式选择工作负载。
 
 卷资源管理器屏幕现在包含一个卡片，显示所有文件系统中各卷的 NetApp Autonomous Ransomware Protection with AI (ARP/AI) 状态。该卡片显示受保护卷的数量，并指示是否有卷存在风险。在卡片中，您可以*分析攻击*以调查潜在的勒索软件威胁，并采取适当的措施来保护您的数据。
 
-image:volumes-explorer-arp-ai-card.png["屏幕截图显示卷资源管理器屏幕上的新卡，显示所有文件系统上卷的 ARP/AI 状态。该卡指示受保护卷的数量和存在风险的任何卷。用户可以选择文本\"分析攻击\"来调查可疑攻击并采取适当措施来保护其数据。"]
+image:workload-fsx-ontap/volumes-explorer-arp-ai-card.png["屏幕截图显示卷资源管理器屏幕上的新卡，显示所有文件系统上卷的 ARP/AI 状态。该卡指示受保护卷的数量和存在风险的任何卷。用户可以选择文本\"分析攻击\"来调查可疑攻击并采取适当措施来保护其数据。"]
 
 link:https://docs.netapp.com/us-en/workload-fsx-ontap/ransomware-protection.html["详细了解勒索软件防护。"]
 

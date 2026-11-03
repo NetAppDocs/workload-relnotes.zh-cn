@@ -27,4 +27,4 @@
 
 在 Workload Factory 控制台中选择主菜单，然后选择 *Well-architected* 以查找架构完善的仪表板。
 
-image:well-architected-menu-option.png["Workload Factory 控制台中的架构完善菜单选项"]
+image:workload-databases/well-architected-menu-option-databases.png["Workload Factory 控制台中的架构完善菜单选项"]

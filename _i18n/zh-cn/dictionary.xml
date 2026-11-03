@@ -106,7 +106,6 @@
   <block id="a4b0895311938bbe97380c217d8bc91a" category="section-title">Well-architected 控制面板访问权限</block>
   <block id="99443f6b5bfec8a35e6748e731a10d71" category="paragraph">您可以从 Workload Factory 控制台的主菜单和文件系统内部访问架构良好的仪表板。要从主菜单中找到架构良好的仪表板，请选择主菜单，然后选择 *Well-architected*。</block>
   <block id="2d647234501319107057acb4d3f8dfaf" category="inline-image-macro">Workload Factory 控制台中的架构完善菜单选项</block>
-  <block id="353cc99df6b21e74c805e74bdab4b8aa" category="paragraph"><block ref="353cc99df6b21e74c805e74bdab4b8aa" category="inline-image-macro-rx" type="image"></block></block>
   <block id="9864fa88fc3747e67b6fc38c9b938677" category="section-title">精心设计的分析中的新建议</block>
   <block id="a38b9a0af0de5e85c5e64a158079deb5" category="paragraph">Workload Factory 现在在 FSx for ONTAP 文件系统的良好架构分析中包含以下配置：</block>
   <block id="3b4bb2bfc2800826050f3805ec9d835a" category="list-text">*卷空间管理配置*：建议为 FSx for ONTAP 卷启用协调卷空间管理。</block>
@@ -122,7 +121,6 @@
   <block id="a187114bcc51b42124813d0e4d20730d" category="section-title">卷资源管理器显示所有文件系统上卷的 ARP/AI 状态</block>
   <block id="14bbbfe188029f45698ccb26b1280a48" category="paragraph">卷资源管理器屏幕现在包含一个卡片，显示所有文件系统中各卷的 NetApp Autonomous Ransomware Protection with AI (ARP/AI) 状态。该卡片显示受保护卷的数量，并指示是否有卷存在风险。在卡片中，您可以*分析攻击*以调查潜在的勒索软件威胁，并采取适当的措施来保护您的数据。</block>
   <block id="3f25080804b8d019675a456a436cb471" category="inline-image-macro">屏幕截图显示卷资源管理器屏幕上的新卡，显示所有文件系统上卷的 ARP/AI 状态。该卡指示受保护卷的数量和存在风险的任何卷。用户可以选择文本"分析攻击"来调查可疑攻击并采取适当措施来保护其数据。</block>
-  <block id="3984208540eb5fb15ca89127c0ce9c35" category="paragraph"><block ref="3984208540eb5fb15ca89127c0ce9c35" category="inline-image-macro-rx" type="image"></block></block>
   <block id="3ae39496097bf7dd54def47f219d44a2" category="inline-link-macro">详细了解勒索软件防护。</block>
   <block id="32d61e76f54bb5b368f607bb435c5c1f" category="paragraph"><block ref="32d61e76f54bb5b368f607bb435c5c1f" category="inline-link-macro-rx"></block></block>
   <block id="bf408a384d3111f4dc3c9bd2e2488084" category="section-title">不正常复制关系的电子邮件通知</block>
@@ -278,4 +276,7 @@
   <block id="301497b54979bb49bba5249c4f44b4ad" category="section-title">2026年9月27日</block>
   <block id="7cc20c44b067a9d650d7a25d5be9d67d" category="section-title">客户管理的 Bedrock 分类支持</block>
   <block id="8a8cb6e7e1b94c2efc52b7f5d677eb4d" category="paragraph">Workload Factory 现在允许您使用自己的 Amazon Bedrock 设置进行工作负载标记分类。您可以提供自己的 Bedrock 端点和凭据，以便分类请求通过您自己的 Bedrock 配置运行。</block>
+  <block id="442d917e6f977497aa9164bdb334b30b" category="paragraph"><block ref="442d917e6f977497aa9164bdb334b30b" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="b38510edecee128bcf57a2052192d3fa" category="paragraph"><block ref="b38510edecee128bcf57a2052192d3fa" category="inline-image-macro-rx" type="image"></block></block>
+  <block id="33d18edd919b0af815bbf108537020f0" category="paragraph"><block ref="33d18edd919b0af815bbf108537020f0" category="inline-image-macro-rx" type="image"></block></block>
 </blocks>
